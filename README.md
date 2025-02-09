@@ -41,6 +41,33 @@ this did not work.
 
 * removed the dots, provided an image from the web https://buildingblockstudio.com/wp-content/uploads/2019/01/Pacman-Stage.png
 
+* focus on the game board: once I understand the way the borders are built, I map them out myself. 
+
+* then add the goals of the game: 
+
+```
+create a two pixel red hearts in the maze centered at x=300, y=420 and x-300, y=540
+when pacman touches one of the two hearts, they disappear and text appears above pacman for five seconds that says "love bonus achieved"
+
+the game ends (pacman stops moving and "GAME OVER" is written above him) when either 1) both hearts disappear or 2) pacman touches the wall
+```
+
+* add more game features
+
+```
+add a line of pink dots (radius 10px) every 60px starting at x=60 y=60
+make a line of dots every 120 pixels vertically
+
+```
+
+I adjusted the radius and distances after seeing the output.
+
+```
+display a black courier font points counter on pacman: for every pink dot he touches, the counter goes up by one and for each heart he touches, the counter goes up by 100. the dots also disappear after he touches them
+
+when gameWin is true, display final score
+
+```
 
 # Coding Blog
 

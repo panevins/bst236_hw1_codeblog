@@ -32,9 +32,20 @@ const hearts = [
     { x: 300, y: 540, collected: false }
 ];
 
+const dots = [];
+for (let x = 60; x < canvas.width; x += 120) {
+    for (let y = 60; y < canvas.height; y += 120) {
+        if (!hearts.some(heart => Math.hypot(heart.x - x, heart.y - y) < 30)) {
+            dots.push({ x, y, collected: false });
+        }
+    }
+}
+
 let showBonusText = false;
 let bonusTextTimeout;
 let gameOver = false;
+let gameWin = false;
+let points = 0;
 
 function drawMaze() {
     ctx.fillStyle = 'blue';
@@ -67,6 +78,18 @@ function drawHeart(x, y) {
     ctx.fill();
 }
 
+function drawDots() {
+    ctx.fillStyle = 'pink';
+    dots.forEach(dot => {
+        if (!dot.collected) {
+            ctx.beginPath();
+            ctx.arc(dot.x, dot.y, 5, 0, 2 * Math.PI);
+            ctx.fill();
+            ctx.closePath();
+        }
+    });
+}
+
 function movePacman() {
     let nextX = pacman.x;
     let nextY = pacman.y;
@@ -93,6 +116,7 @@ function movePacman() {
         pacman.y = nextY;
     }
 
+    checkDotCollision();
     checkHeartCollision();
 }
 
@@ -105,6 +129,19 @@ function isColliding(nextX, nextY) {
     });
 }
 
+function checkDotCollision() {
+    dots.forEach(dot => {
+        if (!dot.collected &&
+            pacman.x + pacman.radius > dot.x - 5 &&
+            pacman.x - pacman.radius < dot.x + 5 &&
+            pacman.y + pacman.radius > dot.y - 5 &&
+            pacman.y - pacman.radius < dot.y + 5) {
+            dot.collected = true;
+            points += 5;
+        }
+    });
+}
+
 function checkHeartCollision() {
     hearts.forEach(heart => {
         if (!heart.collected &&
@@ -113,6 +150,7 @@ function checkHeartCollision() {
             pacman.y + pacman.radius > heart.y - 20 &&
             pacman.y - pacman.radius < heart.y + 20) {
             heart.collected = true;
+            points += 100;
             showBonusText = true;
             clearTimeout(bonusTextTimeout);
             bonusTextTimeout = setTimeout(() => {
@@ -122,7 +160,7 @@ function checkHeartCollision() {
     });
 
     if (hearts.every(heart => heart.collected)) {
-        gameOver = true;
+        gameWin = true;
     }
 }
 
@@ -148,6 +186,7 @@ document.addEventListener('keydown', changeDirection);
 function gameLoop() {
     ctx.clearRect(0, 0, canvas.width, canvas.height);
     drawMaze();
+    drawDots();
     drawPacman();
     hearts.forEach(heart => {
         if (!heart.collected) {
@@ -157,14 +196,25 @@ function gameLoop() {
     if (showBonusText) {
         ctx.fillStyle = 'white';
         ctx.font = '20px Courier';
-        ctx.fillText('love bonus achieved <3', pacman.x - 60, pacman.y - 30);
+        ctx.fillText('love bonus achieved <3 +100', pacman.x - 60, pacman.y - 30);
     }
     if (gameOver) {
         ctx.fillStyle = 'white';
         ctx.font = '40px Courier';
         ctx.fillText('GAME OVER :(', pacman.x - 60, pacman.y - 60);
+        ctx.fillText(`Score: ${points}`, pacman.x - 60, pacman.y + 60);
         return;
     }
+    if (gameWin) {
+        ctx.fillStyle = 'white';
+        ctx.font = '30px Courier';
+        ctx.fillText('LOVE WINS :)', pacman.x - 60, pacman.y - 60);
+        ctx.fillText(`Score: ${points}`, pacman.x - 60, pacman.y + 60);
+        return;
+    }
+    ctx.fillStyle = 'pink';
+    ctx.font = '20px Courier';
+    ctx.fillText(`${points}`, pacman.x+10, pacman.y+5);
     movePacman();
     requestAnimationFrame(gameLoop);
 }
