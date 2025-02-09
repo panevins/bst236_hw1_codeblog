@@ -15,15 +15,6 @@ const maze = [
     { x: 0, y: 0, width: 10, height: 800 },
     { x: 790, y: 0, width: 10, height: 800 },
     { x: 0, y: 790, width: 800, height: 10 },
-    // Fewer inner walls with uniform spacing
-    { x: 100, y: 100, width: 600, height: 10 },
-    { x: 100, y: 100, width: 10, height: 600 },
-    { x: 690, y: 100, width: 10, height: 600 },
-    { x: 100, y: 690, width: 600, height: 10 },
-    { x: 200, y: 200, width: 400, height: 10 },
-    { x: 200, y: 200, width: 10, height: 400 },
-    { x: 590, y: 200, width: 10, height: 400 },
-    { x: 200, y: 590, width: 400, height: 10 }
 ];
 
 function drawMaze() {
