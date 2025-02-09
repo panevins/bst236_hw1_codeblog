@@ -12,6 +12,30 @@ Create a homepage for a website for your **coding blog**. The website should be 
 
    * I then requested a variety of small aesthetic changes, which I was able to implement myself. 
 
+## making pacman
+
+1. The first step was to create a webpage where pacman is. 
+
+I asked
+
+```
+how do i add a page to my website where i can have a playable pacman game
+```
+
+It listed steps to create a directory, html, css, and javascript files.
+However, the pacman game was not interactive: 'playable" was clearly not specific enough. 
+
+2. Improving game functionality
+
+* please make it so pacman changes direction when the arrow keys are pressed
+
+(recommends some javascript changes)
+
+* the game canvas should have a maze with white borders that pacman cannot cross
+
+
+
+
 
 # Coding Blog
 
