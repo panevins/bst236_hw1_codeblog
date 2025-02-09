@@ -17,7 +17,14 @@ const maze = [
     { x: 0, y: 590, width: 600, height: 10 },
     // Inner walls
     {x: 0, y: 120, width: 480, height: 10},
-    {x: 480, y: 300, width: 240, height: 10}
+    {x: 480, y: 240, width: 120, height: 10},
+    {x: 480, y: 480, width: 10, height: 120},
+    {x: 120, y: 240, width: 240, height: 10},
+    {x: 120, y: 480, width: 240, height: 10},
+    {x: 120, y: 240, width: 10, height: 120},
+    {x: 360, y: 240, width: 10, height: 240},
+    {x: 360, y: 360, width: 120, height: 10},
+    {x: 240, y: 360, width: 10, height: 240}
 ];
 
 function drawMaze() {
