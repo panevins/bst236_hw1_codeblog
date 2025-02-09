@@ -6,8 +6,11 @@ Create a homepage for a website for your **coding blog**. The website should be 
 
 2. asked AI copilot to generate a homepage for me. it created a file directory.
 
-please create a homepage for my coding blog that can be opened via github pages, using css and html
-please update the css to have a pale purple background and use a serif font, and so that body text is contained in white boxes 
+   *please create a homepage for my coding blog that can be opened via github pages, using css and html
+
+   * please update the css to have a pale purple background and use a serif font, and so that body text is contained in white boxes 
+
+   * I then requested a variety of small aesthetic changes, which I was able to implement myself. 
 
 
 # Coding Blog

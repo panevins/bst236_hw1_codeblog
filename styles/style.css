@@ -6,8 +6,8 @@ body {
 }
 
 header {
-    background: #35424a;
-    color: #ffffff;
+    background: indigo;
+    color: #fffcb4;
     padding: 20px 0;
     text-align: center;
 }
@@ -22,7 +22,7 @@ nav {
 }
 
 nav a {
-    color: #ffffff;
+    color: #e6e6fa;
     text-decoration: none;
     margin: 0 15px;
     font-weight: bold;
@@ -41,7 +41,7 @@ main {
 }
 
 h2 {
-    color: #35424a;
+    color: indigo;
 }
 
 article {
@@ -49,13 +49,14 @@ article {
     padding: 20px;
     margin: 20px 0;
     box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+    border: 2px dotted black; 
 }
 
 footer {
     text-align: center;
     padding: 10px 0;
-    background: #35424a;
-    color: #ffffff;
+    background: indigo;
+    color: #fffcb4;
     position: relative;
     bottom: 0;
     width: 100%;
