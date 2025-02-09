@@ -44,7 +44,7 @@ const maze = [
 ];
 
 function drawMaze() {
-    ctx.fillStyle = 'white';
+    ctx.fillStyle = 'blue';
     maze.forEach(wall => {
         ctx.fillRect(wall.x, wall.y, wall.width, wall.height);
     });
