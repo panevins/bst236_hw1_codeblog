@@ -1,5 +1,6 @@
 const canvas = document.getElementById('pacmanCanvas');
 const ctx = canvas.getContext('2d');
+const gameStatus = document.getElementById('gameStatus');
 
 const pacman = {
     x: 60, // Adjusted starting position
@@ -200,9 +201,10 @@ function gameLoop() {
     }
     if (gameOver) {
         ctx.fillStyle = 'white';
-        ctx.font = '40px Courier';
+        ctx.font = '30px Courier';
         ctx.fillText('GAME OVER :(', pacman.x - 60, pacman.y - 60);
         ctx.fillText(`Score: ${points}`, pacman.x - 60, pacman.y + 60);
+        gameStatus.textContent = `Score: ${points} - Game Over`;
         return;
     }
     if (gameWin) {
@@ -210,11 +212,13 @@ function gameLoop() {
         ctx.font = '30px Courier';
         ctx.fillText('LOVE WINS :)', pacman.x - 60, pacman.y - 60);
         ctx.fillText(`Score: ${points}`, pacman.x - 60, pacman.y + 60);
+        gameStatus.textContent = `Final Score: ${points} - Game Won`;
         return;
     }
     ctx.fillStyle = 'pink';
     ctx.font = '20px Courier';
-    ctx.fillText(`${points}`, pacman.x+10, pacman.y+5);
+    ctx.fillText(`${points}`, pacman.x + 10, pacman.y + 5);
+    gameStatus.textContent = `Score: ${points}`;
     movePacman();
     requestAnimationFrame(gameLoop);
 }
