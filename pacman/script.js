@@ -15,32 +15,19 @@ const maze = [
     { x: 0, y: 0, width: 10, height: 800 },
     { x: 790, y: 0, width: 10, height: 800 },
     { x: 0, y: 790, width: 800, height: 10 },
-    // Inner walls
-    { x: 50, y: 50, width: 700, height: 10 },
-    { x: 50, y: 50, width: 10, height: 200 },
-    { x: 740, y: 50, width: 10, height: 200 },
-    { x: 50, y: 240, width: 700, height: 10 },
-    { x: 50, y: 300, width: 200, height: 10 },
-    { x: 550, y: 300, width: 200, height: 10 },
-    { x: 50, y: 300, width: 10, height: 200 },
-    { x: 740, y: 300, width: 10, height: 200 },
-    { x: 50, y: 490, width: 700, height: 10 },
-    { x: 50, y: 450, width: 200, height: 10 },
-    { x: 550, y: 450, width: 200, height: 10 },
-    { x: 300, y: 50, width: 10, height: 200 },
-    { x: 490, y: 50, width: 10, height: 200 },
-    { x: 300, y: 250, width: 200, height: 10 },
+    // Inner walls with uniform spacing
+    { x: 100, y: 100, width: 600, height: 10 },
+    { x: 100, y: 100, width: 10, height: 600 },
+    { x: 690, y: 100, width: 10, height: 600 },
+    { x: 100, y: 690, width: 600, height: 10 },
+    { x: 200, y: 200, width: 400, height: 10 },
+    { x: 200, y: 200, width: 10, height: 400 },
+    { x: 590, y: 200, width: 10, height: 400 },
+    { x: 200, y: 590, width: 400, height: 10 },
+    { x: 300, y: 300, width: 200, height: 10 },
     { x: 300, y: 300, width: 10, height: 200 },
     { x: 490, y: 300, width: 10, height: 200 },
-    { x: 300, y: 490, width: 200, height: 10 },
-    { x: 150, y: 550, width: 500, height: 10 },
-    { x: 150, y: 550, width: 10, height: 200 },
-    { x: 640, y: 550, width: 10, height: 200 },
-    { x: 150, y: 740, width: 500, height: 10 },
-    { x: 200, y: 600, width: 400, height: 10 },
-    { x: 200, y: 600, width: 10, height: 100 },
-    { x: 590, y: 600, width: 10, height: 100 },
-    { x: 200, y: 690, width: 400, height: 10 }
+    { x: 300, y: 490, width: 200, height: 10 }
 ];
 
 function drawMaze() {
