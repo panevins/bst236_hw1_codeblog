@@ -16,16 +16,25 @@ const maze = [
     { x: 590, y: 0, width: 10, height: 600 },
     { x: 0, y: 590, width: 600, height: 10 },
     // Inner walls
-    {x: 0, y: 120, width: 480, height: 10},
-    {x: 480, y: 240, width: 120, height: 10},
-    {x: 480, y: 480, width: 10, height: 120},
-    {x: 120, y: 240, width: 240, height: 10},
-    {x: 120, y: 480, width: 240, height: 10},
-    {x: 120, y: 240, width: 10, height: 120},
-    {x: 360, y: 240, width: 10, height: 240},
-    {x: 360, y: 360, width: 120, height: 10},
-    {x: 240, y: 360, width: 10, height: 240}
+    { x: 0, y: 120, width: 480, height: 10 },
+    { x: 480, y: 240, width: 120, height: 10 },
+    { x: 480, y: 480, width: 10, height: 120 },
+    { x: 120, y: 240, width: 240, height: 10 },
+    { x: 120, y: 480, width: 240, height: 10 },
+    { x: 120, y: 240, width: 10, height: 120 },
+    { x: 360, y: 240, width: 10, height: 240 },
+    { x: 360, y: 360, width: 120, height: 10 },
+    { x: 240, y: 360, width: 10, height: 240 }
 ];
+
+const hearts = [
+    { x: 300, y: 420, collected: false },
+    { x: 300, y: 540, collected: false }
+];
+
+let showBonusText = false;
+let bonusTextTimeout;
+let gameOver = false;
 
 function drawMaze() {
     ctx.fillStyle = 'blue';
@@ -41,6 +50,21 @@ function drawPacman() {
     ctx.fillStyle = 'yellow';
     ctx.fill();
     ctx.closePath();
+}
+
+function drawHeart(x, y) {
+    const radius = pacman.radius / 2; // Make the heart smaller
+    ctx.fillStyle = 'red';
+    ctx.beginPath();
+    ctx.moveTo(x, y);
+    ctx.bezierCurveTo(x, y - radius / 4, x - radius / 4, y - radius, x - radius, y - radius);
+    ctx.bezierCurveTo(x - radius * 1.75, y - radius, x - radius * 1.75, y + radius / 2, x - radius * 1.75, y + radius / 2);
+    ctx.bezierCurveTo(x - radius * 1.75, y + radius * 1.5, x - radius, y + radius * 2.25, x, y + radius * 3);
+    ctx.bezierCurveTo(x + radius, y + radius * 2.25, x + radius * 1.75, y + radius * 1.5, x + radius * 1.75, y + radius / 2);
+    ctx.bezierCurveTo(x + radius * 1.75, y + radius / 2, x + radius * 1.75, y - radius, x + radius, y - radius);
+    ctx.bezierCurveTo(x + radius / 4, y - radius, x, y - radius / 4, x, y);
+    ctx.closePath();
+    ctx.fill();
 }
 
 function movePacman() {
@@ -62,10 +86,14 @@ function movePacman() {
             break;
     }
 
-    if (!isColliding(nextX, nextY)) {
+    if (isColliding(nextX, nextY)) {
+        gameOver = true;
+    } else {
         pacman.x = nextX;
         pacman.y = nextY;
     }
+
+    checkHeartCollision();
 }
 
 function isColliding(nextX, nextY) {
@@ -75,6 +103,27 @@ function isColliding(nextX, nextY) {
                nextY + pacman.radius > wall.y &&
                nextY - pacman.radius < wall.y + wall.height;
     });
+}
+
+function checkHeartCollision() {
+    hearts.forEach(heart => {
+        if (!heart.collected &&
+            pacman.x + pacman.radius > heart.x - 20 &&
+            pacman.x - pacman.radius < heart.x + 20 &&
+            pacman.y + pacman.radius > heart.y - 20 &&
+            pacman.y - pacman.radius < heart.y + 20) {
+            heart.collected = true;
+            showBonusText = true;
+            clearTimeout(bonusTextTimeout);
+            bonusTextTimeout = setTimeout(() => {
+                showBonusText = false;
+            }, 5000);
+        }
+    });
+
+    if (hearts.every(heart => heart.collected)) {
+        gameOver = true;
+    }
 }
 
 function changeDirection(event) {
@@ -100,6 +149,22 @@ function gameLoop() {
     ctx.clearRect(0, 0, canvas.width, canvas.height);
     drawMaze();
     drawPacman();
+    hearts.forEach(heart => {
+        if (!heart.collected) {
+            drawHeart(heart.x, heart.y);
+        }
+    });
+    if (showBonusText) {
+        ctx.fillStyle = 'white';
+        ctx.font = '20px Courier';
+        ctx.fillText('love bonus achieved <3', pacman.x - 60, pacman.y - 30);
+    }
+    if (gameOver) {
+        ctx.fillStyle = 'white';
+        ctx.font = '40px Courier';
+        ctx.fillText('GAME OVER :(', pacman.x - 60, pacman.y - 60);
+        return;
+    }
     movePacman();
     requestAnimationFrame(gameLoop);
 }
