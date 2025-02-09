@@ -1,0 +1,16 @@
+/* filepath: /home/pnevins/bst236/hw2_proj/bst236_hw1_codeblog/pacman/style.css */
+body {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    height: 100vh;
+    margin: 0;
+    font-family: Arial, sans-serif;
+    background-color: #000;
+    color: #fff;
+}
+
+canvas {
+    border: 1px solid #fff;
+}
