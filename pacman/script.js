@@ -9,8 +9,25 @@ const pacman = {
     direction: 'right'
 };
 
+const maze = [
+    { x: 0, y: 0, width: 500, height: 20 },
+    { x: 0, y: 0, width: 20, height: 500 },
+    { x: 480, y: 0, width: 20, height: 500 },
+    { x: 0, y: 480, width: 500, height: 20 },
+    { x: 100, y: 100, width: 300, height: 20 },
+    { x: 100, y: 100, width: 20, height: 300 },
+    { x: 100, y: 380, width: 300, height: 20 },
+    { x: 380, y: 100, width: 20, height: 300 }
+];
+
+function drawMaze() {
+    ctx.fillStyle = 'white';
+    maze.forEach(wall => {
+        ctx.fillRect(wall.x, wall.y, wall.width, wall.height);
+    });
+}
+
 function drawPacman() {
-    ctx.clearRect(0, 0, canvas.width, canvas.height);
     ctx.beginPath();
     ctx.arc(pacman.x, pacman.y, pacman.radius, 0.25 * Math.PI, 1.75 * Math.PI);
     ctx.lineTo(pacman.x, pacman.y);
@@ -20,32 +37,37 @@ function drawPacman() {
 }
 
 function movePacman() {
+    let nextX = pacman.x;
+    let nextY = pacman.y;
+
     switch (pacman.direction) {
         case 'right':
-            pacman.x += pacman.speed;
-            if (pacman.x + pacman.radius > canvas.width) {
-                pacman.x = canvas.width - pacman.radius;
-            }
+            nextX += pacman.speed;
             break;
         case 'left':
-            pacman.x -= pacman.speed;
-            if (pacman.x - pacman.radius < 0) {
-                pacman.x = pacman.radius;
-            }
+            nextX -= pacman.speed;
             break;
         case 'up':
-            pacman.y -= pacman.speed;
-            if (pacman.y - pacman.radius < 0) {
-                pacman.y = pacman.radius;
-            }
+            nextY -= pacman.speed;
             break;
         case 'down':
-            pacman.y += pacman.speed;
-            if (pacman.y + pacman.radius > canvas.height) {
-                pacman.y = canvas.height - pacman.radius;
-            }
+            nextY += pacman.speed;
             break;
     }
+
+    if (!isColliding(nextX, nextY)) {
+        pacman.x = nextX;
+        pacman.y = nextY;
+    }
+}
+
+function isColliding(nextX, nextY) {
+    return maze.some(wall => {
+        return nextX + pacman.radius > wall.x &&
+               nextX - pacman.radius < wall.x + wall.width &&
+               nextY + pacman.radius > wall.y &&
+               nextY - pacman.radius < wall.y + wall.height;
+    });
 }
 
 function changeDirection(event) {
@@ -68,6 +90,8 @@ function changeDirection(event) {
 document.addEventListener('keydown', changeDirection);
 
 function gameLoop() {
+    ctx.clearRect(0, 0, canvas.width, canvas.height);
+    drawMaze();
     drawPacman();
     movePacman();
     requestAnimationFrame(gameLoop);
