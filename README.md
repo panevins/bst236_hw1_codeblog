@@ -35,8 +35,9 @@ However, the pacman game was not interactive: 'playable" was clearly not specifi
 
 (very simple maze)
 
+* there should be white dots centered in the halls of the maze, and when pacman crosses them he eats them and they disappear for thirty seconds before reappearing
 
-
+this did not work.
 
 
 # Coding Blog
