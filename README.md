@@ -1,3 +1,10 @@
 # BST 236 CodeBlog report
 
 Create a homepage for a website for your **coding blog**. The website should be hosted on [GitHub Pages](https://pages.github.com/). You can design the homepage by yourself in any proper style you like. You may need to make the design expandable to add more content from our future assignments. The link to the homepage should be added to the `README.md` of your homework repository so that anyone can access the homepage and the following two webpages from the Internet using this link.
+
+1. Went to settings -> pages and deployed from main branch
+
+2. asked AI copilot to generate a homepage for me. it created a file directory.
+
+please create a homepage for my coding blog that can be opened via github pages, using css and html
+please update the css to have a pale purple background and use a serif font, and so that body text is contained in white boxes 
