@@ -10,20 +10,47 @@ const pacman = {
 };
 
 const maze = [
-    { x: 0, y: 0, width: 500, height: 20 },
-    { x: 0, y: 0, width: 20, height: 500 },
-    { x: 480, y: 0, width: 20, height: 500 },
-    { x: 0, y: 480, width: 500, height: 20 },
-    { x: 100, y: 100, width: 300, height: 20 },
-    { x: 100, y: 100, width: 20, height: 300 },
-    { x: 100, y: 380, width: 300, height: 20 },
-    { x: 380, y: 100, width: 20, height: 300 }
+    { x: 0, y: 0, width: 500, height: 10 },
+    { x: 0, y: 0, width: 10, height: 500 },
+    { x: 490, y: 0, width: 10, height: 500 },
+    { x: 0, y: 490, width: 500, height: 10 },
+    { x: 50, y: 50, width: 400, height: 10 },
+    { x: 50, y: 50, width: 10, height: 400 },
+    { x: 50, y: 440, width: 400, height: 10 },
+    { x: 440, y: 50, width: 10, height: 400 },
+    { x: 100, y: 100, width: 300, height: 10 },
+    { x: 100, y: 100, width: 10, height: 300 },
+    { x: 100, y: 390, width: 300, height: 10 },
+    { x: 390, y: 100, width: 10, height: 300 },
+    { x: 150, y: 150, width: 200, height: 10 },
+    { x: 150, y: 150, width: 10, height: 200 },
+    { x: 150, y: 340, width: 200, height: 10 },
+    { x: 340, y: 150, width: 10, height: 200 }
+];
+
+const dots = [
+    { x: 75, y: 75, radius: 5, visible: true },
+    { x: 125, y: 75, radius: 5, visible: true },
+    { x: 175, y: 75, radius: 5, visible: true },
+    // Add more dots as needed
 ];
 
 function drawMaze() {
     ctx.fillStyle = 'white';
     maze.forEach(wall => {
         ctx.fillRect(wall.x, wall.y, wall.width, wall.height);
+    });
+}
+
+function drawDots() {
+    ctx.fillStyle = 'white';
+    dots.forEach(dot => {
+        if (dot.visible) {
+            ctx.beginPath();
+            ctx.arc(dot.x, dot.y, dot.radius, 0, 2 * Math.PI);
+            ctx.fill();
+            ctx.closePath();
+        }
     });
 }
 
@@ -58,6 +85,7 @@ function movePacman() {
     if (!isColliding(nextX, nextY)) {
         pacman.x = nextX;
         pacman.y = nextY;
+        eatDots();
     }
 }
 
@@ -67,6 +95,17 @@ function isColliding(nextX, nextY) {
                nextX - pacman.radius < wall.x + wall.width &&
                nextY + pacman.radius > wall.y &&
                nextY - pacman.radius < wall.y + wall.height;
+    });
+}
+
+function eatDots() {
+    dots.forEach(dot => {
+        if (dot.visible && Math.hypot(pacman.x - dot.x, pacman.y - dot.y) < pacman.radius + dot.radius) {
+            dot.visible = false;
+            setTimeout(() => {
+                dot.visible = true;
+            }, 30000); // Reappear after 30 seconds
+        }
     });
 }
 
@@ -92,6 +131,7 @@ document.addEventListener('keydown', changeDirection);
 function gameLoop() {
     ctx.clearRect(0, 0, canvas.width, canvas.height);
     drawMaze();
+    drawDots();
     drawPacman();
     movePacman();
     requestAnimationFrame(gameLoop);

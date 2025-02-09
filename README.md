@@ -31,7 +31,9 @@ However, the pacman game was not interactive: 'playable" was clearly not specifi
 
 (recommends some javascript changes)
 
-* the game canvas should have a maze with white borders that pacman cannot cross
+* the game canvas should have a maze with white borders that pacman cannot cross. make a more complex maze with thinner walls.
+
+(very simple maze)
 
 
 
