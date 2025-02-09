@@ -39,6 +39,8 @@ However, the pacman game was not interactive: 'playable" was clearly not specifi
 
 this did not work.
 
+* removed the dots, provided an image from the web https://buildingblockstudio.com/wp-content/uploads/2019/01/Pacman-Stage.png
+
 
 # Coding Blog
 

@@ -10,22 +10,29 @@ const pacman = {
 };
 
 const maze = [
+    // Outer walls
     { x: 0, y: 0, width: 500, height: 10 },
     { x: 0, y: 0, width: 10, height: 500 },
     { x: 490, y: 0, width: 10, height: 500 },
     { x: 0, y: 490, width: 500, height: 10 },
+    // Inner walls
     { x: 50, y: 50, width: 400, height: 10 },
-    { x: 50, y: 50, width: 10, height: 400 },
-    { x: 50, y: 440, width: 400, height: 10 },
-    { x: 440, y: 50, width: 10, height: 400 },
-    { x: 100, y: 100, width: 300, height: 10 },
-    { x: 100, y: 100, width: 10, height: 300 },
-    { x: 100, y: 390, width: 300, height: 10 },
-    { x: 390, y: 100, width: 10, height: 300 },
-    { x: 150, y: 150, width: 200, height: 10 },
-    { x: 150, y: 150, width: 10, height: 200 },
-    { x: 150, y: 340, width: 200, height: 10 },
-    { x: 340, y: 150, width: 10, height: 200 }
+    { x: 50, y: 50, width: 10, height: 150 },
+    { x: 440, y: 50, width: 10, height: 150 },
+    { x: 50, y: 190, width: 400, height: 10 },
+    { x: 50, y: 250, width: 150, height: 10 },
+    { x: 300, y: 250, width: 150, height: 10 },
+    { x: 50, y: 250, width: 10, height: 150 },
+    { x: 440, y: 250, width: 10, height: 150 },
+    { x: 50, y: 390, width: 400, height: 10 },
+    { x: 50, y: 350, width: 150, height: 10 },
+    { x: 300, y: 350, width: 150, height: 10 },
+    { x: 200, y: 50, width: 10, height: 100 },
+    { x: 290, y: 50, width: 10, height: 100 },
+    { x: 200, y: 150, width: 100, height: 10 },
+    { x: 200, y: 250, width: 10, height: 100 },
+    { x: 290, y: 250, width: 10, height: 100 },
+    { x: 200, y: 350, width: 100, height: 10 }
 ];
 
 function drawMaze() {
@@ -77,7 +84,6 @@ function isColliding(nextX, nextY) {
                nextY - pacman.radius < wall.y + wall.height;
     });
 }
-
 
 function changeDirection(event) {
     switch (event.key) {
