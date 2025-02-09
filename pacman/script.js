@@ -11,10 +11,13 @@ const pacman = {
 
 const maze = [
     // Outer walls
-    { x: 0, y: 0, width: 800, height: 10 },
-    { x: 0, y: 0, width: 10, height: 800 },
-    { x: 790, y: 0, width: 10, height: 800 },
-    { x: 0, y: 790, width: 800, height: 10 },
+    { x: 0, y: 0, width: 600, height: 10 },
+    { x: 0, y: 0, width: 10, height: 600 },
+    { x: 590, y: 0, width: 10, height: 600 },
+    { x: 0, y: 590, width: 600, height: 10 },
+    // Inner walls
+    {x: 0, y: 120, width: 480, height: 10},
+    {x: 480, y: 300, width: 240, height: 10}
 ];
 
 function drawMaze() {
