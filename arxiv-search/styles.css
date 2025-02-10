@@ -1,0 +1,38 @@
+body {
+    font-family: Arial, sans-serif;
+    margin: 20px;
+    background-color: #f3e5f5;
+}
+
+h1 {
+    text-align: center;
+}
+
+#papers {
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+}
+
+.paper {
+    border: 1px solid #ccc;
+    padding: 10px;
+    border-radius: 5px;
+    background-color: #fff;
+}
+
+.paper h2 {
+    margin: 0;
+}
+
+.paper p {
+    margin: 5px 0;
+}
+
+button {
+    display: block;
+    margin: 20px auto;
+    padding: 10px 20px;
+    font-size: 16px;
+    cursor: pointer;
+}
