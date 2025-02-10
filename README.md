@@ -87,6 +87,10 @@ Add a new page to your website for auto-updating the latest papers from arXiv wi
 ```
 I want a webpage which lists the latest papers from arXiv with the keyword "topic model". The list should include paper titles, authors, abstracts, and direct links to PDFs. The paper list should be auto-updated every midnight by updating the latest papers from arXiv using GitHub Actions.
 
+add a refresh button to the html that fetches the ten most recent papers with the keyword topic model using the arxiv api when it is clicked
+
+
+
 ```
 
 
