@@ -8,7 +8,7 @@
 </head>
 <body>
     <h1>Latest ArXiv Papers on Topic Modelling</h1>
-    <p id="last-updated">Last updated: 2/10/2025, 5:07:56 PM</p>
+    <p id="last-updated">Last updated: 2/10/2025, 5:10:16 PM</p>
     <button id="refresh-button">Refresh Papers</button>
     <button onclick="window.location.href='../index.html'">Go to Homepage</button>
     <div id="papers">
@@ -155,6 +155,92 @@ and up to 5B total parameters. These results offer actionable insights for
 designing and deploying MoE models in practical large-scale training scenarios.
 </p>
                     <p><a href="http://arxiv.org/pdf/2502.05172v1" target="_blank">Read PDF</a></p>
+                </div>
+            
+                <div class="paper">
+                    <h2>Scaling up Test-Time Compute with Latent Reasoning: A Recurrent Depth
+  Approach</h2>
+                    <p><strong>Authors:</strong> Jonas Geiping, Sean McLeish, Neel Jain, John Kirchenbauer, Siddharth Singh, Brian R. Bartoldson, Bhavya Kailkhura, Abhinav Bhatele, Tom Goldstein</p>
+                    <p>  We study a novel language model architecture that is capable of scaling
+test-time computation by implicitly reasoning in latent space. Our model works
+by iterating a recurrent block, thereby unrolling to arbitrary depth at
+test-time. This stands in contrast to mainstream reasoning models that scale up
+compute by producing more tokens. Unlike approaches based on chain-of-thought,
+our approach does not require any specialized training data, can work with
+small context windows, and can capture types of reasoning that are not easily
+represented in words. We scale a proof-of-concept model to 3.5 billion
+parameters and 800 billion tokens. We show that the resulting model can improve
+its performance on reasoning benchmarks, sometimes dramatically, up to a
+computation load equivalent to 50 billion parameters.
+</p>
+                    <p><a href="http://arxiv.org/pdf/2502.05171v1" target="_blank">Read PDF</a></p>
+                </div>
+            
+                <div class="paper">
+                    <h2>Observation of a dynamic magneto-chiral instability in photoexcited
+  tellurium</h2>
+                    <p><strong>Authors:</strong> Yijing Huang, Nick Abboud, Yinchuan Lv, Penghao Zhu, Azel Murzabekova, Changjun Lee, Emma A. Pappas, Dominic Petruzzi, Jason Y. Yan, Dipanjan Chauduri, Peter Abbamonte, Daniel P. Shoemaker, Rafael M. Fernandes, Jorge Noronha, Fahad Mahmood</p>
+                    <p>  In a system of charged chiral fermions driven out of equilibrium, an electric
+current parallel to the magnetic field can generate a dynamic instability by
+which electromagnetic waves become amplified. Whether a similar instability can
+occur in chiral solid-state systems remains an open question. Using time-domain
+terahertz (THz) emission spectroscopy, we detect signatures of what we dub a
+``dynamic magneto-chiral instability" in elemental tellurium, a structurally
+chiral crystal. Upon transient photoexcitation in a moderate external magnetic
+field, tellurium emits THz radiation consisting of coherent modes that amplify
+over time. An explanation for this amplification is proposed using a
+theoretical model based on a dynamic instability of electromagnetic waves
+interacting with infrared-active oscillators of impurity acceptor states in
+tellurium to form an amplifying polariton. Our work not only uncovers the
+presence of a magneto-chiral instability but also highlights its promise for
+THz-wave amplification in chiral materials.
+</p>
+                    <p><a href="http://arxiv.org/pdf/2502.05170v1" target="_blank">Read PDF</a></p>
+                </div>
+            
+                <div class="paper">
+                    <h2>NoLiMa: Long-Context Evaluation Beyond Literal Matching</h2>
+                    <p><strong>Authors:</strong> Ali Modarressi, Hanieh Deilamsalehy, Franck Dernoncourt, Trung Bui, Ryan A. Rossi, Seunghyun Yoon, Hinrich Schütze</p>
+                    <p>  Recent large language models (LLMs) support long contexts ranging from 128K
+to 1M tokens. A popular method for evaluating these capabilities is the
+needle-in-a-haystack (NIAH) test, which involves retrieving a "needle"
+(relevant information) from a "haystack" (long irrelevant context). Extensions
+of this approach include increasing distractors, fact chaining, and in-context
+reasoning. However, in these benchmarks, models can exploit existing literal
+matches between the needle and haystack to simplify the task. To address this,
+we introduce NoLiMa, a benchmark extending NIAH with a carefully designed
+needle set, where questions and needles have minimal lexical overlap, requiring
+models to infer latent associations to locate the needle within the haystack.
+We evaluate 12 popular LLMs that claim to support contexts of at least 128K
+tokens. While they perform well in short contexts (<1K), performance degrades
+significantly as context length increases. At 32K, for instance, 10 models drop
+below 50% of their strong short-length baselines. Even GPT-4o, one of the
+top-performing exceptions, experiences a reduction from an almost-perfect
+baseline of 99.3% to 69.7%. Our analysis suggests these declines stem from the
+increased difficulty the attention mechanism faces in longer contexts when
+literal matches are absent, making it harder to retrieve relevant information.
+</p>
+                    <p><a href="http://arxiv.org/pdf/2502.05167v1" target="_blank">Read PDF</a></p>
+                </div>
+            
+                <div class="paper">
+                    <h2>Multitwine: Multi-Object Compositing with Text and Layout Control</h2>
+                    <p><strong>Authors:</strong> Gemma Canet Tarrés, Zhe Lin, Zhifei Zhang, He Zhang, Andrew Gilbert, John Collomosse, Soo Ye Kim</p>
+                    <p>  We introduce the first generative model capable of simultaneous multi-object
+compositing, guided by both text and layout. Our model allows for the addition
+of multiple objects within a scene, capturing a range of interactions from
+simple positional relations (e.g., next to, in front of) to complex actions
+requiring reposing (e.g., hugging, playing guitar). When an interaction implies
+additional props, like `taking a selfie', our model autonomously generates
+these supporting objects. By jointly training for compositing and
+subject-driven generation, also known as customization, we achieve a more
+balanced integration of textual and visual inputs for text-driven object
+compositing. As a result, we obtain a versatile model with state-of-the-art
+performance in both tasks. We further present a data generation pipeline
+leveraging visual and language models to effortlessly synthesize multimodal,
+aligned training data.
+</p>
+                    <p><a href="http://arxiv.org/pdf/2502.05165v1" target="_blank">Read PDF</a></p>
                 </div>
             </div>
     <script src="scripts/fetch-papers.js"></script>
