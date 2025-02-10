@@ -6,6 +6,7 @@ body {
 
 h1 {
     text-align: center;
+    color: indigo;
 }
 
 #papers {
@@ -15,8 +16,8 @@ h1 {
 }
 
 .paper {
-    border: 1px solid #ccc;
-    padding: 10px;
+    border: 1px dotted black;
+    padding: 25px;
     border-radius: 5px;
     background-color: #fff;
     margin: 0 100px;
