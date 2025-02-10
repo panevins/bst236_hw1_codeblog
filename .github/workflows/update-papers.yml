@@ -10,17 +10,21 @@ on:
 jobs:
   update-papers:
     runs-on: ubuntu-latest
-    strategy:
-      matrix:
-        node-version: [ 16.x ]
+
     steps:
-    - uses: actions/checkout@v2
-    - name: Use Node.js ${{ matrix.node-version }}
+    - name: Checkout repository
+      uses: actions/checkout@v2
+
+    - name: Set up Node.js
       uses: actions/setup-node@v2
       with:
-        node-version: ${{ matrix.node-version }}
-    - run: npm install
-    - run: node arxiv-search/scripts/update-papers.js
+        node-version: [ 16.x ]
+
+    - name: Install dependencies
+      run: npm install node-fetch jsdom
+
+    - name: Fetch latest papers and update HTML
+      run: node arxiv-search/scripts/update-papers.js
 
     - name: Commit and push changes
       run: |
