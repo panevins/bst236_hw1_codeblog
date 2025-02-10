@@ -98,6 +98,8 @@ I want a webpage which lists the titles of the latest papers from arXiv with the
 
 now display not only the title, but also authors, abstracts, and direct links to PDFs from arxiv (or "pdf unavailable" if unavailable)
 
+now use github actions to refresh the list of papers once per day at midnight EST
+
 ```
 
 
