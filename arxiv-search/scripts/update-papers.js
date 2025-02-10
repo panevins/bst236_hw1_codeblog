@@ -33,7 +33,7 @@ async function fetchPapers() {
         const updateTime = new Date().toLocaleString('en-US', { timeZone: 'America/New_York' });
         const updateHTML = `<p id="last-updated">Last updated: ${updateTime}</p>`;
 
-        const indexPath = 'index.html';
+        const indexPath = 'arxiv-search/index.html';
         let indexHTML = fs.readFileSync(indexPath, 'utf8');
         indexHTML = indexHTML.replace(/<div id="papers">.*<\/div>/s, `<div id="papers">${papersHTML}</div>`);
         indexHTML = indexHTML.replace(/<p id="last-updated">.*<\/p>/, updateHTML);
