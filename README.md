@@ -69,6 +69,29 @@ when gameWin is true, display final score
 
 ```
 
+As I got more familiar with the repo and code the Ai created, i was able to modify things more myself. But, when there was something small I dind't know how to do-- for example increasing the size of a button, I used hte AI companion (ctrl+I) on a specific area.
+
+## Data scaffolding
+
+Add a new page to your website for auto-updating the latest papers from arXiv with the keywords you are interested in. This webpage should have the following features:
+
+    The webpage should list the latest papers from arXiv with the keywords you pick. You can decide on the paper list style by yourself.
+    The list should include paper titles, authors, abstracts, and direct links to PDFs.
+    The paper list should be auto-updated every midnight by updating the latest papers from arXiv.
+    The link to the webpage should be added in the homepage in Problem 1.
+    Design the webpage by yourself in any proper style you think the readers would like.
+
+
+1. basic structure of the page
+
+```
+I want a webpage which lists the latest papers from arXiv with the keyword "topic model". The list should include paper titles, authors, abstracts, and direct links to PDFs. The paper list should be auto-updated every midnight by updating the latest papers from arXiv using GitHub Actions.
+
+```
+
+
+
+
 # Coding Blog
 
 Welcome to my coding blog! This repository contains the source code for my personal coding blog, which showcases various programming tutorials, tips, and projects.
