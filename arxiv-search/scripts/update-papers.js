@@ -5,8 +5,9 @@ import { JSDOM } from 'jsdom';
 async function fetchPapers() {
     try {
         const response = await fetch('https://export.arxiv.org/api/query?search_query=all:topic+model&start=0&max_results=10&sortBy=submittedDate&sortOrder=descending');
-        const text = await response.text();
-        const parser = new JSDOM().window.DOMParser();
+        const text = await response.text();        
+        const dom = new JSDOM();
+        const parser = new dom.window.DOMParser();
         const xml = parser.parseFromString(text, 'application/xml');
         const entries = xml.getElementsByTagName('entry');
         
