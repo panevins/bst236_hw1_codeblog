@@ -1,15 +1,23 @@
 {
-    "name": "arxiv-search",
-    "version": "1.0.0",
-    "description": "A simple web application to search for articles on arXiv using keywords.",
-    "main": "src/app.js",
-    "scripts": {
-      "start": "live-server src"
-    },
-    "dependencies": {},
-    "devDependencies": {
-      "live-server": "^1.2.1"
-    },
-    "author": "",
-    "license": "ISC"
-  }
+  "name": "arxiv-topic-model-papers",
+  "version": "1.0.0",
+  "description": "A webpage that lists the latest papers from arXiv with the keyword 'topic model'.",
+  "main": "index.html",
+  "type": "module",
+  "scripts": {
+    "fetch": "node scripts/fetch-papers.js"
+  },
+  "dependencies": {
+    "fs": "^0.0.1-security",
+    "jsdom": "^16.4.0",
+    "node-fetch": "^3.3.2"
+  },
+  "keywords": [
+    "arxiv",
+    "topic model",
+    "papers",
+    "research"
+  ],
+  "author": "Your Name",
+  "license": "MIT"
+}
