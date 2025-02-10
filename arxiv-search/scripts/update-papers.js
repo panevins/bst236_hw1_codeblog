@@ -1,6 +1,6 @@
-const fetch = require('node-fetch');
-const fs = require('fs');
-const { JSDOM } = require('jsdom');
+import fetch from 'node-fetch';
+import fs from 'fs';
+import { JSDOM } from 'jsdom';
 
 async function fetchPapers() {
     try {
