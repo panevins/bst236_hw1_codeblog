@@ -8,9 +8,240 @@
 </head>
 <body>
     <h1>Latest ArXiv Papers on Topic Models</h1>
-    <p id="last-updated">.*</p>
+    <p id="last-updated">Last updated: 2/10/2025, 1:42:16 PM</p>
     <button id="refresh-button">Refresh Papers</button>
-    <div id="papers"></div>
+    <div id="papers">
+                <div class="paper">
+                    <h2>FlashVideo:Flowing Fidelity to Detail for Efficient High-Resolution
+  Video Generation</h2>
+                    <p><strong>Authors:</strong> Shilong Zhang, Wenbo Li, Shoufa Chen, Chongjian Ge, Peize Sun, Yida Zhang, Yi Jiang, Zehuan Yuan, Binyue Peng, Ping Luo</p>
+                    <p>  DiT diffusion models have achieved great success in text-to-video generation,
+leveraging their scalability in model capacity and data scale. High content and
+motion fidelity aligned with text prompts, however, often require large model
+parameters and a substantial number of function evaluations (NFEs). Realistic
+and visually appealing details are typically reflected in high resolution
+outputs, further amplifying computational demands especially for single stage
+DiT models. To address these challenges, we propose a novel two stage
+framework, FlashVideo, which strategically allocates model capacity and NFEs
+across stages to balance generation fidelity and quality. In the first stage,
+prompt fidelity is prioritized through a low resolution generation process
+utilizing large parameters and sufficient NFEs to enhance computational
+efficiency. The second stage establishes flow matching between low and high
+resolutions, effectively generating fine details with minimal NFEs.
+Quantitative and visual results demonstrate that FlashVideo achieves
+state-of-the-art high resolution video generation with superior computational
+efficiency. Additionally, the two-stage design enables users to preview the
+initial output before committing to full resolution generation, thereby
+significantly reducing computational costs and wait times as well as enhancing
+commercial viability .
+</p>
+                    <p><a href="http://arxiv.org/pdf/2502.05179v1" target="_blank">Read PDF</a></p>
+                </div>
+            
+                <div class="paper">
+                    <h2>QLIP: Text-Aligned Visual Tokenization Unifies Auto-Regressive
+  Multimodal Understanding and Generation</h2>
+                    <p><strong>Authors:</strong> Yue Zhao, Fuzhao Xue, Scott Reed, Linxi Fan, Yuke Zhu, Jan Kautz, Zhiding Yu, Philipp Krähenbühl, De-An Huang</p>
+                    <p>  We introduce Quantized Language-Image Pretraining (QLIP), a visual
+tokenization method that combines state-of-the-art reconstruction quality with
+state-of-the-art zero-shot image understanding. QLIP trains a
+binary-spherical-quantization-based autoencoder with reconstruction and
+language-image alignment objectives. We are the first to show that the two
+objectives do not need to be at odds. We balance the two loss terms dynamically
+during training and show that a two-stage training pipeline effectively mixes
+the large-batch requirements of image-language pre-training with the memory
+bottleneck imposed by the reconstruction objective. We validate the
+effectiveness of QLIP for multimodal understanding and text-conditioned image
+generation with a single model. Specifically, QLIP serves as a drop-in
+replacement for the visual encoder for LLaVA and the image tokenizer for
+LlamaGen with comparable or even better performance. Finally, we demonstrate
+that QLIP enables a unified mixed-modality auto-regressive model for
+understanding and generation.
+</p>
+                    <p><a href="http://arxiv.org/pdf/2502.05178v1" target="_blank">Read PDF</a></p>
+                </div>
+            
+                <div class="paper">
+                    <h2>Long-VITA: Scaling Large Multi-modal Models to 1 Million Tokens with
+  Leading Short-Context Accuray</h2>
+                    <p><strong>Authors:</strong> Yunhang Shen, Chaoyou Fu, Shaoqi Dong, Xiong Wang, Peixian Chen, Mengdan Zhang, Haoyu Cao, Ke Li, Xiawu Zheng, Yan Zhang, Yiyi Zhou, Rongrong Ji, Xing Sun</p>
+                    <p>  Establishing the long-context capability of large vision-language models is
+crucial for video understanding, high-resolution image understanding,
+multi-modal agents and reasoning. We introduce Long-VITA, a simple yet
+effective large multi-modal model for long-context visual-language
+understanding tasks. It is adept at concurrently processing and analyzing
+modalities of image, video, and text over 4K frames or 1M tokens while
+delivering advanced performances on short-context multi-modal tasks. We propose
+an effective multi-modal training schema that starts with large language models
+and proceeds through vision-language alignment, general knowledge learning, and
+two sequential stages of long-sequence fine-tuning. We further implement
+context-parallelism distributed inference and logits-masked language modeling
+head to scale Long-VITA to infinitely long inputs of images and texts during
+model inference. Regarding training data, Long-VITA is built on a mix of $17$M
+samples from public datasets only and demonstrates the state-of-the-art
+performance on various multi-modal benchmarks, compared against recent
+cutting-edge models with internal data. Long-VITA is fully reproducible and
+supports both NPU and GPU platforms for training and testing. We hope Long-VITA
+can serve as a competitive baseline and offer valuable insights for the
+open-source community in advancing long-context multi-modal understanding.
+</p>
+                    <p><a href="http://arxiv.org/pdf/2502.05177v1" target="_blank">Read PDF</a></p>
+                </div>
+            
+                <div class="paper">
+                    <h2>Fillerbuster: Multi-View Scene Completion for Casual Captures</h2>
+                    <p><strong>Authors:</strong> Ethan Weber, Norman Müller, Yash Kant, Vasu Agrawal, Michael Zollhöfer, Angjoo Kanazawa, Christian Richardt</p>
+                    <p>  We present Fillerbuster, a method that completes unknown regions of a 3D
+scene by utilizing a novel large-scale multi-view latent diffusion transformer.
+Casual captures are often sparse and miss surrounding content behind objects or
+above the scene. Existing methods are not suitable for handling this challenge
+as they focus on making the known pixels look good with sparse-view priors, or
+on creating the missing sides of objects from just one or two photos. In
+reality, we often have hundreds of input frames and want to complete areas that
+are missing and unobserved from the input frames. Additionally, the images
+often do not have known camera parameters. Our solution is to train a
+generative model that can consume a large context of input frames while
+generating unknown target views and recovering image poses when desired. We
+show results where we complete partial captures on two existing datasets. We
+also present an uncalibrated scene completion task where our unified model
+predicts both poses and creates new content. Our model is the first to predict
+many images and poses together for scene completion.
+</p>
+                    <p><a href="http://arxiv.org/pdf/2502.05175v1" target="_blank">Read PDF</a></p>
+                </div>
+            
+                <div class="paper">
+                    <h2>MELON: Indirect Prompt Injection Defense via Masked Re-execution and
+  Tool Comparison</h2>
+                    <p><strong>Authors:</strong> Kaijie Zhu, Xianjun Yang, Jindong Wang, Wenbo Guo, William Yang Wang</p>
+                    <p>  Recent research has explored that LLM agents are vulnerable to indirect
+prompt injection (IPI) attacks, where malicious tasks embedded in
+tool-retrieved information can redirect the agent to take unauthorized actions.
+Existing defenses against IPI have significant limitations: either require
+essential model training resources, lack effectiveness against sophisticated
+attacks, or harm the normal utilities. We present MELON (Masked re-Execution
+and TooL comparisON), a novel IPI defense. Our approach builds on the
+observation that under a successful attack, the agent's next action becomes
+less dependent on user tasks and more on malicious tasks. Following this, we
+design MELON to detect attacks by re-executing the agent's trajectory with a
+masked user prompt modified through a masking function. We identify an attack
+if the actions generated in the original and masked executions are similar. We
+also include three key designs to reduce the potential false positives and
+false negatives. Extensive evaluation on the IPI benchmark AgentDojo
+demonstrates that MELON outperforms SOTA defenses in both attack prevention and
+utility preservation. Moreover, we show that combining MELON with a SOTA prompt
+augmentation defense (denoted as MELON-Aug) further improves its performance.
+We also conduct a detailed ablation study to validate our key designs.
+</p>
+                    <p><a href="http://arxiv.org/pdf/2502.05174v1" target="_blank">Read PDF</a></p>
+                </div>
+            
+                <div class="paper">
+                    <h2>Joint MoE Scaling Laws: Mixture of Experts Can Be Memory Efficient</h2>
+                    <p><strong>Authors:</strong> Jan Ludziejewski, Maciej Pióro, Jakub Krajewski, Maciej Stefaniak, Michał Krutul, Jan Małaśnicki, Marek Cygan, Piotr Sankowski, Kamil Adamczewski, Piotr Miłoś, Sebastian Jaszczur</p>
+                    <p>  Mixture of Experts (MoE) architectures have significantly increased
+computational efficiency in both research and real-world applications of
+large-scale machine learning models. However, their scalability and efficiency
+under memory constraints remain relatively underexplored. In this work, we
+present joint scaling laws for dense and MoE models, incorporating key factors
+such as the number of active parameters, dataset size, and the number of
+experts. Our findings provide a principled framework for selecting the optimal
+MoE configuration under fixed memory and compute budgets. Surprisingly, we show
+that MoE models can be more memory-efficient than dense models, contradicting
+conventional wisdom. To derive and validate the theoretical predictions of our
+scaling laws, we conduct over 280 experiments with up to 2.7B active parameters
+and up to 5B total parameters. These results offer actionable insights for
+designing and deploying MoE models in practical large-scale training scenarios.
+</p>
+                    <p><a href="http://arxiv.org/pdf/2502.05172v1" target="_blank">Read PDF</a></p>
+                </div>
+            
+                <div class="paper">
+                    <h2>Scaling up Test-Time Compute with Latent Reasoning: A Recurrent Depth
+  Approach</h2>
+                    <p><strong>Authors:</strong> Jonas Geiping, Sean McLeish, Neel Jain, John Kirchenbauer, Siddharth Singh, Brian R. Bartoldson, Bhavya Kailkhura, Abhinav Bhatele, Tom Goldstein</p>
+                    <p>  We study a novel language model architecture that is capable of scaling
+test-time computation by implicitly reasoning in latent space. Our model works
+by iterating a recurrent block, thereby unrolling to arbitrary depth at
+test-time. This stands in contrast to mainstream reasoning models that scale up
+compute by producing more tokens. Unlike approaches based on chain-of-thought,
+our approach does not require any specialized training data, can work with
+small context windows, and can capture types of reasoning that are not easily
+represented in words. We scale a proof-of-concept model to 3.5 billion
+parameters and 800 billion tokens. We show that the resulting model can improve
+its performance on reasoning benchmarks, sometimes dramatically, up to a
+computation load equivalent to 50 billion parameters.
+</p>
+                    <p><a href="http://arxiv.org/pdf/2502.05171v1" target="_blank">Read PDF</a></p>
+                </div>
+            
+                <div class="paper">
+                    <h2>Observation of a dynamic magneto-chiral instability in photoexcited
+  tellurium</h2>
+                    <p><strong>Authors:</strong> Yijing Huang, Nick Abboud, Yinchuan Lv, Penghao Zhu, Azel Murzabekova, Changjun Lee, Emma A. Pappas, Dominic Petruzzi, Jason Y. Yan, Dipanjan Chauduri, Peter Abbamonte, Daniel P. Shoemaker, Rafael M. Fernandes, Jorge Noronha, Fahad Mahmood</p>
+                    <p>  In a system of charged chiral fermions driven out of equilibrium, an electric
+current parallel to the magnetic field can generate a dynamic instability by
+which electromagnetic waves become amplified. Whether a similar instability can
+occur in chiral solid-state systems remains an open question. Using time-domain
+terahertz (THz) emission spectroscopy, we detect signatures of what we dub a
+``dynamic magneto-chiral instability" in elemental tellurium, a structurally
+chiral crystal. Upon transient photoexcitation in a moderate external magnetic
+field, tellurium emits THz radiation consisting of coherent modes that amplify
+over time. An explanation for this amplification is proposed using a
+theoretical model based on a dynamic instability of electromagnetic waves
+interacting with infrared-active oscillators of impurity acceptor states in
+tellurium to form an amplifying polariton. Our work not only uncovers the
+presence of a magneto-chiral instability but also highlights its promise for
+THz-wave amplification in chiral materials.
+</p>
+                    <p><a href="http://arxiv.org/pdf/2502.05170v1" target="_blank">Read PDF</a></p>
+                </div>
+            
+                <div class="paper">
+                    <h2>NoLiMa: Long-Context Evaluation Beyond Literal Matching</h2>
+                    <p><strong>Authors:</strong> Ali Modarressi, Hanieh Deilamsalehy, Franck Dernoncourt, Trung Bui, Ryan A. Rossi, Seunghyun Yoon, Hinrich Schütze</p>
+                    <p>  Recent large language models (LLMs) support long contexts ranging from 128K
+to 1M tokens. A popular method for evaluating these capabilities is the
+needle-in-a-haystack (NIAH) test, which involves retrieving a "needle"
+(relevant information) from a "haystack" (long irrelevant context). Extensions
+of this approach include increasing distractors, fact chaining, and in-context
+reasoning. However, in these benchmarks, models can exploit existing literal
+matches between the needle and haystack to simplify the task. To address this,
+we introduce NoLiMa, a benchmark extending NIAH with a carefully designed
+needle set, where questions and needles have minimal lexical overlap, requiring
+models to infer latent associations to locate the needle within the haystack.
+We evaluate 12 popular LLMs that claim to support contexts of at least 128K
+tokens. While they perform well in short contexts (<1K), performance degrades
+significantly as context length increases. At 32K, for instance, 10 models drop
+below 50% of their strong short-length baselines. Even GPT-4o, one of the
+top-performing exceptions, experiences a reduction from an almost-perfect
+baseline of 99.3% to 69.7%. Our analysis suggests these declines stem from the
+increased difficulty the attention mechanism faces in longer contexts when
+literal matches are absent, making it harder to retrieve relevant information.
+</p>
+                    <p><a href="http://arxiv.org/pdf/2502.05167v1" target="_blank">Read PDF</a></p>
+                </div>
+            
+                <div class="paper">
+                    <h2>Multitwine: Multi-Object Compositing with Text and Layout Control</h2>
+                    <p><strong>Authors:</strong> Gemma Canet Tarrés, Zhe Lin, Zhifei Zhang, He Zhang, Andrew Gilbert, John Collomosse, Soo Ye Kim</p>
+                    <p>  We introduce the first generative model capable of simultaneous multi-object
+compositing, guided by both text and layout. Our model allows for the addition
+of multiple objects within a scene, capturing a range of interactions from
+simple positional relations (e.g., next to, in front of) to complex actions
+requiring reposing (e.g., hugging, playing guitar). When an interaction implies
+additional props, like `taking a selfie', our model autonomously generates
+these supporting objects. By jointly training for compositing and
+subject-driven generation, also known as customization, we achieve a more
+balanced integration of textual and visual inputs for text-driven object
+compositing. As a result, we obtain a versatile model with state-of-the-art
+performance in both tasks. We further present a data generation pipeline
+leveraging visual and language models to effortlessly synthesize multimodal,
+aligned training data.
+</p>
+                    <p><a href="http://arxiv.org/pdf/2502.05165v1" target="_blank">Read PDF</a></p>
+                </div>
+            </div>
     <script src="scripts/fetch-papers.js"></script>
 </body>
 </html>
