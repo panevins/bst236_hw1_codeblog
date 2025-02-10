@@ -89,10 +89,16 @@ I want a webpage which lists the latest papers from arXiv with the keyword "topi
 
 add a refresh button to the html that fetches the ten most recent papers with the keyword topic model using the arxiv api when it is clicked
 
-
-
 ```
 
+2. Although this gave lots of stuff, the output didn't work. so broke it down into smaller steps
+
+```
+I want a webpage which lists the titles of the latest papers from arXiv with the keyword "topic model". put this webpage in arxiv-search folder
+
+now display not only the title, but also authors, abstracts, and direct links to PDFs from arxiv (or "pdf unavailable" if unavailable)
+
+```
 
 
 
