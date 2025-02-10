@@ -19,11 +19,11 @@ h1 {
     padding: 10px;
     border-radius: 5px;
     background-color: #fff;
-    margin: 0 40px;
+    margin: 0 100px;
 }
 
 .paper h2 {
-    margin: 0;
+    margin: 0 100px;
 }
 
 .paper p {
