@@ -30,7 +30,7 @@ async function fetchPapers() {
             `;
         });
 
-        const updateTime = new Date().toLocaleString('en-US', { timeZone: 'America/New_York' });
+        const updateTime = new Date().toLocaleString('en-GB', { timeZone: 'America/New_York' });
         const updateHTML = `<p id="last-updated" style="text-align: center;">Last updated: ${updateTime}</p>`;
 
         const indexPath = 'arxiv-search/index.html';
