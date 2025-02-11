@@ -22,7 +22,7 @@ nav {
 }
 
 nav a {
-    color: #e6e6fa;
+    color: lightskyblue;
     text-decoration: none;
     margin: 0 15px;
     font-weight: bold;
@@ -30,6 +30,7 @@ nav a {
 
 nav a:hover {
     text-decoration: underline;
+    color: gold
 }
 
 main {
@@ -46,7 +47,7 @@ h2 {
 
 article {
     background: #ffffff;
-    padding: 20px;
+    padding: 10px;
     margin: 20px 0;
     box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
     border: 2px dotted black; 

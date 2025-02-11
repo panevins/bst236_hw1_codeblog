@@ -22,7 +22,7 @@ async function fetchPapers() {
             
             papersHTML += `
                 <div class="paper">
-                    <h2>${title}</h2>
+                    <h3>${title}</h3>
                     <p><strong>Authors:</strong> ${authors}</p>
                     <p>${summary}</p>
                     <p><a href="${pdfLink}" target="_blank">${pdfLink === 'PDF unavailable' ? 'PDF unavailable' : 'Read PDF'}</a></p>
@@ -31,7 +31,7 @@ async function fetchPapers() {
         });
 
         const updateTime = new Date().toLocaleString('en-US', { timeZone: 'America/New_York' });
-        const updateHTML = `<p id="last-updated">Last updated: ${updateTime}</p>`;
+        const updateHTML = `<p id="last-updated" style="text-align: center;">Last updated: ${updateTime}</p>`;
 
         const indexPath = 'arxiv-search/index.html';
         let indexHTML = fs.readFileSync(indexPath, 'utf8');

@@ -1,7 +1,7 @@
 body {
     font-family: Arial, sans-serif;
     margin: 20px;
-    background-color: #f3e5f5;
+    background-color: #e6e6fa;
 }
 
 h1 {
@@ -16,7 +16,7 @@ h1 {
 }
 
 .paper {
-    border: 1px dotted black;
+    border: 2px dotted black;
     padding: 25px;
     border-radius: 5px;
     background-color: #fff;
@@ -24,18 +24,29 @@ h1 {
 }
 
 .paper h2 {
-    margin: 0 100px;
+    margin: 0 40px;
+    text-align: center;
 }
 
 .paper p {
     margin: 5px 0;
-    border: 1px dotted black;
+    font-family: 'Times New Roman', Times, serif;
+}
+
+footer {
+    text-align: center;
+    padding: 10px 0;
+    background: indigo;
+    color: #fffcb4;
+    position: relative;
+    bottom: 0;
+    width: 100%;
 }
 
 button {
-    display: block;
+    color: gold;
+    background-color: indigo;
     margin: 20px auto;
     padding: 10px 20px;
-    font-size: 16px;
-    cursor: pointer;
+    font-size: 12px;
 }
