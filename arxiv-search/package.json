@@ -1,7 +1,7 @@
 {
   "name": "arxiv-topic-model-papers",
   "version": "1.0.0",
-  "description": "A webpage that lists the latest papers from arXiv with the keyword 'topic model'.",
+  "description": "A webpage that lists the latest papers from arXiv with a category.",
   "main": "index.html",
   "type": "module",
   "scripts": {
