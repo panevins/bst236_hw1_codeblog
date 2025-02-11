@@ -29,6 +29,7 @@ h1 {
 
 .paper p {
     margin: 5px 0;
+    border: 1px dotted black;
 }
 
 button {
