@@ -1,158 +1,64 @@
-# BST 236 CodeBlog report
+# Welcome to my Coding Blog
 
-Create a homepage for a website for your **coding blog**. The website should be hosted on [GitHub Pages](https://pages.github.com/). You can design the homepage by yourself in any proper style you like. You may need to make the design expandable to add more content from our future assignments. The link to the homepage should be added to the `README.md` of your homework repository so that anyone can access the homepage and the following two webpages from the Internet using this link.
+Welcome to my Coding Blog! This repository contains the source code for a personal blog showcasing various coding projects I have completed for the course BST 236 - Computing I in the Spring 2025 semester.
 
-1. Went to settings -> pages and deployed from main branch
+## Table of Contents
 
-2. asked AI copilot to generate a homepage for me. it created a file directory.
+- [Introduction](#introduction)
+- [Projects](#projects)
+  - [Pac-Man Game](#Pac-Man-game)
+  - [ArXiv Feed](#arxiv-feed)
+- [Setup](#setup)
+- [Usage](#usage)
+- [GitHub Actions](#github-actions)
+- [License](#license)
 
-   *please create a homepage for my coding blog that can be opened via github pages, using css and html
+## Introduction
 
-   * please update the css to have a pale purple background and use a serif font, and so that body text is contained in white boxes 
+This blog is a collection of coding projects created by me (Pascale). At present, the blog features a playable Pac-Man mini-game and a feed of the latest papers on applied statistics from ArXiv. More posts to come!
 
-   * I then requested a variety of small aesthetic changes, which I was able to implement myself. 
+## Projects
 
-## making pacman
+### Pac-Man Game
 
-1. The first step was to create a webpage where pacman is. 
+A playable Valentine's-themed Pac-Man mini-game written using AI copilot. Help Pac-Man find love by collecting hearts and pink confetti while avoiding the walls and a spooky ghost.
 
-I asked
+- **Directory:** [Pac-Man](PacMan/)
+- **Main File:** [Pac-Man/index.html](PacMan/index.html)
 
-```
-how do i add a page to my website where i can have a playable pacman game
-```
+### ArXiv Feed
 
-It listed steps to create a directory, html, css, and javascript files.
-However, the pacman game was not interactive: 'playable" was clearly not specific enough. 
+A feed of articles on the topic of applied statistics. This page displays the 10 most recent papers from ArXiv in the category of "applied statistics" and updates daily using GitHub Actions.
 
-2. Improving game functionality
+- **Directory:** [arxiv-search](arxiv-search/)
+- **Main File:** [arxiv-search/index.html](arxiv-search/index.html)
 
-* please make it so pacman changes direction when the arrow keys are pressed
+## Setup
 
-(recommends some javascript changes)
+To set up the project locally, follow these steps:
 
-* the game canvas should have a maze with white borders that pacman cannot cross. make a more complex maze with thinner walls.
+1. Clone the repository:
+    ```sh
+    git clone https://github.com/panevins/bst236_hw1_codeblog.git
+    cd bst236_hw1_codeblog
+    ```
 
-(very simple maze)
+2. Navigate to the [arxiv-search](http://_vscodecontentref_/0) directory and install dependencies:
+    ```sh
+    cd arxiv-search
+    npm install
+    ```
 
-* there should be white dots centered in the halls of the maze, and when pacman crosses them he eats them and they disappear for thirty seconds before reappearing
+## Usage
 
-this did not work.
+To run the Pac-Man game, open the [index.html](http://_vscodecontentref_/1) file in your web browser.
 
-* removed the dots, provided an image from the web https://buildingblockstudio.com/wp-content/uploads/2019/01/Pacman-Stage.png
+To view the ArXiv feed, open the [index.html](http://_vscodecontentref_/2) file in your web browser.
 
-* focus on the game board: once I understand the way the borders are built, I map them out myself. 
+## GitHub Actions
 
-* then add the goals of the game: 
-
-```
-create a two pixel red hearts in the maze centered at x=300, y=420 and x-300, y=540
-when pacman touches one of the two hearts, they disappear and text appears above pacman for five seconds that says "love bonus achieved"
-
-the game ends (pacman stops moving and "GAME OVER" is written above him) when either 1) both hearts disappear or 2) pacman touches the wall
-```
-
-* add more game features
-
-```
-add a line of pink dots (radius 10px) every 60px starting at x=60 y=60
-make a line of dots every 120 pixels vertically
-
-```
-
-I adjusted the radius and distances after seeing the output.
-
-```
-display a black courier font points counter on pacman: for every pink dot he touches, the counter goes up by one and for each heart he touches, the counter goes up by 100. the dots also disappear after he touches them
-
-when gameWin is true, display final score
-
-```
-
-As I got more familiar with the repo and code the Ai created, i was able to modify things more myself. But, when there was something small I dind't know how to do-- for example increasing the size of a button, I used hte AI companion (ctrl+I) on a specific area.
-
-## Data scaffolding
-
-Add a new page to your website for auto-updating the latest papers from arXiv with the keywords you are interested in. This webpage should have the following features:
-
-    The webpage should list the latest papers from arXiv with the keywords you pick. You can decide on the paper list style by yourself.
-    The list should include paper titles, authors, abstracts, and direct links to PDFs.
-    The paper list should be auto-updated every midnight by updating the latest papers from arXiv.
-    The link to the webpage should be added in the homepage in Problem 1.
-    Design the webpage by yourself in any proper style you think the readers would like.
-
-
-1. basic structure of the page
-
-```
-I want a webpage which lists the latest papers from arXiv with the keyword "topic model". The list should include paper titles, authors, abstracts, and direct links to PDFs. The paper list should be auto-updated every midnight by updating the latest papers from arXiv using GitHub Actions.
-
-add a refresh button to the html that fetches the ten most recent papers with the keyword topic model using the arxiv api when it is clicked
-
-```
-
-2. Although this gave lots of stuff, the output didn't work. so broke it down into smaller steps
-
-```
-I want a webpage which lists the titles of the latest papers from arXiv with the keyword "topic model". put this webpage in arxiv-search folder
-
-now display not only the title, but also authors, abstracts, and direct links to PDFs from arxiv (or "pdf unavailable" if unavailable)
-
-now use github actions to refresh the list of papers once per day at midnight EST
-
-```
-
-
-
-# Coding Blog
-
-Welcome to my coding blog! This repository contains the source code for my personal coding blog, which showcases various programming tutorials, tips, and projects.
-
-## Project Structure
-
-The project consists of the following files:
-
-- `index.html`: The main HTML document for the homepage of the coding blog.
-- `styles/style.css`: The CSS file that styles the homepage.
-
-## Getting Started
-
-To get started with this coding blog, follow these steps:
-
-1. **Clone the Repository**: 
-   Clone this repository to your local machine using the following command:
-   ```
-   git clone https://github.com/yourusername/coding-blog.git
-   ```
-
-2. **Navigate to the Project Directory**:
-   ```
-   cd coding-blog
-   ```
-
-3. **Open `index.html`**:
-   Open the `index.html` file in your web browser to view the homepage.
-
-## Deploying on GitHub Pages
-
-To deploy your coding blog on GitHub Pages, follow these steps:
-
-1. **Push to GitHub**: 
-   Make sure your code is pushed to a GitHub repository.
-
-2. **Enable GitHub Pages**:
-   - Go to your repository on GitHub.
-   - Click on the "Settings" tab.
-   - Scroll down to the "GitHub Pages" section.
-   - Select the branch you want to use (usually `main` or `master`) and click "Save".
-
-3. **Access Your Blog**:
-   After a few minutes, your blog will be available at `https://yourusername.github.io/coding-blog`.
+The project uses GitHub Actions to update the ArXiv feed daily. The workflow is defined in [update-papers.yml](http://_vscodecontentref_/3).
 
 ## License
 
-This project is licensed under the MIT License - see the [LICENSE](LICENSE) file for details.
-
-## Acknowledgments
-
-Thank you for visiting my coding blog! I hope you find the content helpful and informative.
+This project is licensed under the MIT License. 

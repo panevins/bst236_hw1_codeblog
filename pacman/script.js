@@ -6,8 +6,30 @@ const pacman = {
     x: 60, // Adjusted starting position
     y: 60, // Adjusted starting position
     radius: 20,
-    speed: 2,
+    speed: 2.5,
     direction: 'right'
+};
+
+// Define the ghost character
+const ghost = {
+    x: 60,
+    y: 540,
+    radius: 20,
+    speed: 2.5,
+    waypoints: [
+        { x: 60, y: 540 },
+        { x: 60, y: 180 },
+        { x: 420, y: 180 },
+        { x: 420, y: 300 },
+        { x: 540, y: 300 },
+        { x: 540, y: 540 },
+        { x: 540, y: 300 },
+        { x: 420, y: 300 },
+        { x: 420, y: 180 },
+        { x: 60, y: 180 },
+        { x: 60, y: 540 }
+    ],
+    currentWaypoint: 0
 };
 
 const maze = [
@@ -62,6 +84,36 @@ function drawPacman() {
     ctx.fillStyle = 'yellow';
     ctx.fill();
     ctx.closePath();
+}
+
+// Function to draw the ghost
+function drawGhost() {
+    const ghostX = ghost.x;
+    const ghostY = ghost.y;
+    const ghostRadius = ghost.radius;
+
+    ctx.fillStyle = 'hotpink';
+    ctx.beginPath();
+    ctx.arc(ghostX, ghostY - ghostRadius / 2, ghostRadius, Math.PI, 0, false); // Top half of the ghost
+    ctx.lineTo(ghostX + ghostRadius, ghostY + ghostRadius / 2); // Right side
+    ctx.quadraticCurveTo(ghostX + ghostRadius / 2, ghostY + ghostRadius, ghostX, ghostY + ghostRadius / 2); // Bottom middle
+    ctx.quadraticCurveTo(ghostX - ghostRadius / 2, ghostY + ghostRadius, ghostX - ghostRadius, ghostY + ghostRadius / 2); // Left side
+    ctx.closePath();
+    ctx.fill();
+
+    // Draw the eyes
+    ctx.fillStyle = 'white';
+    ctx.beginPath();
+    ctx.arc(ghostX - ghostRadius / 3, ghostY - ghostRadius / 3, ghostRadius / 5, 0, 2 * Math.PI); // Left eye
+    ctx.arc(ghostX + ghostRadius / 3, ghostY - ghostRadius / 3, ghostRadius / 5, 0, 2 * Math.PI); // Right eye
+    ctx.fill();
+
+    // Draw the pupils
+    ctx.fillStyle = 'black';
+    ctx.beginPath();
+    ctx.arc(ghostX - ghostRadius / 3, ghostY - ghostRadius / 3, ghostRadius / 10, 0, 2 * Math.PI); // Left pupil
+    ctx.arc(ghostX + ghostRadius / 3, ghostY - ghostRadius / 3, ghostRadius / 10, 0, 2 * Math.PI); // Right pupil
+    ctx.fill();
 }
 
 function drawHeart(x, y) {
@@ -121,6 +173,23 @@ function movePacman() {
     checkHeartCollision();
 }
 
+// Function to move the ghost
+function moveGhost() {
+    const waypoint = ghost.waypoints[ghost.currentWaypoint];
+    const dx = waypoint.x - ghost.x;
+    const dy = waypoint.y - ghost.y;
+    const distance = Math.hypot(dx, dy);
+
+    if (distance < ghost.speed) {
+        ghost.x = waypoint.x;
+        ghost.y = waypoint.y;
+        ghost.currentWaypoint = (ghost.currentWaypoint + 1) % ghost.waypoints.length;
+    } else {
+        ghost.x += (dx / distance) * ghost.speed;
+        ghost.y += (dy / distance) * ghost.speed;
+    }
+}
+
 function isColliding(nextX, nextY) {
     return maze.some(wall => {
         return nextX + pacman.radius > wall.x &&
@@ -165,6 +234,14 @@ function checkHeartCollision() {
     }
 }
 
+// Function to check collision between Pacman and the ghost
+function checkGhostCollision() {
+    const distance = Math.hypot(pacman.x - ghost.x, pacman.y - ghost.y);
+    if (distance < pacman.radius + ghost.radius) {
+        gameOver = true;
+    }
+}
+
 function changeDirection(event) {
     switch (event.key) {
         case 'ArrowRight':
@@ -189,6 +266,7 @@ function gameLoop() {
     drawMaze();
     drawDots();
     drawPacman();
+    drawGhost(); // Draw the ghost
     hearts.forEach(heart => {
         if (!heart.collected) {
             drawHeart(heart.x, heart.y);
@@ -220,6 +298,8 @@ function gameLoop() {
     ctx.fillText(`${points}`, pacman.x + 10, pacman.y + 5);
     gameStatus.textContent = `Score: ${points}`;
     movePacman();
+    moveGhost(); // Move the ghost
+    checkGhostCollision(); // Check collision with the ghost
     requestAnimationFrame(gameLoop);
 }
 

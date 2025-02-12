@@ -47,15 +47,15 @@ h2 {
 
 article {
     background: #ffffff;
-    padding: 10px;
-    margin: 20px 0;
+    padding: 20px;
+    margin: 10px 0;
     box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
     border: 2px dotted black; 
 }
 
 footer {
     text-align: center;
-    padding: 10px 0;
+    padding: 20px 0;
     background: indigo;
     color: #fffcb4;
     position: relative;
