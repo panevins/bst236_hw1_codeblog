@@ -9,263 +9,270 @@
 <body>
     <h1>Latest ArXiv Papers on Applied Statistics</h1>
     <p> This page displays the 10 most recents papers on <a href="https://arxiv.org/">ArXiv</a> in the category of "applied statistics". To see all most recent papers under this category, visit ArXiv's website <a href="https://arxiv.org/list/stat.AP/recent">here</a>. This page uses GitHub Actions to update, hopefully each day at midnight.</p>
-    <p id="last-updated">Last updated: 2/11/2025, 9:07:32 AM</p>
+    <p id="last-updated">Last updated: 2/12/2025, 12:08:57 AM</p>
     <button onclick="window.location.href='../index.html'" style="text-align: center;">Go to Homepage</button>
     <div id="papers">
                 <div class="paper">
-                    <h3>Revisiting Optimal Proportions for Binary Responses: Insights from
-  Incorporating the Absent Perspective of Type-I Error Rate Control</h3>
-                    <p><strong>Authors:</strong> Lukas Pin, Sofía S. Villar, William F. Rosenberger</p>
-                    <p>  This work revisits optimal response-adaptive designs from a type-I error rate
-perspective, highlighting when and how much these allocations exacerbate type-I
-error rate inflation - an issue previously undocumented. We explore a range of
-approaches from the literature that can be applied to reduce type-I error rate
-inflation. However, we found that all of these approaches fail to give a robust
-solution to the problem. To address this, we derive two optimal proportions,
-incorporating the more robust score test (instead of the Wald test) with finite
-sample estimators (instead of the unknown true values) in the formulation of
-the optimization problem. One proportion optimizes statistical power and the
-other minimizes the total number failures in a trail while maintaining a
-predefined power level. Through simulations based on an early-phase and a
-confirmatory trial we provide crucial practical insight into how these new
-optimal proportion designs can offer substantial patient outcomes advantages
-while controlling type-I error rate. While we focused on binary outcomes, the
-framework offers valuable insights that naturally extend to other outcome
-types, multi-armed trials and alternative measures of interest.
+                    <h3>A Nonparametric and Functional Wombling Methodology</h3>
+                    <p><strong>Authors:</strong> Luke A. Barratt, John A. D. Aston</p>
+                    <p>  Wombling methods, first introduced in 1951, have been widely applied to
+detect boundaries and variations across spatial domains, particularly in
+biological, public health and meteorological studies. Traditional applications
+focus on finite-dimensional observations, where significant changes in
+measurable traits indicate structural boundaries. In this work, wombling
+methodologies are extended to functional data, enabling the identification of
+spatial variation in infinite-dimensional settings. Proposed is a nonparametric
+approach that accommodates functional observations without imposing strict
+distributional assumptions. This methodology successfully captures complex
+spatial structures and discontinuities, demonstrating superior sensitivity and
+robustness compared to existing finite-dimensional techniques. This methodology
+is then applied to analyse regional epidemiological disparities between London
+and the rest of the UK, identifying key spatial boundaries in the shape of the
+first trajectory of Covid-19 incidence in 2020. Through extensive simulations
+and empirical validation, demonstrated is the method's effectiveness in
+uncovering meaningful spatial variations, with potential applications in a wide
+variety of fields.
 </p>
-                    <p><a href="http://arxiv.org/pdf/2502.06381v1" target="_blank">Read PDF</a></p>
+                    <p><a href="http://arxiv.org/pdf/2502.07740v1" target="_blank">Read PDF</a></p>
                 </div>
             
                 <div class="paper">
-                    <h3>Gaussian Process-driven Hidden Markov Models for Early Diagnosis of
-  Infant Gait Anomalies</h3>
-                    <p><strong>Authors:</strong> Luis Torres-Torres F., Jonatan Arias-García, Hernán F. García, Andrés F. López-Lopera, Jesús F. Vargas-Bonilla</p>
-                    <p>  Gait analysis is critical in the early detection and intervention of motor
-neurological disorders in infants. Despite its importance, traditional methods
-often struggle to model the high variability and rapid developmental changes
-inherent to infant gait. To address these challenges, we propose a
-probabilistic Gaussian Process (GP)-driven Hidden Markov Model (HMM) to capture
-the complex temporal dynamics of infant gait cycles and enable automatic
-recognition of gait anomalies. We use a Multi-Output GP (MoGP) framework to
-model interdependencies between multiple gait signals, with a composite kernel
-designed to account for smooth, non-smooth, and periodic behaviors exhibited in
-gait cycles. The HMM segments gait phases into normal and abnormal states,
-facilitating the precise identification of pathological movement patterns in
-stance and swing phases. The proposed model is trained and assessed using a
-dataset of infants with and without motor neurological disorders via
-leave-one-subject-out cross-validation. Results demonstrate that the MoGP
-outperforms Long Short-Term Memory (LSTM) based neural networks in modeling
-gait dynamics, offering improved accuracy, variance explanation, and temporal
-alignment. Further, the predictive performance of MoGP provides a principled
-framework for uncertainty quantification, allowing confidence estimation in
-gait trajectory predictions. Additionally, the HMM enhances interpretability by
-explicitly modeling gait phase transitions, improving the detection of subtle
-anomalies across multiple gait cycles. These findings highlight the MoGP-HMM
-framework as a robust automatic gait analysis tool, allowing early diagnosis
-and intervention strategies for infants with neurological motor disorders.
+                    <h3>Evaluating the impact of racial disproportionality in Stop & Search on
+  expressive crimes in London</h3>
+                    <p><strong>Authors:</strong> Yu Luo, Yijing Li</p>
+                    <p>  Racial disproportionality in Stop & Search practices elicits substantial
+concerns about its societal and behavioral impacts. This paper aims to
+investigate the effect of disproportionality, particularly on the black
+community, on expressive crimes in London using data from January 2019 to
+December 2023. We focus on a semi-parametric partially linear structural
+regression method and introduce a Bayesian empirical likelihood procedure
+combined with double machine learning techniques to control for
+high-dimensional confounding and to accommodate the strong prior assumption. In
+addition, we show that the proposed procedure generates a valid posterior in
+terms of coverage. Applying this approach to the Stop & Search dataset, we find
+that racial disproportionality aimed at the Black community may be alleviated
+by taking into account the proportion of the Black population when focusing on
+expressive crimes.
 </p>
-                    <p><a href="http://arxiv.org/pdf/2502.06334v1" target="_blank">Read PDF</a></p>
+                    <p><a href="http://arxiv.org/pdf/2502.07695v1" target="_blank">Read PDF</a></p>
                 </div>
             
                 <div class="paper">
-                    <h3>Predicting Energy Demand with Tensor Factor Models</h3>
-                    <p><strong>Authors:</strong> Mattia Banin, Matteo Barigozzi, Luca Trapin</p>
-                    <p>  Hourly consumption from multiple providers displays pronounced intra-day,
-intra-week, and annual seasonalities, as well as strong cross-sectional
-correlations. We introduce a novel approach for forecasting high-dimensional
-U.S. electricity demand data by accounting for multiple seasonal patterns via
-tensor factor models. To this end, we restructure the hourly electricity demand
-data into a sequence of weekly tensors. Each weekly tensor is a three-mode
-array whose dimensions correspond to the hours of the day, the days of the
-week, and the number of providers. This multi-dimensional representation
-enables a factor decomposition that distinguishes among the various seasonal
-patterns along each mode: factor loadings over the hour dimension highlight
-intra-day cycles, factor loadings over the day dimension capture differences
-across weekdays and weekends, and factor loadings over the provider dimension
-reveal commonalities and shared dynamics among the different entities. We
-rigorously compare the predictive performance of our tensor factor model
-against several benchmarks, including traditional vector factor models and
-cutting-edge functional time series methods. The results consistently
-demonstrate that the tensor-based approach delivers superior forecasting
-accuracy at different horizons and provides interpretable factors that align
-with domain knowledge. Beyond its empirical advantages, our framework offers a
-systematic way to gain insight into the underlying processes that shape
-electricity demand patterns. In doing so, it paves the way for more nuanced,
-data-driven decision-making and can be adapted to address similar challenges in
-other high-dimensional time series applications.
+                    <h3>Response rate estimation in single-stage basket trials: A comparison of
+  estimators that allow for borrowing across cohorts</h3>
+                    <p><strong>Authors:</strong> Antonios Daletzakis, Rutger van den Bor, Vincent van der Noort, Kit CB Roes</p>
+                    <p>  Therapeutic advancements in oncology have shifted towards targeted therapy
+based on genomic aberrations. This necessitates innovative statistical
+approaches in clinical trials, particularly in master protocol studies. Basket
+trials, a type of master protocol, evaluate a single treatment across cohorts
+sharing a genomic aberration but differing in tumor histology. While offering
+operational advantages, basket trial analysis presents statistical inference
+challenges. These trials help determine for which tumor histology the treatment
+is promising enough to advance to confirmatory evaluation and often use
+Bayesian designs to support decisions. Beyond decision-making, estimating
+cohort-specific response rates is crucial for designing subsequent trials. This
+study compares seven Bayesian estimation methods for basket trials with binary
+outcomes against the (frequentist) sample proportion estimate through
+simulations. The goal is to estimate cohort-specific response rates, focusing
+on bias, mean squared error, and information borrowing. Various scenarios are
+examined, including homogeneous, heterogeneous, and clustered response rates
+across cohorts. Results show trade-offs in bias and precision, highlighting the
+importance of method selection. Berry's method performs best with limited
+heterogeneity. No clear winner emerges in general cases, with performance
+affected by shrinkage, bias, and the choice of priors and tuning parameters.
+Challenges include computational complexity, parameter tuning, and the lack of
+clear guidance on selection. Researchers should consider these factors when
+designing and analyzing basket trials.
 </p>
-                    <p><a href="http://arxiv.org/pdf/2502.06213v1" target="_blank">Read PDF</a></p>
+                    <p><a href="http://arxiv.org/pdf/2502.07639v1" target="_blank">Read PDF</a></p>
                 </div>
             
                 <div class="paper">
-                    <h3>Uncertainty-Aware Adaptation of Large Language Models for
-  Protein-Protein Interaction Analysis</h3>
-                    <p><strong>Authors:</strong> Sanket Jantre, Tianle Wang, Gilchan Park, Kriti Chopra, Nicholas Jeon, Xiaoning Qian, Nathan M. Urban, Byung-Jun Yoon</p>
-                    <p>  Identification of protein-protein interactions (PPIs) helps derive cellular
-mechanistic understanding, particularly in the context of complex conditions
-such as neurodegenerative disorders, metabolic syndromes, and cancer. Large
-Language Models (LLMs) have demonstrated remarkable potential in predicting
-protein structures and interactions via automated mining of vast biomedical
-literature; yet their inherent uncertainty remains a key challenge for deriving
-reproducible findings, critical for biomedical applications. In this study, we
-present an uncertainty-aware adaptation of LLMs for PPI analysis, leveraging
-fine-tuned LLaMA-3 and BioMedGPT models. To enhance prediction reliability, we
-integrate LoRA ensembles and Bayesian LoRA models for uncertainty
-quantification (UQ), ensuring confidence-calibrated insights into protein
-behavior. Our approach achieves competitive performance in PPI identification
-across diverse disease contexts while addressing model uncertainty, thereby
-enhancing trustworthiness and reproducibility in computational biology. These
-findings underscore the potential of uncertainty-aware LLM adaptation for
-advancing precision medicine and biomedical research.
+                    <h3>Forecasting the future development in quality and value of professional
+  football players for applications in team management</h3>
+                    <p><strong>Authors:</strong> Koen W. van Arem, Floris Goes-Smit, Jakob Söhl</p>
+                    <p>  Transfers in professional football (soccer) are risky investments because of
+the large transfer fees and high risks involved. Although data-driven models
+can be used to improve transfer decisions, existing models focus on describing
+players' historical progress, leaving their future performance unknown.
+Moreover, recent developments have called for the use of explainable models
+combined with uncertainty quantification of predictions. This paper assesses
+explainable machine learning models based on predictive accuracy and
+uncertainty quantification methods for the prediction of the future development
+in quality and transfer value of professional football players. Using a
+historical data set of data-driven indicators describing player quality and the
+transfer value of a football player, the models are trained to forecast player
+quality and player value one year ahead. These two prediction problems
+demonstrate the efficacy of tree-based models, particularly random forest and
+XGBoost, in making accurate predictions. In general, the random forest model is
+found to be the most suitable model because it provides accurate predictions as
+well as an uncertainty quantification method that naturally arises from the
+bagging procedure of the random forest model. Additionally, our research shows
+that the development of player performance contains nonlinear patterns and
+interactions between variables, and that time series information can provide
+useful information for the modeling of player performance metrics. Our research
+provides models to help football clubs make more informed, data-driven transfer
+decisions by forecasting player quality and transfer value.
 </p>
-                    <p><a href="http://arxiv.org/pdf/2502.06173v1" target="_blank">Read PDF</a></p>
+                    <p><a href="http://arxiv.org/pdf/2502.07528v1" target="_blank">Read PDF</a></p>
                 </div>
             
                 <div class="paper">
-                    <h3>Soccer Goalkeeper Performance Evaluation: Clustering Approach</h3>
-                    <p><strong>Authors:</strong> Mahdi Teimouri</p>
-                    <p>  The objective of this work was to help the soccer field managers to evaluate
-the performance of a goalkeeper in saving the penalty kicks. To this end, based
-on the concept of clustering, four measures were proposed for evaluating the
-goalkeeper's performance in terms of both the saved kicks and detecting the
-direction of kicked ball. The well-known measures ignore the goalkeeper's
-ability in detecting the directional jump, while the forth proposed measure in
-this work was regarded this fact. The effectiveness of the proposed measures
-were analyzed and demonstrated by evaluating the performance of goalkeepers
-participated in four important soccer matches. The results were consistent with
-the proposed measures. In summary, as well as the known point statistics for
-evaluating the performance of goalkeeper, the measures were proposed in this
-work that regard as well the ability of goalkeeper in detecting the direction
-of kicks are also suggested.
+                    <h3>Quantitative evaluation of unsupervised clustering algorithms for
+  dynamic total-body PET image analysis</h3>
+                    <p><strong>Authors:</strong> Oona Rainio, Maria K. Jaakkola, Riku Klén</p>
+                    <p>  Background. Recently, dynamic total-body positron emission tomography (PET)
+imaging has become possible due to new scanner devices. While clustering
+algorithms have been proposed for PET analysis already earlier, there is still
+little research systematically evaluating these algorithms for processing of
+dynamic total-body PET images. Materials and methods. Here, we compare the
+performance of 15 unsupervised clustering methods, including K-means either by
+itself or after principal component analysis (PCA) or independent component
+analysis (ICA), Gaussian mixture model (GMM), fuzzy c-means (FCM),
+agglomerative clustering, spectral clustering, and several newer clustering
+algorithms, for classifying time activity curves (TACs) in dynamic PET images.
+We use dynamic total-body $^{15}$O-water PET images collected from 30 patients
+with suspected or confirmed coronary artery disease. To evaluate the clustering
+algorithms in a quantitative way, we use them to classify 5000 TACs from each
+image based on whether the curve is taken from brain, right heart ventricle,
+right kidney, lower right lung lobe, or urinary bladder. Results. According to
+our results, the best methods are GMM, FCM, and ICA combined with mini batch
+K-means, which classified the TACs with a median accuracies of 89\%, 83\%, and
+81\%, respectively, in a processing time of half a second or less on average
+for each image. Conclusion. GMM, FCM, and ICA with mini batch K-means show
+promise for dynamic total-body PET analysis.
 </p>
-                    <p><a href="http://arxiv.org/pdf/2502.05548v1" target="_blank">Read PDF</a></p>
+                    <p><a href="http://arxiv.org/pdf/2502.07511v1" target="_blank">Read PDF</a></p>
                 </div>
             
                 <div class="paper">
-                    <h3>Multi-scale Masked Autoencoder for Electrocardiogram Anomaly Detection</h3>
-                    <p><strong>Authors:</strong> Ya Zhou, Yujie Yang, Jianhuang Gan, Xiangjie Li, Jing Yuan, Wei Zhao</p>
-                    <p>  Electrocardiogram (ECG) analysis is a fundamental tool for diagnosing
-cardiovascular conditions, yet anomaly detection in ECG signals remains
-challenging due to their inherent complexity and variability. We propose
-Multi-scale Masked Autoencoder for ECG anomaly detection (MMAE-ECG), a novel
-end-to-end framework that effectively captures both global and local
-dependencies in ECG data. Unlike state-of-the-art methods that rely on
-heartbeat segmentation or R-peak detection, MMAE-ECG eliminates the need for
-such pre-processing steps, enhancing its suitability for clinical deployment.
-MMAE-ECG partitions ECG signals into non-overlapping segments, with each
-segment assigned learnable positional embeddings. A novel multi-scale masking
-strategy and multi-scale attention mechanism, along with distinct positional
-embeddings, enable a lightweight Transformer encoder to effectively capture
-both local and global dependencies. The masked segments are then reconstructed
-using a single-layer Transformer block, with an aggregation strategy employed
-during inference to refine the outputs. Experimental results demonstrate that
-our method achieves performance comparable to state-of-the-art approaches while
-significantly reducing computational complexity-approximately 1/78 of the
-floating-point operations (FLOPs) required for inference. Ablation studies
-further validate the effectiveness of each component, highlighting the
-potential of multi-scale masked autoencoders for anomaly detection.
+                    <h3>Applications of robust statistics for cyclostationarity detection in
+  non-Gaussian signals for local damage detection in bearings</h3>
+                    <p><strong>Authors:</strong> Wojciech Żuławiński, Jérôme Antoni, Radosław Zimroz, Agnieszka Wyłomańska</p>
+                    <p>  Signals with periodic characteristics are ubiquitous in real-world
+applications. One of these areas is condition monitoring, where the vibration
+signals from rotating machines naturally display periodic behavior. Thus, the
+cyclostationary analysis has evolved into the investigation of such signals.
+For the traditional cyclostationary approaches, the autocovariance function
+(ACVF) and its bi-frequency representation, spectral coherence (SC), are
+regarded as the base. However, recent research has revealed that real vibration
+signals increasingly exhibit impulsive behavior in addition to periodicity. As
+a result, there was a need for new methods to identify periodic behavior that
+take into account the impulsiveness of the data. In this article, we provide a
+way to improve the SC method by using its robust variants in place of the
+classical ACVF estimator (sample ACVF). The suggested concept is intuitive and
+relatively simple. We create robust versions of the SC algorithm that more
+accurately detect periodic behavior in signals with significant disruptions in
+contrast to the classical techniques. The efficiency of the proposed approach
+is demonstrated for simulated signals with three different types of
+non-Gaussian noise distribution and different levels of periodic impulses
+imitating a local damage. The introduced approach is also validated on real
+vibration signal from the rolling element bearings operating in a crushing
+machine.
 </p>
-                    <p><a href="http://arxiv.org/pdf/2502.05494v1" target="_blank">Read PDF</a></p>
+                    <p><a href="http://arxiv.org/pdf/2502.07478v1" target="_blank">Read PDF</a></p>
                 </div>
             
                 <div class="paper">
-                    <h3>A state-space framework for causal detection of hippocampal
-  ripple-replay events</h3>
-                    <p><strong>Authors:</strong> Sirui Zeng, Uri T. Eden</p>
-                    <p>  Hippocampal ripple-replay events are typically identified using a two-step
-process that at each time point uses past and future data to determine whether
-an event is occurring. This prevents researchers from identifying these events
-in real time for closed-loop experiments. It also prevents the identification
-of periods of nonlocal representation that are not accompanied by large changes
-in the spectral content of the local field potentials (LFPs). In this work, we
-present a new state-space model framework that is able to detect concurrent
-changes in the rhythmic structure of LFPs with nonlocal activity in place cells
-to identify ripple-replay events in a causal manner. The model combines latent
-factors related to neural oscillations, represented space, and switches between
-coding properties to explain simultaneously the spiking activity from multiple
-units and the rhythmic content of LFPs recorded from multiple sources. The
-model is temporally causal, meaning that estimates of the switching state can
-be made at each instant using only past information from the spike and LFP
-signals, or can be combined with future data to refine those estimates. We
-applied this model framework to simulated and real hippocampal data to
-demonstrate its performance in identifying ripple-replay events.
+                    <h3>The Variable Multiple Bandpass Periodic Block Bootstrap for Time Series
+  with Multiple Periodic Correlations</h3>
+                    <p><strong>Authors:</strong> Edward Valachovic</p>
+                    <p>  This work introduces a novel block bootstrap method for time series with
+multiple periodically correlated (MPC) components called the Variable Multiple
+Bandpass Periodic Block Bootstrap (VMBPBB). While past methodological
+advancements permitted bootstrapping time series to preserve certain
+correlations, and then periodically correlated (PC) structures, there does not
+appear to be adequate or efficient methods to bootstrap estimate the sampling
+distribution of estimators for MPC time series. Current methods that preserve
+the PC correlation structure resample the original time series, selecting block
+size to preserve one PC component frequency while simultaneously and
+unnecessarily resampling all frequencies. This destroys PC components at other
+frequencies. VMBPBB uses bandpass filters to separate each PC component,
+creating a set of PC component time series each composed principally of one
+component. VMBPBB then resamples each PC component time series, not the
+original MPC time series, with the respective block size preserving the
+correlation structure of each PC component. Finally, VMBPBB aggregates the PC
+component bootstraps to form a bootstrap of the MPC time series, successfully
+preserving all correlations. A simulation study across a wide range of
+different MPC component frequencies and signal-to-noise ratios is presented and
+reveals that VMBPBB almost universally outperforms existing methods that fail
+to bandpass filter the MPC time series.
 </p>
-                    <p><a href="http://arxiv.org/pdf/2502.05394v1" target="_blank">Read PDF</a></p>
+                    <p><a href="http://arxiv.org/pdf/2502.07462v1" target="_blank">Read PDF</a></p>
                 </div>
             
                 <div class="paper">
-                    <h3>Overcoming data challenges to measure whole-person health in electronic
-  health records</h3>
-                    <p><strong>Authors:</strong> Sarah C. Lotspeich, Sheetal Kedar, Rabeya Tahir, Aidan D. Keleghan, Amelia Miranda, Stephany N. Duda, Mike Bancks, Brian J. Wells, Ashish K. Khanna, Joseph Rigdon</p>
-                    <p>  The allostatic load index (ALI) is a composite measure of whole-person
-health. Data from electronic health records (EHR) present a huge opportunity to
-operationalize the ALI in the learning health system, except they are prone to
-missingness and errors. Validation of EHR data (e.g., through chart reviews)
-can provide better-quality data, but realistically, only a subset of patients'
-data can be validated, and most protocols do not recover missing data. Using a
-representative sample of 1000 patients from the EHR at an extensive learning
-health system (100 of whom could be validated), we propose methods to design,
-conduct, and analyze statistically efficient and robust studies of the ALI and
-healthcare utilization. With semiparametric maximum likelihood estimation, we
-robustly incorporate all available data into statistical models. Using targeted
-design strategies, we examine ways to select the most informative patients for
-validation. Incorporating clinical expertise, we devise a novel validation
-protocol to promote the quality and completeness of EHR data. Validating the
-EHR data uncovered relatively low error rates and recovered some missing data.
-Through simulation studies based on preliminary data, residual sampling was
-identified as the most informative strategy for completing our validation
-study. Statistical models of partially validated data indicated higher odds of
-engaging in the healthcare system were associated with worse whole-person
-health (i.e., higher ALI), adjusting for age. Targeted validation with an
-enriched protocol allowed us to ensure the quality and promote the completeness
-of the EHR. Findings from our validation study were incorporated into analyses
-as we operationalize the ALI as a whole-person health measure intended to
-predict healthcare utilization in the academic learning health system.
+                    <h3>Valeriepieris Circles Reveal City and Regional Boundaries in England and
+  Wales</h3>
+                    <p><strong>Authors:</strong> Rudy Arthur, Federico Botta</p>
+                    <p>  We propose a new method of determining regional and city boundaries based on
+the Valeriepieris circle, the smallest circle containing a given fraction of
+the data. By varying the fraction in the circle we can map complex spatial data
+to a simple model of concentric rings which we then fit to determine natural
+density cutoffs. We apply this method to population, occupation, economic and
+transport data from England and Wales, finding that the regions determined by
+this method affirm well known social facts such as the disproportionate wealth
+of London or the relative isolation of the North East and South West of
+England. We then show how different data sets give us different views of the
+same cities, providing insight into their development and dynamics.
 </p>
-                    <p><a href="http://arxiv.org/pdf/2502.05380v1" target="_blank">Read PDF</a></p>
+                    <p><a href="http://arxiv.org/pdf/2502.07451v1" target="_blank">Read PDF</a></p>
                 </div>
             
                 <div class="paper">
-                    <h3>Pulling back the curtain: the road from statistical estimand to
-  machine-learning based estimator for epidemiologists (no wizard required)</h3>
-                    <p><strong>Authors:</strong> Audrey Renson, Lina Montoya, Dana E. Goin, Iván Díaz, Rachael K. Ross</p>
-                    <p>  Epidemiologists increasingly use causal inference methods that rely on
-machine learning, as these approaches can relax unnecessary model specification
-assumptions. While deriving and studying asymptotic properties of such
-estimators is a task usually associated with statisticians, it is useful for
-epidemiologists to understand the steps involved, as epidemiologists are often
-at the forefront of defining important new research questions and translating
-them into new parameters to be estimated. In this paper, our goal was to
-provide a relatively accessible guide through the process of (i) deriving an
-estimator based on the so-called efficient influence function (which we define
-and explain), and (ii) showing such an estimator's ability to validly
-incorporate machine learning, by demonstrating the so-called rate double
-robustness property. The derivations in this paper rely mainly on algebra and
-some foundational results from statistical inference, which are explained.
+                    <h3>Likelihood-Free Estimation for Spatiotemporal Hawkes processes with
+  missing data and application to predictive policing</h3>
+                    <p><strong>Authors:</strong> Pramit Das, Moulinath Banerjee, Yuekai Sun</p>
+                    <p>  With the growing use of AI technology, many police departments use
+forecasting software to predict probable crime hotspots and allocate patrolling
+resources effectively for crime prevention. The clustered nature of crime data
+makes self-exciting Hawkes processes a popular modeling choice. However, one
+significant challenge in fitting such models is the inherent missingness in
+crime data due to non-reporting, which can bias the estimated parameters of the
+predictive model, leading to inaccurate downstream hotspot forecasts, often
+resulting in over or under-policing in various communities, especially the
+vulnerable ones. Our work introduces a Wasserstein Generative Adversarial
+Networks (WGAN) driven likelihood-free approach to account for unreported
+crimes in Spatiotemporal Hawkes models. We demonstrate through empirical
+analysis how this methodology improves the accuracy of parametric estimation in
+the presence of data missingness, leading to more reliable and efficient
+policing strategies.
 </p>
-                    <p><a href="http://arxiv.org/pdf/2502.05363v1" target="_blank">Read PDF</a></p>
+                    <p><a href="http://arxiv.org/pdf/2502.07111v1" target="_blank">Read PDF</a></p>
                 </div>
             
                 <div class="paper">
-                    <h3>Estimated Roadway Segment Traffic Data by Vehicle Class for the United
-  States: A Machine Learning Approach</h3>
-                    <p><strong>Authors:</strong> Brittany Antonczak, Meg Fay, Aviral Chawla, Gregory Rowangould</p>
-                    <p>  The Highway Performance Monitoring System, managed by the Federal Highway
-Administration, provides essential data on average annual daily traffic across
-U.S. roadways, but it has limited representation of medium- and heavy-duty
-vehicles on non-interstate roads. This gap limits research and policy analysis
-on the impacts of truck traffic, especially concerning air quality and public
-health. To address this, we use random forest regression to estimate medium-
-and heavy-duty vehicle traffic volumes in areas with sparse data. This results
-in a more comprehensive dataset, which enables the estimation of traffic
-density at the census block level as a proxy for traffic-related air pollution
-exposure. Our high-resolution spatial data products, rigorously validated,
-provide a more accurate representation of truck traffic and its environmental
-and health impacts. These datasets are valuable for transportation planning,
-public health research, and policy decisions aimed at mitigating the effects of
-truck traffic on vulnerable communities exposed to air pollution.
+                    <h3>A Framework for Supervised and Unsupervised Segmentation and
+  Classification of Materials Microstructure Images</h3>
+                    <p><strong>Authors:</strong> Kungang Zhang, Daniel W. Apley, Wei Chen, Wing K. Liu, L. Catherine Brinson</p>
+                    <p>  Microstructure of materials is often characterized through image analysis to
+understand processing-structure-properties linkages. We propose a largely
+automated framework that integrates unsupervised and supervised learning
+methods to classify micrographs according to microstructure phase/class and,
+for multiphase microstructures, segments them into different homogeneous
+regions. With the advance of manufacturing and imaging techniques, the
+ultra-high resolution of imaging that reveals the complexity of microstructures
+and the rapidly increasing quantity of images (i.e., micrographs) enables and
+necessitates a more powerful and automated framework to extract materials
+characteristics and knowledge. The framework we propose can be used to
+gradually build a database of microstructure classes relevant to a particular
+process or group of materials, which can help in analyzing and
+discovering/identifying new materials. The framework has three steps: (1)
+segmentation of multiphase micrographs through a recently developed score-based
+method so that different microstructure homogeneous regions can be identified
+in an unsupervised manner; (2) {identification and classification of}
+homogeneous regions of micrographs through an uncertainty-aware supervised
+classification network trained using the segmented micrographs from Step $1$
+with their identified labels verified via the built-in uncertainty
+quantification and minimal human inspection; (3) supervised segmentation (more
+powerful than the segmentation in Step $1$) of multiphase microstructures
+through a segmentation network trained with micrographs and the results from
+Steps $1$-$2$ using a form of data augmentation. This framework can iteratively
+characterize/segment new homogeneous or multiphase materials while expanding
+the database to enhance performance. The framework is demonstrated on various
+sets of materials and texture images.
 </p>
-                    <p><a href="http://arxiv.org/pdf/2502.05161v1" target="_blank">Read PDF</a></p>
+                    <p><a href="http://arxiv.org/pdf/2502.07107v1" target="_blank">Read PDF</a></p>
                 </div>
             </div>
     <script src="scripts/update-papers.js"></script>
