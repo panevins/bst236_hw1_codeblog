@@ -9,9 +9,164 @@
 <body>
     <h1>Latest ArXiv Papers on Applied Statistics</h1>
     <p> This page displays the 10 most recents papers on <a href="https://arxiv.org/">ArXiv</a> in the category of "applied statistics". To see all most recent papers under this category, visit ArXiv's website <a href="https://arxiv.org/list/stat.AP/recent">here</a>. This page uses GitHub Actions and the ArXiv API to update each day at approximately midnight.</p>
-    <p id="last-updated">Last updated: 2/19/2025, 12:08:43 AM</p>
+    <p id="last-updated">Last updated: 2/20/2025, 12:08:53 AM</p>
     <button onclick="window.location.href='../index.html'" style="text-align: center;">Go to Homepage</button>
     <div id="papers">
+                <div class="paper">
+                    <h3>Methods of multi-indication meta-analysis for health technology
+  assessment: a simulation study</h3>
+                    <p><strong>Authors:</strong> David Glynn, Pedro Saramago, Janharpreet Singh, Sylwia Bujkiewicz, Sofia Dias, Stephen Palmer, Marta Soares</p>
+                    <p>  A growing number of oncology treatments, such as bevacizumab, are used across
+multiple indications. However, in health technology assessment (HTA), their
+clinical and cost-effectiveness are typically appraised within a single target
+indication. This approach excludes a broader evidence base across other
+indications. To address this, we explored multi-indication meta-analysis
+methods that share evidence across indications.
+  We conducted a simulation study to evaluate alternative multi-indication
+synthesis models. This included univariate (mixture and non-mixture) methods
+synthesizing overall survival (OS) data and bivariate surrogacy models jointly
+modelling treatment effects on progression-free survival (PFS) and OS, pooling
+surrogacy parameters across indications. Simulated datasets were generated
+using a multistate disease progression model under various scenarios, including
+different levels of heterogeneity within and between indications, outlier
+indications, and varying data on OS for the target indication. We evaluated the
+performance of the synthesis models applied to the simulated datasets, in terms
+of their ability to predict overall survival (OS) in a target indication.
+  The results showed univariate multi-indication methods could reduce
+uncertainty without increasing bias, particularly when OS data were available
+in the target indication. Compared with univariate methods, mixture models did
+not significantly improve performance and are not recommended for HTA. In
+scenarios where OS data in the target indication is absent and there were also
+outlier indications, bivariate surrogacy models showed promise in correcting
+bias relative to univariate models, though further research under realistic
+conditions is needed.
+  Multi-indication methods are more complex than traditional approaches but can
+potentially reduce uncertainty in HTA decisions.
+</p>
+                    <p><a href="http://arxiv.org/pdf/2502.13844v1" target="_blank">Read PDF</a></p>
+                </div>
+            
+                <div class="paper">
+                    <h3>A Zero-Inflated Poisson Latent Position Cluster Model</h3>
+                    <p><strong>Authors:</strong> Chaoyi Lu, Riccardo Rastelli, Nial Friel</p>
+                    <p>  The latent position network model (LPM) is a popular approach for the
+statistical analysis of network data. A central aspect of this model is that it
+assigns nodes to random positions in a latent space, such that the probability
+of an interaction between each pair of individuals or nodes is determined by
+their distance in this latent space. A key feature of this model is that it
+allows one to visualize nuanced structures via the latent space representation.
+The LPM can be further extended to the Latent Position Cluster Model (LPCM), to
+accommodate the clustering of nodes by assuming that the latent positions are
+distributed following a finite mixture distribution. In this paper, we extend
+the LPCM to accommodate missing network data and apply this to non-negative
+discrete weighted social networks. By treating missing data as ``unusual'' zero
+interactions, we propose a combination of the LPCM with the zero-inflated
+Poisson distribution. Statistical inference is based on a novel partially
+collapsed Markov chain Monte Carlo algorithm, where a
+Mixture-of-Finite-Mixtures (MFM) model is adopted to automatically determine
+the number of clusters and optimal group partitioning. Our algorithm features a
+truncated absorb-eject move, which is a novel adaptation of an idea commonly
+used in collapsed samplers, within the context of MFMs. Another aspect of our
+work is that we illustrate our results on 3-dimensional latent spaces,
+maintaining clear visualizations while achieving more flexibility than
+2-dimensional models. The performance of this approach is illustrated via two
+carefully designed simulation studies, as well as four different publicly
+available real networks, where some interesting new perspectives are uncovered.
+</p>
+                    <p><a href="http://arxiv.org/pdf/2502.13790v1" target="_blank">Read PDF</a></p>
+                </div>
+            
+                <div class="paper">
+                    <h3>On noncentral Wishart mixtures of noncentral Wisharts and their use for
+  testing random effects in factorial design models</h3>
+                    <p><strong>Authors:</strong> Christian Genest, Anne MacKay, Frédéric Ouimet</p>
+                    <p>  It is shown that a noncentral Wishart mixture of noncentral Wishart
+distributions with the same degrees of freedom yields a noncentral Wishart
+distribution, thereby extending the main result of Jones and Marchand [Stat 10
+(2021), Paper No. e398, 7 pp.] from the chi-square to the Wishart setting. To
+illustrate its use, this fact is then employed to derive the finite-sample
+distribution of test statistics for random effects in a two-factor factorial
+design model with $d$-dimensional normal data, thereby broadening the findings
+of Bilodeau [ArXiv (2022), 6 pp.], who treated the case $d = 1$. The same
+approach makes it possible to test random effects in more general factorial
+design models.
+</p>
+                    <p><a href="http://arxiv.org/pdf/2502.13711v1" target="_blank">Read PDF</a></p>
+                </div>
+            
+                <div class="paper">
+                    <h3>Multi-view biclustering via non-negative matrix tri-factorisation</h3>
+                    <p><strong>Authors:</strong> Ella S. C. Orme, Theodoulos Rodosthenous, Marina Evangelou</p>
+                    <p>  Multi-view data is ever more apparent as methods for production, collection
+and storage of data become more feasible both practically and fiscally.
+However, not all features are relevant to describe the patterns for all
+individuals. Multi-view biclustering aims to simultaneously cluster both rows
+and columns, discovering clusters of rows as well as their view-specific
+identifying features. A novel multi-view biclustering approach based on
+non-negative matrix factorisation is proposed (ResNMTF). Demonstrated through
+extensive experiments on both synthetic and real datasets, ResNMTF successfully
+identifies both overlapping and non-exhaustive biclusters, without pre-existing
+knowledge of the number of biclusters present, and is able to incorporate any
+combination of shared dimensions across views. Further, to address the lack of
+a suitable bicluster-specific intrinsic measure, the popular silhouette score
+is extended to the bisilhouette score. The bisilhouette score is demonstrated
+to align well with known extrinsic measures, and proves useful as a tool for
+hyperparameter tuning as well as visualisation.
+</p>
+                    <p><a href="http://arxiv.org/pdf/2502.13698v1" target="_blank">Read PDF</a></p>
+                </div>
+            
+                <div class="paper">
+                    <h3>A Study on Monthly Marine Heatwave Forecasts in New Zealand: An
+  Investigation of Imbalanced Regression Loss Functions with Neural Network
+  Models</h3>
+                    <p><strong>Authors:</strong> Ding Ning, Varvara Vetrova, Sébastien Delaux, Rachael Tappenden, Karin R. Bryan, Yun Sing Koh</p>
+                    <p>  Marine heatwaves (MHWs) are extreme ocean-temperature events with significant
+impacts on marine ecosystems and related industries. Accurate forecasts (one to
+six months ahead) of MHWs would aid in mitigating these impacts. However,
+forecasting MHWs presents a challenging imbalanced regression task due to the
+rarity of extreme temperature anomalies in comparison to more frequent moderate
+conditions. In this study, we examine monthly MHW forecasts for 12 locations
+around New Zealand. We use a fully-connected neural network and compare
+standard and specialized regression loss functions, including the mean squared
+error (MSE), the mean absolute error (MAE), the Huber, the weighted MSE, the
+focal-R, the balanced MSE, and a proposed scaling-weighted MSE. Results show
+that (i) short lead times (one month) are considerably more predictable than
+three- and six-month leads, (ii) models trained with the standard MSE or MAE
+losses excel at forecasting average conditions but struggle to capture
+extremes, and (iii) specialized loss functions such as the balanced MSE and our
+scaling-weighted MSE substantially improve forecasting of MHW and suspected MHW
+events. These findings underscore the importance of tailored loss functions for
+imbalanced regression, particularly in forecasting rare but impactful events
+such as MHWs.
+</p>
+                    <p><a href="http://arxiv.org/pdf/2502.13495v1" target="_blank">Read PDF</a></p>
+                </div>
+            
+                <div class="paper">
+                    <h3>BISON: Bi-clustering of spatial omics data with feature selection</h3>
+                    <p><strong>Authors:</strong> Bencong Zhu, Alberto Cassese, Marina Vannucci, Michele Guindani, Qiwei Li</p>
+                    <p>  The advent of next-generation sequencing-based spatially resolved
+transcriptomics (SRT) techniques has reshaped genomic studies by enabling
+high-throughput gene expression profiling while preserving spatial and
+morphological context. Understanding gene functions and interactions in
+different spatial domains is crucial, as it can enhance our comprehension of
+biological mechanisms, such as cancer-immune interactions and cell
+differentiation in various regions. It is necessary to cluster tissue regions
+into distinct spatial domains and identify discriminating genes that elucidate
+the clustering result, referred to as spatial domain-specific discriminating
+genes (DGs). Existing methods for identifying these genes typically rely on a
+two-stage approach, which can lead to the phenomenon known as
+\textit{double-dipping}. To address the challenge, we propose a unified
+Bayesian latent block model that simultaneously detects a list of DGs
+contributing to spatial domain identification while clustering these DGs and
+spatial locations. The efficacy of our proposed method is validated through a
+series of simulation experiments, and its capability to identify DGs is
+demonstrated through applications to benchmark SRT datasets.
+</p>
+                    <p><a href="http://arxiv.org/pdf/2502.13453v1" target="_blank">Read PDF</a></p>
+                </div>
+            
                 <div class="paper">
                     <h3>Performance Evaluation of Large Language Models in Statistical
   Programming</h3>
@@ -123,153 +278,6 @@ insights into regional disparities and their implications for evidence-based
 policy design.
 </p>
                     <p><a href="http://arxiv.org/pdf/2502.12376v1" target="_blank">Read PDF</a></p>
-                </div>
-            
-                <div class="paper">
-                    <h3>Bayesian inference from time series of allele frequency data using exact
-  simulation techniques</h3>
-                    <p><strong>Authors:</strong> Jaromir Sant, Paul A. Jenkins, Jere Koskela, Dario Spano</p>
-                    <p>  A central statistical problem in population genetics is to infer evolutionary
-and biological parameters such as the strength of natural selection and allele
-age from DNA samples extracted from a contemporary population. That all samples
-come only from the present-day has long been known to limit statistical
-inference; there is potentially more information available if one also has
-access to ancient DNA so that inference is based on a time-series of historical
-changes in allele frequencies. We introduce a Markov Chain Monte Carlo (MCMC)
-method for Bayesian inference from allele frequency time-series data based on
-an underlying Wright--Fisher diffusion model of evolution, through which one
-can infer the parameters of essentially any selection model including those
-with frequency-dependent effects. The chief novelty is that we show this method
-to be exact in the sense that it is possible to augment the state space
-explored by MCMC with the unobserved diffusion trajectory, even though the
-transition function of this diffusion is intractable. Through careful design of
-a proposal distribution, we describe an efficient method in which updates to
-the trajectory and accept/reject decisions are calculated without error. We
-illustrate the method on data capturing changes in coat colour over the past
-20,000 years, and find evidence to support previous findings that the mutant
-alleles ASIP and MC1R responsible for changes in coat color have experienced
-very strong, possibly overdominant, selection and further provide estimates for
-the ages of these genes.
-</p>
-                    <p><a href="http://arxiv.org/pdf/2502.12279v1" target="_blank">Read PDF</a></p>
-                </div>
-            
-                <div class="paper">
-                    <h3>Crime in Proportions: Applying Compositional Data Analysis to European
-  Crime Trends for 2022</h3>
-                    <p><strong>Authors:</strong> Onur Batın Doğan, Fatma Sevinç Kurnaz</p>
-                    <p>  This article investigates crime patterns across European countries in 2022
-using Compositional Data Analysis (CoDA) to address limitations of traditional
-statistical approaches in dealing with the relative nature of crime data.
-Recognizing crime types as components of a whole, we employ CoDA to explore
-relationships between different crime categories while respecting their
-inherent interdependencies. The study utilizes k-means clustering to group
-countries based on their crime profiles, identifying three distinct clusters
-largely aligning with geographical locations. This clustering is visualized
-through t-SNE and geographic mapping, revealing regional similarities. Further
-analysis using Robust Principal Component Analysis on identified crime clusters
-reveals insightful relationships between specific crime types, such as
-homicide, smuggling, and financial crimes, and how their prevalence varies
-across countries. The findings reveals distinct crime patterns across Europe,
-highlighting regional commonalities while also highlighting divergences like
-Norway and Latvia that deviate from their expected geographical
-classifications. Moreover, the study identifies specific crime groups; for
-example, it pairs countries high in corruption and smuggling, such as Austria,
-with those countries that exhibit a higher relevance to homicide and smuggling,
-such as Luxembourg. It also points to the presence of financial crimes like
-fraud in countries such as Romania and Estonia.
-</p>
-                    <p><a href="http://arxiv.org/pdf/2502.12099v1" target="_blank">Read PDF</a></p>
-                </div>
-            
-                <div class="paper">
-                    <h3>Seamless short- to mid-term probabilistic wind power forecasting</h3>
-                    <p><strong>Authors:</strong> Gabriel Dantas, Jethro Browell</p>
-                    <p>  This paper presents a method for probabilistic wind power forecasting that
-quantifies and integrates uncertainties from weather forecasts and
-weather-to-power conversion. By addressing both uncertainty sources, the method
-achieves state-of-the-art results for lead times of 6 to 162 hours, eliminating
-the need for separate models for short- and mid-term forecasting. It also
-improves short-term forecasts during high weather uncertainty periods, which
-methods based on deterministic weather forecasts fail to capture. The study
-reveals that weather-to-power uncertainty is more significant for short-term
-forecasts, while weather forecast uncertainty dominates mid-term forecasts,
-with the transition point varying between wind farms. Offshore farms typically
-see this shift at shorter lead times than onshore ones. The findings are
-supported by an extensive, reproducible case study comprising 73 wind farms in
-Great Britain over five years.
-</p>
-                    <p><a href="http://arxiv.org/pdf/2502.11960v1" target="_blank">Read PDF</a></p>
-                </div>
-            
-                <div class="paper">
-                    <h3>On a Semiparametric Stochastic Volatility Model</h3>
-                    <p><strong>Authors:</strong> Yudong Feng, Ashis Gangopadhyay</p>
-                    <p>  This paper presents a novel approach to stochastic volatility (SV) modeling
-by utilizing nonparametric techniques that enhance our ability to capture the
-volatility of financial time series data, with a particular emphasis on the
-non-Gaussian behavior of asset return distributions. Although traditional
-parametric SV models can be useful, they often suffer from restrictive
-assumptions regarding errors, which may inadequately represent extreme values
-and tail behavior in financial returns. To address these limitations, we
-propose two semiparametric SV models that use data to better approximate error
-distributions. To facilitate the computation of model parameters, we developed
-a Markov Chain Monte Carlo (MCMC) method for estimating model parameters and
-volatility dynamics. Simulations and empirical tests on S&P 500 data indicate
-that nonparametric models can minimize bias and variance in volatility
-estimation, providing a more accurate reflection of market expectations about
-volatility. This methodology serves as a promising alternative to conventional
-parametric models, improving precision in financial risk assessment and
-deepening our understanding of the volatility dynamics of financial returns.
-</p>
-                    <p><a href="http://arxiv.org/pdf/2502.11954v1" target="_blank">Read PDF</a></p>
-                </div>
-            
-                <div class="paper">
-                    <h3>Searching for Low-Mass Exoplanets Amid Stellar Variability with a Fixed
-  Effects Linear Model of Line-by-Line Shape Changes</h3>
-                    <p><strong>Authors:</strong> Joseph Salzer, Jessi Cisewski-Kehe, Eric B. Ford, Lily L. Zhao</p>
-                    <p>  The radial velocity (RV) method, also known as Doppler spectroscopy, is a
-powerful technique for exoplanet discovery and characterization. In recent
-years, progress has been made thanks to the improvements in the quality of
-spectra from new extreme precision RV spectrometers. However, detecting the RV
-signals of Earth-like exoplanets remains challenging, as the spectroscopic
-signatures of low-mass planets can be obscured or confused with intrinsic
-stellar variability. Changes in the shapes of spectral lines across time can
-provide valuable information for disentangling stellar activity from true
-Doppler shifts caused by low-mass exoplanets. In this work, we present a fixed
-effects linear model to estimate RV signals that controls for changes in line
-shapes by aggregating information from hundreds of spectral lines. Our
-methodology incorporates a wild-bootstrap approach for modeling uncertainty and
-cross-validation to control for overfitting. We evaluate the model's ability to
-remove stellar activity using solar observations from the NEID spectrograph, as
-the sun's true center-of-mass motion is precisely known. Including line
-shape-change covariates reduces the RV root-mean-square errors by approximately
-70% (from 1.919 m s$^{-1}$ to 0.575 m s$^{-1}$) relative to using only the
-line-by-line Doppler shifts. The magnitude of the residuals is significantly
-less than that from traditional CCF-based RV estimators and comparable to other
-state-of-the-art methods for mitigating stellar variability.
-</p>
-                    <p><a href="http://arxiv.org/pdf/2502.11930v1" target="_blank">Read PDF</a></p>
-                </div>
-            
-                <div class="paper">
-                    <h3>Forecasting Italian daily electricity generation disaggregated by
-  geographical zones and energy sources using coherent forecast combination</h3>
-                    <p><strong>Authors:</strong> Daniele Girolimetto, Tommaso Di Fonzo</p>
-                    <p>  A novel approach is applied for improving forecast accuracy and achieving
-coherence in forecasting the Italian daily energy generation time series. In
-hierarchical frameworks such as national energy generation disaggregated by
-geographical zones and energy sources, independently generated base forecasts
-often result in inconsistencies across the constraints. We deal with this issue
-through a coherent balanced multi-task forecast combination approach, which
-combines unbiased forecasts from multiple experts while ensuring coherence.
-Applied to the daily Italian electricity generation data, our method shows
-superior accuracy compared to single-task base and combined forecasts, and a
-state-of-the-art single-expert reconciliation technique, demonstrating to be an
-effective approach to forecasting linearly constrained multiple time series.
-</p>
-                    <p><a href="http://arxiv.org/pdf/2502.11878v1" target="_blank">Read PDF</a></p>
                 </div>
             </div>
     <script src="scripts/update-papers.js"></script>
