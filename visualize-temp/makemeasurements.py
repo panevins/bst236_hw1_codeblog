@@ -1,4 +1,4 @@
-#Run `python3 -m pip install -r requirements.txt` and then `python3 makemeasurements.py` to create the data. 
+# Run `python3 -m pip install -r requirements.txt` and then `python3 makemeasurements.py` to create the data
 
 #copied from Homework 3
 
