@@ -1,0 +1,67 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Chart.js Example</title>
+    <script src="https://cdn.jsdelivr.net/npm/chart.js"></script>
+    <style>
+        body {
+            display: flex;
+            flex-direction: column;
+            justify-content: center;
+            align-items: center;
+            height: 100vh;
+            margin: 0;
+            padding-left: 1in;
+            padding-right: 1in;
+            box-sizing: border-box;
+        }
+        #bininputcontainer {
+            display: flex;
+            width: 100%;
+            height: 10%;
+        }
+        #container {
+            display: flex;
+            width: 100%;
+            height: 40%;
+        }
+        #chartContainer {
+            height: 100%;
+            width: 40%;
+        }
+        canvas {
+            width: 100%;
+            height: 100%;
+        }
+        #infoContainer {
+            width: 100%;
+            height: 30%;
+            padding: 10px;
+            box-sizing: border-box;
+            background-color: rgba(128, 128, 128, 0.271);
+        }
+    </style>
+</head>
+<body>
+    <h1>Visualizing World Temperatures</h1>
+    <p>The bar graphs display the number of cities with median (left) and standard deviation (right) of the temperature in the range of the bin. You can control the bin sizes with the bin size menu. Click on any bar to get some facts about the cities in that category!</p>
+    <div id="bininputcontainer">
+        <div>
+        <label for="binInput">Number of Bins:  </label>
+        <input type="number" id="binInput" min="1" value="3">
+        </div>
+    </div>
+    <div id="container">
+        <!-- Chart container -->
+        <div id="chartContainer">
+            <canvas id="myChart5"></canvas>
+        </div>
+    </div>
+    <div id="infoContainer">
+        <div id="infoText"></div>
+    </div>
+    <script src="src/chart5.js"></script>
+</body>
+</html>
