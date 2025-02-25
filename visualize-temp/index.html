@@ -1,26 +1,58 @@
 <!DOCTYPE html>
-<html>
+<html lang="en">
 <head>
-    <title>2D World Map</title>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Chart.js Example</title>
+    <script src="https://cdn.jsdelivr.net/npm/chart.js"></script>
+    <script src="https://unpkg.com/leaflet/dist/leaflet.js"></script>
     <link rel="stylesheet" href="https://unpkg.com/leaflet/dist/leaflet.css" />
     <style>
         body {
             display: flex;
+            flex-direction: row;
             justify-content: center;
             align-items: center;
-            height: 100vh;
-            margin: 0;
+            height: calc(100vh - 1in); /* Adjust height to account for top and bottom margins */
+            margin: 0.5in 0; /* Add 1 inch margin at the top and bottom */
+            padding-left: 1in;
+            padding-left: 1in;
+            padding-right: 1in;
+            box-sizing: border-box;
+            font-family: 'Calibri', sans-serif;
         }
-        #container {
+        #titlecontainer{
+            display: flex;
+            align-items: center;
+            width: 80%;
+            height: 20%;
+        }
+        #titlecontainer h1 {
+            margin-right: 20px; /* Add gap between heading and paragraph */
+        }
+        #bininputcontainer {
             display: flex;
             width: 100%;
-            height: 100%;
+            height: 5%;
         }
-        #map {
-            height: 100%;
+        #leftContainer {
+            display: flex;
+            flex-direction: column;
             width: 50%;
+            height: 100%;
         }
         #chartContainer {
+            height: 45%;
+            width: 80%;
+        }
+        #infoContainer {
+            width: 80%;
+            height: 30%;
+            padding: 10px;
+            box-sizing: border-box;
+            background-color: rgba(225, 255, 205, 0.786);
+        }
+        #mapContainer {
             height: 100%;
             width: 50%;
         }
@@ -31,15 +63,41 @@
     </style>
 </head>
 <body>
-    <div id="container">
-        <!--<div id="map"></div>-->
+    <div id="leftContainer">
+        <div id="titlecontainer">
+            <h1>Visualizing World Temperatures</h1>
+            <p></p>
+            <p> The histogram below shows the number of cities with a mean temperature (degrees Celcius) in the range. Control the number of bins with the menu to change the granularity of the results. Click on any bar to get some facts about the cities in that category, and to show on the map where they are!</p>
+        </div>
+        
+        <!-- Chart container -->
         <div id="chartContainer">
-            <canvas id="myChart"></canvas>
+            <canvas id="myChart5"></canvas>
+        </div>
+        <div id="bininputcontainer">
+            <div>
+            <label for="binInput">Number of Bins:  </label>
+            <input type="number" id="binInput" min="1" value="3">
+            </div>
+        </div>
+        <!-- Info container -->
+        <div id="infoContainer">
+            <div id="infoText"></div>
         </div>
     </div>
-    <!-- <script src="https://unpkg.com/leaflet/dist/leaflet.js"></script>
-    <script src="map.js"></script> -->
-    <script src="https://cdn.jsdelivr.net/npm/chart.js"></script>
-    <script src="chart.js"></script>
+    <!-- Map container -->
+    <div id="mapContainer">
+        <div id="map" style="width: 100%; height: 100%;"></div>
+    </div>
+    <script src="src/chart5.js"></script>
+    <script>
+        // Initialize the map
+        var map = L.map('map').setView([0, 0], 2);
+
+        // Add a tile layer to the map
+        L.tileLayer('https://{s}.tile.openstreetmap.org/{z}/{x}/{y}.png', {
+            attribution: '&copy; <a href="https://www.openstreetmap.org/copyright">OpenStreetMap</a> contributors'
+        }).addTo(map);
+    </script>
 </body>
 </html>

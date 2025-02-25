@@ -2,17 +2,17 @@
   "name": "visualize-temp",
   "version": "1.0.0",
   "description": "A project to visualize temperature data on a map and histogram",
-  "main": "index.html",
   "scripts": {
-    "start": "live-server"
-  },
-  "dependencies": {
-    "chart.js": "^4.0.1",
-    "leaflet": "^1.9.3"
+    "dev": "parcel index.html",
+    "build": "parcel build index.html"
   },
   "devDependencies": {
-    "live-server": "^1.2.1"
+    "parcel": "^2.6.2"
   },
-  "author": "",
-  "license": "ISC"
+  "dependencies": {
+    "@cubejs-client/core": "^0.31.0",
+    "chart.js": "^4.4.8"
+  },
+  "author": "whoever",
+  "license": "MIT"
 }
