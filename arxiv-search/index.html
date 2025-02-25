@@ -9,279 +9,226 @@
 <body>
     <h1>Latest ArXiv Papers on Applied Statistics</h1>
     <p> This page displays the 10 most recents papers on <a href="https://arxiv.org/">ArXiv</a> in the category of "applied statistics". To see all most recent papers under this category, visit ArXiv's website <a href="https://arxiv.org/list/stat.AP/recent">here</a>. This page uses GitHub Actions and the ArXiv API to update each day at approximately midnight.</p>
-    <p id="last-updated">Last updated: 2/24/2025, 12:09:45 AM</p>
+    <p id="last-updated">Last updated: 2/25/2025, 12:09:11 AM</p>
     <button onclick="window.location.href='../index.html'" style="text-align: center;">Go to Homepage</button>
     <div id="papers">
                 <div class="paper">
-                    <h3>Estimation and Evaluation of the Resource-Constrained Optimal Dynamic
-  Treatment Rule: An Application to HIV Care Retention</h3>
-                    <p><strong>Authors:</strong> Lina M. Montoya, Elvin H. Geng, Harriet F. Adhiambo, Maya L. Petersen</p>
-                    <p>  The optimal strategy for deploying a treatment in a population may recommend
-giving all in the population that treatment. Such a strategy may not be
-feasible, especially in resource-limited settings. One approach for determining
-how to allocate a treatment in such settings is the resource-constrained
-optimal dynamic treatment rule (RC ODTR) SuperLearner algorithm, developed by
-Luedtke and van der Laan. In this paper, we describe this algorithm, offer
-various novel approaches for presenting the RC ODTR and its value in terms of
-benefit and cost, and provide practical guidance on implementing the algorithm
-(including software). In particular, we apply this method to the Adaptive
-Strategies for Preventing and Treating Lapses of Retention in HIV care
-(NCT02338739) trial to determine how to best allocate conditional cash
-transfers (CCTs) for increasing HIV care adherence given varying constraints on
-the proportion of people who can receive CCTs in the population, providing one
-of the few applied illustrations of this method and novel substantive findings.
-We find that there are clinical and monetary benefits to deploying CCTs to a
-small percent (e.g., 10\%) of the population compared to administering the care
-standard for all; however, results suggest that these incremental benefits are
-only due to the loosening of constraints, rather than a presence of treatment
-effect heterogeneity strong enough to drive a more efficient and effective
-constrained allocation approach.
+                    <h3>Sustainable Greenhouse Management: A Comparative Analysis of Recurrent
+  and Graph Neural Networks</h3>
+                    <p><strong>Authors:</strong> Emiliano Seri, Marcello Petitta, Cristina Cornaro</p>
+                    <p>  The integration of photovoltaic (PV) systems into greenhouses not only
+optimizes land use but also enhances sustainable agricultural practices by
+enabling dual benefits of food production and renewable energy generation.
+However, accurate prediction of internal environmental conditions is crucial to
+ensure optimal crop growth while maximizing energy production. This study
+introduces a novel application of Spatio-Temporal Graph Neural Networks
+(STGNNs) to greenhouse microclimate modeling, comparing their performance with
+traditional Recurrent Neural Networks (RNNs). While RNNs excel at temporal
+pattern recognition, they cannot explicitly model the directional relationships
+between environmental variables. Our STGNN approach addresses this limitation
+by representing these relationships as directed graphs, enabling the model to
+capture both spatial dependencies and their directionality. Using
+high-frequency data collected at 15-minute intervals from a greenhouse in
+Volos, Greece, we demonstrate that RNNs achieve exceptional accuracy in winter
+conditions (R^2 = 0.985) but show limitations during summer cooling system
+operation. Though STGNNs currently show lower performance (winter R^2 = 0.947),
+their architecture offers greater potential for integrating additional
+variables such as PV generation and crop growth indicators.
 </p>
-                    <p><a href="http://arxiv.org/pdf/2502.14763v1" target="_blank">Read PDF</a></p>
+                    <p><a href="http://arxiv.org/pdf/2502.17371v1" target="_blank">Read PDF</a></p>
                 </div>
             
                 <div class="paper">
-                    <h3>General Uncertainty Estimation with Delta Variances</h3>
-                    <p><strong>Authors:</strong> Simon Schmitt, John Shawe-Taylor, Hado van Hasselt</p>
-                    <p>  Decision makers may suffer from uncertainty induced by limited data. This may
-be mitigated by accounting for epistemic uncertainty, which is however
-challenging to estimate efficiently for large neural networks. To this extent
-we investigate Delta Variances, a family of algorithms for epistemic
-uncertainty quantification, that is computationally efficient and convenient to
-implement. It can be applied to neural networks and more general functions
-composed of neural networks. As an example we consider a weather simulator with
-a neural-network-based step function inside -- here Delta Variances empirically
-obtain competitive results at the cost of a single gradient computation. The
-approach is convenient as it requires no changes to the neural network
-architecture or training procedure. We discuss multiple ways to derive Delta
-Variances theoretically noting that special cases recover popular techniques
-and present a unified perspective on multiple related methods. Finally we
-observe that this general perspective gives rise to a natural extension and
-empirically show its benefit.
+                    <h3>A tutorial on optimal dynamic treatment regimes</h3>
+                    <p><strong>Authors:</strong> Chunyu Wang, Brian DM Tom</p>
+                    <p>  A dynamic treatment regime is a sequence of treatment decision rules tailored
+to an individual's evolving status over time. In precision medicine, much focus
+has been placed on finding an optimal dynamic treatment regime which, if
+followed by everyone in the population, would yield the best outcome on
+average; and extensive investigation has been conducted from both
+methodological and applications standpoints. The aim of this tutorial is to
+provide readers who are interested in optimal dynamic treatment regimes with a
+systematic, detailed but accessible introduction, including the formal
+definition and formulation of this topic within the framework of causal
+inference, identification assumptions required to link the causal quantity of
+interest to the observed data, existing statistical models and estimation
+methods to learn the optimal regime from data, and application of these methods
+to both simulated and real data.
 </p>
-                    <p><a href="http://arxiv.org/pdf/2502.14698v1" target="_blank">Read PDF</a></p>
+                    <p><a href="http://arxiv.org/pdf/2502.16988v1" target="_blank">Read PDF</a></p>
                 </div>
             
                 <div class="paper">
-                    <h3>Spatially Varying Coefficient Models for Estimating Heterogeneous
-  Mixture Effects</h3>
-                    <p><strong>Authors:</strong> Jacob Englert, Howard Chang</p>
-                    <p>  Recent studies of associations between environmental exposures and health
-outcomes have shifted toward estimating the effect of simultaneous exposure to
-multiple chemicals. Summary index methods, such as the weighted quantile sum
-and quantile g-computation, are now commonly used to analyze environmental
-exposure mixtures in a broad range of applications. These methods provide a
-simple and interpretable framework for quantifying mixture effects. However,
-when data arise from a large geographical study region, it may be unreasonable
-to expect a common mixture effect. In this work, we explore the use of a
-recently developed spatially varying coefficient model based on Bayesian
-additive regression trees to estimate spatially heterogeneous mixture effects
-using quantile g-computation. We conducted simulation studies to evaluate the
-method's performance. We then applied this model to an analysis of multiple
-ambient air pollutants and birthweight in Georgia, USA from 2005-2016. We find
-evidence of county-level spatially varying mixture associations, where for 17
-of 159 counties in Georgia, elevated concentrations of a mixture of PM2.5,
-nitrogen dioxide, sulfur dioxide, ozone, and carbon monoxide were associated
-with a reduction in birthweight by as much as -16.65 grams (95% credible
-interval: -33.93, -0.40) per decile increase in all five air pollutants.
+                    <h3>Adjustment for Inconsistency in Adaptive Phase 2/3 Designs with Dose
+  Optimization</h3>
+                    <p><strong>Authors:</strong> Cong Chen, Mo Huang</p>
+                    <p>  Adaptive Phase 2/3 designs hold great promise in contemporary oncology drug
+development, especially when limited data from Phase 1 dose-finding is
+insufficient for identifying an optimal dose. However, there is a general
+concern about inconsistent results before and after the adaptation. The
+imperfection in dose selection further complicates the issue. In this paper, we
+explicitly incorporate the concerns about inconsistency into the statistical
+analysis under three hypothesis testing strategies. This investigation paves
+the way for further research in a less explored area.
 </p>
-                    <p><a href="http://arxiv.org/pdf/2502.14651v1" target="_blank">Read PDF</a></p>
+                    <p><a href="http://arxiv.org/pdf/2502.16591v1" target="_blank">Read PDF</a></p>
                 </div>
             
                 <div class="paper">
-                    <h3>Linking Science and Industry: Influence of Scientific Research on
-  Technological Innovation through Patent Citations</h3>
-                    <p><strong>Authors:</strong> Pablo Dorta-González, Alejandro Rodríguez-Caro, María Isabel Dorta-González</p>
-                    <p>  This study explores the connection between patent citations and scientific
-publications across six fields: Biochemistry, Genetics, Pharmacology,
-Engineering, Mathematics, and Physics. Analysing 117,590 papers from 2014 to
-2023, the research emphasises how publication year, open access (OA) status,
-and discipline influence patent citations. Openly accessible papers,
-particularly those in hybrid OA journals or green OA repositories, are
-significantly more likely to be cited in patents, seven times more than those
-mentioned in blogs, and over twice as likely compared to older publications.
-However, papers with policy-related references are less frequently cited,
-indicating that patents may prioritise commercially viable innovations over
-those addressing societal challenges. Disciplinary differences reveal distinct
-innovation patterns across sectors. While academic visibility via blogs or
-platforms like Mendeley increases within scholarly circles, these have limited
-impact on patent citations. The study also finds that increased funding,
-possibly tied to applied research trends and fully open access journals,
-negatively affects patent citations. Social media presence and the number of
-authors have minimal impact. These findings highlight the complex factors
-shaping the integration of scientific research into technological innovations.
+                    <h3>Beyond Words: How Large Language Models Perform in Quantitative
+  Management Problem-Solving</h3>
+                    <p><strong>Authors:</strong> Jonathan Kuzmanko</p>
+                    <p>  This study examines how Large Language Models (LLMs) perform when tackling
+quantitative management decision problems in a zero-shot setting. Drawing on
+900 responses generated by five leading models across 20 diverse managerial
+scenarios, our analysis explores whether these base models can deliver accurate
+numerical decisions under varying presentation formats, scenario complexities,
+and repeated attempts. Contrary to prior findings, we observed no significant
+effects of text presentation format (direct, narrative, or tabular) or text
+length on accuracy. However, scenario complexity -- particularly in terms of
+constraints and irrelevant parameters -- strongly influenced performance, often
+degrading accuracy. Surprisingly, the models handled tasks requiring multiple
+solution steps more effectively than expected. Notably, only 28.8\% of
+responses were exactly correct, highlighting limitations in precision. We
+further found no significant ``learning effect'' across iterations: performance
+remained stable across repeated queries. Nonetheless, significant variations
+emerged among the five tested LLMs, with some showing superior binary accuracy.
+Overall, these findings underscore both the promise and the pitfalls of
+harnessing LLMs for complex quantitative decision-making, informing managers
+and researchers about optimal deployment strategies.
 </p>
-                    <p><a href="http://arxiv.org/pdf/2502.14570v1" target="_blank">Read PDF</a></p>
+                    <p><a href="http://arxiv.org/pdf/2502.16556v1" target="_blank">Read PDF</a></p>
                 </div>
             
                 <div class="paper">
-                    <h3>Addressing Positivity Violations in Continuous Interventions through
-  Data-Adaptive Strategies</h3>
-                    <p><strong>Authors:</strong> Han Bao, Michael Schomaker</p>
-                    <p>  Positivity violations pose a key challenge in the estimation of causal
-effects, particularly for continuous interventions. Current approaches for
-addressing this issue include the use of projection functions or modified
-treatment policies. While effective in many contexts, these methods can result
-in estimands that potentially do not align well with the original research
-question, thereby leading to compromises in interpretability. In this paper, we
-introduce a novel diagnostic tool, the non-overlap ratio, to detect positivity
-violations. To address these violations while maintaining interpretability, we
-propose a data-adaptive solution, specially a "most feasible" intervention
-strategy. Our strategy operates on a unit-specific basis. For a given
-intervention of interest, we first assess whether the intervention value is
-feasible for each unit. For units with sufficient support, conditional on
-confounders, we adhere to the intervention of interest. However, for units
-lacking sufficient support, as identified through the assessment of the
-non-overlap ratio, we do not assign the actual intervention value of interest.
-Instead, we assign the closest feasible value within the support region. We
-propose an estimator using g-computation coupled with flexible conditional
-density estimation to estimate high- and low support regions to estimate this
-new estimand. Through simulations, we demonstrate that our method effectively
-reduces bias across various scenarios by addressing positivity violations.
-Moreover, when positivity violations are absent, the method successfully
-recovers the standard estimand. We further validate its practical utility using
-real-world data from the CHAPAS-3 trial, which enrolled HIV-positive children
-in Zambia and Uganda.
+                    <h3>Subspace Recovery in Winsorized PCA: Insights into Accuracy and
+  Robustness</h3>
+                    <p><strong>Authors:</strong> Sangil Han, Kyoowon Kim, Sungkyu Jung</p>
+                    <p>  In this paper, we explore the theoretical properties of subspace recovery
+using Winsorized Principal Component Analysis (WPCA), utilizing a common data
+transformation technique that caps extreme values to mitigate the impact of
+outliers. Despite the widespread use of winsorization in various tasks of
+multivariate analysis, its theoretical properties, particularly for subspace
+recovery, have received limited attention. We provide a detailed analysis of
+the accuracy of WPCA, showing that increasing the number of samples while
+decreasing the proportion of outliers guarantees the consistency of the sample
+subspaces from WPCA with respect to the true population subspace. Furthermore,
+we establish perturbation bounds that ensure the WPCA subspace obtained from
+contaminated data remains close to the subspace recovered from pure data.
+Additionally, we extend the classical notion of breakdown points to
+subspace-valued statistics and derive lower bounds for the breakdown points of
+WPCA. Our analysis demonstrates that WPCA exhibits strong robustness to
+outliers while maintaining consistency under mild assumptions. A toy example is
+provided to numerically illustrate the behavior of the upper bounds for
+perturbation bounds and breakdown points, emphasizing winsorization's utility
+in subspace recovery.
 </p>
-                    <p><a href="http://arxiv.org/pdf/2502.14566v1" target="_blank">Read PDF</a></p>
+                    <p><a href="http://arxiv.org/pdf/2502.16391v1" target="_blank">Read PDF</a></p>
                 </div>
             
                 <div class="paper">
-                    <h3>Modelling the term-structure of default risk under IFRS 9 within a
-  multistate regression framework</h3>
-                    <p><strong>Authors:</strong> Arno Botha, Tanja Verster, Roland Breedt</p>
-                    <p>  The lifetime behaviour of loans is notoriously difficult to model, which can
-compromise a bank's financial reserves against future losses, if modelled
-poorly. Therefore, we present a data-driven comparative study amongst three
-techniques in modelling a series of default risk estimates over the lifetime of
-each loan, i.e., its term-structure. The behaviour of loans can be described
-using a nonstationary and time-dependent semi-Markov model, though we model its
-elements using a multistate regression-based approach. As such, the transition
-probabilities are explicitly modelled as a function of a rich set of input
-variables, including macroeconomic and loan-level inputs. Our modelling
-techniques are deliberately chosen in ascending order of complexity: 1) a
-Markov chain; 2) beta regression; and 3) multinomial logistic regression. Using
-residential mortgage data, our results show that each successive model
-outperforms the previous, likely as a result of greater sophistication. This
-finding required devising a novel suite of simple model diagnostics, which can
-itself be reused in assessing sampling representativeness and the performance
-of other modelling techniques. These contributions surely advance the current
-practice within banking when conducting multistate modelling. Consequently, we
-believe that the estimation of loss reserves will be more timeous and accurate
-under IFRS 9.
+                    <h3>Including an infrequently measured time-dependent error-prone covariate
+  in survival analyses: a simulation-based comparison of methods</h3>
+                    <p><strong>Authors:</strong> Viviane Philipps, Laurence Freedman, Veronika Deffner, Catherine Helmer, Hendriek Boshuizen, Anne C. M. Thiébaut, Cécile Proust-Lima</p>
+                    <p>  Epidemiologic studies often evaluate the association between an exposure and
+an event risk. When time-varying, exposure updates usually occur at discrete
+visits although changes are in continuous time and survival models require
+values to be constantly known. Moreover, exposures are likely measured with
+error, and their observation truncated at the event time. We aimed to quantify
+in a Cox regression the bias in the association resulting from intermittent
+measurements of an error-prone exposure. Using simulations under various
+scenarios, we compared five methods: last observation carried-forward (LOCF),
+classical two-stage regression-calibration using measurements up to the event
+(RC) or also after (PE-RC), multiple imputation (MI) and joint modeling of the
+exposure and the event (JM). The LOCF, and to a lesser extent the classical RC,
+showed substantial bias in almost all 43 scenarios. The RC bias was avoided
+when considering post-event information. The MI performed relatively well, as
+did the JM. Illustrations exploring the association of Body Mass Index and
+Executive Functioning with dementia risk showed consistent conclusions.
+Accounting for measurement error and discrete updates is critical when studying
+time-varying exposures. MI and JM techniques may be applied in this context,
+while classical RC should be avoided due to the informative truncation.
 </p>
-                    <p><a href="http://arxiv.org/pdf/2502.14479v1" target="_blank">Read PDF</a></p>
+                    <p><a href="http://arxiv.org/pdf/2502.16362v1" target="_blank">Read PDF</a></p>
                 </div>
             
                 <div class="paper">
-                    <h3>Advancing Model-Assisted Design in Phase I Trials through Bayesian
-  Dose-Response Model</h3>
-                    <p><strong>Authors:</strong> Rentaro Wakayama, Tomotaka Momozaki, Shuji Ando</p>
-                    <p>  Model-assisted designs have garnered significant attention in recent years
-due to their high accuracy in identifying the maximum tolerated dose (MTD) and
-their operational simplicity. To identify the MTD, they employ estimated dose
-limiting toxicity (DLT) probabilities via isotonic regression with
-pool-adjacent violators algorithm (PAVA) after trials have been completed. PAVA
-adjusts independently estimated DLT probabilities with the Bayesian binomial
-model at each dose level using posterior variances ensure the monotonicity that
-toxicity increases with dose. However, in small sample settings such as Phase I
-oncology trials, this approach can lead to unstable DLT probability estimates
-and reduce MTD selection accuracy. To address this problem, we propose a novel
-MTD identification strategy in model-assisted designs that leverages a Bayesian
-dose-response model. Employing the dose-response model allows for stable
-estimation of the DLT probabilities under the monotonicity by borrowing
-information across dose levels, leading to an improvement in MTD identification
-accuracy. We discuss the specification of prior distributions that can
-incorporate information from similar trials or the absence of such information.
-We examine dose-response models employing logit, log-log, and complementary
-log-log link functions to assess the impact of link function differences on the
-accuracy of MTD selection. Through extensive simulations, we demonstrate that
-the proposed approach improves MTD selection accuracy by more than 10\% in some
-scenarios and by approximately 6\% on average compared to conventional
-approach. These findings indicate that the proposed approach can contribute to
-further enhancing the efficiency of Phase I oncology trials.
+                    <h3>A multilevel model with heterogeneous variances for snap timing in the
+  National Football League</h3>
+                    <p><strong>Authors:</strong> Quang Nguyen, Ronald Yurko</p>
+                    <p>  Player tracking data have provided great opportunities to generate novel
+insights into understudied areas of American football, such as pre-snap motion.
+Using a Bayesian multilevel model with heterogeneous variances, we provide an
+assessment of NFL quarterbacks and their ability to synchronize the timing of
+the ball snap with pre-snap movement from their teammates. We focus on passing
+plays with receivers in motion at the snap and running a route, and define the
+snap timing as the time between the moment a receiver begins motioning and the
+ball snap event. We assume a Gamma distribution for the play-level snap timing
+and model the mean parameter with player and team random effects, along with
+relevant fixed effects such as the motion type identified via a Gaussian
+mixture model. Most importantly, we model the shape parameter with quarterback
+random effects, which enables us to estimate the differences in snap timing
+variability among NFL quarterbacks. We demonstrate that higher variability in
+snap timing is beneficial for the passing game, as it relates to facing less
+havoc created by the opposing defense. We also obtain a quarterback leaderboard
+based on our snap timing variability measure, and Patrick Mahomes stands out as
+the top player.
 </p>
-                    <p><a href="http://arxiv.org/pdf/2502.14278v1" target="_blank">Read PDF</a></p>
+                    <p><a href="http://arxiv.org/pdf/2502.16313v1" target="_blank">Read PDF</a></p>
                 </div>
             
                 <div class="paper">
-                    <h3>Bayesian Parameter Inference and Uncertainty Quantification for a
-  Computational Pulmonary Hemodynamics Model Using Gaussian Processes</h3>
-                    <p><strong>Authors:</strong> Amirreza Kachabi, Sofia Altieri Correa, Naomi C. Chesler, Mitchel J. Colebank</p>
-                    <p>  Patient-specific modeling is a valuable tool in cardiovascular disease
-research, offering insights beyond what current clinical equipment can measure.
-Given the limitations of available clinical data, models that incorporate
-uncertainty can provide clinicians with better guidance for tailored
-treatments. However, such modeling must align with clinical time frameworks to
-ensure practical applicability. In this study, we employ a one-dimensional
-fluid dynamics model integrated with data from a canine model of chronic
-thromboembolic pulmonary hypertension (CTEPH) to investigate microvascular
-disease, which is believed to involve complex mechanisms. To enhance
-computational efficiency during model calibration, we implement a Gaussian
-process emulator. This approach enables us to explore the relationship between
-disease severity and microvascular parameters, offering new insights into the
-progression and treatment of CTEPH in a timeframe that is compatible with a
-reasonable clinical timeframe.
+                    <h3>A Bayesian mixed-effects model to evaluate the determinants of COVID-19
+  vaccine uptake in the US</h3>
+                    <p><strong>Authors:</strong> Asim K. Dey</p>
+                    <p>  The COVID-19 pandemic has adversely affected US public health, resulting in
+over a hundred million cases and more than one million deaths. Vaccination is
+the key intervention against the COVID-19 pandemic. Multiple COVID-19 vaccines
+are now available for human use. However, a number of factors, including
+socio-demographic variables, impact the uptake of COVID-19 vaccines. In this
+study, we apply a Bayesian mixed-effects model to assess different
+socio-demographic and spatial factors that influence the acceptance of COVID-19
+vaccines in the US. The fitted mixed-effects model provides the probabilistic
+inference about the vaccine acceptance determinants with uncertainty
+quantification.
 </p>
-                    <p><a href="http://arxiv.org/pdf/2502.14251v1" target="_blank">Read PDF</a></p>
+                    <p><a href="http://arxiv.org/pdf/2502.16130v1" target="_blank">Read PDF</a></p>
                 </div>
             
                 <div class="paper">
-                    <h3>Online detection of forecast model inadequacies using forecast errors</h3>
-                    <p><strong>Authors:</strong> Thomas Grundy, Rebecca Killick, Ivan Svetunkov</p>
-                    <p>  In many organisations, accurate forecasts are essential for making informed
-decisions for a variety of applications from inventory management to staffing
-optimization. Whatever forecasting model is used, changes in the underlying
-process can lead to inaccurate forecasts, which will be damaging to
-decision-making. At the same time, models are becoming increasingly complex and
-identifying change through direct modelling is problematic. We present a novel
-framework for online monitoring of forecasts to ensure they remain accurate. By
-utilizing sequential changepoint techniques on the forecast errors, our
-framework allows for the real-time identification of potential changes in the
-process caused by various external factors. We show theoretically that some
-common changes in the underlying process will manifest in the forecast errors
-and can be identified faster by identifying shifts in the forecast errors than
-within the original modelling framework. Moreover, we demonstrate the
-effectiveness of this framework on numerous forecasting approaches through
-simulations and show its effectiveness over alternative approaches. Finally, we
-present two concrete examples, one from Royal Mail parcel delivery volumes and
-one from NHS A\&E admissions relating to gallstones.
+                    <h3>Local False Sign Rate and the Role of Prior Covariance Rank in
+  Multivariate Empirical Bayes Multiple Testing</h3>
+                    <p><strong>Authors:</strong> Dongyue Xie</p>
+                    <p>  We study the relationship between the rank of the prior covariance matrix and
+the local false sign rate in a multivariate empirical Bayes normal mean model.
+It has been observed that the false sign rate is inflated when the prior
+assigns weight to low-rank covariance matrices. We show that this issue arises
+due to the rank deficiency of prior covariance matrices and propose an
+adjustment to mitigate it.
 </p>
-                    <p><a href="http://arxiv.org/pdf/2502.14173v1" target="_blank">Read PDF</a></p>
+                    <p><a href="http://arxiv.org/pdf/2502.16118v1" target="_blank">Read PDF</a></p>
                 </div>
             
                 <div class="paper">
-                    <h3>Methods of multi-indication meta-analysis for health technology
-  assessment: a simulation study</h3>
-                    <p><strong>Authors:</strong> David Glynn, Pedro Saramago, Janharpreet Singh, Sylwia Bujkiewicz, Sofia Dias, Stephen Palmer, Marta Soares</p>
-                    <p>  A growing number of oncology treatments, such as bevacizumab, are used across
-multiple indications. However, in health technology assessment (HTA), their
-clinical and cost-effectiveness are typically appraised within a single target
-indication. This approach excludes a broader evidence base across other
-indications. To address this, we explored multi-indication meta-analysis
-methods that share evidence across indications.
-  We conducted a simulation study to evaluate alternative multi-indication
-synthesis models. This included univariate (mixture and non-mixture) methods
-synthesizing overall survival (OS) data and bivariate surrogacy models jointly
-modelling treatment effects on progression-free survival (PFS) and OS, pooling
-surrogacy parameters across indications. Simulated datasets were generated
-using a multistate disease progression model under various scenarios, including
-different levels of heterogeneity within and between indications, outlier
-indications, and varying data on OS for the target indication. We evaluated the
-performance of the synthesis models applied to the simulated datasets, in terms
-of their ability to predict overall survival (OS) in a target indication.
-  The results showed univariate multi-indication methods could reduce
-uncertainty without increasing bias, particularly when OS data were available
-in the target indication. Compared with univariate methods, mixture models did
-not significantly improve performance and are not recommended for HTA. In
-scenarios where OS data in the target indication is absent and there were also
-outlier indications, bivariate surrogacy models showed promise in correcting
-bias relative to univariate models, though further research under realistic
-conditions is needed.
-  Multi-indication methods are more complex than traditional approaches but can
-potentially reduce uncertainty in HTA decisions.
+                    <h3>Breaking the Balance: Asymmetric Negative Voting in the 2020
+  Presidential Election</h3>
+                    <p><strong>Authors:</strong> Bang Quan Zheng</p>
+                    <p>  While voters from opposing parties have traditionally exhibited symmetric
+levels of hostility toward out-party candidates, our analysis of the 2016 and
+2020 Nationscape data reveals a notable departure from this pattern. In 2016,
+negative voting was relatively balanced, with similar levels of hostility
+directed at Hillary Clinton and Donald Trump. However, by 2020, asymmetric
+negative voting had emerged. As an incumbent seeking re-election amid a rapidly
+declining economy, the COVID-19 pandemic, and widespread uncertainty, Trump
+faced heightened negative perceptions fueled by dissatisfaction with his
+handling of the economy, race relations, the pandemic, and his leadership
+style. These factors galvanized younger, educated Democrats and Independents to
+vote against him in unprecedented numbers. In contrast, Republicans expressed
+less animosity toward Biden in 2020 than they had toward Clinton in 2016. This
+shift disrupted the balance in the typical pattern of symmetric negative
+voting.
 </p>
-                    <p><a href="http://arxiv.org/pdf/2502.13844v1" target="_blank">Read PDF</a></p>
+                    <p><a href="http://arxiv.org/pdf/2502.16081v1" target="_blank">Read PDF</a></p>
                 </div>
             </div>
     <script src="scripts/update-papers.js"></script>
