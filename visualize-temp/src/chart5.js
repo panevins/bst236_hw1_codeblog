@@ -2180,17 +2180,40 @@ function updateChart(binCount) {
             const binMean = (binTemps.reduce((sum, temp) => sum + temp, 0) / binTemps.length).toFixed(1);
             const minTempCity = Object.keys(data).find(city => data[city].mean_temperature === binMin);
             const maxTempCity = Object.keys(data).find(city => data[city].mean_temperature === binMax);
-            const cityNames = binCities.map(city => Object.keys(data).find(key => data[key] === city)).join(', ');
+            const cityNames = binCities.map(city => Object.keys(data).find(key => data[key] === city));
 
             // Display the associated cities and statistics
-            const infoText = `
+            let infoText = `
               <p><strong>Selected Category: ${labels[index]}</strong></p>
               <p>Lowest Mean Temperature: ${binMin} (City: ${minTempCity})</p>
               <p>Average Mean Temperature of this Category: ${binMean}</p>
               <p>Highest Mean Temperature: ${binMax} (City: ${maxTempCity})</p>
-              <p>Cities in this Category: ${cityNames}</p>
-            `;
+              <p>Cities in this Category: `;
+            const firstTenCities = cityNames.slice(0, 10);
+            firstTenCities.forEach((city, index) => {
+              if (index === firstTenCities.length - 1) {
+                infoText += `${city}.`;
+              } else {
+                infoText += `${city}, `;
+              }
+            });
+            if (cityNames.length > 10) {
+              infoText += ` ... <a href="#" id="seeAllLink">See all</a>`;
+            }
             document.getElementById('infoText').innerHTML = infoText;
+
+            // Add event listener for "see all" link
+            if (cityNames.length > 10) {
+                document.getElementById('seeAllLink').addEventListener('click', (e) => {
+                    e.preventDefault();
+                    let fullList = `All Cities in this Category: `;
+                    cityNames.forEach(city => {
+                        fullList += `${city}, `;
+                    });
+                    fullList += ` `;
+                    alert(`${fullList}`); // Display the full list in a pop-up 
+                });
+            }
 
             // Clear existing markers
             markers.forEach(marker => map.removeLayer(marker));
