@@ -2106,13 +2106,13 @@ function updateChart(binCount) {
     values.forEach((value, index) => {
         const binIndex = Math.min(Math.floor((value - min) / binSize), binCount - 1);
         bins[binIndex]++;
-        binData[binIndex].push(Object.entries(data)[index][1]);
+        binData[binIndex].push(Object.entries(data)[index]);
     });
 
     // Calculate mean for each bin
     binData.forEach((bin, index) => {
         if (bin.length > 0) {
-            const mean = bin.reduce((sum, city) => sum + city.mean_temperature, 0) / bin.length;
+            const mean = bin.reduce((sum, city) => sum + city[1].mean_temperature, 0) / bin.length;
             binMeans[index] = mean;
         }
     });
@@ -2174,20 +2174,20 @@ function updateChart(binCount) {
           if (elements.length > 0) {
             const index = elements[0].index;
             const binCities = binData[index];
-            const binTemps = binCities.map(city => city.mean_temperature);
+            const binTemps = binCities.map(city => city[1].mean_temperature);
             const binMin = Math.min(...binTemps);
             const binMax = Math.max(...binTemps);
             const binMean = (binTemps.reduce((sum, temp) => sum + temp, 0) / binTemps.length).toFixed(1);
-            const minTempCity = Object.keys(data).find(city => data[city].mean_temperature === binMin);
-            const maxTempCity = Object.keys(data).find(city => data[city].mean_temperature === binMax);
-            const cityNames = binCities.map(city => Object.keys(data).find(key => data[key] === city));
+            const minTempCity = binCities.find(city => city[1].mean_temperature === binMin)[0];
+            const maxTempCity = binCities.find(city => city[1].mean_temperature === binMax)[0];
+            const cityNames = binCities.map(city => city[0]);
 
             // Display the associated cities and statistics
             let infoText = `
               <p><strong>Selected Category: ${labels[index]}</strong></p>
-              <p>Lowest Mean Temperature: ${binMin} (City: ${minTempCity})</p>
-              <p>Average Mean Temperature of this Category: ${binMean}</p>
-              <p>Highest Mean Temperature: ${binMax} (City: ${maxTempCity})</p>
+              <p>Lowest Mean Temperature: ${binMin}°C (City: ${minTempCity})</p>
+              <p>Average Mean Temperature of this Category: ${binMean}°C</p>
+              <p>Highest Mean Temperature: ${binMax}°C (City: ${maxTempCity})</p>
               <p>Cities in this Category: `;
             const firstTenCities = cityNames.slice(0, 10);
             firstTenCities.forEach((city, index) => {
@@ -2198,7 +2198,7 @@ function updateChart(binCount) {
               }
             });
             if (cityNames.length > 10) {
-              infoText += ` ... <a href="#" id="seeAllLink">See all</a>`;
+              infoText += ` <a href="#" id="seeAllLink">See all</a>`;
             }
             document.getElementById('infoText').innerHTML = infoText;
 
@@ -2221,10 +2221,11 @@ function updateChart(binCount) {
 
             // Add markers to the map
             binCities.forEach(city => {
-                const marker = L.circleMarker([city.latitude, city.longitude], {
+                const marker = L.circleMarker([city[1].latitude, city[1].longitude], {
                     color: 'black',
                     radius: 5
                 }).addTo(map);
+                marker.bindPopup(`<b>${city[0]}</b><br>Mean Temperature: ${city[1].mean_temperature}°C`);
                 markers.push(marker);
             });
 
@@ -2253,4 +2254,4 @@ L.tileLayer('https://{s}.tile.openstreetmap.org/{z}/{x}/{y}.png', {
 }).addTo(map);
 
 // Initial chart update
-updateChart(3);
+updateChart(10);

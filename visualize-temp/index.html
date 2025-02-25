@@ -27,7 +27,9 @@
             height: 20%;
         }
         #titlecontainer h1 {
-            margin-right: 20px; /* Add gap between heading and paragraph */
+            margin-right: 10px; /* Add gap between heading and paragraph */
+            font-size: 2.5em;
+            font-family: 'Georgia', serif;
         }
         #bininputcontainer {
             display: flex;
@@ -59,7 +61,7 @@
             background-color: rgba(255, 255, 255, 0);
         }
         #mapContainer {
-            height: 80%;
+            height: 65%;
             width: 100%;
         }
         canvas {
@@ -67,11 +69,11 @@
             height: 100%;
         }
         #descriptionContainer {
-            height: 20%;
+            height: 35%;
             width: 80%;
             padding: 10px;
             box-sizing: border-box;
-            background-color: rgba(240, 240, 240, 0.9);
+            background-color: rgba(240, 240, 240, 0);
             margin-bottom: 20px;
         }
     </style>
@@ -81,7 +83,6 @@
         <div id="titlecontainer">
             <h1>Visualizing World Temperatures</h1>
             <button onclick="window.location.href='../index.html'">Back to homepage</button>
-            <button onclick="window.location.href='https://github.com/hsph-bst236/homework-3-pixel-master-hackers'">Go to homework repo</button>
         </div>
         
         <!-- Chart container -->
@@ -91,7 +92,7 @@
         <div id="bininputcontainer">
             <div>
             <label for="binInput">Number of Bins:  </label>
-            <input type="number" id="binInput" min="1" value="3">
+            <input type="number" id="binInput" min="1" value="10">
             </div>
         </div>
         <!-- Info container -->
@@ -101,7 +102,10 @@
     </div>
     <div id="rightContainer">
         <div id="descriptionContainer">
-            <p> The histogram shows the number of cities with a mean temperature (degrees Celcius) in that range. Control the number of bins with the menu to change the granularity of the results. Click on any bar to get some facts about the cities in that category, and to show on the map where in the world they are!</p>
+            <p>This webpage is an interactive visualization dashboard describing the distribution of mean temperatures across different cities globally.</p>
+            <p> You can adjust the number of bins in the histogram to see more detailed or more generalized temperature ranges. Click on any bar to get some facts about the temperature category, and to show on the map the locations of the cities in the category.</p>
+            <p>The visualization is created using Chart.js and Leaflet.js. Visit our homework repo for source code.</p>
+            <button onclick="window.location.href='https://github.com/hsph-bst236/homework-3-pixel-master-hackers'">Go to homework repo</button>
         </div>
         <!-- Map container -->
         <div id="mapContainer">
