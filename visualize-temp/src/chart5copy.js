@@ -1,4 +1,4 @@
-fetch('../combined_cities.json')
+fetch('combined_cities.json')
     .then(response => {
         if (!response.ok) {
             throw new Error(`HTTP error! Status: ${response.status}`);
