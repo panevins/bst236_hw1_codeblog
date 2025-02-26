@@ -1,8 +1,8 @@
 import json
 
 # File paths
-cities_file_path = 'Homeworks/hw2_proj/bst236_hw1_codeblog/visualize-temp-copy/cities.txt'
-meantemps_file_path = 'Homeworks/hw2_proj/bst236_hw1_codeblog/visualize-temp-copy/meantemps.txt'
+cities_file_path = 'Homeworks/hw2_proj/bst236_hw1_codeblog/visualize-temp-copy/raw-data/cities.txt'
+meantemps_file_path = 'Homeworks/hw2_proj/bst236_hw1_codeblog/visualize-temp-copy/raw-data/meantemps.txt'
 output_file_path = 'Homeworks/hw2_proj/bst236_hw1_codeblog/visualize-temp-copy/combined_cities.json'
 
 # Read the cities txt file
