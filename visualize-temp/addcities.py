@@ -1,9 +1,10 @@
 import json
 
 # File paths
-cities_file_path = 'Homeworks/hw2_proj/bst236_hw1_codeblog/visualize-temp-copy/raw-data/cities.txt'
-meantemps_file_path = 'Homeworks/hw2_proj/bst236_hw1_codeblog/visualize-temp-copy/raw-data/meantemps.txt'
-output_file_path = 'Homeworks/hw2_proj/bst236_hw1_codeblog/visualize-temp-copy/combined_cities.json'
+cities_file_path = './raw-data/cities.txt'
+meantemps_file_path = './raw-data/meantemps.txt'
+additional_temps_file_path = './raw-data/python.txt'
+output_file_path = 'combined_cities.json'
 
 # Read the cities txt file
 try:
@@ -55,12 +56,41 @@ for line in meantemps_lines:
         print(f"Error: Could not parse line: {line}")
         continue
 
+# Read the additional temperatures text file
+try:
+    with open(additional_temps_file_path, 'r', encoding='utf-8') as file:
+        additional_temps_content = file.read().strip()
+except FileNotFoundError:
+    print(f"Error: The file {additional_temps_file_path} was not found.")
+    exit(1)
+
+# Parse the additional temperatures and store them in a dictionary
+additional_temps = {}
+try:
+    additional_temps_content = additional_temps_content.strip('{}')
+    for item in additional_temps_content.split(', '):
+        city, temps = item.split('=')
+        city = city.strip()
+        median, sd = map(float, temps.split('/'))
+        additional_temps[city] = {
+            'median_temperature': median,
+            'sd_temperature': sd
+        }
+except ValueError as e:
+    print(f"Error: Could not parse additional temperatures data: {e}")
+    exit(1)
+
 # Combine the data
 for city in cities_data:
     if city in mean_temps:
         cities_data[city]['mean_temperature'] = mean_temps[city]
     else:
         print(f"Warning: No mean temperature found for {city}")
+    
+    if city in additional_temps:
+        cities_data[city].update(additional_temps[city])
+    else:
+        print(f"Warning: No additional temperature data found for {city}")
 
 # Write the combined data to a new JSON file
 with open(output_file_path, 'w', encoding='utf-8') as json_file:

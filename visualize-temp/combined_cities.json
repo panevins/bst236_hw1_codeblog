@@ -2,2066 +2,2892 @@
     "Abha": {
         "latitude": 18.2,
         "longitude": 42.5,
-        "mean_temperature": 18.0
+        "mean_temperature": 18.0,
+        "median_temperature": 18.0,
+        "sd_temperature": 10.0
     },
     "Abidjan": {
         "latitude": 5.3,
         "longitude": -4.0,
-        "mean_temperature": 26.0
+        "mean_temperature": 26.0,
+        "median_temperature": 26.0,
+        "sd_temperature": 10.0
     },
     "Abéché": {
         "latitude": 13.2,
         "longitude": 20.8,
-        "mean_temperature": 29.4
+        "mean_temperature": 29.4,
+        "median_temperature": 29.4,
+        "sd_temperature": 10.0
     },
     "Accra": {
         "latitude": 5.6,
         "longitude": -0.2,
-        "mean_temperature": 26.4
+        "mean_temperature": 26.4,
+        "median_temperature": 26.4,
+        "sd_temperature": 10.0
     },
     "Addis Ababa": {
         "latitude": 9.0,
         "longitude": 38.7,
-        "mean_temperature": 16.0
+        "mean_temperature": 16.0,
+        "median_temperature": 16.0,
+        "sd_temperature": 10.0
     },
     "Adelaide": {
         "latitude": -34.9,
         "longitude": 138.6,
-        "mean_temperature": 17.3
+        "mean_temperature": 17.3,
+        "median_temperature": 17.3,
+        "sd_temperature": 10.0
     },
     "Aden": {
         "latitude": 12.8,
         "longitude": 45.0,
-        "mean_temperature": 29.1
+        "mean_temperature": 29.1,
+        "median_temperature": 29.1,
+        "sd_temperature": 10.0
     },
     "Ahvaz": {
         "latitude": 31.3,
         "longitude": 48.7,
-        "mean_temperature": 25.4
+        "mean_temperature": 25.4,
+        "median_temperature": 25.4,
+        "sd_temperature": 10.0
     },
     "Albuquerque": {
         "latitude": 35.1,
         "longitude": -106.6,
-        "mean_temperature": 14.0
+        "mean_temperature": 14.0,
+        "median_temperature": 14.0,
+        "sd_temperature": 10.0
     },
     "Alexandra": {
         "latitude": -45.9,
         "longitude": 169.7,
-        "mean_temperature": 11.0
+        "mean_temperature": 11.0,
+        "median_temperature": 11.0,
+        "sd_temperature": 10.0
     },
     "Alexandria": {
         "latitude": 31.2,
         "longitude": 29.9,
-        "mean_temperature": 20.0
+        "mean_temperature": 20.0,
+        "median_temperature": 20.0,
+        "sd_temperature": 10.0
     },
     "Algiers": {
         "latitude": 36.7,
         "longitude": 3.1,
-        "mean_temperature": 18.2
+        "mean_temperature": 18.2,
+        "median_temperature": 18.2,
+        "sd_temperature": 10.0
     },
     "Alice Springs": {
         "latitude": -23.7,
         "longitude": 133.9,
-        "mean_temperature": 21.0
+        "mean_temperature": 21.0,
+        "median_temperature": 21.0,
+        "sd_temperature": 10.0
     },
     "Almaty": {
         "latitude": 43.2,
         "longitude": 76.9,
-        "mean_temperature": 10.0
+        "mean_temperature": 10.0,
+        "median_temperature": 10.0,
+        "sd_temperature": 10.0
     },
     "Amsterdam": {
         "latitude": 52.4,
         "longitude": 4.9,
-        "mean_temperature": 10.2
+        "mean_temperature": 10.2,
+        "median_temperature": 10.2,
+        "sd_temperature": 10.0
     },
     "Anadyr": {
         "latitude": 64.7,
         "longitude": 177.5,
-        "mean_temperature": -6.9
+        "mean_temperature": -6.9,
+        "median_temperature": -6.9,
+        "sd_temperature": 10.0
     },
     "Anchorage": {
         "latitude": 61.2,
         "longitude": -149.9,
-        "mean_temperature": 2.8
+        "mean_temperature": 2.8,
+        "median_temperature": 2.8,
+        "sd_temperature": 10.0
     },
     "Andorra la Vella": {
         "latitude": 42.5,
         "longitude": 1.5,
-        "mean_temperature": 9.8
+        "mean_temperature": 9.8,
+        "median_temperature": 9.8,
+        "sd_temperature": 10.0
     },
     "Ankara": {
         "latitude": 39.9,
         "longitude": 32.9,
-        "mean_temperature": 12.0
+        "mean_temperature": 12.0,
+        "median_temperature": 12.0,
+        "sd_temperature": 10.0
     },
     "Antananarivo": {
         "latitude": -18.9,
         "longitude": 47.5,
-        "mean_temperature": 17.9
+        "mean_temperature": 17.9,
+        "median_temperature": 17.9,
+        "sd_temperature": 10.0
     },
     "Antsiranana": {
         "latitude": -12.3,
         "longitude": 49.3,
-        "mean_temperature": 25.2
+        "mean_temperature": 25.2,
+        "median_temperature": 25.2,
+        "sd_temperature": 10.0
     },
     "Arkhangelsk": {
         "latitude": 64.5,
         "longitude": 40.5,
-        "mean_temperature": 1.3
+        "mean_temperature": 1.3,
+        "median_temperature": 1.3,
+        "sd_temperature": 10.0
     },
     "Ashgabat": {
         "latitude": 37.9,
         "longitude": 58.4,
-        "mean_temperature": 17.1
+        "mean_temperature": 17.1,
+        "median_temperature": 17.1,
+        "sd_temperature": 10.0
     },
     "Asmara": {
         "latitude": 15.3,
         "longitude": 38.9,
-        "mean_temperature": 15.6
+        "mean_temperature": 15.6,
+        "median_temperature": 15.6,
+        "sd_temperature": 10.0
     },
     "Assab": {
         "latitude": 13.0,
         "longitude": 42.7,
-        "mean_temperature": 30.5
+        "mean_temperature": 30.5,
+        "median_temperature": 30.5,
+        "sd_temperature": 10.0
     },
     "Astana": {
         "latitude": 51.2,
         "longitude": 71.4,
-        "mean_temperature": 3.5
+        "mean_temperature": 3.5,
+        "median_temperature": 3.5,
+        "sd_temperature": 10.0
     },
     "Athens": {
         "latitude": 37.9,
         "longitude": 23.7,
-        "mean_temperature": 19.2
+        "mean_temperature": 19.2,
+        "median_temperature": 19.2,
+        "sd_temperature": 10.0
     },
     "Atlanta": {
         "latitude": 33.7,
         "longitude": -84.4,
-        "mean_temperature": 17.0
+        "mean_temperature": 17.0,
+        "median_temperature": 17.0,
+        "sd_temperature": 10.0
     },
     "Auckland": {
         "latitude": -36.9,
         "longitude": 174.8,
-        "mean_temperature": 15.2
+        "mean_temperature": 15.2,
+        "median_temperature": 15.2,
+        "sd_temperature": 10.0
     },
     "Austin": {
         "latitude": 30.3,
         "longitude": -97.7,
-        "mean_temperature": 20.7
+        "mean_temperature": 20.7,
+        "median_temperature": 20.7,
+        "sd_temperature": 10.0
     },
     "Baghdad": {
         "latitude": 33.3,
         "longitude": 44.4,
-        "mean_temperature": 22.77
+        "mean_temperature": 22.77,
+        "median_temperature": 22.8,
+        "sd_temperature": 10.0
     },
     "Baguio": {
         "latitude": 16.4,
         "longitude": 120.6,
-        "mean_temperature": 19.5
+        "mean_temperature": 19.5,
+        "median_temperature": 19.5,
+        "sd_temperature": 10.0
     },
     "Baku": {
         "latitude": 40.4,
         "longitude": 49.9,
-        "mean_temperature": 15.1
+        "mean_temperature": 15.1,
+        "median_temperature": 15.1,
+        "sd_temperature": 10.0
     },
     "Baltimore": {
         "latitude": 39.3,
         "longitude": -76.6,
-        "mean_temperature": 13.1
+        "mean_temperature": 13.1,
+        "median_temperature": 13.1,
+        "sd_temperature": 10.0
     },
     "Bamako": {
         "latitude": 12.6,
         "longitude": -8.0,
-        "mean_temperature": 27.8
+        "mean_temperature": 27.8,
+        "median_temperature": 27.8,
+        "sd_temperature": 10.0
     },
     "Bangkok": {
         "latitude": 13.7,
         "longitude": 100.5,
-        "mean_temperature": 28.6
+        "mean_temperature": 28.6,
+        "median_temperature": 28.6,
+        "sd_temperature": 10.0
     },
     "Bangui": {
         "latitude": 4.4,
         "longitude": 18.6,
-        "mean_temperature": 26.0
+        "mean_temperature": 26.0,
+        "median_temperature": 26.0,
+        "sd_temperature": 10.0
     },
     "Banjul": {
         "latitude": 13.5,
         "longitude": -16.7,
-        "mean_temperature": 26.0
+        "mean_temperature": 26.0,
+        "median_temperature": 26.0,
+        "sd_temperature": 10.0
     },
     "Barcelona": {
         "latitude": 41.4,
         "longitude": 2.2,
-        "mean_temperature": 18.2
+        "mean_temperature": 18.2,
+        "median_temperature": 18.2,
+        "sd_temperature": 10.0
     },
     "Bata": {
         "latitude": 1.9,
         "longitude": 9.8,
-        "mean_temperature": 25.1
+        "mean_temperature": 25.1,
+        "median_temperature": 25.1,
+        "sd_temperature": 10.0
     },
     "Batumi": {
         "latitude": 41.6,
         "longitude": 41.6,
-        "mean_temperature": 14.0
+        "mean_temperature": 14.0,
+        "median_temperature": 14.0,
+        "sd_temperature": 10.0
     },
     "Beijing": {
         "latitude": 39.9,
         "longitude": 116.4,
-        "mean_temperature": 12.9
+        "mean_temperature": 12.9,
+        "median_temperature": 12.9,
+        "sd_temperature": 10.0
     },
     "Beirut": {
         "latitude": 33.9,
         "longitude": 35.5,
-        "mean_temperature": 20.9
+        "mean_temperature": 20.9,
+        "median_temperature": 20.9,
+        "sd_temperature": 10.0
     },
     "Belgrade": {
         "latitude": 44.8,
         "longitude": 20.5,
-        "mean_temperature": 12.5
+        "mean_temperature": 12.5,
+        "median_temperature": 12.5,
+        "sd_temperature": 10.0
     },
     "Belize City": {
         "latitude": 17.5,
         "longitude": -88.2,
-        "mean_temperature": 26.7
+        "mean_temperature": 26.7,
+        "median_temperature": 26.7,
+        "sd_temperature": 10.0
     },
     "Benghazi": {
         "latitude": 32.1,
         "longitude": 20.1,
-        "mean_temperature": 19.9
+        "mean_temperature": 19.9,
+        "median_temperature": 19.9,
+        "sd_temperature": 10.0
     },
     "Bergen": {
         "latitude": 60.4,
         "longitude": 5.3,
-        "mean_temperature": 7.7
+        "mean_temperature": 7.7,
+        "median_temperature": 7.7,
+        "sd_temperature": 10.0
     },
     "Berlin": {
         "latitude": 52.5,
         "longitude": 13.4,
-        "mean_temperature": 10.3
+        "mean_temperature": 10.3,
+        "median_temperature": 10.3,
+        "sd_temperature": 10.0
     },
     "Bilbao": {
         "latitude": 43.3,
         "longitude": -2.0,
-        "mean_temperature": 14.7
+        "mean_temperature": 14.7,
+        "median_temperature": 14.7,
+        "sd_temperature": 10.0
     },
     "Birao": {
         "latitude": 8.6,
         "longitude": 19.5,
-        "mean_temperature": 26.5
+        "mean_temperature": 26.5,
+        "median_temperature": 26.5,
+        "sd_temperature": 10.0
     },
     "Bishkek": {
         "latitude": 42.9,
         "longitude": 74.6,
-        "mean_temperature": 11.3
+        "mean_temperature": 11.3,
+        "median_temperature": 11.3,
+        "sd_temperature": 10.0
     },
     "Bissau": {
         "latitude": 11.8,
         "longitude": -15.6,
-        "mean_temperature": 27.0
+        "mean_temperature": 27.0,
+        "median_temperature": 27.0,
+        "sd_temperature": 10.0
     },
     "Blantyre": {
         "latitude": -15.8,
         "longitude": 35.0,
-        "mean_temperature": 22.2
+        "mean_temperature": 22.2,
+        "median_temperature": 22.2,
+        "sd_temperature": 10.0
     },
     "Bloemfontein": {
         "latitude": -29.1,
         "longitude": 26.2,
-        "mean_temperature": 15.6
+        "mean_temperature": 15.6,
+        "median_temperature": 15.6,
+        "sd_temperature": 10.0
     },
     "Boise": {
         "latitude": 43.6,
         "longitude": -116.2,
-        "mean_temperature": 11.4
+        "mean_temperature": 11.4,
+        "median_temperature": 11.4,
+        "sd_temperature": 10.0
     },
     "Bordeaux": {
         "latitude": 44.8,
         "longitude": -0.6,
-        "mean_temperature": 14.2
+        "mean_temperature": 14.2,
+        "median_temperature": 14.2,
+        "sd_temperature": 10.0
     },
     "Bosaso": {
         "latitude": 11.3,
         "longitude": 49.2,
-        "mean_temperature": 30.0
+        "mean_temperature": 30.0,
+        "median_temperature": 30.0,
+        "sd_temperature": 10.0
     },
     "Boston": {
         "latitude": 42.4,
         "longitude": -71.0,
-        "mean_temperature": 10.9
+        "mean_temperature": 10.9,
+        "median_temperature": 10.9,
+        "sd_temperature": 10.0
     },
     "Bouaké": {
         "latitude": 7.7,
         "longitude": -5.0,
-        "mean_temperature": 26.0
+        "mean_temperature": 26.0,
+        "median_temperature": 26.0,
+        "sd_temperature": 10.0
     },
     "Bratislava": {
         "latitude": 48.1,
         "longitude": 17.1,
-        "mean_temperature": 10.5
+        "mean_temperature": 10.5,
+        "median_temperature": 10.5,
+        "sd_temperature": 10.0
     },
     "Brazzaville": {
         "latitude": -4.3,
         "longitude": 15.3,
-        "mean_temperature": 25.0
+        "mean_temperature": 25.0,
+        "median_temperature": 25.0,
+        "sd_temperature": 10.0
     },
     "Bridgetown": {
         "latitude": 13.1,
         "longitude": -59.6,
-        "mean_temperature": 27.0
+        "mean_temperature": 27.0,
+        "median_temperature": 27.0,
+        "sd_temperature": 10.0
     },
     "Brisbane": {
         "latitude": -27.5,
         "longitude": 153.0,
-        "mean_temperature": 21.4
+        "mean_temperature": 21.4,
+        "median_temperature": 21.4,
+        "sd_temperature": 10.0
     },
     "Brussels": {
         "latitude": 50.8,
         "longitude": 4.4,
-        "mean_temperature": 10.5
+        "mean_temperature": 10.5,
+        "median_temperature": 10.5,
+        "sd_temperature": 10.0
     },
     "Bucharest": {
         "latitude": 44.4,
         "longitude": 26.1,
-        "mean_temperature": 10.8
+        "mean_temperature": 10.8,
+        "median_temperature": 10.8,
+        "sd_temperature": 10.0
     },
     "Budapest": {
         "latitude": 47.5,
         "longitude": 19.0,
-        "mean_temperature": 11.3
+        "mean_temperature": 11.3,
+        "median_temperature": 11.3,
+        "sd_temperature": 10.0
     },
     "Bujumbura": {
         "latitude": -3.4,
         "longitude": 29.9,
-        "mean_temperature": 23.8
+        "mean_temperature": 23.8,
+        "median_temperature": 23.8,
+        "sd_temperature": 10.0
     },
     "Bulawayo": {
         "latitude": -20.1,
         "longitude": 28.6,
-        "mean_temperature": 18.9
+        "mean_temperature": 18.9,
+        "median_temperature": 18.9,
+        "sd_temperature": 10.0
     },
     "Burnie": {
         "latitude": -41.1,
         "longitude": 145.7,
-        "mean_temperature": 13.1
+        "mean_temperature": 13.1,
+        "median_temperature": 13.1,
+        "sd_temperature": 10.0
     },
     "Busan": {
         "latitude": 35.1,
         "longitude": 129.0,
-        "mean_temperature": 15.0
+        "mean_temperature": 15.0,
+        "median_temperature": 15.0,
+        "sd_temperature": 10.0
     },
     "Cabo San Lucas": {
         "latitude": 22.9,
         "longitude": -109.9,
-        "mean_temperature": 23.9
+        "mean_temperature": 23.9,
+        "median_temperature": 23.9,
+        "sd_temperature": 10.0
     },
     "Cairns": {
         "latitude": -16.9,
         "longitude": 145.8,
-        "mean_temperature": 25.0
+        "mean_temperature": 25.0,
+        "median_temperature": 25.0,
+        "sd_temperature": 10.0
     },
     "Cairo": {
         "latitude": 30.0,
         "longitude": 31.2,
-        "mean_temperature": 21.4
+        "mean_temperature": 21.4,
+        "median_temperature": 21.4,
+        "sd_temperature": 10.0
     },
     "Calgary": {
         "latitude": 51.1,
         "longitude": -114.1,
-        "mean_temperature": 4.4
+        "mean_temperature": 4.4,
+        "median_temperature": 4.4,
+        "sd_temperature": 10.0
     },
     "Canberra": {
         "latitude": -35.3,
         "longitude": 149.1,
-        "mean_temperature": 13.1
+        "mean_temperature": 13.1,
+        "median_temperature": 13.1,
+        "sd_temperature": 10.0
     },
     "Cape Town": {
         "latitude": -33.9,
         "longitude": 18.4,
-        "mean_temperature": 16.2
+        "mean_temperature": 16.2,
+        "median_temperature": 16.2,
+        "sd_temperature": 10.0
     },
     "Changsha": {
         "latitude": 28.2,
         "longitude": 112.9,
-        "mean_temperature": 17.4
+        "mean_temperature": 17.4,
+        "median_temperature": 17.4,
+        "sd_temperature": 10.0
     },
     "Charlotte": {
         "latitude": 35.2,
         "longitude": -80.8,
-        "mean_temperature": 16.1
+        "mean_temperature": 16.1,
+        "median_temperature": 16.1,
+        "sd_temperature": 10.0
     },
     "Chiang Mai": {
         "latitude": 18.8,
         "longitude": 98.0,
-        "mean_temperature": 25.8
+        "mean_temperature": 25.8,
+        "median_temperature": 25.8,
+        "sd_temperature": 10.0
     },
     "Chicago": {
         "latitude": 41.9,
         "longitude": -87.6,
-        "mean_temperature": 9.8
+        "mean_temperature": 9.8,
+        "median_temperature": 9.8,
+        "sd_temperature": 10.0
     },
     "Chihuahua": {
         "latitude": 28.6,
         "longitude": -106.1,
-        "mean_temperature": 18.6
+        "mean_temperature": 18.6,
+        "median_temperature": 18.6,
+        "sd_temperature": 10.0
     },
     "Chișinău": {
         "latitude": 47.0,
         "longitude": 28.9,
-        "mean_temperature": 10.2
+        "mean_temperature": 10.2,
+        "median_temperature": 10.2,
+        "sd_temperature": 10.0
     },
     "Chittagong": {
         "latitude": 22.3,
         "longitude": 91.8,
-        "mean_temperature": 25.9
+        "mean_temperature": 25.9,
+        "median_temperature": 25.9,
+        "sd_temperature": 10.0
     },
     "Chongqing": {
         "latitude": 29.6,
         "longitude": 106.5,
-        "mean_temperature": 18.6
+        "mean_temperature": 18.6,
+        "median_temperature": 18.6,
+        "sd_temperature": 10.0
     },
     "Christchurch": {
         "latitude": -43.5,
         "longitude": 172.6,
-        "mean_temperature": 12.2
+        "mean_temperature": 12.2,
+        "median_temperature": 12.2,
+        "sd_temperature": 10.0
     },
     "City of San Marino": {
         "latitude": 43.9,
         "longitude": 12.5,
-        "mean_temperature": 11.8
+        "mean_temperature": 11.8,
+        "median_temperature": 11.8,
+        "sd_temperature": 10.0
     },
     "Colombo": {
         "latitude": 6.9,
         "longitude": 79.9,
-        "mean_temperature": 27.4
+        "mean_temperature": 27.4,
+        "median_temperature": 27.4,
+        "sd_temperature": 10.0
     },
     "Columbus": {
         "latitude": 39.9,
         "longitude": -83.0,
-        "mean_temperature": 11.7
+        "mean_temperature": 11.7,
+        "median_temperature": 11.7,
+        "sd_temperature": 10.0
     },
     "Conakry": {
         "latitude": 9.5,
         "longitude": -13.7,
-        "mean_temperature": 26.4
+        "mean_temperature": 26.4,
+        "median_temperature": 26.4,
+        "sd_temperature": 10.0
     },
     "Copenhagen": {
         "latitude": 55.7,
         "longitude": 12.6,
-        "mean_temperature": 9.1
+        "mean_temperature": 9.1,
+        "median_temperature": 9.1,
+        "sd_temperature": 10.0
     },
     "Cotonou": {
         "latitude": 6.4,
         "longitude": 2.4,
-        "mean_temperature": 27.2
+        "mean_temperature": 27.2,
+        "median_temperature": 27.2,
+        "sd_temperature": 10.0
     },
     "Cracow": {
         "latitude": 50.1,
         "longitude": 19.9,
-        "mean_temperature": 9.3
+        "mean_temperature": 9.3,
+        "median_temperature": 9.3,
+        "sd_temperature": 10.0
     },
     "Da Lat": {
         "latitude": 11.9,
         "longitude": 108.4,
-        "mean_temperature": 17.9
+        "mean_temperature": 17.9,
+        "median_temperature": 17.9,
+        "sd_temperature": 10.0
     },
     "Da Nang": {
         "latitude": 16.1,
         "longitude": 108.2,
-        "mean_temperature": 25.8
+        "mean_temperature": 25.8,
+        "median_temperature": 25.8,
+        "sd_temperature": 10.0
     },
     "Dakar": {
         "latitude": 14.7,
         "longitude": -17.5,
-        "mean_temperature": 24.0
+        "mean_temperature": 24.0,
+        "median_temperature": 24.0,
+        "sd_temperature": 10.0
     },
     "Dallas": {
         "latitude": 32.8,
         "longitude": -96.8,
-        "mean_temperature": 19.0
+        "mean_temperature": 19.0,
+        "median_temperature": 19.0,
+        "sd_temperature": 10.0
     },
     "Damascus": {
         "latitude": 33.5,
         "longitude": 36.3,
-        "mean_temperature": 17.0
+        "mean_temperature": 17.0,
+        "median_temperature": 17.0,
+        "sd_temperature": 10.0
     },
     "Dampier": {
         "latitude": -20.7,
         "longitude": 116.7,
-        "mean_temperature": 26.4
+        "mean_temperature": 26.4,
+        "median_temperature": 26.4,
+        "sd_temperature": 10.0
     },
     "Dar es Salaam": {
         "latitude": -6.8,
         "longitude": 39.3,
-        "mean_temperature": 25.8
+        "mean_temperature": 25.8,
+        "median_temperature": 25.8,
+        "sd_temperature": 10.0
     },
     "Darwin": {
         "latitude": -12.4,
         "longitude": 130.9,
-        "mean_temperature": 27.6
+        "mean_temperature": 27.6,
+        "median_temperature": 27.6,
+        "sd_temperature": 10.0
     },
     "Denpasar": {
         "latitude": -8.7,
         "longitude": 115.2,
-        "mean_temperature": 23.7
+        "mean_temperature": 23.7,
+        "median_temperature": 23.7,
+        "sd_temperature": 10.0
     },
     "Denver": {
         "latitude": 39.7,
         "longitude": -104.9,
-        "mean_temperature": 10.4
+        "mean_temperature": 10.4,
+        "median_temperature": 10.4,
+        "sd_temperature": 10.0
     },
     "Detroit": {
         "latitude": 42.3,
         "longitude": -83.0,
-        "mean_temperature": 10.0
+        "mean_temperature": 10.0,
+        "median_temperature": 10.0,
+        "sd_temperature": 10.0
     },
     "Dhaka": {
         "latitude": 23.8,
         "longitude": 90.4,
-        "mean_temperature": 25.9
+        "mean_temperature": 25.9,
+        "median_temperature": 25.9,
+        "sd_temperature": 10.0
     },
     "Dikson": {
         "latitude": 73.5,
         "longitude": 80.5,
-        "mean_temperature": -11.1
+        "mean_temperature": -11.1,
+        "median_temperature": -11.1,
+        "sd_temperature": 10.0
     },
     "Dili": {
         "latitude": -8.6,
         "longitude": 125.6,
-        "mean_temperature": 26.6
+        "mean_temperature": 26.6,
+        "median_temperature": 26.6,
+        "sd_temperature": 10.0
     },
     "Djibouti": {
         "latitude": 11.6,
         "longitude": 43.2,
-        "mean_temperature": 29.9
+        "mean_temperature": 29.9,
+        "median_temperature": 29.9,
+        "sd_temperature": 10.0
     },
     "Dodoma": {
         "latitude": -6.2,
         "longitude": 35.7,
-        "mean_temperature": 22.7
+        "mean_temperature": 22.7,
+        "median_temperature": 22.7,
+        "sd_temperature": 10.0
     },
     "Dolisie": {
         "latitude": -4.0,
         "longitude": 12.6,
-        "mean_temperature": 24.0
+        "mean_temperature": 24.0,
+        "median_temperature": 24.0,
+        "sd_temperature": 10.0
     },
     "Douala": {
         "latitude": 4.1,
         "longitude": 9.7,
-        "mean_temperature": 26.7
+        "mean_temperature": 26.7,
+        "median_temperature": 26.7,
+        "sd_temperature": 10.0
     },
     "Dubai": {
         "latitude": 25.2,
         "longitude": 55.3,
-        "mean_temperature": 26.9
+        "mean_temperature": 26.9,
+        "median_temperature": 26.9,
+        "sd_temperature": 10.0
     },
     "Dublin": {
         "latitude": 53.3,
         "longitude": -6.2,
-        "mean_temperature": 9.8
+        "mean_temperature": 9.8,
+        "median_temperature": 9.8,
+        "sd_temperature": 10.0
     },
     "Dunedin": {
         "latitude": -45.9,
         "longitude": 170.5,
-        "mean_temperature": 11.1
+        "mean_temperature": 11.1,
+        "median_temperature": 11.1,
+        "sd_temperature": 10.0
     },
     "Durban": {
         "latitude": -29.9,
         "longitude": 31.0,
-        "mean_temperature": 20.6
+        "mean_temperature": 20.6,
+        "median_temperature": 20.6,
+        "sd_temperature": 10.0
     },
     "Dushanbe": {
         "latitude": 38.5,
         "longitude": 68.8,
-        "mean_temperature": 14.7
+        "mean_temperature": 14.7,
+        "median_temperature": 14.7,
+        "sd_temperature": 10.0
     },
     "Edinburgh": {
         "latitude": 55.9,
         "longitude": -3.2,
-        "mean_temperature": 9.3
+        "mean_temperature": 9.3,
+        "median_temperature": 9.3,
+        "sd_temperature": 10.0
     },
     "Edmonton": {
         "latitude": 53.5,
         "longitude": -113.5,
-        "mean_temperature": 4.2
+        "mean_temperature": 4.2,
+        "median_temperature": 4.2,
+        "sd_temperature": 10.0
     },
     "El Paso": {
         "latitude": 31.8,
         "longitude": -106.5,
-        "mean_temperature": 18.1
+        "mean_temperature": 18.1,
+        "median_temperature": 18.1,
+        "sd_temperature": 10.0
     },
     "Entebbe": {
         "latitude": 0.1,
         "longitude": 32.4,
-        "mean_temperature": 21.0
+        "mean_temperature": 21.0,
+        "median_temperature": 21.0,
+        "sd_temperature": 10.0
     },
     "Erbil": {
         "latitude": 36.2,
         "longitude": 43.9,
-        "mean_temperature": 19.5
+        "mean_temperature": 19.5,
+        "median_temperature": 19.5,
+        "sd_temperature": 10.0
     },
     "Erzurum": {
         "latitude": 39.9,
         "longitude": 41.3,
-        "mean_temperature": 5.1
+        "mean_temperature": 5.1,
+        "median_temperature": 5.1,
+        "sd_temperature": 10.0
     },
     "Fairbanks": {
         "latitude": 64.8,
         "longitude": -147.7,
-        "mean_temperature": -2.3
+        "mean_temperature": -2.3,
+        "median_temperature": -2.3,
+        "sd_temperature": 10.0
     },
     "Fianarantsoa": {
         "latitude": -21.4,
         "longitude": 47.0,
-        "mean_temperature": 17.9
+        "mean_temperature": 17.9,
+        "median_temperature": 17.9,
+        "sd_temperature": 10.0
     },
     "Flores Petén": {
         "latitude": 16.9,
         "longitude": -89.9,
-        "mean_temperature": 26.4
+        "mean_temperature": 26.4,
+        "median_temperature": 26.4,
+        "sd_temperature": 10.0
     },
     "Frankfurt": {
         "latitude": 50.1,
         "longitude": 8.7,
-        "mean_temperature": 10.6
+        "mean_temperature": 10.6,
+        "median_temperature": 10.6,
+        "sd_temperature": 10.0
     },
     "Fresno": {
         "latitude": 36.7,
         "longitude": -119.8,
-        "mean_temperature": 17.9
+        "mean_temperature": 17.9,
+        "median_temperature": 17.9,
+        "sd_temperature": 10.0
     },
     "Fukuoka": {
         "latitude": 33.6,
         "longitude": 130.4,
-        "mean_temperature": 17.0
+        "mean_temperature": 17.0,
+        "median_temperature": 17.0,
+        "sd_temperature": 10.0
     },
     "Gabès": {
         "latitude": 33.9,
         "longitude": 10.1,
-        "mean_temperature": 19.5
+        "mean_temperature": 19.5,
+        "median_temperature": 19.5,
+        "sd_temperature": 10.0
     },
     "Gaborone": {
         "latitude": -24.7,
         "longitude": 25.9,
-        "mean_temperature": 21.0
+        "mean_temperature": 21.0,
+        "median_temperature": 21.0,
+        "sd_temperature": 10.0
     },
     "Gagnoa": {
         "latitude": 6.1,
         "longitude": -6.1,
-        "mean_temperature": 26.0
+        "mean_temperature": 26.0,
+        "median_temperature": 26.0,
+        "sd_temperature": 10.0
     },
     "Gangtok": {
         "latitude": 27.3,
         "longitude": 88.6,
-        "mean_temperature": 15.2
+        "mean_temperature": 15.2,
+        "median_temperature": 15.2,
+        "sd_temperature": 10.0
     },
     "Garissa": {
         "latitude": 0.5,
         "longitude": 39.7,
-        "mean_temperature": 29.3
+        "mean_temperature": 29.3,
+        "median_temperature": 29.3,
+        "sd_temperature": 10.0
     },
     "Garoua": {
         "latitude": 10.3,
         "longitude": 13.4,
-        "mean_temperature": 28.3
+        "mean_temperature": 28.3,
+        "median_temperature": 28.3,
+        "sd_temperature": 10.0
     },
     "George Town": {
         "latitude": 19.3,
         "longitude": -81.3,
-        "mean_temperature": 27.9
+        "mean_temperature": 27.9,
+        "median_temperature": 27.9,
+        "sd_temperature": 10.0
     },
     "Ghanzi": {
         "latitude": -21.5,
         "longitude": 21.6,
-        "mean_temperature": 21.4
+        "mean_temperature": 21.4,
+        "median_temperature": 21.4,
+        "sd_temperature": 10.0
     },
     "Gjoa Haven": {
         "latitude": 68.6,
         "longitude": -95.9,
-        "mean_temperature": -14.4
+        "mean_temperature": -14.4,
+        "median_temperature": -14.4,
+        "sd_temperature": 10.0
     },
     "Guadalajara": {
         "latitude": 20.7,
         "longitude": -103.4,
-        "mean_temperature": 20.9
+        "mean_temperature": 20.9,
+        "median_temperature": 20.9,
+        "sd_temperature": 10.0
     },
     "Guangzhou": {
         "latitude": 23.1,
         "longitude": 113.3,
-        "mean_temperature": 22.4
+        "mean_temperature": 22.4,
+        "median_temperature": 22.4,
+        "sd_temperature": 10.0
     },
     "Guatemala City": {
         "latitude": 14.6,
         "longitude": -90.5,
-        "mean_temperature": 20.4
+        "mean_temperature": 20.4,
+        "median_temperature": 20.4,
+        "sd_temperature": 10.0
     },
     "Halifax": {
         "latitude": 44.6,
         "longitude": -63.6,
-        "mean_temperature": 7.5
+        "mean_temperature": 7.5,
+        "median_temperature": 7.5,
+        "sd_temperature": 10.0
     },
     "Hamburg": {
         "latitude": 53.6,
         "longitude": 10.0,
-        "mean_temperature": 9.7
+        "mean_temperature": 9.7,
+        "median_temperature": 9.7,
+        "sd_temperature": 10.0
     },
     "Hamilton": {
         "latitude": -37.8,
         "longitude": 175.3,
-        "mean_temperature": 13.8
+        "mean_temperature": 13.8,
+        "median_temperature": 13.8,
+        "sd_temperature": 10.0
     },
     "Hanga Roa": {
         "latitude": -27.1,
         "longitude": -109.4,
-        "mean_temperature": 20.5
+        "mean_temperature": 20.5,
+        "median_temperature": 20.5,
+        "sd_temperature": 10.0
     },
     "Hanoi": {
         "latitude": 21.0,
         "longitude": 105.8,
-        "mean_temperature": 23.6
+        "mean_temperature": 23.6,
+        "median_temperature": 23.6,
+        "sd_temperature": 10.0
     },
     "Harare": {
         "latitude": -17.8,
         "longitude": 31.0,
-        "mean_temperature": 18.4
+        "mean_temperature": 18.4,
+        "median_temperature": 18.4,
+        "sd_temperature": 10.0
     },
     "Harbin": {
         "latitude": 45.7,
         "longitude": 126.6,
-        "mean_temperature": 5.0
+        "mean_temperature": 5.0,
+        "median_temperature": 5.0,
+        "sd_temperature": 10.0
     },
     "Hargeisa": {
         "latitude": 9.5,
         "longitude": 44.0,
-        "mean_temperature": 21.7
+        "mean_temperature": 21.7,
+        "median_temperature": 21.7,
+        "sd_temperature": 10.0
     },
     "Hat Yai": {
         "latitude": 6.9,
         "longitude": 100.4,
-        "mean_temperature": 27.0
+        "mean_temperature": 27.0,
+        "median_temperature": 27.0,
+        "sd_temperature": 10.0
     },
     "Havana": {
         "latitude": 23.1,
         "longitude": -82.4,
-        "mean_temperature": 25.2
+        "mean_temperature": 25.2,
+        "median_temperature": 25.2,
+        "sd_temperature": 10.0
     },
     "Helsinki": {
         "latitude": 60.2,
         "longitude": 24.9,
-        "mean_temperature": 5.9
+        "mean_temperature": 5.9,
+        "median_temperature": 5.9,
+        "sd_temperature": 10.0
     },
     "Heraklion": {
         "latitude": 35.3,
         "longitude": 25.1,
-        "mean_temperature": 18.9
+        "mean_temperature": 18.9,
+        "median_temperature": 18.9,
+        "sd_temperature": 10.0
     },
     "Hiroshima": {
         "latitude": 34.4,
         "longitude": 132.5,
-        "mean_temperature": 16.3
+        "mean_temperature": 16.3,
+        "median_temperature": 16.3,
+        "sd_temperature": 10.0
     },
     "Ho Chi Minh City": {
         "latitude": 10.8,
         "longitude": 106.7,
-        "mean_temperature": 27.4
+        "mean_temperature": 27.4,
+        "median_temperature": 27.4,
+        "sd_temperature": 10.0
     },
     "Hobart": {
         "latitude": -42.9,
         "longitude": 147.3,
-        "mean_temperature": 12.7
+        "mean_temperature": 12.7,
+        "median_temperature": 12.7,
+        "sd_temperature": 10.0
     },
     "Hong Kong": {
         "latitude": 22.3,
         "longitude": 114.2,
-        "mean_temperature": 23.3
+        "mean_temperature": 23.3,
+        "median_temperature": 23.3,
+        "sd_temperature": 10.0
     },
     "Honiara": {
         "latitude": -9.4,
         "longitude": 159.9,
-        "mean_temperature": 26.5
+        "mean_temperature": 26.5,
+        "median_temperature": 26.5,
+        "sd_temperature": 10.0
     },
     "Honolulu": {
         "latitude": 21.3,
         "longitude": -157.8,
-        "mean_temperature": 25.4
+        "mean_temperature": 25.4,
+        "median_temperature": 25.4,
+        "sd_temperature": 10.0
     },
     "Houston": {
         "latitude": 29.8,
         "longitude": -95.4,
-        "mean_temperature": 20.8
+        "mean_temperature": 20.8,
+        "median_temperature": 20.8,
+        "sd_temperature": 10.0
     },
     "Ifrane": {
         "latitude": 32.0,
         "longitude": -5.1,
-        "mean_temperature": 11.4
+        "mean_temperature": 11.4,
+        "median_temperature": 11.4,
+        "sd_temperature": 10.0
     },
     "Indianapolis": {
         "latitude": 39.8,
         "longitude": -86.2,
-        "mean_temperature": 11.8
+        "mean_temperature": 11.8,
+        "median_temperature": 11.8,
+        "sd_temperature": 10.0
     },
     "Iqaluit": {
         "latitude": 63.7,
         "longitude": -68.5,
-        "mean_temperature": -9.3
+        "mean_temperature": -9.3,
+        "median_temperature": -9.3,
+        "sd_temperature": 10.0
     },
     "Irkutsk": {
         "latitude": 52.3,
         "longitude": 104.3,
-        "mean_temperature": 1.0
+        "mean_temperature": 1.0,
+        "median_temperature": 1.0,
+        "sd_temperature": 10.0
     },
     "Istanbul": {
         "latitude": 41.0,
         "longitude": 28.9,
-        "mean_temperature": 13.9
+        "mean_temperature": 13.9,
+        "median_temperature": 13.9,
+        "sd_temperature": 10.0
     },
     "İzmir": {
         "latitude": 38.4,
         "longitude": 27.1,
-        "mean_temperature": 17.9
+        "mean_temperature": 17.9,
+        "median_temperature": 17.9,
+        "sd_temperature": 10.0
     },
     "Jacksonville": {
         "latitude": 30.3,
         "longitude": -81.7,
-        "mean_temperature": 20.3
+        "mean_temperature": 20.3,
+        "median_temperature": 20.3,
+        "sd_temperature": 10.0
     },
     "Jakarta": {
         "latitude": -6.2,
         "longitude": 106.8,
-        "mean_temperature": 26.7
+        "mean_temperature": 26.7,
+        "median_temperature": 26.7,
+        "sd_temperature": 10.0
     },
     "Jayapura": {
         "latitude": -2.5,
         "longitude": 140.7,
-        "mean_temperature": 27.0
+        "mean_temperature": 27.0,
+        "median_temperature": 27.0,
+        "sd_temperature": 10.0
     },
     "Jerusalem": {
         "latitude": 31.8,
         "longitude": 35.2,
-        "mean_temperature": 18.3
+        "mean_temperature": 18.3,
+        "median_temperature": 18.3,
+        "sd_temperature": 10.0
     },
     "Johannesburg": {
         "latitude": -26.2,
         "longitude": 28.0,
-        "mean_temperature": 15.5
+        "mean_temperature": 15.5,
+        "median_temperature": 15.5,
+        "sd_temperature": 10.0
     },
     "Jos": {
         "latitude": 9.9,
         "longitude": 9.3,
-        "mean_temperature": 22.8
+        "mean_temperature": 22.8,
+        "median_temperature": 22.8,
+        "sd_temperature": 10.0
     },
     "Juba": {
         "latitude": 4.9,
         "longitude": 31.6,
-        "mean_temperature": 27.8
+        "mean_temperature": 27.8,
+        "median_temperature": 27.8,
+        "sd_temperature": 10.0
     },
     "Kabul": {
         "latitude": 34.5,
         "longitude": 69.2,
-        "mean_temperature": 12.1
+        "mean_temperature": 12.1,
+        "median_temperature": 12.1,
+        "sd_temperature": 10.0
     },
     "Kampala": {
         "latitude": 0.3,
         "longitude": 32.6,
-        "mean_temperature": 20.0
+        "mean_temperature": 20.0,
+        "median_temperature": 20.0,
+        "sd_temperature": 10.0
     },
     "Kandi": {
         "latitude": 11.2,
         "longitude": 3.0,
-        "mean_temperature": 27.7
+        "mean_temperature": 27.7,
+        "median_temperature": 27.7,
+        "sd_temperature": 10.0
     },
     "Kankan": {
         "latitude": 10.4,
         "longitude": -9.3,
-        "mean_temperature": 26.5
+        "mean_temperature": 26.5,
+        "median_temperature": 26.5,
+        "sd_temperature": 10.0
     },
     "Kano": {
         "latitude": 12.0,
         "longitude": 8.5,
-        "mean_temperature": 26.4
+        "mean_temperature": 26.4,
+        "median_temperature": 26.4,
+        "sd_temperature": 10.0
     },
     "Kansas City": {
         "latitude": 39.1,
         "longitude": -94.6,
-        "mean_temperature": 12.5
+        "mean_temperature": 12.5,
+        "median_temperature": 12.5,
+        "sd_temperature": 10.0
     },
     "Karachi": {
         "latitude": 24.9,
         "longitude": 67.0,
-        "mean_temperature": 26.0
+        "mean_temperature": 26.0,
+        "median_temperature": 26.0,
+        "sd_temperature": 10.0
     },
     "Karonga": {
         "latitude": -9.9,
         "longitude": 33.9,
-        "mean_temperature": 24.4
+        "mean_temperature": 24.4,
+        "median_temperature": 24.4,
+        "sd_temperature": 10.0
     },
     "Kathmandu": {
         "latitude": 27.7,
         "longitude": 85.3,
-        "mean_temperature": 18.3
+        "mean_temperature": 18.3,
+        "median_temperature": 18.3,
+        "sd_temperature": 10.0
     },
     "Khartoum": {
         "latitude": 15.5,
         "longitude": 32.5,
-        "mean_temperature": 29.9
+        "mean_temperature": 29.9,
+        "median_temperature": 29.9,
+        "sd_temperature": 10.0
     },
     "Kingston": {
         "latitude": 17.9,
         "longitude": -76.8,
-        "mean_temperature": 27.4
+        "mean_temperature": 27.4,
+        "median_temperature": 27.4,
+        "sd_temperature": 10.0
     },
     "Kinshasa": {
         "latitude": -4.3,
         "longitude": 15.3,
-        "mean_temperature": 25.3
+        "mean_temperature": 25.3,
+        "median_temperature": 25.3,
+        "sd_temperature": 10.0
     },
     "Kolkata": {
         "latitude": 22.6,
         "longitude": 88.4,
-        "mean_temperature": 26.7
+        "mean_temperature": 26.7,
+        "median_temperature": 26.7,
+        "sd_temperature": 10.0
     },
     "Kuala Lumpur": {
         "latitude": 3.1,
         "longitude": 101.7,
-        "mean_temperature": 27.3
+        "mean_temperature": 27.3,
+        "median_temperature": 27.3,
+        "sd_temperature": 10.0
     },
     "Kumasi": {
         "latitude": 6.7,
         "longitude": -1.6,
-        "mean_temperature": 26.0
+        "mean_temperature": 26.0,
+        "median_temperature": 26.0,
+        "sd_temperature": 10.0
     },
     "Kunming": {
         "latitude": 25.0,
         "longitude": 102.7,
-        "mean_temperature": 15.7
+        "mean_temperature": 15.7,
+        "median_temperature": 15.7,
+        "sd_temperature": 10.0
     },
     "Kuopio": {
         "latitude": 62.9,
         "longitude": 27.6,
-        "mean_temperature": 3.4
+        "mean_temperature": 3.4,
+        "median_temperature": 3.4,
+        "sd_temperature": 10.0
     },
     "Kuwait City": {
         "latitude": 29.4,
         "longitude": 47.9,
-        "mean_temperature": 25.7
+        "mean_temperature": 25.7,
+        "median_temperature": 25.7,
+        "sd_temperature": 10.0
     },
     "Kyiv": {
         "latitude": 50.5,
         "longitude": 30.5,
-        "mean_temperature": 8.4
+        "mean_temperature": 8.4,
+        "median_temperature": 8.4,
+        "sd_temperature": 10.0
     },
     "Kyoto": {
         "latitude": 35.0,
         "longitude": 135.8,
-        "mean_temperature": 15.8
+        "mean_temperature": 15.8,
+        "median_temperature": 15.8,
+        "sd_temperature": 10.0
     },
     "La Ceiba": {
         "latitude": 15.8,
         "longitude": -85.7,
-        "mean_temperature": 26.2
+        "mean_temperature": 26.2,
+        "median_temperature": 26.2,
+        "sd_temperature": 10.0
     },
     "La Paz": {
         "latitude": -16.5,
         "longitude": -68.1,
-        "mean_temperature": 23.7
+        "mean_temperature": 23.7,
+        "median_temperature": 23.7,
+        "sd_temperature": 10.0
     },
     "Lagos": {
         "latitude": 6.5,
         "longitude": 3.4,
-        "mean_temperature": 26.8
+        "mean_temperature": 26.8,
+        "median_temperature": 26.8,
+        "sd_temperature": 10.0
     },
     "Lahore": {
         "latitude": 31.6,
         "longitude": 74.3,
-        "mean_temperature": 24.3
+        "mean_temperature": 24.3,
+        "median_temperature": 24.3,
+        "sd_temperature": 10.0
     },
     "Lake Havasu City": {
         "latitude": 34.5,
         "longitude": -113.9,
-        "mean_temperature": 23.7
+        "mean_temperature": 23.7,
+        "median_temperature": 23.7,
+        "sd_temperature": 10.0
     },
     "Lake Tekapo": {
         "latitude": -43.9,
         "longitude": 170.5,
-        "mean_temperature": 8.7
+        "mean_temperature": 8.7,
+        "median_temperature": 8.7,
+        "sd_temperature": 10.0
     },
     "Las Palmas de Gran Canaria": {
         "latitude": 28.1,
         "longitude": -15.4,
-        "mean_temperature": 21.2
+        "mean_temperature": 21.2,
+        "median_temperature": 21.2,
+        "sd_temperature": 10.0
     },
     "Las Vegas": {
         "latitude": 36.2,
         "longitude": -115.1,
-        "mean_temperature": 20.3
+        "mean_temperature": 20.3,
+        "median_temperature": 20.3,
+        "sd_temperature": 10.0
     },
     "Launceston": {
         "latitude": -41.4,
         "longitude": 147.1,
-        "mean_temperature": 13.1
+        "mean_temperature": 13.1,
+        "median_temperature": 13.1,
+        "sd_temperature": 10.0
     },
     "Lhasa": {
         "latitude": 29.7,
         "longitude": 95.3,
-        "mean_temperature": 7.6
+        "mean_temperature": 7.6,
+        "median_temperature": 7.6,
+        "sd_temperature": 10.0
     },
     "Libreville": {
         "latitude": 0.4,
         "longitude": 9.4,
-        "mean_temperature": 25.9
+        "mean_temperature": 25.9,
+        "median_temperature": 25.9,
+        "sd_temperature": 10.0
     },
     "Lisbon": {
         "latitude": 38.7,
         "longitude": -9.1,
-        "mean_temperature": 17.5
+        "mean_temperature": 17.5,
+        "median_temperature": 17.5,
+        "sd_temperature": 10.0
     },
     "Livingstone": {
         "latitude": -17.8,
         "longitude": 25.8,
-        "mean_temperature": 21.8
+        "mean_temperature": 21.8,
+        "median_temperature": 21.8,
+        "sd_temperature": 10.0
     },
     "Ljubljana": {
         "latitude": 46.0,
         "longitude": 14.5,
-        "mean_temperature": 10.9
+        "mean_temperature": 10.9,
+        "median_temperature": 10.9,
+        "sd_temperature": 10.0
     },
     "Lodwar": {
         "latitude": 3.1,
         "longitude": 36.0,
-        "mean_temperature": 29.3
+        "mean_temperature": 29.3,
+        "median_temperature": 29.3,
+        "sd_temperature": 10.0
     },
     "Lomé": {
         "latitude": 6.1,
         "longitude": 1.2,
-        "mean_temperature": 26.9
+        "mean_temperature": 26.9,
+        "median_temperature": 26.9,
+        "sd_temperature": 10.0
     },
     "London": {
         "latitude": 51.5,
         "longitude": -0.1,
-        "mean_temperature": 11.3
+        "mean_temperature": 11.3,
+        "median_temperature": 11.3,
+        "sd_temperature": 10.0
     },
     "Los Angeles": {
         "latitude": 34.1,
         "longitude": -118.2,
-        "mean_temperature": 18.6
+        "mean_temperature": 18.6,
+        "median_temperature": 18.6,
+        "sd_temperature": 10.0
     },
     "Louisville": {
         "latitude": 38.3,
         "longitude": -85.7,
-        "mean_temperature": 13.9
+        "mean_temperature": 13.9,
+        "median_temperature": 13.9,
+        "sd_temperature": 10.0
     },
     "Luanda": {
         "latitude": -8.8,
         "longitude": 13.2,
-        "mean_temperature": 25.8
+        "mean_temperature": 25.8,
+        "median_temperature": 25.8,
+        "sd_temperature": 10.0
     },
     "Lubumbashi": {
         "latitude": -11.6,
         "longitude": 27.5,
-        "mean_temperature": 20.8
+        "mean_temperature": 20.8,
+        "median_temperature": 20.8,
+        "sd_temperature": 10.0
     },
     "Lusaka": {
         "latitude": -15.4,
         "longitude": 28.3,
-        "mean_temperature": 19.9
+        "mean_temperature": 19.9,
+        "median_temperature": 19.9,
+        "sd_temperature": 10.0
     },
     "Luxembourg City": {
         "latitude": 49.6,
         "longitude": 6.1,
-        "mean_temperature": 9.3
+        "mean_temperature": 9.3,
+        "median_temperature": 9.3,
+        "sd_temperature": 10.0
     },
     "Lviv": {
         "latitude": 49.8,
         "longitude": 24.0,
-        "mean_temperature": 7.8
+        "mean_temperature": 7.8,
+        "median_temperature": 7.8,
+        "sd_temperature": 10.0
     },
     "Lyon": {
         "latitude": 45.7,
         "longitude": 4.8,
-        "mean_temperature": 12.5
+        "mean_temperature": 12.5,
+        "median_temperature": 12.5,
+        "sd_temperature": 10.0
     },
     "Madrid": {
         "latitude": 40.4,
         "longitude": -3.7,
-        "mean_temperature": 15.0
+        "mean_temperature": 15.0,
+        "median_temperature": 15.0,
+        "sd_temperature": 10.0
     },
     "Mahajanga": {
         "latitude": -15.7,
         "longitude": 46.3,
-        "mean_temperature": 26.3
+        "mean_temperature": 26.3,
+        "median_temperature": 26.3,
+        "sd_temperature": 10.0
     },
     "Makassar": {
         "latitude": -5.1,
         "longitude": 119.4,
-        "mean_temperature": 26.7
+        "mean_temperature": 26.7,
+        "median_temperature": 26.7,
+        "sd_temperature": 10.0
     },
     "Makurdi": {
         "latitude": 7.7,
         "longitude": 8.5,
-        "mean_temperature": 26.0
+        "mean_temperature": 26.0,
+        "median_temperature": 26.0,
+        "sd_temperature": 10.0
     },
     "Malabo": {
         "latitude": 3.7,
         "longitude": 8.8,
-        "mean_temperature": 26.3
+        "mean_temperature": 26.3,
+        "median_temperature": 26.3,
+        "sd_temperature": 10.0
     },
     "Malé": {
         "latitude": 4.2,
         "longitude": 73.5,
-        "mean_temperature": 28.0
+        "mean_temperature": 28.0,
+        "median_temperature": 28.0,
+        "sd_temperature": 10.0
     },
     "Managua": {
         "latitude": 12.1,
         "longitude": -86.3,
-        "mean_temperature": 27.3
+        "mean_temperature": 27.3,
+        "median_temperature": 27.3,
+        "sd_temperature": 10.0
     },
     "Manama": {
         "latitude": 26.2,
         "longitude": 50.6,
-        "mean_temperature": 26.5
+        "mean_temperature": 26.5,
+        "median_temperature": 26.5,
+        "sd_temperature": 10.0
     },
     "Mandalay": {
         "latitude": 21.9,
         "longitude": 96.1,
-        "mean_temperature": 28.0
+        "mean_temperature": 28.0,
+        "median_temperature": 28.0,
+        "sd_temperature": 10.0
     },
     "Mango": {
         "latitude": 10.4,
         "longitude": 0.0,
-        "mean_temperature": 28.1
+        "mean_temperature": 28.1,
+        "median_temperature": 28.1,
+        "sd_temperature": 10.0
     },
     "Manila": {
         "latitude": 14.6,
         "longitude": 120.9,
-        "mean_temperature": 28.4
+        "mean_temperature": 28.4,
+        "median_temperature": 28.4,
+        "sd_temperature": 10.0
     },
     "Maputo": {
         "latitude": -25.9,
         "longitude": 32.6,
-        "mean_temperature": 22.8
+        "mean_temperature": 22.8,
+        "median_temperature": 22.8,
+        "sd_temperature": 10.0
     },
     "Marrakesh": {
         "latitude": 31.6,
         "longitude": -8.0,
-        "mean_temperature": 19.6
+        "mean_temperature": 19.6,
+        "median_temperature": 19.6,
+        "sd_temperature": 10.0
     },
     "Marseille": {
         "latitude": 43.3,
         "longitude": 5.4,
-        "mean_temperature": 15.8
+        "mean_temperature": 15.8,
+        "median_temperature": 15.8,
+        "sd_temperature": 10.0
     },
     "Maun": {
         "latitude": -20.0,
         "longitude": 23.4,
-        "mean_temperature": 22.4
+        "mean_temperature": 22.4,
+        "median_temperature": 22.4,
+        "sd_temperature": 10.0
     },
     "Medan": {
         "latitude": 3.6,
         "longitude": 98.7,
-        "mean_temperature": 26.5
+        "mean_temperature": 26.5,
+        "median_temperature": 26.5,
+        "sd_temperature": 10.0
     },
     "Mek'ele": {
         "latitude": 13.5,
         "longitude": 39.5,
-        "mean_temperature": 22.7
+        "mean_temperature": 22.7,
+        "median_temperature": 22.7,
+        "sd_temperature": 10.0
     },
     "Melbourne": {
         "latitude": -37.8,
         "longitude": 144.9,
-        "mean_temperature": 15.1
+        "mean_temperature": 15.1,
+        "median_temperature": 15.1,
+        "sd_temperature": 10.0
     },
     "Memphis": {
         "latitude": 35.1,
         "longitude": -90.0,
-        "mean_temperature": 17.2
+        "mean_temperature": 17.2,
+        "median_temperature": 17.2,
+        "sd_temperature": 10.0
     },
     "Mexicali": {
         "latitude": 32.7,
         "longitude": -115.5,
-        "mean_temperature": 23.1
+        "mean_temperature": 23.1,
+        "median_temperature": 23.1,
+        "sd_temperature": 10.0
     },
     "Mexico City": {
         "latitude": 19.4,
         "longitude": -99.1,
-        "mean_temperature": 17.5
+        "mean_temperature": 17.5,
+        "median_temperature": 17.5,
+        "sd_temperature": 10.0
     },
     "Miami": {
         "latitude": 25.8,
         "longitude": -80.2,
-        "mean_temperature": 24.9
+        "mean_temperature": 24.9,
+        "median_temperature": 24.9,
+        "sd_temperature": 10.0
     },
     "Milan": {
         "latitude": 45.5,
         "longitude": 9.2,
-        "mean_temperature": 13.0
+        "mean_temperature": 13.0,
+        "median_temperature": 13.0,
+        "sd_temperature": 10.0
     },
     "Milwaukee": {
         "latitude": 43.0,
         "longitude": -87.9,
-        "mean_temperature": 8.9
+        "mean_temperature": 8.9,
+        "median_temperature": 8.9,
+        "sd_temperature": 10.0
     },
     "Minneapolis": {
         "latitude": 44.9,
         "longitude": -93.3,
-        "mean_temperature": 7.8
+        "mean_temperature": 7.8,
+        "median_temperature": 7.8,
+        "sd_temperature": 10.0
     },
     "Minsk": {
         "latitude": 53.9,
         "longitude": 27.6,
-        "mean_temperature": 6.7
+        "mean_temperature": 6.7,
+        "median_temperature": 6.7,
+        "sd_temperature": 10.0
     },
     "Mogadishu": {
         "latitude": 2.0,
         "longitude": 45.3,
-        "mean_temperature": 27.1
+        "mean_temperature": 27.1,
+        "median_temperature": 27.1,
+        "sd_temperature": 10.0
     },
     "Mombasa": {
         "latitude": -4.0,
         "longitude": 39.7,
-        "mean_temperature": 26.3
+        "mean_temperature": 26.3,
+        "median_temperature": 26.3,
+        "sd_temperature": 10.0
     },
     "Monaco": {
         "latitude": 43.7,
         "longitude": 7.4,
-        "mean_temperature": 16.4
+        "mean_temperature": 16.4,
+        "median_temperature": 16.4,
+        "sd_temperature": 10.0
     },
     "Moncton": {
         "latitude": 46.1,
         "longitude": -64.8,
-        "mean_temperature": 6.1
+        "mean_temperature": 6.1,
+        "median_temperature": 6.1,
+        "sd_temperature": 10.0
     },
     "Monterrey": {
         "latitude": 25.7,
         "longitude": -100.3,
-        "mean_temperature": 22.3
+        "mean_temperature": 22.3,
+        "median_temperature": 22.3,
+        "sd_temperature": 10.0
     },
     "Montreal": {
         "latitude": 45.5,
         "longitude": -73.6,
-        "mean_temperature": 6.8
+        "mean_temperature": 6.8,
+        "median_temperature": 6.8,
+        "sd_temperature": 10.0
     },
     "Moscow": {
         "latitude": 55.8,
         "longitude": 37.6,
-        "mean_temperature": 5.8
+        "mean_temperature": 5.8,
+        "median_temperature": 5.8,
+        "sd_temperature": 10.0
     },
     "Mumbai": {
         "latitude": 19.0,
         "longitude": 72.9,
-        "mean_temperature": 27.1
+        "mean_temperature": 27.1,
+        "median_temperature": 27.1,
+        "sd_temperature": 10.0
     },
     "Murmansk": {
         "latitude": 68.9,
         "longitude": 33.1,
-        "mean_temperature": 0.6
+        "mean_temperature": 0.6,
+        "median_temperature": 0.6,
+        "sd_temperature": 10.0
     },
     "Muscat": {
         "latitude": 23.6,
         "longitude": 58.6,
-        "mean_temperature": 28.0
+        "mean_temperature": 28.0,
+        "median_temperature": 28.0,
+        "sd_temperature": 10.0
     },
     "Mzuzu": {
         "latitude": -11.4,
         "longitude": 34.0,
-        "mean_temperature": 17.7
+        "mean_temperature": 17.7,
+        "median_temperature": 17.7,
+        "sd_temperature": 10.0
     },
     "N'Djamena": {
         "latitude": 12.1,
         "longitude": 15.0,
-        "mean_temperature": 28.3
+        "mean_temperature": 28.3,
+        "median_temperature": 28.3,
+        "sd_temperature": 10.0
     },
     "Naha": {
         "latitude": 26.2,
         "longitude": 127.7,
-        "mean_temperature": 23.1
+        "mean_temperature": 23.1,
+        "median_temperature": 23.1,
+        "sd_temperature": 10.0
     },
     "Nairobi": {
         "latitude": -1.3,
         "longitude": 36.8,
-        "mean_temperature": 17.8
+        "mean_temperature": 17.8,
+        "median_temperature": 17.8,
+        "sd_temperature": 10.0
     },
     "Nakhon Ratchasima": {
         "latitude": 14.9,
         "longitude": 102.0,
-        "mean_temperature": 27.3
+        "mean_temperature": 27.3,
+        "median_temperature": 27.3,
+        "sd_temperature": 10.0
     },
     "Napier": {
         "latitude": -39.5,
         "longitude": 176.9,
-        "mean_temperature": 14.6
+        "mean_temperature": 14.6,
+        "median_temperature": 14.6,
+        "sd_temperature": 10.0
     },
     "Napoli": {
         "latitude": 40.9,
         "longitude": 14.8,
-        "mean_temperature": 15.9
+        "mean_temperature": 15.9,
+        "median_temperature": 15.9,
+        "sd_temperature": 10.0
     },
     "Nashville": {
         "latitude": 36.2,
         "longitude": -86.8,
-        "mean_temperature": 15.4
+        "mean_temperature": 15.4,
+        "median_temperature": 15.4,
+        "sd_temperature": 10.0
     },
     "Nassau": {
         "latitude": 25.1,
         "longitude": -77.4,
-        "mean_temperature": 24.6
+        "mean_temperature": 24.6,
+        "median_temperature": 24.6,
+        "sd_temperature": 10.0
     },
     "Ndola": {
         "latitude": -12.9,
         "longitude": 28.6,
-        "mean_temperature": 20.3
+        "mean_temperature": 20.3,
+        "median_temperature": 20.3,
+        "sd_temperature": 10.0
     },
     "New Delhi": {
         "latitude": 28.6,
         "longitude": 77.2,
-        "mean_temperature": 25.0
+        "mean_temperature": 25.0,
+        "median_temperature": 25.0,
+        "sd_temperature": 10.0
     },
     "New Orleans": {
         "latitude": 30.0,
         "longitude": -90.0,
-        "mean_temperature": 20.7
+        "mean_temperature": 20.7,
+        "median_temperature": 20.7,
+        "sd_temperature": 10.0
     },
     "New York City": {
         "latitude": 40.7,
         "longitude": -74.0,
-        "mean_temperature": 12.9
+        "mean_temperature": 12.9,
+        "median_temperature": 12.9,
+        "sd_temperature": 10.0
     },
     "Ngaoundéré": {
         "latitude": 5.6,
         "longitude": 13.6,
-        "mean_temperature": 22.0
+        "mean_temperature": 22.0,
+        "median_temperature": 22.0,
+        "sd_temperature": 10.0
     },
     "Niamey": {
         "latitude": 13.5,
         "longitude": 2.1,
-        "mean_temperature": 29.3
+        "mean_temperature": 29.3,
+        "median_temperature": 29.3,
+        "sd_temperature": 10.0
     },
     "Nicosia": {
         "latitude": 35.2,
         "longitude": 33.4,
-        "mean_temperature": 19.7
+        "mean_temperature": 19.7,
+        "median_temperature": 19.7,
+        "sd_temperature": 10.0
     },
     "Niigata": {
         "latitude": 37.9,
         "longitude": 139.0,
-        "mean_temperature": 13.9
+        "mean_temperature": 13.9,
+        "median_temperature": 13.9,
+        "sd_temperature": 10.0
     },
     "Nouadhibou": {
         "latitude": 20.9,
         "longitude": -17.0,
-        "mean_temperature": 21.3
+        "mean_temperature": 21.3,
+        "median_temperature": 21.3,
+        "sd_temperature": 10.0
     },
     "Nouakchott": {
         "latitude": 18.1,
         "longitude": -15.9,
-        "mean_temperature": 25.7
+        "mean_temperature": 25.7,
+        "median_temperature": 25.7,
+        "sd_temperature": 10.0
     },
     "Novosibirsk": {
         "latitude": 55.0,
         "longitude": 82.9,
-        "mean_temperature": 1.7
+        "mean_temperature": 1.7,
+        "median_temperature": 1.7,
+        "sd_temperature": 10.0
     },
     "Nuuk": {
         "latitude": 64.2,
         "longitude": -51.7,
-        "mean_temperature": -1.4
+        "mean_temperature": -1.4,
+        "median_temperature": -1.4,
+        "sd_temperature": 10.0
     },
     "Odesa": {
         "latitude": 46.5,
         "longitude": 30.7,
-        "mean_temperature": 10.7
+        "mean_temperature": 10.7,
+        "median_temperature": 10.7,
+        "sd_temperature": 10.0
     },
     "Odienné": {
         "latitude": 9.4,
         "longitude": -7.6,
-        "mean_temperature": 26.0
+        "mean_temperature": 26.0,
+        "median_temperature": 26.0,
+        "sd_temperature": 10.0
     },
     "Oklahoma City": {
         "latitude": 35.5,
         "longitude": -97.5,
-        "mean_temperature": 15.9
+        "mean_temperature": 15.9,
+        "median_temperature": 15.9,
+        "sd_temperature": 10.0
     },
     "Omaha": {
         "latitude": 41.3,
         "longitude": -95.9,
-        "mean_temperature": 10.6
+        "mean_temperature": 10.6,
+        "median_temperature": 10.6,
+        "sd_temperature": 10.0
     },
     "Oranjestad": {
         "latitude": 12.5,
         "longitude": -70.0,
-        "mean_temperature": 28.1
+        "mean_temperature": 28.1,
+        "median_temperature": 28.1,
+        "sd_temperature": 10.0
     },
     "Oslo": {
         "latitude": 59.9,
         "longitude": 10.8,
-        "mean_temperature": 5.7
+        "mean_temperature": 5.7,
+        "median_temperature": 5.7,
+        "sd_temperature": 10.0
     },
     "Ottawa": {
         "latitude": 45.4,
         "longitude": -75.7,
-        "mean_temperature": 6.6
+        "mean_temperature": 6.6,
+        "median_temperature": 6.6,
+        "sd_temperature": 10.0
     },
     "Ouagadougou": {
         "latitude": 12.4,
         "longitude": -1.5,
-        "mean_temperature": 28.3
+        "mean_temperature": 28.3,
+        "median_temperature": 28.3,
+        "sd_temperature": 10.0
     },
     "Ouahigouya": {
         "latitude": 13.6,
         "longitude": -2.5,
-        "mean_temperature": 28.6
+        "mean_temperature": 28.6,
+        "median_temperature": 28.6,
+        "sd_temperature": 10.0
     },
     "Ouarzazate": {
         "latitude": 30.9,
         "longitude": -6.9,
-        "mean_temperature": 18.9
+        "mean_temperature": 18.9,
+        "median_temperature": 18.9,
+        "sd_temperature": 10.0
     },
     "Oulu": {
         "latitude": 65.0,
         "longitude": 25.5,
-        "mean_temperature": 2.7
+        "mean_temperature": 2.7,
+        "median_temperature": 2.7,
+        "sd_temperature": 10.0
     },
     "Palembang": {
         "latitude": -3.0,
         "longitude": 104.8,
-        "mean_temperature": 27.3
+        "mean_temperature": 27.3,
+        "median_temperature": 27.3,
+        "sd_temperature": 10.0
     },
     "Palermo": {
         "latitude": 38.1,
         "longitude": 13.4,
-        "mean_temperature": 18.5
+        "mean_temperature": 18.5,
+        "median_temperature": 18.5,
+        "sd_temperature": 10.0
     },
     "Palm Springs": {
         "latitude": 33.8,
         "longitude": -116.5,
-        "mean_temperature": 24.5
+        "mean_temperature": 24.5,
+        "median_temperature": 24.5,
+        "sd_temperature": 10.0
     },
     "Palmerston North": {
         "latitude": -40.4,
         "longitude": 175.6,
-        "mean_temperature": 13.2
+        "mean_temperature": 13.2,
+        "median_temperature": 13.2,
+        "sd_temperature": 10.0
     },
     "Panama City": {
         "latitude": 8.9,
         "longitude": -79.5,
-        "mean_temperature": 28.0
+        "mean_temperature": 28.0,
+        "median_temperature": 28.0,
+        "sd_temperature": 10.0
     },
     "Parakou": {
         "latitude": 9.3,
         "longitude": 2.6,
-        "mean_temperature": 26.8
+        "mean_temperature": 26.8,
+        "median_temperature": 26.8,
+        "sd_temperature": 10.0
     },
     "Paris": {
         "latitude": 48.9,
         "longitude": 2.4,
-        "mean_temperature": 12.3
+        "mean_temperature": 12.3,
+        "median_temperature": 12.3,
+        "sd_temperature": 10.0
     },
     "Perth": {
         "latitude": -31.9,
         "longitude": 115.9,
-        "mean_temperature": 18.7
+        "mean_temperature": 18.7,
+        "median_temperature": 18.7,
+        "sd_temperature": 10.0
     },
     "Petropavlovsk-Kamchatsky": {
         "latitude": 53.0,
         "longitude": 158.6,
-        "mean_temperature": 1.9
+        "mean_temperature": 1.9,
+        "median_temperature": 1.9,
+        "sd_temperature": 10.0
     },
     "Philadelphia": {
         "latitude": 39.9,
         "longitude": -75.1,
-        "mean_temperature": 13.2
+        "mean_temperature": 13.2,
+        "median_temperature": 13.2,
+        "sd_temperature": 10.0
     },
     "Phnom Penh": {
         "latitude": 11.5,
         "longitude": 104.9,
-        "mean_temperature": 28.3
+        "mean_temperature": 28.3,
+        "median_temperature": 28.3,
+        "sd_temperature": 10.0
     },
     "Phoenix": {
         "latitude": 33.5,
         "longitude": -112.1,
-        "mean_temperature": 23.9
+        "mean_temperature": 23.9,
+        "median_temperature": 23.9,
+        "sd_temperature": 10.0
     },
     "Pittsburgh": {
         "latitude": 40.4,
         "longitude": -79.9,
-        "mean_temperature": 10.8
+        "mean_temperature": 10.8,
+        "median_temperature": 10.8,
+        "sd_temperature": 10.0
     },
     "Podgorica": {
         "latitude": 42.5,
         "longitude": 19.3,
-        "mean_temperature": 15.3
+        "mean_temperature": 15.3,
+        "median_temperature": 15.3,
+        "sd_temperature": 10.0
     },
     "Pointe-Noire": {
         "latitude": -4.8,
         "longitude": 11.9,
-        "mean_temperature": 26.1
+        "mean_temperature": 26.1,
+        "median_temperature": 26.1,
+        "sd_temperature": 10.0
     },
     "Pontianak": {
         "latitude": -0.0,
         "longitude": 109.3,
-        "mean_temperature": 27.7
+        "mean_temperature": 27.7,
+        "median_temperature": 27.7,
+        "sd_temperature": 10.0
     },
     "Port Moresby": {
         "latitude": -9.4,
         "longitude": 147.2,
-        "mean_temperature": 26.9
+        "mean_temperature": 26.9,
+        "median_temperature": 26.9,
+        "sd_temperature": 10.0
     },
     "Port Sudan": {
         "latitude": 19.6,
         "longitude": 37.2,
-        "mean_temperature": 28.4
+        "mean_temperature": 28.4,
+        "median_temperature": 28.4,
+        "sd_temperature": 10.0
     },
     "Port Vila": {
         "latitude": -17.7,
         "longitude": 168.3,
-        "mean_temperature": 24.3
+        "mean_temperature": 24.3,
+        "median_temperature": 24.3,
+        "sd_temperature": 10.0
     },
     "Port-Gentil": {
         "latitude": -0.7,
         "longitude": 8.8,
-        "mean_temperature": 26.0
+        "mean_temperature": 26.0,
+        "median_temperature": 26.0,
+        "sd_temperature": 10.0
     },
     "Portland (OR)": {
         "latitude": 45.5,
         "longitude": -122.7,
-        "mean_temperature": 12.4
+        "mean_temperature": 12.4,
+        "median_temperature": 12.4,
+        "sd_temperature": 10.0
     },
     "Porto": {
         "latitude": 41.1,
         "longitude": -8.6,
-        "mean_temperature": 15.7
+        "mean_temperature": 15.7,
+        "median_temperature": 15.7,
+        "sd_temperature": 10.0
     },
     "Prague": {
         "latitude": 50.1,
         "longitude": 14.5,
-        "mean_temperature": 8.4
+        "mean_temperature": 8.4,
+        "median_temperature": 8.4,
+        "sd_temperature": 10.0
     },
     "Praia": {
         "latitude": 14.9,
         "longitude": -23.5,
-        "mean_temperature": 24.4
+        "mean_temperature": 24.4,
+        "median_temperature": 24.4,
+        "sd_temperature": 10.0
     },
     "Pretoria": {
         "latitude": -25.7,
         "longitude": 28.2,
-        "mean_temperature": 18.2
+        "mean_temperature": 18.2,
+        "median_temperature": 18.2,
+        "sd_temperature": 10.0
     },
     "Pyongyang": {
         "latitude": 39.0,
         "longitude": 125.8,
-        "mean_temperature": 10.8
+        "mean_temperature": 10.8,
+        "median_temperature": 10.8,
+        "sd_temperature": 10.0
     },
     "Rabat": {
         "latitude": 34.0,
         "longitude": -6.8,
-        "mean_temperature": 17.2
+        "mean_temperature": 17.2,
+        "median_temperature": 17.2,
+        "sd_temperature": 10.0
     },
     "Rangpur": {
         "latitude": 25.7,
         "longitude": 89.2,
-        "mean_temperature": 24.4
+        "mean_temperature": 24.4,
+        "median_temperature": 24.4,
+        "sd_temperature": 10.0
     },
     "Reggane": {
         "latitude": 27.3,
         "longitude": 2.7,
-        "mean_temperature": 28.3
+        "mean_temperature": 28.3,
+        "median_temperature": 28.3,
+        "sd_temperature": 10.0
     },
     "Reykjavík": {
         "latitude": 64.1,
         "longitude": -21.9,
-        "mean_temperature": 4.3
+        "mean_temperature": 4.3,
+        "median_temperature": 4.3,
+        "sd_temperature": 10.0
     },
     "Riga": {
         "latitude": 56.9,
         "longitude": 24.1,
-        "mean_temperature": 6.2
+        "mean_temperature": 6.2,
+        "median_temperature": 6.2,
+        "sd_temperature": 10.0
     },
     "Riyadh": {
         "latitude": 24.7,
         "longitude": 46.7,
-        "mean_temperature": 26.0
+        "mean_temperature": 26.0,
+        "median_temperature": 26.0,
+        "sd_temperature": 10.0
     },
     "Rome": {
         "latitude": 41.9,
         "longitude": 12.5,
-        "mean_temperature": 15.2
+        "mean_temperature": 15.2,
+        "median_temperature": 15.2,
+        "sd_temperature": 10.0
     },
     "Roseau": {
         "latitude": 15.3,
         "longitude": -61.4,
-        "mean_temperature": 26.2
+        "mean_temperature": 26.2,
+        "median_temperature": 26.2,
+        "sd_temperature": 10.0
     },
     "Rostov-on-Don": {
         "latitude": 47.2,
         "longitude": 39.7,
-        "mean_temperature": 9.9
+        "mean_temperature": 9.9,
+        "median_temperature": 9.9,
+        "sd_temperature": 10.0
     },
     "Sacramento": {
         "latitude": 38.6,
         "longitude": -121.5,
-        "mean_temperature": 16.3
+        "mean_temperature": 16.3,
+        "median_temperature": 16.3,
+        "sd_temperature": 10.0
     },
     "Saint Petersburg": {
         "latitude": 59.9,
         "longitude": 30.3,
-        "mean_temperature": 5.8
+        "mean_temperature": 5.8,
+        "median_temperature": 5.8,
+        "sd_temperature": 10.0
     },
     "Saint-Pierre": {
         "latitude": -21.3,
         "longitude": 55.5,
-        "mean_temperature": 5.7
+        "mean_temperature": 5.7,
+        "median_temperature": 5.7,
+        "sd_temperature": 10.0
     },
     "Salt Lake City": {
         "latitude": 40.8,
         "longitude": -111.9,
-        "mean_temperature": 11.6
+        "mean_temperature": 11.6,
+        "median_temperature": 11.6,
+        "sd_temperature": 10.0
     },
     "San Antonio": {
         "latitude": 29.4,
         "longitude": -98.5,
-        "mean_temperature": 20.8
+        "mean_temperature": 20.8,
+        "median_temperature": 20.8,
+        "sd_temperature": 10.0
     },
     "San Diego": {
         "latitude": 32.7,
         "longitude": -117.2,
-        "mean_temperature": 17.8
+        "mean_temperature": 17.8,
+        "median_temperature": 17.8,
+        "sd_temperature": 10.0
     },
     "San Francisco": {
         "latitude": 37.8,
         "longitude": -122.4,
-        "mean_temperature": 14.6
+        "mean_temperature": 14.6,
+        "median_temperature": 14.6,
+        "sd_temperature": 10.0
     },
     "San Jose": {
         "latitude": 37.3,
         "longitude": -121.9,
-        "mean_temperature": 16.4
+        "mean_temperature": 16.4,
+        "median_temperature": 16.4,
+        "sd_temperature": 10.0
     },
     "San José": {
         "latitude": 9.9,
         "longitude": -84.1,
-        "mean_temperature": 22.6
+        "mean_temperature": 22.6,
+        "median_temperature": 22.6,
+        "sd_temperature": 10.0
     },
     "San Juan": {
         "latitude": 18.5,
         "longitude": -66.1,
-        "mean_temperature": 27.2
+        "mean_temperature": 27.2,
+        "median_temperature": 27.2,
+        "sd_temperature": 10.0
     },
     "San Salvador": {
         "latitude": 13.7,
         "longitude": -89.2,
-        "mean_temperature": 23.1
+        "mean_temperature": 23.1,
+        "median_temperature": 23.1,
+        "sd_temperature": 10.0
     },
     "Sana'a": {
         "latitude": 15.4,
         "longitude": 44.2,
-        "mean_temperature": 20.0
+        "mean_temperature": 20.0,
+        "median_temperature": 20.0,
+        "sd_temperature": 10.0
     },
     "Santo Domingo": {
         "latitude": 18.5,
         "longitude": -69.9,
-        "mean_temperature": 25.9
+        "mean_temperature": 25.9,
+        "median_temperature": 25.9,
+        "sd_temperature": 10.0
     },
     "Sapporo": {
         "latitude": 43.0,
         "longitude": 141.3,
-        "mean_temperature": 8.9
+        "mean_temperature": 8.9,
+        "median_temperature": 8.9,
+        "sd_temperature": 10.0
     },
     "Sarajevo": {
         "latitude": 43.8,
         "longitude": 18.4,
-        "mean_temperature": 10.1
+        "mean_temperature": 10.1,
+        "median_temperature": 10.1,
+        "sd_temperature": 10.0
     },
     "Saskatoon": {
         "latitude": 52.1,
         "longitude": -106.7,
-        "mean_temperature": 3.3
+        "mean_temperature": 3.3,
+        "median_temperature": 3.3,
+        "sd_temperature": 10.0
     },
     "Seattle": {
         "latitude": 47.6,
         "longitude": -122.3,
-        "mean_temperature": 11.3
+        "mean_temperature": 11.3,
+        "median_temperature": 11.3,
+        "sd_temperature": 10.0
     },
     "Ségou": {
         "latitude": 13.4,
         "longitude": -6.2,
-        "mean_temperature": 28.0
+        "mean_temperature": 28.0,
+        "median_temperature": 28.0,
+        "sd_temperature": 10.0
     },
     "Seoul": {
         "latitude": 37.5,
         "longitude": 126.9,
-        "mean_temperature": 12.5
+        "mean_temperature": 12.5,
+        "median_temperature": 12.5,
+        "sd_temperature": 10.0
     },
     "Seville": {
         "latitude": 37.4,
         "longitude": -5.9,
-        "mean_temperature": 19.2
+        "mean_temperature": 19.2,
+        "median_temperature": 19.2,
+        "sd_temperature": 10.0
     },
     "Shanghai": {
         "latitude": 31.2,
         "longitude": 121.5,
-        "mean_temperature": 16.7
+        "mean_temperature": 16.7,
+        "median_temperature": 16.7,
+        "sd_temperature": 10.0
     },
     "Singapore": {
         "latitude": 1.3,
         "longitude": 103.8,
-        "mean_temperature": 27.0
+        "mean_temperature": 27.0,
+        "median_temperature": 27.0,
+        "sd_temperature": 10.0
     },
     "Skopje": {
         "latitude": 41.6,
         "longitude": 21.7,
-        "mean_temperature": 12.4
+        "mean_temperature": 12.4,
+        "median_temperature": 12.4,
+        "sd_temperature": 10.0
     },
     "Sochi": {
         "latitude": 43.6,
         "longitude": 39.7,
-        "mean_temperature": 14.2
+        "mean_temperature": 14.2,
+        "median_temperature": 14.2,
+        "sd_temperature": 10.0
     },
     "Sofia": {
         "latitude": 42.7,
         "longitude": 23.3,
-        "mean_temperature": 10.6
+        "mean_temperature": 10.6,
+        "median_temperature": 10.6,
+        "sd_temperature": 10.0
     },
     "Sokoto": {
         "latitude": 13.0,
         "longitude": 5.2,
-        "mean_temperature": 28.0
+        "mean_temperature": 28.0,
+        "median_temperature": 28.0,
+        "sd_temperature": 10.0
     },
     "Split": {
         "latitude": 43.5,
         "longitude": 16.4,
-        "mean_temperature": 16.1
+        "mean_temperature": 16.1,
+        "median_temperature": 16.1,
+        "sd_temperature": 10.0
     },
     "St. John's": {
         "latitude": 17.1,
         "longitude": -61.8,
-        "mean_temperature": 5.0
+        "mean_temperature": 5.0,
+        "median_temperature": 5.0,
+        "sd_temperature": 10.0
     },
     "St. Louis": {
         "latitude": 38.6,
         "longitude": -90.2,
-        "mean_temperature": 13.9
+        "mean_temperature": 13.9,
+        "median_temperature": 13.9,
+        "sd_temperature": 10.0
     },
     "Stockholm": {
         "latitude": 59.3,
         "longitude": 18.1,
-        "mean_temperature": 6.6
+        "mean_temperature": 6.6,
+        "median_temperature": 6.6,
+        "sd_temperature": 10.0
     },
     "Surabaya": {
         "latitude": -7.3,
         "longitude": 112.8,
-        "mean_temperature": 27.1
+        "mean_temperature": 27.1,
+        "median_temperature": 27.1,
+        "sd_temperature": 10.0
     },
     "Suva": {
         "latitude": -18.1,
         "longitude": 178.4,
-        "mean_temperature": 25.6
+        "mean_temperature": 25.6,
+        "median_temperature": 25.6,
+        "sd_temperature": 10.0
     },
     "Suwałki": {
         "latitude": 54.1,
         "longitude": 22.9,
-        "mean_temperature": 7.2
+        "mean_temperature": 7.2,
+        "median_temperature": 7.2,
+        "sd_temperature": 10.0
     },
     "Sydney": {
         "latitude": -33.9,
         "longitude": 151.2,
-        "mean_temperature": 17.7
+        "mean_temperature": 17.7,
+        "median_temperature": 17.7,
+        "sd_temperature": 10.0
     },
     "Tabora": {
         "latitude": -5.0,
         "longitude": 32.4,
-        "mean_temperature": 23.0
+        "mean_temperature": 23.0,
+        "median_temperature": 23.0,
+        "sd_temperature": 10.0
     },
     "Tabriz": {
         "latitude": 38.1,
         "longitude": 46.3,
-        "mean_temperature": 12.6
+        "mean_temperature": 12.6,
+        "median_temperature": 12.6,
+        "sd_temperature": 10.0
     },
     "Taipei": {
         "latitude": 25.0,
         "longitude": 121.5,
-        "mean_temperature": 23.0
+        "mean_temperature": 23.0,
+        "median_temperature": 23.0,
+        "sd_temperature": 10.0
     },
     "Tallinn": {
         "latitude": 59.4,
         "longitude": 24.8,
-        "mean_temperature": 6.4
+        "mean_temperature": 6.4,
+        "median_temperature": 6.4,
+        "sd_temperature": 10.0
     },
     "Tamale": {
         "latitude": 9.4,
         "longitude": -0.8,
-        "mean_temperature": 27.9
+        "mean_temperature": 27.9,
+        "median_temperature": 27.9,
+        "sd_temperature": 10.0
     },
     "Tamanrasset": {
         "latitude": 22.8,
         "longitude": 5.5,
-        "mean_temperature": 21.7
+        "mean_temperature": 21.7,
+        "median_temperature": 21.7,
+        "sd_temperature": 10.0
     },
     "Tampa": {
         "latitude": 27.9,
         "longitude": -82.5,
-        "mean_temperature": 22.9
+        "mean_temperature": 22.9,
+        "median_temperature": 22.9,
+        "sd_temperature": 10.0
     },
     "Tashkent": {
         "latitude": 41.3,
         "longitude": 69.3,
-        "mean_temperature": 14.8
+        "mean_temperature": 14.8,
+        "median_temperature": 14.8,
+        "sd_temperature": 10.0
     },
     "Tauranga": {
         "latitude": -37.7,
         "longitude": 176.2,
-        "mean_temperature": 14.8
+        "mean_temperature": 14.8,
+        "median_temperature": 14.8,
+        "sd_temperature": 10.0
     },
     "Tbilisi": {
         "latitude": 41.7,
         "longitude": 44.8,
-        "mean_temperature": 12.9
+        "mean_temperature": 12.9,
+        "median_temperature": 12.9,
+        "sd_temperature": 10.0
     },
     "Tegucigalpa": {
         "latitude": 13.9,
         "longitude": -86.5,
-        "mean_temperature": 21.7
+        "mean_temperature": 21.7,
+        "median_temperature": 21.7,
+        "sd_temperature": 10.0
     },
     "Tehran": {
         "latitude": 35.7,
         "longitude": 51.4,
-        "mean_temperature": 17.0
+        "mean_temperature": 17.0,
+        "median_temperature": 17.0,
+        "sd_temperature": 10.0
     },
     "Tel Aviv": {
         "latitude": 32.1,
         "longitude": 34.8,
-        "mean_temperature": 20.0
+        "mean_temperature": 20.0,
+        "median_temperature": 20.0,
+        "sd_temperature": 10.0
     },
     "Thessaloniki": {
         "latitude": 40.6,
         "longitude": 22.9,
-        "mean_temperature": 16.0
+        "mean_temperature": 16.0,
+        "median_temperature": 16.0,
+        "sd_temperature": 10.0
     },
     "Thiès": {
         "latitude": 14.8,
         "longitude": -16.9,
-        "mean_temperature": 24.0
+        "mean_temperature": 24.0,
+        "median_temperature": 24.0,
+        "sd_temperature": 10.0
     },
     "Tijuana": {
         "latitude": 32.5,
         "longitude": -117.0,
-        "mean_temperature": 17.8
+        "mean_temperature": 17.8,
+        "median_temperature": 17.8,
+        "sd_temperature": 10.0
     },
     "Timbuktu": {
         "latitude": 16.8,
         "longitude": -3.0,
-        "mean_temperature": 28.0
+        "mean_temperature": 28.0,
+        "median_temperature": 28.0,
+        "sd_temperature": 10.0
     },
     "Tirana": {
         "latitude": 41.3,
         "longitude": 19.8,
-        "mean_temperature": 15.2
+        "mean_temperature": 15.2,
+        "median_temperature": 15.2,
+        "sd_temperature": 10.0
     },
     "Toamasina": {
         "latitude": -18.1,
         "longitude": 49.4,
-        "mean_temperature": 23.4
+        "mean_temperature": 23.4,
+        "median_temperature": 23.4,
+        "sd_temperature": 10.0
     },
     "Tokyo": {
         "latitude": 35.7,
         "longitude": 139.7,
-        "mean_temperature": 15.4
+        "mean_temperature": 15.4,
+        "median_temperature": 15.4,
+        "sd_temperature": 10.0
     },
     "Toliara": {
         "latitude": -23.4,
         "longitude": 43.7,
-        "mean_temperature": 24.1
+        "mean_temperature": 24.1,
+        "median_temperature": 24.1,
+        "sd_temperature": 10.0
     },
     "Toluca": {
         "latitude": 19.3,
         "longitude": -99.7,
-        "mean_temperature": 12.4
+        "mean_temperature": 12.4,
+        "median_temperature": 12.4,
+        "sd_temperature": 10.0
     },
     "Toronto": {
         "latitude": 43.7,
         "longitude": -79.4,
-        "mean_temperature": 9.4
+        "mean_temperature": 9.4,
+        "median_temperature": 9.4,
+        "sd_temperature": 10.0
     },
     "Tripoli": {
         "latitude": 32.9,
         "longitude": 13.2,
-        "mean_temperature": 20.0
+        "mean_temperature": 20.0,
+        "median_temperature": 20.0,
+        "sd_temperature": 10.0
     },
     "Tromsø": {
         "latitude": 69.6,
         "longitude": 18.9,
-        "mean_temperature": 2.9
+        "mean_temperature": 2.9,
+        "median_temperature": 2.9,
+        "sd_temperature": 10.0
     },
     "Tucson": {
         "latitude": 32.2,
         "longitude": -110.9,
-        "mean_temperature": 20.9
+        "mean_temperature": 20.9,
+        "median_temperature": 20.9,
+        "sd_temperature": 10.0
     },
     "Tunis": {
         "latitude": 36.8,
         "longitude": 10.2,
-        "mean_temperature": 18.4
+        "mean_temperature": 18.4,
+        "median_temperature": 18.4,
+        "sd_temperature": 10.0
     },
     "Ulaanbaatar": {
         "latitude": 47.9,
         "longitude": 106.9,
-        "mean_temperature": -0.4
+        "mean_temperature": -0.4,
+        "median_temperature": -0.4,
+        "sd_temperature": 10.0
     },
     "Upington": {
         "latitude": -28.5,
         "longitude": 21.3,
-        "mean_temperature": 20.4
+        "mean_temperature": 20.4,
+        "median_temperature": 20.4,
+        "sd_temperature": 10.0
     },
     "Ürümqi": {
         "latitude": 43.8,
         "longitude": 87.6,
-        "mean_temperature": 7.4
+        "mean_temperature": 7.4,
+        "median_temperature": 7.4,
+        "sd_temperature": 10.0
     },
     "Vaduz": {
         "latitude": 47.1,
         "longitude": 9.5,
-        "mean_temperature": 10.1
+        "mean_temperature": 10.1,
+        "median_temperature": 10.1,
+        "sd_temperature": 10.0
     },
     "Valencia": {
         "latitude": 39.5,
         "longitude": -0.4,
-        "mean_temperature": 18.3
+        "mean_temperature": 18.3,
+        "median_temperature": 18.3,
+        "sd_temperature": 10.0
     },
     "Valletta": {
         "latitude": 35.9,
         "longitude": 14.5,
-        "mean_temperature": 18.8
+        "mean_temperature": 18.8,
+        "median_temperature": 18.8,
+        "sd_temperature": 10.0
     },
     "Vancouver": {
         "latitude": 49.3,
         "longitude": -123.1,
-        "mean_temperature": 10.4
+        "mean_temperature": 10.4,
+        "median_temperature": 10.4,
+        "sd_temperature": 10.0
     },
     "Veracruz": {
         "latitude": 19.2,
         "longitude": -96.1,
-        "mean_temperature": 25.4
+        "mean_temperature": 25.4,
+        "median_temperature": 25.4,
+        "sd_temperature": 10.0
     },
     "Vienna": {
         "latitude": 48.2,
         "longitude": 16.4,
-        "mean_temperature": 10.4
+        "mean_temperature": 10.4,
+        "median_temperature": 10.4,
+        "sd_temperature": 10.0
     },
     "Vientiane": {
         "latitude": 17.9,
         "longitude": 102.6,
-        "mean_temperature": 25.9
+        "mean_temperature": 25.9,
+        "median_temperature": 25.9,
+        "sd_temperature": 10.0
     },
     "Villahermosa": {
         "latitude": 17.9,
         "longitude": -92.9,
-        "mean_temperature": 27.1
+        "mean_temperature": 27.1,
+        "median_temperature": 27.1,
+        "sd_temperature": 10.0
     },
     "Vilnius": {
         "latitude": 54.9,
         "longitude": 25.3,
-        "mean_temperature": 6.0
+        "mean_temperature": 6.0,
+        "median_temperature": 6.0,
+        "sd_temperature": 10.0
     },
     "Virginia Beach": {
         "latitude": 36.8,
         "longitude": -75.9,
-        "mean_temperature": 15.8
+        "mean_temperature": 15.8,
+        "median_temperature": 15.8,
+        "sd_temperature": 10.0
     },
     "Vladivostok": {
         "latitude": 43.1,
         "longitude": 131.9,
-        "mean_temperature": 4.9
+        "mean_temperature": 4.9,
+        "median_temperature": 4.9,
+        "sd_temperature": 10.0
     },
     "Warsaw": {
         "latitude": 52.2,
         "longitude": 21.0,
-        "mean_temperature": 8.5
+        "mean_temperature": 8.5,
+        "median_temperature": 8.5,
+        "sd_temperature": 10.0
     },
-    "WashingtonDC": {
+    "Washington DC": {
         "latitude": 38.9,
         "longitude": -77.0,
-        "mean_temperature": 14.6
+        "mean_temperature": 14.6,
+        "median_temperature": 14.6,
+        "sd_temperature": 10.0
     },
     "Wau": {
         "latitude": 7.0,
         "longitude": 28.0,
-        "mean_temperature": 27.8
+        "mean_temperature": 27.8,
+        "median_temperature": 27.8,
+        "sd_temperature": 10.0
     },
     "Wellington": {
         "latitude": -41.3,
         "longitude": 174.8,
-        "mean_temperature": 12.9
+        "mean_temperature": 12.9,
+        "median_temperature": 12.9,
+        "sd_temperature": 10.0
     },
     "Whitehorse": {
         "latitude": 60.7,
         "longitude": -135.1,
-        "mean_temperature": -0.1
+        "mean_temperature": -0.1,
+        "median_temperature": -0.1,
+        "sd_temperature": 10.0
     },
     "Wichita": {
         "latitude": 37.7,
         "longitude": -97.3,
-        "mean_temperature": 13.9
+        "mean_temperature": 13.9,
+        "median_temperature": 13.9,
+        "sd_temperature": 10.0
     },
     "Willemstad": {
         "latitude": 12.1,
         "longitude": -68.9,
-        "mean_temperature": 28.0
+        "mean_temperature": 28.0,
+        "median_temperature": 28.0,
+        "sd_temperature": 10.0
     },
     "Winnipeg": {
         "latitude": 49.9,
         "longitude": -97.1,
-        "mean_temperature": 3.0
+        "mean_temperature": 3.0,
+        "median_temperature": 3.0,
+        "sd_temperature": 10.0
     },
     "Wrocław": {
         "latitude": 51.1,
         "longitude": 17.0,
-        "mean_temperature": 9.6
+        "mean_temperature": 9.6,
+        "median_temperature": 9.6,
+        "sd_temperature": 10.0
     },
     "Xi'an": {
         "latitude": 34.3,
         "longitude": 108.9,
-        "mean_temperature": 14.1
+        "mean_temperature": 14.1,
+        "median_temperature": 14.1,
+        "sd_temperature": 10.0
     },
     "Yakutsk": {
         "latitude": 62.0,
         "longitude": 129.7,
-        "mean_temperature": -8.8
+        "mean_temperature": -8.8,
+        "median_temperature": -8.8,
+        "sd_temperature": 10.0
     },
     "Yangon": {
         "latitude": 16.8,
         "longitude": 96.2,
-        "mean_temperature": 27.5
+        "mean_temperature": 27.5,
+        "median_temperature": 27.5,
+        "sd_temperature": 10.0
     },
     "Yaoundé": {
         "latitude": 3.8,
         "longitude": 11.5,
-        "mean_temperature": 23.8
+        "mean_temperature": 23.8,
+        "median_temperature": 23.8,
+        "sd_temperature": 10.0
     },
     "Yellowknife": {
         "latitude": 62.5,
         "longitude": -114.4,
-        "mean_temperature": -4.3
+        "mean_temperature": -4.3,
+        "median_temperature": -4.3,
+        "sd_temperature": 10.0
     },
     "Yerevan": {
         "latitude": 40.2,
         "longitude": 44.5,
-        "mean_temperature": 12.4
+        "mean_temperature": 12.4,
+        "median_temperature": 12.4,
+        "sd_temperature": 10.0
     },
     "Yinchuan": {
         "latitude": 38.5,
         "longitude": 106.1,
-        "mean_temperature": 9.0
+        "mean_temperature": 9.0,
+        "median_temperature": 9.0,
+        "sd_temperature": 10.0
     },
     "Zagreb": {
         "latitude": 45.8,
         "longitude": 16.0,
-        "mean_temperature": 10.7
+        "mean_temperature": 10.7,
+        "median_temperature": 10.7,
+        "sd_temperature": 10.0
     },
     "Zanzibar City": {
         "latitude": -6.2,
         "longitude": 39.2,
-        "mean_temperature": 26.0
+        "mean_temperature": 26.0,
+        "median_temperature": 26.0,
+        "sd_temperature": 10.0
     },
     "Zürich": {
         "latitude": 47.4,
         "longitude": 8.5,
-        "mean_temperature": 9.3
+        "mean_temperature": 9.3,
+        "median_temperature": 9.3,
+        "sd_temperature": 10.0
     }
 }

@@ -393,7 +393,7 @@
         ("Virginia Beach", 15.8),
         ("Vladivostok", 4.9),
         ("Warsaw", 8.5),
-        ("WashingtonDC", 14.6),
+        ("Washington DC", 14.6),
         ("Wau", 27.8),
         ("Wellington", 12.9),
         ("Whitehorse", -0.1),
