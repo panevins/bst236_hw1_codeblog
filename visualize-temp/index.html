@@ -50,12 +50,12 @@
             align-items: center;
         }
         #chartContainer {
-            height: 55%;
+            height: 45%;
             width: 80%;
         }
         #infoContainer {
             width: 80%;
-            height: 20%;
+            height: 30%;
             padding: 10px;
             box-sizing: border-box;
             background-color: rgba(255, 255, 255, 0);
@@ -71,7 +71,7 @@
         }
         #descriptionContainer {
             height: 40%;
-            width: 80%;
+            width: 90%;
             padding: 10px;
             box-sizing: border-box;
             background-color: rgba(240, 240, 240, 0);
@@ -94,7 +94,7 @@
         </div>
         <!-- Chart container -->
         <div id="chartContainer">
-            <canvas id="myChart5test"></canvas>
+            <canvas id="myChart"></canvas>
         </div>
         <div id="bininputcontainer">
             <div>
@@ -109,7 +109,7 @@
     </div>
     <div id="rightContainer">
         <div id="descriptionContainer">
-            <p>This webpage is an interactive visualization dashboard describing temperatures across different cities globally. The original data is a set of cities and mean temperatures; the median, min, and max are all obtained by adding Normal(0, sd=10) jitter to the means and then calculating the statistics. Select the statistic to visualize using the dropdown menu.</p>
+            <p>This webpage is an interactive visualization dashboard describing temperatures across different cities globally. The original data is a set of cities and their mean temperatures; the median, min, and max are all obtained by adding Normal(0, sd=10) jitter to the means and then calculating the statistics. Select the statistic to visualize using the dropdown menu.</p>
             <p> You can adjust the number of bins in the histogram to see more detailed or more generalized temperature ranges. Click on any bar to get some facts about the temperature category, and to show on the map the locations of the cities in the category.</p>
             <p>The visualization is created using Chart.js and Leaflet.js. Visit our homework repo for source code.</p>
             <button onclick="window.location.href='https://github.com/hsph-bst236/homework-3-pixel-master-hackers'">Go to homework repo</button>
@@ -119,6 +119,6 @@
             <div id="map" style="width: 100%; height: 100%;"></div>
         </div>
     </div>
-    <script src="src/chart5test.js"></script>
+    <script src="src/chart5.js"></script>
 </body>
 </html>
