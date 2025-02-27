@@ -50,7 +50,7 @@
             align-items: center;
         }
         #chartContainer {
-            height: 45%;
+            height: 55%;
             width: 80%;
         }
         #infoContainer {
@@ -59,10 +59,10 @@
             padding: 10px;
             box-sizing: border-box;
             background-color: rgba(255, 255, 255, 0);
-            font-size: 0.75em;
+            font-size: 0.9em;
         }
         #mapContainer {
-            height: 65%;
+            height: 60%;
             width: 100%;
         }
         canvas {
@@ -70,7 +70,7 @@
             height: 100%;
         }
         #descriptionContainer {
-            height: 35%;
+            height: 40%;
             width: 80%;
             padding: 10px;
             box-sizing: border-box;
@@ -85,11 +85,13 @@
             <h1>Visualizing World Temperatures</h1>
             <button onclick="window.location.href='../index.html'">Back to homepage</button>
         </div>
-        <select id="temperatureType">
+        <div style="width: 80%; display: flex; justify-content: center;">
+            <select id="temperatureType">
             <option value="mean_temperature">Mean Temperature</option>
             <option value="median_temperature">Median Temperature</option>
             <option value="sd_temperature">SD Temperature</option>
-        </select>
+            </select>
+        </div>
         <!-- Chart container -->
         <div id="chartContainer">
             <canvas id="myChart5test"></canvas>
@@ -107,7 +109,7 @@
     </div>
     <div id="rightContainer">
         <div id="descriptionContainer">
-            <p>This webpage is an interactive visualization dashboard describing the distribution of mean temperatures across different cities globally.</p>
+            <p>This webpage is an interactive visualization dashboard describing temperatures across different cities globally. The original data is a set of cities and mean temperatures; the median, min, and max are all obtained by adding Normal(0, sd=10) jitter to the means and then calculating the statistics. Select the statistic to visualize using the dropdown menu.</p>
             <p> You can adjust the number of bins in the histogram to see more detailed or more generalized temperature ranges. Click on any bar to get some facts about the temperature category, and to show on the map the locations of the cities in the category.</p>
             <p>The visualization is created using Chart.js and Leaflet.js. Visit our homework repo for source code.</p>
             <button onclick="window.location.href='https://github.com/hsph-bst236/homework-3-pixel-master-hackers'">Go to homework repo</button>
