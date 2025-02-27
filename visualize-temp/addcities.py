@@ -1,3 +1,7 @@
+# This python script reads data from text files, processes the data, and combines it into a single JSON file.
+# The text files from the previous problems are used as input in the raw-data folder.
+# cities.txt contains latitude/longitude for each city from a ChatGPT query and may contain some errors
+
 import json
 
 # File paths
@@ -23,7 +27,8 @@ try:
                 latitude, longitude = map(float, coords.split(','))
                 
                 # Add the city data to the dictionary
-                city_name = city.split(',')[0]  # Extract the city name without the country
+                city_name = city.rsplit(',', 1)[0]  # Extract everything before the last comma
+                city_name = city_name.strip().replace(',', '')  # Remove commas from city names
                 cities_data[city_name] = {
                     'latitude': latitude,
                     'longitude': longitude
@@ -49,7 +54,8 @@ for line in meantemps_lines:
     try:
         # Remove unwanted characters and split the line
         line = line.strip().strip('(),')
-        city, temp = line.split(', ')
+        city, temp = line.split('", ')
+        city = city.strip().replace(',', '')  # Remove commas from city names
         city = city.strip('"')
         temp = float(temp)
         mean_temps[city] = temp
@@ -69,8 +75,10 @@ except FileNotFoundError:
 python_temps = {}
 try:
     python_temps_content = python_temps_content.strip('{}')
-    for item in python_temps_content.split(', '):
+    for item in python_temps_content.split('0, '):
         city, temps = item.split('=')
+        city = city.strip().replace(',', '')  # Remove commas from city names
+        city = city.strip().replace('  ', ' ')  # Remove extra spaces
         city = city.strip()
         median, sd = map(float, temps.split('/'))
         python_temps[city] = {
