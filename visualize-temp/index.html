@@ -55,10 +55,11 @@
         }
         #infoContainer {
             width: 80%;
-            height: 30%;
+            height: 20%;
             padding: 10px;
             box-sizing: border-box;
             background-color: rgba(255, 255, 255, 0);
+            font-size: 0.75em;
         }
         #mapContainer {
             height: 65%;
@@ -84,10 +85,14 @@
             <h1>Visualizing World Temperatures</h1>
             <button onclick="window.location.href='../index.html'">Back to homepage</button>
         </div>
-        
+        <select id="temperatureType">
+            <option value="mean_temperature">Mean Temperature</option>
+            <option value="median_temperature">Median Temperature</option>
+            <option value="sd_temperature">SD Temperature</option>
+        </select>
         <!-- Chart container -->
         <div id="chartContainer">
-            <canvas id="myChart5copy"></canvas>
+            <canvas id="myChart5test"></canvas>
         </div>
         <div id="bininputcontainer">
             <div>
@@ -112,6 +117,6 @@
             <div id="map" style="width: 100%; height: 100%;"></div>
         </div>
     </div>
-    <script src="src/chart5copy.js"></script>
+    <script src="src/chart5test.js"></script>
 </body>
 </html>
