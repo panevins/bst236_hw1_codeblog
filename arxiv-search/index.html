@@ -9,9 +9,139 @@
 <body>
     <h1>Latest ArXiv Papers on Applied Statistics</h1>
     <p> This page displays the 10 most recents papers on <a href="https://arxiv.org/">ArXiv</a> in the category of "applied statistics". To see all most recent papers under this category, visit ArXiv's website <a href="https://arxiv.org/list/stat.AP/recent">here</a>. This page uses GitHub Actions and the ArXiv API to update each day at approximately midnight.</p>
-    <p id="last-updated">Last updated: 2/26/2025, 9:09:19 PM</p>
+    <p id="last-updated">Last updated: 2/27/2025, 12:03:08 PM</p>
     <button onclick="window.location.href='../index.html'" style="text-align: center;">Go to Homepage</button>
     <div id="papers">
+                <div class="paper">
+                    <h3>Enhancing Gradient-based Discrete Sampling via Parallel Tempering</h3>
+                    <p><strong>Authors:</strong> Luxu Liang, Yuhang Jia, Feng Zhou</p>
+                    <p>  While gradient-based discrete samplers are effective in sampling from complex
+distributions, they are susceptible to getting trapped in local minima,
+particularly in high-dimensional, multimodal discrete distributions, owing to
+the discontinuities inherent in these landscapes. To circumvent this issue, we
+combine parallel tempering, also known as replica exchange, with the discrete
+Langevin proposal and develop the Parallel Tempering enhanced Discrete Langevin
+Proposal (PTDLP), which are simulated at a series of temperatures. Significant
+energy differences prompt sample swaps, which are governed by a Metropolis
+criterion specifically designed for discrete sampling to ensure detailed
+balance is maintained. Additionally, we introduce an automatic scheme to
+determine the optimal temperature schedule and the number of chains, ensuring
+adaptability across diverse tasks with minimal tuning. Theoretically, we
+establish that our algorithm converges non-asymptotically to the target energy
+and exhibits faster mixing compared to a single chain. Empirical results
+further emphasize the superiority of our method in sampling from complex,
+multimodal discrete distributions, including synthetic problems, restricted
+Boltzmann machines, and deep energy-based models.
+</p>
+                    <p><a href="http://arxiv.org/pdf/2502.19240v1" target="_blank">Read PDF</a></p>
+                </div>
+            
+                <div class="paper">
+                    <h3>Arctic teleconnection on climate and ozone pollution in the polar jet
+  stream path of eastern US</h3>
+                    <p><strong>Authors:</strong> K Shuvo Bakar, Sourish Das, Sudeep Shukla, Anirban Chakraborti</p>
+                    <p>  Arctic sea ice is in reduction and has been a key significant indicator of
+climate change. In this paper, we explore Arctic Sea ice extent data to
+identify teleconnection with weather change in the polar and sub-tropical jet
+stream intersection in eastern United States (US) and hence the potential
+influence in ground level ozone pollution. Several statistical methods
+including Bayesian techniques such as: spatio-temporal modelling and Bayesian
+network are implemented to identify the teleconnection and also validated based
+on theories in atmospheric science. We observe that the teleconnection is
+relatively strong in autumn, winter and spring seasons compared to the summer.
+Furthermore, the sudden decremental effect of Arctic sea-ice extent in
+mid-2000s has a shifting influence in ozone pollutions compared to the previous
+years. A similar downward shift in the Arctic sea-ice extent has been projected
+in 2030. These findings indicate to initiate further strategic policies for the
+Arctic influence, ozone concentrations together the seasonal and global
+changing patterns of climate.
+</p>
+                    <p><a href="http://arxiv.org/pdf/2502.19234v1" target="_blank">Read PDF</a></p>
+                </div>
+            
+                <div class="paper">
+                    <h3>Age Group Sensitivity Analysis of Epidemic Models: Investigating the
+  Impact of Contact Matrix Structure</h3>
+                    <p><strong>Authors:</strong> Zsolt Vizi, Evans Kiptoo Korir, Norbert Bogya, Csaba Rosztóczy, Géza Makay, Péter Boldog</p>
+                    <p>  Understanding the role of different age groups in disease transmission is
+crucial for designing effective intervention strategies. A key parameter in
+age-structured epidemic models is the contact matrix, which defines the
+interaction structure between age groups. However, accurately estimating
+contact matrices is challenging, as different age groups respond differently to
+surveys and are accessible through different channels. This variability
+introduces significant epistemic uncertainty in epidemic models.
+  In this study, we introduce the Age Group Sensitivity Analysis (AGSA) method,
+a novel framework for assessing the impact of age-structured contact patterns
+on epidemic outcomes. Our approach integrates age-stratified epidemic models
+with Latin Hypercube Sampling (LHS) and the Partial Rank Correlation
+Coefficient (PRCC) method, enabling a systematic sensitivity analysis of
+age-specific interactions. Additionally, we propose a new sensitivity
+aggregation technique that quantifies the contribution of each age group to key
+epidemic parameters.
+  By identifying the age groups to which the model is most sensitive, AGSA
+helps pinpoint those that introduce the greatest epistemic uncertainty. This
+allows for targeted data collection efforts, focusing surveys and empirical
+studies on the most influential age groups to improve model accuracy. As a
+result, AGSA can enhance epidemic forecasting and inform the design of more
+effective and efficient public health interventions.
+</p>
+                    <p><a href="http://arxiv.org/pdf/2502.19206v1" target="_blank">Read PDF</a></p>
+                </div>
+            
+                <div class="paper">
+                    <h3>Forecasting intermittent time series with Gaussian Processes and Tweedie
+  likelihood</h3>
+                    <p><strong>Authors:</strong> Stefano Damato, Dario Azzimonti, Giorgio Corani</p>
+                    <p>  We introduce the use of Gaussian Processes (GPs) for the probabilistic
+forecasting of intermittent time series. The model is trained in a Bayesian
+framework that accounts for the uncertainty about the latent function and
+marginalizes it out when making predictions. We couple the latent GP variable
+with two types of forecast distributions: the negative binomial (NegBinGP) and
+the Tweedie distribution (TweedieGP). While the negative binomial has already
+been used in forecasting intermittent time series, this is the first time in
+which a fully parameterized Tweedie density is used for intermittent time
+series. We properly evaluate the Tweedie density, which is both zero-inflated
+and heavy tailed, avoiding simplifying assumptions made in existing models. We
+test our models on thousands of intermittent count time series. Results show
+that our models provide consistently better probabilistic forecasts than the
+competitors. In particular, TweedieGP obtains the best estimates of the highest
+quantiles, thus showing that it is more flexible than NegBinGP.
+</p>
+                    <p><a href="http://arxiv.org/pdf/2502.19086v1" target="_blank">Read PDF</a></p>
+                </div>
+            
+                <div class="paper">
+                    <h3>Predicting Long-term Urban Overheating and Their Mitigations from Nature
+  Based Solutions Using Machine Learning and Field Measurements</h3>
+                    <p><strong>Authors:</strong> Jiwei Zou, Lin Wang, Senwen Yang, Michael Lacasse,  Liangzhu,  Wang</p>
+                    <p>  Urban overheating, exacerbated by climate change, threatens public health and
+urban sustainability. Traditional approaches, such as numerical simulations and
+field measurements, face challenges due to uncertainties in input data. This
+study integrates field measurements with machine learning models to predict the
+duration and severity of future urban overheating events, focusing on the role
+of urban greening under different global warming (GW) scenarios. Field
+measurements were conducted in summer 2024 at an office campus in Ottawa, a
+cold-climate city. Microclimate data were collected from four locations with
+varying levels of greenery: a large lawn without trees (Lawn), a parking lot
+without greenery (Parking), an area with sparsely distributed trees (Tree), and
+a fully covered forested area (Forest). Machine learning models, including
+Artificial Neural Networks (ANN), Recurrent Neural Networks (RNN), and Long
+Short-Term Memory (LSTM) networks, were trained on local microclimate data,
+with LSTM achieving the best predictions. Four GW scenarios were analyzed,
+corresponding to different Shared Socioeconomic Pathways (SSP) for 2050 and
+2090. Results show that the Universal Thermal Climate Index (UTCI) at the
+"Parking" location rises from about 27,\textdegree C under GW1.0 to
+31,\textdegree C under GW3.5. Moreover, low health risk conditions (UTCI >
+26,\textdegree C) increase across all locations due to climate change,
+regardless of greenery levels. However, tree-covered areas such as "Tree" and
+"Forest" effectively prevent extreme heat conditions (UTCI > 38.9,\textdegree
+C). These findings highlight the crucial role of urban greening in mitigating
+severe thermal stress and enhancing thermal comfort under future climate
+scenarios.
+</p>
+                    <p><a href="http://arxiv.org/pdf/2502.18647v1" target="_blank">Read PDF</a></p>
+                </div>
+            
                 <div class="paper">
                     <h3>Attractiveness and equal treatment in a group draw</h3>
                     <p><strong>Authors:</strong> László Csató, Dóra Gréta Petróczy</p>
@@ -125,127 +255,6 @@ quantifying extremal dependence across network layers, offering valuable
 insights into risk propagation and interaction patterns in multilayer systems.
 </p>
                     <p><a href="http://arxiv.org/pdf/2502.17934v1" target="_blank">Read PDF</a></p>
-                </div>
-            
-                <div class="paper">
-                    <h3>AI-driven 3D Spatial Transcriptomics</h3>
-                    <p><strong>Authors:</strong> Cristina Almagro-Pérez, Andrew H. Song, Luca Weishaupt, Ahrong Kim, Guillaume Jaume, Drew F. K. Williamson, Konstantin Hemker, Ming Y. Lu, Kritika Singh, Bowen Chen, Long Phi Le, Alexander S. Baras, Sizun Jiang, Ali Bashashati, Jonathan T. C. Liu, Faisal Mahmood</p>
-                    <p>  A comprehensive three-dimensional (3D) map of tissue architecture and gene
-expression is crucial for illuminating the complexity and heterogeneity of
-tissues across diverse biomedical applications. However, most spatial
-transcriptomics (ST) approaches remain limited to two-dimensional (2D) sections
-of tissue. Although current 3D ST methods hold promise, they typically require
-extensive tissue sectioning, are complex, are not compatible with
-non-destructive 3D tissue imaging technologies, and often lack scalability.
-Here, we present VOlumetrically Resolved Transcriptomics EXpression (VORTEX),
-an AI framework that leverages 3D tissue morphology and minimal 2D ST to
-predict volumetric 3D ST. By pretraining on diverse 3D
-morphology-transcriptomic pairs from heterogeneous tissue samples and then
-fine-tuning on minimal 2D ST data from a specific volume of interest, VORTEX
-learns both generic tissue-related and sample-specific morphological correlates
-of gene expression. This approach enables dense, high-throughput, and fast 3D
-ST, scaling seamlessly to large tissue volumes far beyond the reach of existing
-3D ST techniques. By offering a cost-effective and minimally destructive route
-to obtaining volumetric molecular insights, we anticipate that VORTEX will
-accelerate biomarker discovery and our understanding of morphomolecular
-associations and cell states in complex tissues. Interactive 3D ST volumes can
-be viewed at https://vortex-demo.github.io/
-</p>
-                    <p><a href="http://arxiv.org/pdf/2502.17761v1" target="_blank">Read PDF</a></p>
-                </div>
-            
-                <div class="paper">
-                    <h3>A Dynamic Dirichlet Process Mixture Model for the Partisan Realignment
-  of Civil Rights Issues in the U.S. House of Representatives</h3>
-                    <p><strong>Authors:</strong> Nuannuan Xiang, Yuki Shiraito</p>
-                    <p>  Evolutionary societal changes often prompt a debate. The positions of the two
-major political parties in the United States on civil rights issues underwent a
-reversal in the 20th century. The conventional view holds that this shift was a
-structural break in the 1960s, driven by party elites, while recent studies
-argue that the change was a more gradual process that began as early as the
-1930s, driven by local rank-and-file party members. Motivated by this
-controversy, this paper develops a nonparametric Bayesian model that
-incorporates a hidden Markov model into the Dirichlet process mixture model. A
-distinctive feature of the proposed approach is that it models a process in
-which multiple latent clusters emerge and diminish as a continuing process so
-that it uncovers any of steady, sudden, and repeated shifts in analysing
-longitudinal data. Our model estimates each party's positions on civil rights
-in each state based on the legislative activities of their Congressional
-members, identifying cross- and within-party coalitions over time. We find
-evidence of gradual racial realignment in the 20th century, with two periods of
-fast changes during the 1948 election and the Civil Rights Movement.
-</p>
-                    <p><a href="http://arxiv.org/pdf/2502.17733v1" target="_blank">Read PDF</a></p>
-                </div>
-            
-                <div class="paper">
-                    <h3>A Unified Model of Text and Citations for Topic-Specific Citation
-  Networks</h3>
-                    <p><strong>Authors:</strong> ByungKoo Kim, Saki Kuzushima, Yuki Shiraito</p>
-                    <p>  Social scientists analyze citation networks to study how documents influence
-subsequent work across various domains such as judicial politics and
-international relations. However, conventional approaches that summarize
-document attributes in citation networks often overlook the diverse semantic
-contexts in which citations occur. This paper develops the paragraph-citation
-topic model (PCTM), which analyzes citation networks and document texts
-jointly. The PCTM extends conventional topic models by assigning topics to
-paragraphs of citing documents, allowing citations to share topics with their
-embedding paragraphs. Our empirical analysis of U.S. Supreme Court opinions in
-the privacy issue domain, which includes cases on reproductive rights,
-demonstrates that citations within individual documents frequently span
-multiple substantive areas, and citations to individual documents show
-considerable topical diversity.
-</p>
-                    <p><a href="http://arxiv.org/pdf/2502.17708v1" target="_blank">Read PDF</a></p>
-                </div>
-            
-                <div class="paper">
-                    <h3>Protocol For An Observational Study On The Effects Of Combinations Of
-  Adverse Childhood Experiences On Adult Depression</h3>
-                    <p><strong>Authors:</strong> Ruizhe Zhang, Jooyoung Kong, Dylan S. Small, William Bekerman</p>
-                    <p>  Adverse childhood experiences (ACEs) have been linked to a wide range of
-negative health outcomes in adulthood. However, few studies have investigated
-what specific combinations of ACEs most substantially impact mental health. In
-this article, we provide the protocol for our observational study of the
-effects of combinations of ACEs on adult depression. We use data from the 2023
-Behavioral Risk Factor Surveillance System (BRFSS) to assess these effects. We
-will evaluate the replicability of our findings by splitting the sample into
-two discrete subpopulations of individuals. We employ data turnover for this
-analysis, enabling a single team of statisticians and domain experts to
-collaboratively evaluate the strength of evidence, and also integrating both
-qualitative and quantitative insights from exploratory data analysis. We
-outline our analysis plan using this method and conclude with a brief
-discussion of several specifics for our study.
-</p>
-                    <p><a href="http://arxiv.org/pdf/2502.17679v1" target="_blank">Read PDF</a></p>
-                </div>
-            
-                <div class="paper">
-                    <h3>StatLLM: A Dataset for Evaluating the Performance of Large Language
-  Models in Statistical Analysis</h3>
-                    <p><strong>Authors:</strong> Xinyi Song, Lina Lee, Kexin Xie, Xueying Liu, Xinwei Deng, Yili Hong</p>
-                    <p>  The coding capabilities of large language models (LLMs) have opened up new
-opportunities for automatic statistical analysis in machine learning and data
-science. However, before their widespread adoption, it is crucial to assess the
-accuracy of code generated by LLMs. A major challenge in this evaluation lies
-in the absence of a benchmark dataset for statistical code (e.g., SAS and R).
-To fill in this gap, this paper introduces StatLLM, an open-source dataset for
-evaluating the performance of LLMs in statistical analysis. The StatLLM dataset
-comprises three key components: statistical analysis tasks, LLM-generated SAS
-code, and human evaluation scores. The first component includes statistical
-analysis tasks spanning a variety of analyses and datasets, providing problem
-descriptions, dataset details, and human-verified SAS code. The second
-component features SAS code generated by ChatGPT 3.5, ChatGPT 4.0, and Llama
-3.1 for those tasks. The third component contains evaluation scores from human
-experts in assessing the correctness, effectiveness, readability,
-executability, and output accuracy of the LLM-generated code. We also
-illustrate the unique potential of the established benchmark dataset for (1)
-evaluating and enhancing natural language processing metrics, (2) assessing and
-improving LLM performance in statistical coding, and (3) developing and testing
-of next-generation statistical software - advancements that are crucial for
-data science and machine learning research.
-</p>
-                    <p><a href="http://arxiv.org/pdf/2502.17657v1" target="_blank">Read PDF</a></p>
                 </div>
             </div>
     <script src="scripts/update-papers.js"></script>
