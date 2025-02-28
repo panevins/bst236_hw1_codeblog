@@ -4297,7 +4297,7 @@ document.getElementById('temperatureType').addEventListener('change', (event) =>
     updateChart(binCount, temperatureType);
 });
 
-const ctx = document.getElementById('myChart5raw').getContext('2d');
+const ctx = document.getElementById('myChart5').getContext('2d');
 let myChart;
 let map;
 let markers = [];
