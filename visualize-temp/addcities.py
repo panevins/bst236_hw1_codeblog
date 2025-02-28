@@ -3,12 +3,13 @@
 # cities.txt contains latitude/longitude for each city from a ChatGPT query and may contain some errors
 
 import json
+import re
 
 # File paths
 cities_file_path = './raw-data/cities.txt'
 meantemps_file_path = './raw-data/meantemps.txt'
 python_temps_file_path = './raw-data/python.txt'
-#R_temps_file_path = './raw-data/result_R.txt'
+R_temps_file_path = './raw-data/result_R.txt'
 output_file_path = 'combined_cities.json'
 
 # Read the cities txt file
@@ -89,42 +90,48 @@ except ValueError as e:
     print(f"Error: Could not parse additional temperatures data: {e}")
     exit(1)
 
-    # Read the additional temperatures text file
-# try:
-#     with open(R_temps_file_path, 'r', encoding='utf-8') as file:
-#         r_temps_content = file.read().strip()
-# except FileNotFoundError:
-#     print(f"Error: The file {R_temps_file_path} was not found.")
-#     exit(1)
+# Read the additional temperatures text file
+try:
+    with open(R_temps_file_path, 'r', encoding='utf-8') as file:
+        r_temps_content = file.read().strip()
+except FileNotFoundError:
+    print(f"Error: The file {R_temps_file_path} was not found.")
+    exit(1)
 
-# # Parse the additional temperatures and store them in a dictionary
-# R_temps = {}
-# try:
-#     r_temps_content = r_temps_content.strip('{}')
-#     for item in r_temps_content.split(', '):
-#         city, temps = item.split('=')
-#         city = city.strip()
-#         mininum, mean, maximum = map(float, temps.split('/'))
-#         python_temps[city] = {
-#             'minimum_temperature': minimum,
-#             'mean_temperature': mean,
-#             'maximum_temperature': maximum
-#         }
-# except ValueError as e:
-#     print(f"Error: Could not parse R temperatures data: {e}")
-#     exit(1)
+# Parse the additional temperatures and store them in a dictionary
+R_temps = {}
+try:
+    r_temps_content = r_temps_content.strip('{}')
+    for item in re.split(r'(?<=\d), ', r_temps_content):
+        city, temps = item.split('=')
+        city = city.strip().replace(',', '')  # Remove commas from city names
+        city = city.strip().replace('  ', ' ')  # Remove extra spaces
+        city = city.strip()
+        minimum, mean, maximum = map(float, temps.split('/'))
+        R_temps[city] = {
+            'minimum_temperature': minimum,
+            'mean_temperature': mean,
+            'maximum_temperature': maximum
+        }
+except ValueError as e2:
+    print(f"Error: Could not parse R temperatures data: {e2}")
+    exit(1)
 
 # Combine the data
 for city in cities_data:
     if city in mean_temps:
-        cities_data[city]['mean_temperature'] = mean_temps[city]
+        cities_data[city]['original_mean_temperature'] = mean_temps[city]
     else:
         print(f"Warning: No mean temperature found for {city}")
     
     if city in python_temps:
         cities_data[city].update(python_temps[city])
     else:
-        print(f"Warning: No additional temperature data found for {city}")
+        print(f"Warning: No python temperature data found for {city}")
+    if city in R_temps:
+        cities_data[city].update(R_temps[city])
+    else:
+        print(f"Warning: No R temperature data found for {city}")
 
 # Write the combined data to a new JSON file
 with open(output_file_path, 'w', encoding='utf-8') as json_file:
