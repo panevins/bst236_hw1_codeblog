@@ -9,257 +9,266 @@
 <body>
     <h1>Latest ArXiv Papers on Applied Statistics</h1>
     <p> This page displays the 10 most recents papers on <a href="https://arxiv.org/">ArXiv</a> in the category of "applied statistics". To see all most recent papers under this category, visit ArXiv's website <a href="https://arxiv.org/list/stat.AP/recent">here</a>. This page uses GitHub Actions and the ArXiv API to update each day at approximately midnight.</p>
-    <p id="last-updated">Last updated: 3/3/2025, 12:21:44 AM</p>
+    <p id="last-updated">Last updated: 3/10/2025, 1:18:06 AM</p>
     <button onclick="window.location.href='../index.html'" style="text-align: center;">Go to Homepage</button>
     <div id="papers">
                 <div class="paper">
-                    <h3>A decision analysis model for colorectal cancer screening</h3>
-                    <p><strong>Authors:</strong> Daniel Corrales, David Ríos Insua, Marino J. González</p>
-                    <p>  Background and Objective. With minor differences, most national colorectal
-cancer (CRC) screening programs in Europe consist of one-size-fits-all
-aged-based strategies. This paper provides a decision analysis-based approach
-to personalized CRC screening, supporting decisions concerning whether and
-which screening method to consider and/or whether a colonoscopy should be
-administered.
-  Methods. We use an influence diagram which characterizes CRC risk with
-respect to different variables of interest and includes comfort, costs,
-complications, and information as decision criteria, the last one assessed
-through information theory measures. The criteria are integrated with a
-multi-attribute utility model. Optimal screening policies are then computed.
-  Results. The proposed model is used to support personalized individual
-screening based on relevant characteristics. It serves to assess existing
-national screening programs and design new ones. In particular, it suggests
-replacing current age-based strategies followed in many European countries by
-more personalized strategies based on the type of model proposed. Additionally,
-the model facilitates benchmarking of novel screening devices.
-  Conclusions. This work creates a framework supporting personalized CRC
-screening improving upon current age-based screening strategies.
+                    <h3>A comparison of the Alkire-Foster method and a Markov random field
+  approach in the analysis of multidimensional poverty</h3>
+                    <p><strong>Authors:</strong> Joseph Lam</p>
+                    <p>  Multidimensional poverty measurement is crucial for capturing deprivation
+beyond income-based metrics. This study compares the Alkire-Foster (AF) method
+and a Markov Random Field (MRF) approach for classifying multidimensional
+poverty using a simulation-based analysis. The AF method applies a
+deterministic threshold-based classification, while the MRF approach leverages
+probabilistic graphical modelling to account for correlations between
+deprivation indicators. Using a synthetic dataset of 50,000 individuals with
+ten binary deprivation indicators, we assess classification accuracy, false
+positive/negative trade-offs, and agreement between the methods. Results show
+that AF achieves higher classification accuracy (89.5%) compared to MRF
+(75.4%), with AF minimizing false negatives and MRF reducing false positives.
+The overall agreement between the two methods is 65%, with discrepancies
+primarily occurring when AF classifies individuals as poor while MRF does not.
+While AF is transparent and easy to implement, it does not capture
+interdependencies among indicators, potentially leading to misclassification.
+MRF, though computationally intensive, offers a more nuanced understanding of
+deprivation clusters. These findings highlight the trade-offs in
+multidimensional poverty measurement and provide insights for policymakers on
+method selection based on data availability and policy objectives. Future
+research should extend these approaches to non-binary indicators and real-world
+datasets.
 </p>
-                    <p><a href="http://arxiv.org/pdf/2502.21210v1" target="_blank">Read PDF</a></p>
+                    <p><a href="http://arxiv.org/pdf/2503.05676v1" target="_blank">Read PDF</a></p>
                 </div>
             
                 <div class="paper">
-                    <h3>Negative correlations in Ising models of credit risk</h3>
-                    <p><strong>Authors:</strong> Chiara Emonti, Roberto Fontana</p>
-                    <p>  We analyze a subclass of Ising models in the context of credit risk, focusing
-on Dandelion models when the correlations $\rho$ between the central node and
-each non-central node are negative. We establish the possible range of values
-for $\rho$ and derive an explicit formula linking the correlation between any
-pair of non-central nodes to $\rho$. The paper concludes with a simulation
-study.
+                    <h3>PoSSUM: A Protocol for Surveying Social-media Users with Multimodal LLMs</h3>
+                    <p><strong>Authors:</strong> Roberto Cerina</p>
+                    <p>  This paper introduces PoSSUM, an open-source protocol for unobtrusive polling
+of social-media users via multimodal Large Language Models (LLMs). PoSSUM
+leverages users' real-time posts, images, and other digital traces to create
+silicon samples that capture information not present in the LLM's training
+data. To obtain representative estimates, PoSSUM employs Multilevel Regression
+and Post-Stratification (MrP) with structured priors to counteract the
+observable selection biases of social-media platforms. The protocol is
+validated during the 2024 U.S. Presidential Election, for which five PoSSUM
+polls were conducted and published on GitHub and X. In the final poll, fielded
+October 17-26 with a synthetic sample of 1,054 X users, PoSSUM accurately
+predicted the outcomes in 50 of 51 states and assigned the Republican candidate
+a win probability of 0.65. Notably, it also exhibited lower state-level bias
+than most established pollsters. These results demonstrate PoSSUM's potential
+as a fully automated, unobtrusive alternative to traditional survey methods.
 </p>
-                    <p><a href="http://arxiv.org/pdf/2502.21199v1" target="_blank">Read PDF</a></p>
+                    <p><a href="http://arxiv.org/pdf/2503.05529v1" target="_blank">Read PDF</a></p>
                 </div>
             
                 <div class="paper">
-                    <h3>Forecasting Monthly Residential Natural Gas Demand Using
-  Just-In-Time-Learning Modeling</h3>
-                    <p><strong>Authors:</strong> Burak Alakent, Erkan Isikli, Cigdem Kadaifci, Tonguc S. Taspinar</p>
-                    <p>  Natural gas (NG) is relatively a clean source of energy, particularly
-compared to fossil fuels, and worldwide consumption of NG has been increasing
-almost linearly in the last two decades. A similar trend can also be seen in
-Turkey, while another similarity is the high dependence on imports for the
-continuous NG supply. It is crucial to accurately forecast future NG demand
-(NGD) in Turkey, especially, for import contracts; in this respect, forecasts
-of monthly NGD for the following year are of utmost importance. In the current
-study, the historical monthly NG consumption data between 2014 and 2024
-provided by SOCAR, the local residential NG distribution company for two cities
-in Turkey, Bursa and Kayseri, was used to determine out-of-sample monthly NGD
-forecasts for a period of one year and nine months using various time series
-models, including SARIMA and ETS models, and a novel proposed machine learning
-method. The proposed method, named Just-in-Time-Learning-Gaussian Process
-Regression (JITL-GPR), uses a novel feature representation for the past NG
-demand values; instead of using past demand values as column-wise separate
-features, they are placed on a two-dimensional (2-D) grid of year-month values.
-For each test point, a kernel function, tailored for the NGD predictions, is
-used in GPR to predict the query point. Since a model is constructed separately
-for each test point, the proposed method is, indeed, an example of JITL. The
-JITL-GPR method is easy to use and optimize, and offers a reduction in forecast
-errors compared to traditional time series methods and a state-of-the-art
-combination model; therefore, it is a promising tool for NGD forecasting in
-similar settings.
+                    <h3>Bayesian analysis of restricted mean survival time adjusted for
+  covariates using pseudo-observations</h3>
+                    <p><strong>Authors:</strong> Léa Orsini, Emmanuel Lesaffre, Guosheng Yin, Caroline Brard, David Dejardin, Gwénaël Le Teuff</p>
+                    <p>  The difference in restricted mean survival time (RMST) is a clinically
+meaningful measure to quantify treatment effect in randomized controlled
+trials, especially when the proportional hazards assumption does not hold.
+Several frequentist methods exist to estimate RMST adjusted for covariates
+based on modeling and integrating the survival function. A more natural
+approach may be a regression model on RMST using pseudo-observations, which
+allows for a direct estimation without modeling the survival function. Only a
+few Bayesian methods exist, and each requires a model of the survival function.
+We developed a new Bayesian method that combines the use of pseudo-observations
+with the generalized method of moments. This offers RMST estimation adjusted
+for covariates without the need to model the survival function, making it more
+attractive than existing Bayesian methods. A simulation study was conducted
+with different time-dependent treatment effects (early, delayed, and crossing
+survival) and covariate effects, showing that our approach provides valid
+results, aligns with existing methods, and shows improved precision after
+covariate adjustment. For illustration, we applied our approach to a phase III
+trial in prostate cancer, providing estimates of the treatment effect on RMST,
+comparable to existing methods. In addition, our approach provided the effect
+of other covariates on RMST and determined the posterior probability of the
+difference in RMST exceeds any given time threshold for any covariate, allowing
+for nuanced and interpretable results.
 </p>
-                    <p><a href="http://arxiv.org/pdf/2502.20989v1" target="_blank">Read PDF</a></p>
+                    <p><a href="http://arxiv.org/pdf/2503.05225v1" target="_blank">Read PDF</a></p>
                 </div>
             
                 <div class="paper">
-                    <h3>Nonparanormal Modeling Framework for Prognostic Biomarker Assessment
-  with Application to Amyotrophic Lateral Sclerosis</h3>
-                    <p><strong>Authors:</strong> Ainesh Sewak, Vanda Inacio, Joanne Wuu, Michael Benatar, Torsten Hothorn</p>
-                    <p>  Identifying reliable biomarkers for predicting clinical events in
-longitudinal studies is important for accurate disease prognosis and the
-development of new treatments. However, prognostic studies are often not
-randomized, making it difficult to account for patient heterogeneity. In
-amyotrophic lateral sclerosis (ALS), factors such as age, site of disease onset
-and genetics impact both survival duration and biomarker levels, yet their
-impact on the prognostic accuracy of biomarkers over different time horizons
-remains unclear. While existing methods for time-dependent receiver operating
-characteristic (ROC) analysis have been adapted for censored time-to-event
-outcomes, most do not adjust for patient covariates. To address this, we
-propose the nonparanormal prognostic biomarker (NPB) framework, which models
-the joint dependence between biomarker and event time distributions while
-accounting for covariates. This provides covariate-specific ROC curves which
-assess a potential biomarker's accuracy for a given time horizon. We apply this
-framework to evaluate serum neurofilament light (NfL) as a biomarker in ALS and
-demonstrate that its prognostic accuracy varies over time and across patient
-subgroups. The NPB framework is broadly applicable to other conditions and has
-the potential to improve clinical trial efficiency by refining patient
-stratification and reducing sample size requirements.
+                    <h3>A Scorecard Model Using Survival Analysis Framework</h3>
+                    <p><strong>Authors:</strong> Cheng Lee, Hsi Lee</p>
+                    <p>  Credit risk assessment is a crucial aspect of financial decision-making,
+enabling institutions to predict the likelihood of default and make informed
+lending choices. Two prominent methodologies in risk modeling are logistic
+regression and survival analysis. Logistic regression is widely used for
+creating scorecard models due to its simplicity, interpretability, and
+effectiveness in estimating the probability of binary outcomes, such as default
+versus non-default. On the other hand, survival analysis, particularly the
+hazard rate framework, offers insights into the timing of events, such as the
+time until default. By integrating logistic regression with survival analysis,
+traditional scorecard models can be enhanced to account not only for the
+probability of default but also for the dynamics of default over time. This
+combined approach provides a comprehensive view of credit risk, empowering
+institutions to manage risk proactively and tailor strategies to individual
+borrower profiles. In this article, the process of developing a scorecard model
+using logistic regression and augmenting data with survival analysis techniques
+to incorporate time-varying risk factors are presented. The process includes
+data preparation, model construction, evaluation metrics, and model
+implementation.
 </p>
-                    <p><a href="http://arxiv.org/pdf/2502.20892v1" target="_blank">Read PDF</a></p>
+                    <p><a href="http://arxiv.org/pdf/2503.05023v1" target="_blank">Read PDF</a></p>
                 </div>
             
                 <div class="paper">
-                    <h3>Adding smoothing splines to the SAM model improves stock assessment</h3>
-                    <p><strong>Authors:</strong> Silius M. Vandeskog, Magne Aldrin, Daniel Howell, Edvin Fuglebakk</p>
-                    <p>  The stock assessment model SAM contains a large number of age-dependent
-parameters that must be manually grouped together to obtain robust inference.
-This can make the model selection process slow, non-extensive and highly
-subjective, while producing unrealistic looking parameter estimates with
-discrete jumps. We propose to model age-dependent SAM parameters using
-smoothing spline functions. This can lead to more smooth parameter estimates,
-while speeding up and making the model selection process more automatic and
-less subjective. We develop different spline models and compare them with
-already existing SAM models for a selection of 17 different fish stocks, using
-cross- and forward-validation methods. The results show that our automated
-spline models overall outcompete the officially developed SAM models. We also
-demonstrate how the developed spline models can be employed as a diagnostics
-tool for improving and better understanding properties of the officially
-developed SAM models.
+                    <h3>A Novel Framework for Modeling Quarantinable Disease Transmission</h3>
+                    <p><strong>Authors:</strong> Wenchen Liu, Chang Liu, Dehui Wang, Yiyuan She</p>
+                    <p>  The COVID-19 pandemic has significantly challenged traditional
+epidemiological models due to factors such as delayed diagnosis, asymptomatic
+transmission, isolation-induced contact changes, and underreported mortality.
+In response to these complexities, this paper introduces a novel CURNDS model
+prioritizing compartments and transmissions based on contact levels, rather
+than merely on symptomatic severity or hospitalization status. The framework
+surpasses conventional uniform mixing and static rate assumptions by
+incorporating adaptive power laws, dynamic transmission rates, and spline-based
+smoothing techniques. The CURNDS model provides accurate estimates of
+undetected infections and undocumented deaths from COVID-19 data, uncovering
+the pandemic's true impact. Our analysis challenges the assumption of
+homogeneous mixing between infected and non-infected individuals in traditional
+epidemiological models. By capturing the nuanced transmission dynamics of
+infection and confirmation, our model offers new insights into the spread of
+different COVID-19 strains. Overall, CURNDS provides a robust framework for
+understanding the complex transmission patterns of highly contagious,
+quarantinable diseases.
 </p>
-                    <p><a href="http://arxiv.org/pdf/2502.20788v1" target="_blank">Read PDF</a></p>
+                    <p><a href="http://arxiv.org/pdf/2503.04951v1" target="_blank">Read PDF</a></p>
                 </div>
             
                 <div class="paper">
-                    <h3>Collective Reasoning Among LLMs A Framework for Answer Validation
-  Without Ground Truth</h3>
-                    <p><strong>Authors:</strong> Seyed Pouyan Mousavi Davoudi, Alireza Shafiee Fard, Alireza Amiri-Margavi</p>
-                    <p>  We present a collaborative framework where multiple large language models,
-namely GPT-4-0125-preview, Meta-LLaMA-3-70B-Instruct, Claude-3-Opus, and
-Gemini-1.5-Flash, work together to generate and respond to complex PhD-level
-probability questions in the absence of definitive ground truth. This study
-explores how inter-model consensus enhances response reliability and serves as
-a proxy for assessing the quality of generated questions. To quantify agreement
-and consistency, we employ statistical methods including chi-square tests,
-Fleiss' Kappa, and confidence interval analysis, measuring both response
-precision and question clarity. Our findings highlight that Claude and Gemini
-generate well-structured and less ambiguous questions, leading to higher
-inter-model agreement. This is reflected in their narrower confidence intervals
-and stronger alignment with answering models. Conversely, LLaMA demonstrates
-increased variability and lower reliability in question formulation, as
-indicated by broader confidence intervals and reduced consensus rates. These
-results suggest that multi-model collaboration not only enhances the
-reliability of responses but also provides a valuable framework for assessing
-and improving question quality in the absence of explicit ground truth. This
-research offers meaningful insights into optimizing AI-driven reasoning through
-collaborative large-language model interactions.
+                    <h3>A Nonparametric Bayesian Model to Adjust for Monitoring Bias with an
+  Application to Identifying Environments Stressed by Climate Change</h3>
+                    <p><strong>Authors:</strong> Jonathan Auerbach, Theresa M. Crimmins, David Kepplinger, Ruishan Lin, E. M. Wolkovich</p>
+                    <p>  We propose a new method to adjust for the bias that occurs when an individual
+monitors a location and reports the status of an event. For example, a monitor
+may visit a plant each week and report whether the plant is in flower or not.
+The goal is to estimate the time the event occurred at that location. The
+problem is that popular estimators often incur bias both because the event may
+not coincide with the arrival of the monitor and because the monitor may report
+the status in error. To correct for this bias, we propose a nonparametric
+Bayesian model that uses monotonic splines to estimate the event time. We first
+demonstrate the problem and our proposed solution using simulated data. We then
+apply our method to a real-world example from phenology in which lilac are
+monitored by citizen scientists in the northeastern United States, and the
+timing of the flowering is used to study anthropogenic warming. Our analysis
+suggests that common methods fail to account for monitoring bias and
+underestimate the peak bloom date of the lilac by 48 days on average. In
+addition, after adjusting for monitoring bias, several locations had
+anomalously late bloom dates that did not appear anomalous before adjustment.
+Our findings underscore the importance of accounting for monitoring bias in
+event-time estimation. By applying our nonparametric Bayesian model with
+monotonic splines, we provide a more accurate approach to estimating bloom
+dates, revealing previously undetected anomalies and improving the reliability
+of citizen science data for environmental monitoring.
 </p>
-                    <p><a href="http://arxiv.org/pdf/2502.20758v1" target="_blank">Read PDF</a></p>
+                    <p><a href="http://arxiv.org/pdf/2503.04924v1" target="_blank">Read PDF</a></p>
                 </div>
             
                 <div class="paper">
-                    <h3>Modelling the Spatially Varying Non-Linear Effects of Heat Exposure</h3>
-                    <p><strong>Authors:</strong> Xinyi Chen, Marta Blangiardo, Connor Gascoigne, Garyfallos Konstantinoudis</p>
-                    <p>  Exposure to high ambient temperatures is a significant driver of preventable
-mortality, with non-linear health effects and elevated risks in specific
-regions. To capture this complexity and account for spatial dependencies across
-small areas, we propose a Bayesian framework that integrates non-linear
-functions with the Besag, York, and Mollie (BYM2) model. Applying this
-framework to all-cause mortality data in Switzerland, we quantified spatial
-inequalities in heat-related mortality. We retrieved daily all-cause mortality
-at small areas (2,145 municipalities) for people older than 65 years from the
-Swiss Federal Office of Public Health and daily mean temperature at
-1km$\times$1km grid from the Swiss Federal Office of Meteorology. By fully
-propagating uncertainties, we derived key epidemiological metrics, including
-heat-related excess mortality and minimum mortality temperature (MMT).
-Heat-related excess mortality rates were higher in northern Switzerland, while
-lower MMTs were observed in mountainous regions. Further, we explored the role
-of the proportion of individuals older than 85 years, green space, average
-temperature, deprivation, urbanicity, and language regions in explaining these
-discrepancies. We found that spatial disparities in heat-related excess
-mortality were primarily driven by population age distribution, green space,
-and vulnerabilities associated with elevated temperature exposure.
+                    <h3>Rapid updating of multivariate resource models based on new information
+  using EnKF-MDA and multi-Gaussian transformation</h3>
+                    <p><strong>Authors:</strong> Sultan Abulkhair, Peter A. Dowd, Chaoshui Xu</p>
+                    <p>  Rapid resource model updating with real-time data is important for making
+timely decisions in resource management and mining operations. This requires
+optimal merging of models and observations, which can be achieved through data
+assimilation, and the ensemble Kalman filter (EnKF) has become a popular method
+for this task. However, the modelled resources in mining usually consist of
+multiple variables of interest with multivariate relationships of varying
+complexity. EnKF is not a multivariate approach, and even for univariate cases,
+there may be slight deviations between its outcomes and observations. This
+study presents a methodology for rapidly updating multivariate resource models
+using the EnKF with multiple data assimilations (EnKF-MDA) combined with
+rotation based iterative Gaussianisation (RBIG). EnKF-MDA improves the updating
+by assimilating the same data multiple times with an inflated measurement
+error, while RBIG quickly transforms the data into multi-Gaussian factors. The
+application of the proposed algorithm is validated by a real case study with
+nine cross-correlated variables. The combination of EnKF-MDA and RBIG
+successfully improves the accuracy of resource model updates, minimises
+uncertainty, and preserves the multivariate relationships.
 </p>
-                    <p><a href="http://arxiv.org/pdf/2502.20745v1" target="_blank">Read PDF</a></p>
+                    <p><a href="http://arxiv.org/pdf/2503.04694v1" target="_blank">Read PDF</a></p>
                 </div>
             
                 <div class="paper">
-                    <h3>Modeling times to multiple events under informative censoring with
-  C-vine copula</h3>
-                    <p><strong>Authors:</strong> Xinyuan Chen, Yiwei Li, Qian M. Zhou</p>
-                    <p>  The study of times to nonterminal events of different types and their
-interrelation is a compelling area of interest. The primary challenge in
-analyzing such multivariate event times is the presence of informative
-censoring by the terminal event. While numerous statistical methods have been
-proposed for a single nonterminal event, i.e., semi-competing risks data, there
-remains a dearth of tools for analyzing times to multiple nonterminal events.
-These events involve more complex dependence structures between nonterminal and
-terminal events and between nonterminal events themselves. This paper
-introduces a novel modeling framework leveraging the vine copula to directly
-estimate the joint distribution of the multivariate times to nonterminal and
-terminal events. Unlike the few existing methods based on multivariate or
-nested copulas, our model excels in capturing the heterogeneous dependence
-between each pair of event times in terms of strength and structure.
-Furthermore, our model allows regression modeling for all the marginal
-distributions of times to nonterminal and terminal events, a feature lacking in
-existing methods. We propose a likelihood-based estimation and inference
-procedure, which can be implemented efficiently in sequential stages. Through
-simulation studies, we demonstrate the satisfactory finite-sample performance
-of our proposed stage-wise estimators and analytical variance estimators, as
-well as their superiority over existing methods. We apply our approach to data
-from a crowdfunding platform to investigate the relationship between
-creator-backer interactions of various types and a creator's lifetime on the
-platform.
+                    <h3>Granular mortality modeling with temperature and epidemic shocks: a
+  three-state regime-switching approach</h3>
+                    <p><strong>Authors:</strong> Jens Robben, Karim Barigou, Torsten Kleinow</p>
+                    <p>  This paper develops a granular regime-switching framework to model mortality
+deviations from seasonal baseline trends driven by temperature and epidemic
+shocks. The framework features three states: (1) a baseline state that captures
+observed seasonal mortality patterns, (2) an environmental shock state for heat
+waves, and (3) a respiratory shock state that addresses mortality deviations
+caused by strong outbreaks of respiratory diseases due to influenza and
+COVID-19. Transition probabilities between states are modeled using
+covariate-dependent multinomial logit functions. These functions incorporate,
+among others, lagged temperature and influenza incidence rates as predictors,
+allowing dynamic adjustments to evolving shocks. Calibrated on weekly mortality
+data across 21 French regions and six age groups, the regime-switching
+framework accounts for spatial and demographic heterogeneity. Under various
+projection scenarios for temperature and influenza, we quantify uncertainty in
+mortality forecasts through prediction intervals constructed using an extensive
+bootstrap approach. These projections can guide healthcare providers and
+hospitals in managing risks and planning resources for potential future shocks.
 </p>
-                    <p><a href="http://arxiv.org/pdf/2502.20608v1" target="_blank">Read PDF</a></p>
+                    <p><a href="http://arxiv.org/pdf/2503.04568v2" target="_blank">Read PDF</a></p>
                 </div>
             
                 <div class="paper">
-                    <h3>A review of Bayesian sensor-based estimation and uncertainty
-  quantification of aerodynamic flows</h3>
-                    <p><strong>Authors:</strong> Jeff D. Eldredge, Hanieh Mousavi</p>
-                    <p>  Many applications in aerodynamics depend on the use of sensors to estimate
-the evolving state of the flow. In particular, a wide variety of traditional
-and learning-based strategies for closed-loop control rely on some knowledge of
-the aerodynamic state in order to decide on actions. This estimation task is
-inherently accompanied by uncertainty due to the noisy measurements of sensors
-or the non-uniqueness of the underlying mapping, and knowledge of this
-uncertainty can be as important for decision-making as that of the state
-itself. The tracking of uncertainty is challenged by the often-nonlinear
-relationship between the sensor measurements and the flow state. For example, a
-collection of passing vortices leaves a footprint in wall pressure sensors that
-depends nonlinearly on the strengths and positions of the vortices. In this
-paper, we will review the recent body of work on flow estimation. We will
-discuss the basic tools of probability, including sampling and estimation, in
-the powerful setting of Bayesian inference and demonstrate these tools in
-static flow estimation examples. We will then proceed to unsteady examples and
-illustrate the application of sequential estimation, and particularly, the
-ensemble Kalman filter. Finally, we will discuss uncertainty quantification in
-neural network approximations of the mappings between sensor measurements and
-flow states. Recent aerodynamic applications of neural networks have shown that
-the flow state can be encoded into a very low-dimensional latent space, and we
-will discuss the implications of this encoding on uncertainty.
+                    <h3>Method for recovering data on unreported low-severity crashes</h3>
+                    <p><strong>Authors:</strong> Alberto Morando</p>
+                    <p>  Objective: Many low-severity crashes are not reported due to sampling
+criteria, introducing missing not at random (MNAR) bias. If not addressed, MNAR
+bias can lead to inaccurate safety analyses. This paper illustrates a
+statistical method to address such bias. Methods: We defined a custom
+probability distribution for the observed data as a product of an exponential
+population distribution and a logistic reporting function. We used modern
+Bayesian probabilistic programming techniques. Results: Using simulated data,
+we verified the correctness of the procedure. Applying it to real crash data,
+we estimated the {\Delta}v distribution for passenger vehicles involved in
+personal damage-only (PDO) rear-end crashes. We found that about 77% of cases
+are unreported. Conclusions: The method preserves the original data and it
+accounts well for uncertainty from both modeling assumptions and input data. It
+can improve safety assessments and it applies broadly to other MNAR cases.
 </p>
-                    <p><a href="http://arxiv.org/pdf/2502.20280v1" target="_blank">Read PDF</a></p>
+                    <p><a href="http://arxiv.org/pdf/2503.04529v2" target="_blank">Read PDF</a></p>
                 </div>
             
                 <div class="paper">
-                    <h3>A New Method for High-Resolution Dating of Radiocarbon Data: The Example
-  of the First Three Centuries B.C</h3>
-                    <p><strong>Authors:</strong> Sebastian Fürst</p>
-                    <p>  Radiocarbon dating poses a challenge in many archaeological contexts due to
-the limited precision of conventional calibration methods. In this study, we
-introduce a novel approach to fine-dating that is based on the repeated
-application of OxCal's R_Simulate function. By constructing extensive reference
-tables and aggregating measures of central tendency (means and medians),
-uncalibrated 14C measurements are directly mapped to calendar dates. The method
-is validated through comprehensive simulations and comparisons with
-dendrochronologically dated tree rings. Despite challenges in segments of the
-calibration curve with low gradients, the approach demonstrates that a
-significant improvement in dating precision is achievable. Limitations and
-potential avenues for further methodological optimisation are discussed.
+                    <h3>A Spatiotemporal, Quasi-experimental Causal Inference Approach to
+  Characterize the Effects of Global Plastic Waste Export and Burning on Air
+  Quality Using Remotely Sensed Data</h3>
+                    <p><strong>Authors:</strong> Ellen M. Considine, Rachel C. Nethery</p>
+                    <p>  Open burning of plastic waste may pose a significant threat to global health
+by degrading air quality, but quantitative research on this problem -- crucial
+for policy making -- has previously been stunted by lack of data. Critically,
+many low- and middle-income countries, where open burning is of greatest
+concern, have little to no air quality monitoring. Here, we propose an
+approach, at the intersection of modern causal inference and environmental data
+science, to leverage remotely sensed data products combined with spatiotemporal
+causal analytic techniques to evaluate the impact of large-scale plastic waste
+policies on air quality. Throughout, we use the case study of Indonesia before
+and after 2018, when China halted its import of plastic waste, resulting in
+diversion of this massive waste stream to other countries in the East Asia &
+Pacific region, including Indonesia. We tailor cutting-edge statistical methods
+to this setting, estimating effects of the increase in plastic waste imports on
+fine particulate matter near waste dump sites in Indonesia and allowing effects
+to vary as a function of the site's proximity to ports (from which
+international plastic waste enters the country), which serves as an induced
+continuous exposure or "dose" of treatment. We observe a statistically
+significant increase in monthly fine particulate matter concentrations near
+dump sites after China's ban took effect (2018-2019) compared to concentrations
+expected under business-as-usual (2012-2017), with increases ranging from
+0.76--1.72$\mu$g/m$^3$ (15--34\% of the World Health Organization's recommended
+limit for exposure on an annual basis) depending on the site's port proximity,
+at sites with port proximity above the 20th quantile. Sites with lower port
+proximity had smaller and not statistically significant effects.
 </p>
-                    <p><a href="http://arxiv.org/pdf/2502.20211v1" target="_blank">Read PDF</a></p>
+                    <p><a href="http://arxiv.org/pdf/2503.04491v1" target="_blank">Read PDF</a></p>
                 </div>
             </div>
     <script src="scripts/update-papers.js"></script>
