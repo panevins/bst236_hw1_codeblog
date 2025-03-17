@@ -9,266 +9,253 @@
 <body>
     <h1>Latest ArXiv Papers on Applied Statistics</h1>
     <p> This page displays the 10 most recents papers on <a href="https://arxiv.org/">ArXiv</a> in the category of "applied statistics". To see all most recent papers under this category, visit ArXiv's website <a href="https://arxiv.org/list/stat.AP/recent">here</a>. This page uses GitHub Actions and the ArXiv API to update each day at approximately midnight.</p>
-    <p id="last-updated">Last updated: 3/10/2025, 1:18:06 AM</p>
+    <p id="last-updated">Last updated: 3/17/2025, 1:22:14 AM</p>
     <button onclick="window.location.href='../index.html'" style="text-align: center;">Go to Homepage</button>
     <div id="papers">
                 <div class="paper">
-                    <h3>A comparison of the Alkire-Foster method and a Markov random field
-  approach in the analysis of multidimensional poverty</h3>
-                    <p><strong>Authors:</strong> Joseph Lam</p>
-                    <p>  Multidimensional poverty measurement is crucial for capturing deprivation
-beyond income-based metrics. This study compares the Alkire-Foster (AF) method
-and a Markov Random Field (MRF) approach for classifying multidimensional
-poverty using a simulation-based analysis. The AF method applies a
-deterministic threshold-based classification, while the MRF approach leverages
-probabilistic graphical modelling to account for correlations between
-deprivation indicators. Using a synthetic dataset of 50,000 individuals with
-ten binary deprivation indicators, we assess classification accuracy, false
-positive/negative trade-offs, and agreement between the methods. Results show
-that AF achieves higher classification accuracy (89.5%) compared to MRF
-(75.4%), with AF minimizing false negatives and MRF reducing false positives.
-The overall agreement between the two methods is 65%, with discrepancies
-primarily occurring when AF classifies individuals as poor while MRF does not.
-While AF is transparent and easy to implement, it does not capture
-interdependencies among indicators, potentially leading to misclassification.
-MRF, though computationally intensive, offers a more nuanced understanding of
-deprivation clusters. These findings highlight the trade-offs in
-multidimensional poverty measurement and provide insights for policymakers on
-method selection based on data availability and policy objectives. Future
-research should extend these approaches to non-binary indicators and real-world
-datasets.
+                    <h3>Quantifying sleep apnea heterogeneity using hierarchical Bayesian
+  modeling</h3>
+                    <p><strong>Authors:</strong> Glenn Palmer, David B. Dunson</p>
+                    <p>  Obstructive Sleep Apnea (OSA) is a breathing disorder during sleep that
+affects millions of people worldwide. The diagnosis of OSA often occurs through
+an overnight polysomnogram (PSG) sleep study that generates a massive amount of
+physiological data. However, despite the evidence of substantial heterogeneity
+in the expression and symptoms of OSA, diagnosis and scientific analysis of
+severity typically focus on a single summary statistic, the Apnea-Hypopnea
+Index (AHI). To address the limitations inherent in such analyses, we propose a
+hierarchical Bayesian modeling approach to analyze PSG data. Our approach
+produces an interpretable vector of random effect parameters for each patient
+that govern sleep-stage dynamics, rates of OSA events, and impacts of OSA
+events on subsequent sleep-stage dynamics. We propose a novel approach for
+using these random effects to produce a Bayes optimal cluster of patients under
+K-means loss. We use the proposed approach to analyze data from the APPLES
+study. This analysis produces clinically interesting groups of patients with
+sleep apnea and a novel finding of an association between OSA expression and
+cognitive performance that is missed by an AHI-based analysis.
 </p>
-                    <p><a href="http://arxiv.org/pdf/2503.05676v1" target="_blank">Read PDF</a></p>
+                    <p><a href="http://arxiv.org/pdf/2503.11599v1" target="_blank">Read PDF</a></p>
                 </div>
             
                 <div class="paper">
-                    <h3>PoSSUM: A Protocol for Surveying Social-media Users with Multimodal LLMs</h3>
-                    <p><strong>Authors:</strong> Roberto Cerina</p>
-                    <p>  This paper introduces PoSSUM, an open-source protocol for unobtrusive polling
-of social-media users via multimodal Large Language Models (LLMs). PoSSUM
-leverages users' real-time posts, images, and other digital traces to create
-silicon samples that capture information not present in the LLM's training
-data. To obtain representative estimates, PoSSUM employs Multilevel Regression
-and Post-Stratification (MrP) with structured priors to counteract the
-observable selection biases of social-media platforms. The protocol is
-validated during the 2024 U.S. Presidential Election, for which five PoSSUM
-polls were conducted and published on GitHub and X. In the final poll, fielded
-October 17-26 with a synthetic sample of 1,054 X users, PoSSUM accurately
-predicted the outcomes in 50 of 51 states and assigned the Republican candidate
-a win probability of 0.65. Notably, it also exhibited lower state-level bias
-than most established pollsters. These results demonstrate PoSSUM's potential
-as a fully automated, unobtrusive alternative to traditional survey methods.
+                    <h3>Data-Driven Construction of Age-Structured Contact Networks</h3>
+                    <p><strong>Authors:</strong> Luke Murray Kearney, Emma L. Davis, Matt J. Keeling</p>
+                    <p>  Capturing the structure of a population and characterising contacts within
+the population are key to reliable projections of infectious disease. Two main
+elements of population structure -- contact heterogeneity and age -- have been
+repeatedly demonstrated to be key in infection dynamics, yet are rarely
+combined. Regarding individuals as nodes and contacts as edges within a network
+provides a powerful and intuitive method to fully realise this population
+structure. While there are a few key examples of contact networks being
+measured explicitly, in general we need to construct the appropriate networks
+from individual-level data. Here, using data from social contact surveys, we
+develop a generic and robust algorithm to generate an extrapolated network that
+preserves both age-structured mixing and heterogeneity in the number of
+contacts. We then use these networks to simulate the spread of infection
+through the population, constrained to have a given basic reproduction number
+($R_0$) and hence a given early growth rate. Given the over-dominant role that
+highly connected nodes (`superspreaders') would otherwise play in early
+dynamics, we scale transmission by the average duration of contacts, providing
+a better match to surveillance data for numbers of secondary cases. This
+network-based model shows that, for COVID-like parameters, including both
+heterogeneity and age-structure reduces both peak height and epidemic size
+compared to models that ignore heterogeneity. Our robust methodology therefore
+allows for the inclusion of the full wealth of data commonly collected by
+surveys but frequently overlooked to be incorporated into more realistic
+transmission models of infectious diseases.
 </p>
-                    <p><a href="http://arxiv.org/pdf/2503.05529v1" target="_blank">Read PDF</a></p>
+                    <p><a href="http://arxiv.org/pdf/2503.11527v1" target="_blank">Read PDF</a></p>
                 </div>
             
                 <div class="paper">
-                    <h3>Bayesian analysis of restricted mean survival time adjusted for
-  covariates using pseudo-observations</h3>
-                    <p><strong>Authors:</strong> Léa Orsini, Emmanuel Lesaffre, Guosheng Yin, Caroline Brard, David Dejardin, Gwénaël Le Teuff</p>
-                    <p>  The difference in restricted mean survival time (RMST) is a clinically
-meaningful measure to quantify treatment effect in randomized controlled
-trials, especially when the proportional hazards assumption does not hold.
-Several frequentist methods exist to estimate RMST adjusted for covariates
-based on modeling and integrating the survival function. A more natural
-approach may be a regression model on RMST using pseudo-observations, which
-allows for a direct estimation without modeling the survival function. Only a
-few Bayesian methods exist, and each requires a model of the survival function.
-We developed a new Bayesian method that combines the use of pseudo-observations
-with the generalized method of moments. This offers RMST estimation adjusted
-for covariates without the need to model the survival function, making it more
-attractive than existing Bayesian methods. A simulation study was conducted
-with different time-dependent treatment effects (early, delayed, and crossing
-survival) and covariate effects, showing that our approach provides valid
-results, aligns with existing methods, and shows improved precision after
-covariate adjustment. For illustration, we applied our approach to a phase III
-trial in prostate cancer, providing estimates of the treatment effect on RMST,
-comparable to existing methods. In addition, our approach provided the effect
-of other covariates on RMST and determined the posterior probability of the
-difference in RMST exceeds any given time threshold for any covariate, allowing
-for nuanced and interpretable results.
+                    <h3>CRPS-Based Targeted Sequential Design with Application in Chemical Space</h3>
+                    <p><strong>Authors:</strong> Lea Friedli, Athénaïs Gautier, Anna Broccard, David Ginsbourger</p>
+                    <p>  Sequential design of real and computer experiments via Gaussian Process (GP)
+models has proven useful for parsimonious, goal-oriented data acquisition
+purposes. In this work, we focus on acquisition strategies for a GP model that
+needs to be accurate within a predefined range of the response of interest.
+Such an approach is useful in various fields including synthetic chemistry,
+where finding molecules with particular properties is essential for developing
+useful materials and effective medications. GP modeling and sequential design
+of experiments have been successfully applied to a plethora of domains,
+including molecule research. Our main contribution here is to use the
+threshold-weighted Continuous Ranked Probability Score (CRPS) as a basic
+building block for acquisition functions employed within sequential design. We
+study pointwise and integral criteria relying on two different weighting
+measures and benchmark them against competitors, demonstrating improved
+performance with respect to considered goals. The resulting acquisition
+strategies are applicable to a wide range of fields and pave the way to further
+developing sequential design relying on scoring rules.
 </p>
-                    <p><a href="http://arxiv.org/pdf/2503.05225v1" target="_blank">Read PDF</a></p>
+                    <p><a href="http://arxiv.org/pdf/2503.11250v1" target="_blank">Read PDF</a></p>
                 </div>
             
                 <div class="paper">
-                    <h3>A Scorecard Model Using Survival Analysis Framework</h3>
-                    <p><strong>Authors:</strong> Cheng Lee, Hsi Lee</p>
-                    <p>  Credit risk assessment is a crucial aspect of financial decision-making,
-enabling institutions to predict the likelihood of default and make informed
-lending choices. Two prominent methodologies in risk modeling are logistic
-regression and survival analysis. Logistic regression is widely used for
-creating scorecard models due to its simplicity, interpretability, and
-effectiveness in estimating the probability of binary outcomes, such as default
-versus non-default. On the other hand, survival analysis, particularly the
-hazard rate framework, offers insights into the timing of events, such as the
-time until default. By integrating logistic regression with survival analysis,
-traditional scorecard models can be enhanced to account not only for the
-probability of default but also for the dynamics of default over time. This
-combined approach provides a comprehensive view of credit risk, empowering
-institutions to manage risk proactively and tailor strategies to individual
-borrower profiles. In this article, the process of developing a scorecard model
-using logistic regression and augmenting data with survival analysis techniques
-to incorporate time-varying risk factors are presented. The process includes
-data preparation, model construction, evaluation metrics, and model
-implementation.
+                    <h3>The pushed beta distribution and contaminated binary sampling</h3>
+                    <p><strong>Authors:</strong> Ben O'Neill</p>
+                    <p>  We examine a generalisation of the beta distribution that we call the pushed
+beta distribution. This is a continuous univariate distribution on the unit
+interval which generalises the beta distribution by "pushing" the density in a
+particular direction using an additional multiplicative term in the density
+kernel. We examine the properties of this distribution and compare it to the
+beta distribution. We also examine the use of this distribution in contaminated
+binary sampling using Bayesian inference. We find that this distribution arises
+as the appropriate posterior distribution for inference in certain kinds of
+contaminated binary models. We derive a broad range of properties of the
+distribution and we also establish some computational methods to compute
+various functions for the distribution.
 </p>
-                    <p><a href="http://arxiv.org/pdf/2503.05023v1" target="_blank">Read PDF</a></p>
+                    <p><a href="http://arxiv.org/pdf/2503.11128v1" target="_blank">Read PDF</a></p>
                 </div>
             
                 <div class="paper">
-                    <h3>A Novel Framework for Modeling Quarantinable Disease Transmission</h3>
-                    <p><strong>Authors:</strong> Wenchen Liu, Chang Liu, Dehui Wang, Yiyuan She</p>
-                    <p>  The COVID-19 pandemic has significantly challenged traditional
-epidemiological models due to factors such as delayed diagnosis, asymptomatic
-transmission, isolation-induced contact changes, and underreported mortality.
-In response to these complexities, this paper introduces a novel CURNDS model
-prioritizing compartments and transmissions based on contact levels, rather
-than merely on symptomatic severity or hospitalization status. The framework
-surpasses conventional uniform mixing and static rate assumptions by
-incorporating adaptive power laws, dynamic transmission rates, and spline-based
-smoothing techniques. The CURNDS model provides accurate estimates of
-undetected infections and undocumented deaths from COVID-19 data, uncovering
-the pandemic's true impact. Our analysis challenges the assumption of
-homogeneous mixing between infected and non-infected individuals in traditional
-epidemiological models. By capturing the nuanced transmission dynamics of
-infection and confirmation, our model offers new insights into the spread of
-different COVID-19 strains. Overall, CURNDS provides a robust framework for
-understanding the complex transmission patterns of highly contagious,
-quarantinable diseases.
+                    <h3>Configuration Design of Mechanical Assemblies using an Estimation of
+  Distribution Algorithm and Constraint Programming</h3>
+                    <p><strong>Authors:</strong> Hyunmin Cheong, Mehran Ebrahimi, Adrian Butscher, Francesco Iorio</p>
+                    <p>  A configuration design problem in mechanical engineering involves finding an
+optimal assembly of components and joints that realizes some desired
+performance criteria. Such a problem is a discrete, constrained, and black-box
+optimization problem. A novel method is developed to solve the problem by
+applying Bivariate Marginal Distribution Algorithm (BMDA) and constraint
+programming (CP). BMDA is a type of Estimation of Distribution Algorithm (EDA)
+that exploits the dependency knowledge learned between design variables without
+requiring too many fitness evaluations, which tend to be expensive for the
+current application. BMDA is extended with adaptive chi-square testing to
+identify dependencies and Gibbs sampling to generate new solutions. Also,
+repair operations based on CP are used to deal with infeasible solutions found
+during search. The method is applied to a vehicle suspension design problem and
+is found to be more effective in converging to good solutions than a genetic
+algorithm and other EDAs. These contributions are significant steps towards
+solving the difficult problem of configuration design in mechanical engineering
+with evolutionary computation.
 </p>
-                    <p><a href="http://arxiv.org/pdf/2503.04951v1" target="_blank">Read PDF</a></p>
+                    <p><a href="http://arxiv.org/pdf/2503.11002v1" target="_blank">Read PDF</a></p>
                 </div>
             
                 <div class="paper">
-                    <h3>A Nonparametric Bayesian Model to Adjust for Monitoring Bias with an
-  Application to Identifying Environments Stressed by Climate Change</h3>
-                    <p><strong>Authors:</strong> Jonathan Auerbach, Theresa M. Crimmins, David Kepplinger, Ruishan Lin, E. M. Wolkovich</p>
-                    <p>  We propose a new method to adjust for the bias that occurs when an individual
-monitors a location and reports the status of an event. For example, a monitor
-may visit a plant each week and report whether the plant is in flower or not.
-The goal is to estimate the time the event occurred at that location. The
-problem is that popular estimators often incur bias both because the event may
-not coincide with the arrival of the monitor and because the monitor may report
-the status in error. To correct for this bias, we propose a nonparametric
-Bayesian model that uses monotonic splines to estimate the event time. We first
-demonstrate the problem and our proposed solution using simulated data. We then
-apply our method to a real-world example from phenology in which lilac are
-monitored by citizen scientists in the northeastern United States, and the
-timing of the flowering is used to study anthropogenic warming. Our analysis
-suggests that common methods fail to account for monitoring bias and
-underestimate the peak bloom date of the lilac by 48 days on average. In
-addition, after adjusting for monitoring bias, several locations had
-anomalously late bloom dates that did not appear anomalous before adjustment.
-Our findings underscore the importance of accounting for monitoring bias in
-event-time estimation. By applying our nonparametric Bayesian model with
-monotonic splines, we provide a more accurate approach to estimating bloom
-dates, revealing previously undetected anomalies and improving the reliability
-of citizen science data for environmental monitoring.
+                    <h3>Surviving the frailty of time to event analysis in massive datasets with
+  Generalized Additive Models (and the help of Simon Laplace)</h3>
+                    <p><strong>Authors:</strong> Christos Argyropoulos, Hamza Mir, Maria-Eleni Roumelioti, Pablo Garcia</p>
+                    <p>  Analyses of time to event datasets have been invariably based on the Cox
+proportional hazards model (PHM). Reformulations of the PHM as a Poisson
+Generalized Additive Model (GAM) or as a Generalized Linear Mixed Model (GLMM)
+have been proposed in the literature, aiming to increase the flexibility of the
+PHM and allow its use in situations in which complex spatiotemporal
+relationships have to be taken into account when modeling survival. In this
+report, we provide a unified framework for considering these previous attempts
+and consider the implementation in software for GAM and GLMM in the R
+programming language. The connection between GAM/GLMM and the PHM is leveraged
+to provide computationally efficient implementations for a subclass of survival
+models that incorporate individual random effects ('frailty models'). Frailty
+models provide a unified method to address repeated events, correlated outcomes
+and also time varying visitation schedules when analyzing Electronic Health
+Record data. However the current implementation of frailty models in software
+facilities for the Cox model does not scale because of long computation times;
+conversely the direct implementation of individual random effects in GAM/GLMM
+software does not scale well with memory usage. We propose a two stage method
+for survival models with frailty based on the Laplace approximation. Using a
+D-optimal experimental design to simulate the performance of the proposed
+method across simulated datasets we illustrate that the proposed method can
+circumvent the limitations of existing implementations, opening up the
+possibility to model datasets of hundred of thousands to million individuals
+using high end workstations from within R.
 </p>
-                    <p><a href="http://arxiv.org/pdf/2503.04924v1" target="_blank">Read PDF</a></p>
+                    <p><a href="http://arxiv.org/pdf/2503.10823v1" target="_blank">Read PDF</a></p>
                 </div>
             
                 <div class="paper">
-                    <h3>Rapid updating of multivariate resource models based on new information
-  using EnKF-MDA and multi-Gaussian transformation</h3>
-                    <p><strong>Authors:</strong> Sultan Abulkhair, Peter A. Dowd, Chaoshui Xu</p>
-                    <p>  Rapid resource model updating with real-time data is important for making
-timely decisions in resource management and mining operations. This requires
-optimal merging of models and observations, which can be achieved through data
-assimilation, and the ensemble Kalman filter (EnKF) has become a popular method
-for this task. However, the modelled resources in mining usually consist of
-multiple variables of interest with multivariate relationships of varying
-complexity. EnKF is not a multivariate approach, and even for univariate cases,
-there may be slight deviations between its outcomes and observations. This
-study presents a methodology for rapidly updating multivariate resource models
-using the EnKF with multiple data assimilations (EnKF-MDA) combined with
-rotation based iterative Gaussianisation (RBIG). EnKF-MDA improves the updating
-by assimilating the same data multiple times with an inflated measurement
-error, while RBIG quickly transforms the data into multi-Gaussian factors. The
-application of the proposed algorithm is validated by a real case study with
-nine cross-correlated variables. The combination of EnKF-MDA and RBIG
-successfully improves the accuracy of resource model updates, minimises
-uncertainty, and preserves the multivariate relationships.
+                    <h3>Bayes factors for partial correlation</h3>
+                    <p><strong>Authors:</strong> Saptati Datta, Valen E. Johnson</p>
+                    <p>  Partial correlation coefficients are widely applied in the social sciences to
+evaluate the relationship between two variables after accounting for the
+influence of others. In this article, we present Bayes Factor Functions (BFFs)
+for assessing the presence of partial correlation. BFFs represent Bayes factors
+derived from test statistics and are expressed as functions of a standardized
+effect size. While traditional frequentist methods based on $p$-values have
+been criticized for their inability to provide cumulative evidence in favor of
+the true hypothesis, Bayesian approaches are often challenged due to their
+computational demands and sensitivity to prior distributions. BFFs overcome
+these limitations and offer summaries of hypothesis tests as alternative
+hypotheses are varied over a range of prior distributions on standardized
+effects. They also enable the integration of evidence across multiple studies.
 </p>
-                    <p><a href="http://arxiv.org/pdf/2503.04694v1" target="_blank">Read PDF</a></p>
+                    <p><a href="http://arxiv.org/pdf/2503.10787v1" target="_blank">Read PDF</a></p>
                 </div>
             
                 <div class="paper">
-                    <h3>Granular mortality modeling with temperature and epidemic shocks: a
-  three-state regime-switching approach</h3>
-                    <p><strong>Authors:</strong> Jens Robben, Karim Barigou, Torsten Kleinow</p>
-                    <p>  This paper develops a granular regime-switching framework to model mortality
-deviations from seasonal baseline trends driven by temperature and epidemic
-shocks. The framework features three states: (1) a baseline state that captures
-observed seasonal mortality patterns, (2) an environmental shock state for heat
-waves, and (3) a respiratory shock state that addresses mortality deviations
-caused by strong outbreaks of respiratory diseases due to influenza and
-COVID-19. Transition probabilities between states are modeled using
-covariate-dependent multinomial logit functions. These functions incorporate,
-among others, lagged temperature and influenza incidence rates as predictors,
-allowing dynamic adjustments to evolving shocks. Calibrated on weekly mortality
-data across 21 French regions and six age groups, the regime-switching
-framework accounts for spatial and demographic heterogeneity. Under various
-projection scenarios for temperature and influenza, we quantify uncertainty in
-mortality forecasts through prediction intervals constructed using an extensive
-bootstrap approach. These projections can guide healthcare providers and
-hospitals in managing risks and planning resources for potential future shocks.
+                    <h3>On the Proportional Principal Stratum Hazards Model</h3>
+                    <p><strong>Authors:</strong> Jiren Sun, Thomas D. Cook</p>
+                    <p>  In clinical trials involving both mortality and morbidity, an active
+treatment can influence the observed risk of the first non-fatal event either
+directly, through its effect on the non-fatal event process, or indirectly,
+through its effect on the death process, or both. Discerning the direct effect
+of treatment on the first non-fatal event holds clinical interest. However,
+with the competing risk of death, the Cox proportional hazards model that
+treats death as non-informative censoring and evaluates treatment effects on
+time to the first non-fatal event provides an estimate of the cause-specific
+hazard ratio, which may not correspond to the direct effect. To obtain the
+direct effect on the first non-fatal event, within the principal stratification
+framework, we define the principal stratum hazard and introduce the
+Proportional Principal Stratum Hazards model. This model estimates the
+principal stratum hazard ratio, which reflects the direct effect on the first
+non-fatal event in the presence of death and simplifies to the hazard ratio in
+the absence of death. The principal stratum membership is identified using the
+shared frailty model, which assumes independence between the first non-fatal
+event process and the potential death process from the counterfactual arm,
+conditional on per-subject random frailty. Simulation studies are conducted to
+verify the reliability of our estimators. We illustrate the method using the
+Carvedilol Prospective Randomized Cumulative Survival trial which involves
+heart-failure events.
 </p>
-                    <p><a href="http://arxiv.org/pdf/2503.04568v2" target="_blank">Read PDF</a></p>
+                    <p><a href="http://arxiv.org/pdf/2503.10481v1" target="_blank">Read PDF</a></p>
                 </div>
             
                 <div class="paper">
-                    <h3>Method for recovering data on unreported low-severity crashes</h3>
-                    <p><strong>Authors:</strong> Alberto Morando</p>
-                    <p>  Objective: Many low-severity crashes are not reported due to sampling
-criteria, introducing missing not at random (MNAR) bias. If not addressed, MNAR
-bias can lead to inaccurate safety analyses. This paper illustrates a
-statistical method to address such bias. Methods: We defined a custom
-probability distribution for the observed data as a product of an exponential
-population distribution and a logistic reporting function. We used modern
-Bayesian probabilistic programming techniques. Results: Using simulated data,
-we verified the correctness of the procedure. Applying it to real crash data,
-we estimated the {\Delta}v distribution for passenger vehicles involved in
-personal damage-only (PDO) rear-end crashes. We found that about 77% of cases
-are unreported. Conclusions: The method preserves the original data and it
-accounts well for uncertainty from both modeling assumptions and input data. It
-can improve safety assessments and it applies broadly to other MNAR cases.
+                    <h3>Estimating relapse time distribution from longitudinal biomarker
+  trajectories using iterative regression and continuous time Markov processes</h3>
+                    <p><strong>Authors:</strong> Alice Cleynen, Benoîte de Saporta, Amélie Vernay</p>
+                    <p>  Biomarker measurements obtained by blood sampling are often used as a
+non-invasive means of monitoring tumour progression in cancer patients.
+Diseases evolve dynamically over time, and studying longitudinal observations
+of specific biomarkers can help to understand patients response to treatment
+and predict disease progression. We propose a novel iterative regression-based
+method to estimate changes in patients status within a cohort that includes
+censored patients, and illustrate it on clinical data from myeloma cases. We
+formulate the relapse time estimation problem in the framework of Piecewise
+Deterministic Markov processes (PDMP), where the Euclidean component is a
+surrogate biomarker for patient state. This approach enables continuous-time
+estimation of the status-change dates, which in turn allows for accurate
+inference of the relapse time distribution. A key challenge lies in the partial
+observability of the process, a complexity that has been rarely addressed in
+previous studies. . We evaluate the performance of our procedure through a
+simulation study and compare it with different approaches. This work is a proof
+of concept on biomarker trajectories with simple behaviour, but our method can
+easily be extended to more complex dynamics.
 </p>
-                    <p><a href="http://arxiv.org/pdf/2503.04529v2" target="_blank">Read PDF</a></p>
+                    <p><a href="http://arxiv.org/pdf/2503.10448v1" target="_blank">Read PDF</a></p>
                 </div>
             
                 <div class="paper">
-                    <h3>A Spatiotemporal, Quasi-experimental Causal Inference Approach to
-  Characterize the Effects of Global Plastic Waste Export and Burning on Air
-  Quality Using Remotely Sensed Data</h3>
-                    <p><strong>Authors:</strong> Ellen M. Considine, Rachel C. Nethery</p>
-                    <p>  Open burning of plastic waste may pose a significant threat to global health
-by degrading air quality, but quantitative research on this problem -- crucial
-for policy making -- has previously been stunted by lack of data. Critically,
-many low- and middle-income countries, where open burning is of greatest
-concern, have little to no air quality monitoring. Here, we propose an
-approach, at the intersection of modern causal inference and environmental data
-science, to leverage remotely sensed data products combined with spatiotemporal
-causal analytic techniques to evaluate the impact of large-scale plastic waste
-policies on air quality. Throughout, we use the case study of Indonesia before
-and after 2018, when China halted its import of plastic waste, resulting in
-diversion of this massive waste stream to other countries in the East Asia &
-Pacific region, including Indonesia. We tailor cutting-edge statistical methods
-to this setting, estimating effects of the increase in plastic waste imports on
-fine particulate matter near waste dump sites in Indonesia and allowing effects
-to vary as a function of the site's proximity to ports (from which
-international plastic waste enters the country), which serves as an induced
-continuous exposure or "dose" of treatment. We observe a statistically
-significant increase in monthly fine particulate matter concentrations near
-dump sites after China's ban took effect (2018-2019) compared to concentrations
-expected under business-as-usual (2012-2017), with increases ranging from
-0.76--1.72$\mu$g/m$^3$ (15--34\% of the World Health Organization's recommended
-limit for exposure on an annual basis) depending on the site's port proximity,
-at sites with port proximity above the 20th quantile. Sites with lower port
-proximity had smaller and not statistically significant effects.
+                    <h3>Generalized network autoregressive modelling of longitudinal networks
+  with application to presidential elections in the USA</h3>
+                    <p><strong>Authors:</strong> Guy Nason, Daniel Salnikov, Mario Cortina-Borja</p>
+                    <p>  Longitudinal networks are becoming increasingly relevant in the study of
+dynamic processes characterised by known or inferred community structure.
+Generalised Network Autoregressive (GNAR) models provide a parsimonious
+framework for exploiting the underlying network and multivariate time series.
+We introduce the community-$\alpha$ GNAR model with interactions that exploits
+prior knowledge or exogenous variables for analysing interactions within and
+between communities, and can describe serial correlation in longitudinal
+networks. We derive new explicit finite-sample error bounds that validate
+analysing high-dimensional longitudinal network data with GNAR models, and
+provide insights into their attractive properties. We further illustrate our
+approach by analysing the dynamics of $\textit{Red, Blue}$ and $\textit{Swing}$
+states throughout presidential elections in the USA from 1976 to 2020, that is,
+a time series of length twelve on 51 time series (US states and Washington DC).
+Our analysis connects network autocorrelation to eight-year long terms,
+highlights a possible change in the system after the 2016 election, and a
+difference in behaviour between $\textit{Red}$ and $\textit{Blue}$ states.
 </p>
-                    <p><a href="http://arxiv.org/pdf/2503.04491v1" target="_blank">Read PDF</a></p>
+                    <p><a href="http://arxiv.org/pdf/2503.10433v1" target="_blank">Read PDF</a></p>
                 </div>
             </div>
     <script src="scripts/update-papers.js"></script>
