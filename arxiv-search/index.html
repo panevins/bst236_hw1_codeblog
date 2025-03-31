@@ -9,282 +9,246 @@
 <body>
     <h1>Latest ArXiv Papers on Applied Statistics</h1>
     <p> This page displays the 10 most recents papers on <a href="https://arxiv.org/">ArXiv</a> in the category of "applied statistics". To see all most recent papers under this category, visit ArXiv's website <a href="https://arxiv.org/list/stat.AP/recent">here</a>. This page uses GitHub Actions and the ArXiv API to update each day at approximately midnight.</p>
-    <p id="last-updated">Last updated: 3/26/2025, 6:45:21 PM</p>
+    <p id="last-updated">Last updated: 3/31/2025, 1:22:46 AM</p>
     <button onclick="window.location.href='../index.html'" style="text-align: center;">Go to Homepage</button>
     <div id="papers">
                 <div class="paper">
-                    <h3>Combining predictive distributions for time-to-event outcomes in
-  meteorology</h3>
-                    <p><strong>Authors:</strong> Céline Cunen, Thea Roksvåg, Claudio Heinrich-Mertsching, Alex Lenkoski</p>
-                    <p>  Combining forecasts from multiple numerical weather prediction (NWP) models
-have shown substantial benefit over the use of individual forecast products.
-Although combination, in a broad sense, is widely used in meteorological
-forecasting, systematic studies of combination methodology in meteorology are
-scarce. In this article, we study several combination methods, both
-state-of-the-art and of our own making, with a particular emphasis on
-situations where one seeks to predict when a particular event of interest will
-occur. Such time-to-event forecasts require particular methodology and care. We
-conduct a careful comparison of the different combination methods through an
-extensive simulation study, where we investigate the conditions under which the
-combined forecast will outperform the individual forecasting products. Further,
-we investigate the performance of the methods in a case-study modelling the
-time to first hard freeze in Norway and parts of Fennoscandia.
+                    <h3>Optimal treatment regimes for the net benefit of a treatment</h3>
+                    <p><strong>Authors:</strong> François Petit, Gérard Biau, Raphaël Porcher</p>
+                    <p>  We developed a mathematical setup inspired by Buyse's generalized pairwise
+comparisons to define a notion of optimal individualized treatment rule (ITR)
+in the presence of prioritized outcomes in a randomized controlled trial,
+terming such an ITR pairwise optimal. We present two approaches to estimate
+pairwise optimal ITRs. The first is a variant of the k-nearest neighbors
+algorithm. The second is a meta-learner based on a randomized bagging scheme,
+allowing the use of any classification algorithm for constructing an ITR. We
+study the behavior of these estimation schemes from a theoretical standpoint
+and through Monte Carlo simulations and illustrate their use on trial data.
 </p>
-                    <p><a href="http://arxiv.org/pdf/2503.19534v1" target="_blank">Read PDF</a></p>
+                    <p><a href="http://arxiv.org/pdf/2503.22580v1" target="_blank">Read PDF</a></p>
                 </div>
             
                 <div class="paper">
-                    <h3>A novel forecasting framework combining virtual samples and enhanced
-  Transformer models for tourism demand forecasting</h3>
-                    <p><strong>Authors:</strong> Tingting Diao, Xinzhang Wu, Lina Yang, Ling Xiao, Yunxuan Dong</p>
-                    <p>  Accurate tourism demand forecasting is hindered by limited historical data
-and complex spatiotemporal dependencies among tourist origins. A novel
-forecasting framework integrating virtual sample generation and a novel
-Transformer predictor addresses constraints arising from restricted data
-availability. A spatiotemporal GAN produces realistic virtual samples by
-dynamically modeling spatial correlations through a graph convolutional
-network, and an enhanced Transformer captures local patterns with causal
-convolutions and long-term dependencies with self-attention,eliminating
-autoregressive decoding. A joint training strategy refines virtual sample
-generation based on predictor feedback to maintain robust performance under
-data-scarce conditions. Experimental evaluations on real-world daily and
-monthly tourism demand datasets indicate a reduction in average MASE by 18.37%
-compared to conventional Transformer-based models, demonstrating improved
-forecasting accuracy. The integration of adaptive spatiotemporal sample
-augmentation with a specialized Transformer can effectively address
-limited-data forecasting scenarios in tourism management.
+                    <h3>Comparing methods to assess treatment effect heterogeneity in general
+  parametric regression models</h3>
+                    <p><strong>Authors:</strong> Yao Chen, Sophie Sun, Konstantinos Sechidis, Cong Zhang, Torsten Hothorn, Björn Bornkamp</p>
+                    <p>  This paper reviews and compares methods to assess treatment effect
+heterogeneity in the context of parametric regression models. These methods
+include the standard likelihood ratio tests, bootstrap likelihood ratio tests,
+and Goeman's global test motivated by testing whether the random effect
+variance is zero. We place particular emphasis on tests based on the
+score-residual of the treatment effect and explore different variants of tests
+in this class. All approaches are compared in a simulation study, and the
+approach based on residual scores is illustrated in a study comparing multiple
+doses versus placebo. Our findings demonstrate that score-residual based
+methods provide practical, flexible and reliable tools for identifying
+treatment effect heterogeneity and treatment effect modifiers, and can provide
+useful guidance for decision making around treatment effect heterogeneity.
 </p>
-                    <p><a href="http://arxiv.org/pdf/2503.19423v1" target="_blank">Read PDF</a></p>
+                    <p><a href="http://arxiv.org/pdf/2503.22548v1" target="_blank">Read PDF</a></p>
                 </div>
             
                 <div class="paper">
-                    <h3>Stochastic ecohydrological perspective on semi-distributed
-  rainfall-runoff dynamics</h3>
-                    <p><strong>Authors:</strong> Mark S. Bartlett, Elizabeth Cultra, Nathan Geldner, Amilcare Porporato</p>
-                    <p>  Quantifying watershed process variability consistently with climate change
-and ecohydrological dynamics remains a central challenge in hydrology.
-Stochastic ecohydrology characterizes hydrologic variability through
-probability distributions that link climate, hydrology, and ecology. However,
-these approaches are often limited to small spatial scales (e.g., point or plot
-level) or focus on specific fluxes (e.g., streamflow), without accounting for
-the entire water balance at the basin scale. While semi-distributed models
-account for spatial heterogeneity and upscaled hydrologic fluxes, they lack the
-analytical simplicity of stochastic ecohydrology or the SCS-CN method and,
-perhaps more importantly, do not integrate the effects of past random
-variability in hydroclimatic conditions. This hinders an efficient
-characterization of hydrological statistics at the watershed scale. To overcome
-these limitations, we merge stochastic ecohydrology, the spatial upscaling of
-semi-distributed modeling, and the SCS-CN rainfall-runoff partitioning. The
-resulting unified model analytically characterizes watershed ecohydrological
-and hydrological statistics using probability density functions (PDFs) that are
-functions of climate and watershed attributes -- something unattainable with
-the Monte Carlo methods of traditional stochastic hydrology. Calibrated across
-81 watersheds in Florida and southern Louisiana, the model PDFs precisely
-capture the long-term average water balance and runoff variance, as well as the
-runoff quantiles with a median normalized Nash-Sutcliffe (NNSE) efficiency of
-0.95. These results also advance the SCS-CN method by providing an analytical
-PDF for the Curve Number (CN), explicitly linked to climate variables,
-baseflow, and the long-term water balance partitioning described by the Budyko
-curve.
+                    <h3>An integrated method for clustering and association network inference</h3>
+                    <p><strong>Authors:</strong> Jeanne Tous, Julien Chiquet</p>
+                    <p>  We consider high dimensional Gaussian graphical models inference. These
+models provide a rigorous framework to describe a network of statistical
+dependencies between entities, such as genes in genomic regulation studies or
+species in ecology. Penalized methods, including the standard Graphical-Lasso,
+are well-known approaches to infer the parameters of these models. As the
+number of variables in the model (of entities in the network) grow, the network
+inference and interpretation become more complex. We propose Normal-Block, a
+new model that clusters variables and consider a network at the cluster level.
+Normal-Block both adds structure to the network and reduces its size. We build
+on Graphical-Lasso to add a penalty on the network's edges and limit the
+detection of spurious dependencies, we also propose a zero-inflated version of
+the model to account for real-world data properties. For the inference
+procedure, we propose a direct heuristic method and another more rigorous one
+that simultaneously infers the clustering of variables and the association
+network between clusters, using a penalized variational
+Expectation-Maximization approach. An implementation of the model in R, in a
+package called normalblockr, is available on github
+(https://github.com/jeannetous/normalblockr). We present the results in terms
+of clustering and network inference using both simulated data and various types
+of real-world data (proteomics, words occurrences on webpages, and microbiota
+distribution).
 </p>
-                    <p><a href="http://arxiv.org/pdf/2503.19220v1" target="_blank">Read PDF</a></p>
+                    <p><a href="http://arxiv.org/pdf/2503.22467v1" target="_blank">Read PDF</a></p>
                 </div>
             
                 <div class="paper">
-                    <h3>Statistical Design and Rationale of the Biomarkers for Evaluating Spine
-  Treatments (BEST) Trial</h3>
-                    <p><strong>Authors:</strong> John Sperger, Kelley M. Kidwell, Matthew C. Mauck, Beibo Zhao, Kevin J. Anstrom, Anna Batorsky, Timothy S. Carey, Daniel J. Clauw, Nikki L. B. Freeman, Carol M. Greco, Anastasia Ivanova, Sara Jones Berkeley, Samuel A. McLean, Matthew A. Psioda, Bryce Rowland, Gwendolyn A. Sowa, Ajay D. Wasan, Joshua P Zitovsky, Michael R. Kosorok</p>
-                    <p>  Chronic low back pain (cLBP) is a prevalent condition with profound impacts
-on functioning and quality of life. While multiple evidence-based treatments
-exist, they all have modest average treatment
-effects$\unicode{x2013}$potentially due to individual variation in treatment
-response and the diverse etiologies of cLBP. This multi-site sequential,
-multiple-assignment randomized trial (SMART) investigated four treatment
-modalities with two stages of randomization and aimed to enroll 630 protocol
-completers. The primary objective was to develop a precision medicine approach
-by estimating optimal treatment or treatment combinations based on patient
-characteristics and initial treatment response. The analysis strategy focuses
-on estimating interpretable dynamic treatment regimes and identifying subgroups
-most responsive to specific interventions. Broad eligibility criteria were
-implemented to enhance generalizability and recruitment, most notably that
-participants could be eligible to enroll even if they could not be assigned to
-one (but no more) of the study interventions. Enrolling participants with
-restrictions on the treatment they could be assigned necessitated modifications
-to standard minimization methods for balancing covariates. The BEST trial
-represents one of the largest SMARTs focused on clinical decision-making to
-date and the largest in cLBP. By collecting an extensive array of biomarker and
-phenotypic measures, this trial may identify potential treatment mechanisms and
-establish a more evidence-based approach to individualizing cLBP treatment in
-clinical practice.
+                    <h3>Estimation of Building Energy Demand Characteristics using Bayesian
+  Statistics and Energy Signature Models</h3>
+                    <p><strong>Authors:</strong> Justinas Smertinas, Nicolaj Hans Nielsen, Matthias Y. C. Van Hove, Peder Bacher, Henrik Madsen</p>
+                    <p>  This work presents a scalable Bayesian modeling framework for evaluating
+building energy performance using smart-meter data from 2,788 Danish
+single-family homes. The framework leverages Bayesian statistical inference
+integrated with Energy Signature (ES) models to characterize thermal
+performance in buildings. This approach quantifies key parameters such as the
+Heat Loss Coefficient (HLC), solar gain, and wind infiltration, while providing
+full posterior distributions to reflect parameter uncertainty.
+  Three model variants are developed: a baseline ES model, an auto-regressive
+model (ARX-ES) to account for thermal inertia, and an auto-regressive moving
+average model (ARMAX-ES) that approximates stochastic gray-box dynamics.
+Results show that model complexity improves one-step-ahead predictive
+performance, with the ARMAX-ES model achieving a median Bayesian R^2 of 0.94
+across the building stock. At the single-building level, the Bayesian approach
+yields credible intervals for yearly energy demand within $\pm1\%$, enabling
+more robust diagnostics than deterministic methods.
+  Beyond improved accuracy, the Bayesian framework enhances decision-making by
+explicitly representing uncertainty in building performance parameters. This
+provides a more realistic foundation for investment prioritization, demand
+forecasting, and long-term energy planning. The method is readily applicable to
+other building typologies or geographies, offering a scalable tool for
+data-driven energy management under uncertainty.
 </p>
-                    <p><a href="http://arxiv.org/pdf/2503.19127v1" target="_blank">Read PDF</a></p>
+                    <p><a href="http://arxiv.org/pdf/2503.22321v1" target="_blank">Read PDF</a></p>
                 </div>
             
                 <div class="paper">
-                    <h3>Causal Links Between Anthropogenic Emissions and Air Pollution Dynamics
-  in Delhi</h3>
-                    <p><strong>Authors:</strong> Sourish Das, Sudeep Shukla, Alka Yadav, Anirban Chakraborti</p>
-                    <p>  Air pollution poses significant health and environmental challenges,
-particularly in rapidly urbanizing regions. Delhi-National Capital Region
-experiences air pollution episodes due to complex interactions between
-anthropogenic emissions and meteorological conditions. Understanding the causal
-drivers of key pollutants such as $PM_{2.5}$ and ground $O_3$ is crucial for
-developing effective mitigation strategies. This study investigates the causal
-links of anthropogenic emissions on $PM_{2.5}$ and $O_3$ concentrations using
-predictive modeling and causal inference techniques. Integrating
-high-resolution air quality data from Jan 2018 to Aug 2023 across 32 monitoring
-stations, we develop predictive regression models that incorporate
-meteorological variables (temperature and relative humidity), pollutant
-concentrations ($NO_2, SO_2, CO$), and seasonal harmonic components to capture
-both diurnal and annual cycles. Here, we show that reductions in anthropogenic
-emissions lead to significant decreases in $PM_{2.5}$ levels, whereas their
-effect on $O_3$ remains marginal and statistically insignificant. To address
-spatial heterogeneity, we employ Gaussian Process modeling. Further, we use
-Granger causality analysis and counterfactual simulation to establish direct
-causal links. Validation using real-world data from the COVID-19 lockdown
-confirms that reduced emissions led to a substantial drop in $PM_{2.5}$ but
-only a slight, insignificant change in $O_3$. The findings highlight the
-necessity of targeted emission reduction policies while emphasizing the need
-for integrated strategies addressing both particulate and ozone pollution.
-These insights are crucial for policymakers designing air pollution
-interventions in other megacities, and offer a scalable methodology for
-tackling complex urban air pollution through data-driven decision-making.
+                    <h3>Hierarchical models for small area estimation using zero-inflated forest
+  inventory variables: comparison and implementation</h3>
+                    <p><strong>Authors:</strong> Grayson W. White, Andrew O. Finley, Josh K. Yamamoto, Jennifer L. Green, Tracey S. Frescino, Hans-Erik Andersen</p>
+                    <p>  National Forest Inventory (NFI) data are typically limited to sparse networks
+of sample locations due to cost constraints. While traditional design-based
+estimators provide reliable forest parameter estimates for large areas, there
+is increasing interest in model-based small area estimation (SAE) methods to
+improve precision for smaller spatial, temporal, or biophysical domains. SAE
+methods can be broadly categorized into area- and unit-level models, with
+unit-level models offering greater flexibility -- making them the focus of this
+study. Ensuring valid inference requires satisfying model distributional
+assumptions, which is particularly challenging for NFI variables that exhibit
+positive support and zero inflation, such as forest biomass, carbon, and
+volume. Here, we evaluate a class of two-stage unit-level hierarchical Bayesian
+models for estimating forest biomass at the county-level in Washington and
+Nevada, United States. We compare these models to simpler Bayesian single-stage
+and two-stage frequentist approaches. To assess estimator performance, we
+employ simulated populations and cross-validation techniques. Results indicate
+that small area estimators that incorporate a two-stage approach to account for
+zero inflation, county-specific random intercepts and residual variances, and
+spatial random effects provide the most reliable county-level estimates.
+Additionally, findings suggest that unit-level cross-validation within the
+training dataset is as effective as area-level validation using simulated
+populations for model selection. We also illustrate the usefulness of simulated
+populations for better assessing qualities of the various estimators
+considered.
 </p>
-                    <p><a href="http://arxiv.org/pdf/2503.18912v1" target="_blank">Read PDF</a></p>
+                    <p><a href="http://arxiv.org/pdf/2503.22103v1" target="_blank">Read PDF</a></p>
                 </div>
             
                 <div class="paper">
-                    <h3>Calibration Bands for Mean Estimates within the Exponential Dispersion
-  Family</h3>
-                    <p><strong>Authors:</strong> Łukasz Delong, Selim Gatti, Mario V. Wüthrich</p>
-                    <p>  A statistical model is said to be calibrated if the resulting mean estimates
-perfectly match the true means of the underlying responses. Aiming for
-calibration is often not achievable in practice as one has to deal with finite
-samples of noisy observations. A weaker notion of calibration is
-auto-calibration. An auto-calibrated model satisfies that the expected value of
-the responses being given the same mean estimate matches this estimate. Testing
-for auto-calibration has only been considered recently in the literature and we
-propose a new approach based on calibration bands. Calibration bands denote a
-set of lower and upper bounds such that the probability that the true means lie
-simultaneously inside those bounds exceeds some given confidence level. Such
-bands were constructed by Yang-Barber (2019) for sub-Gaussian distributions.
-Dimitriadis et al. (2023) then introduced narrower bands for the Bernoulli
-distribution and we use the same idea in order to extend the construction to
-the entire exponential dispersion family that contains for example the
-binomial, Poisson, negative binomial, gamma and normal distributions. Moreover,
-we show that the obtained calibration bands allow us to construct various tests
-for calibration and auto-calibration, respectively.
+                    <h3>Parapolitics and Roll-Call Voting in Colombia: A Bayesian Euclidean and
+  Spherical Spatial Analysis</h3>
+                    <p><strong>Authors:</strong> Juan Sosa, Carolina Luque, Juan Valero</p>
+                    <p>  This study presents a Bayesian spatial voting analysis of the Colombian
+Senate during the 2006-2010 legislative period, leveraging a newly constructed
+roll-call dataset comprising 147 senators and 136 plenary votes. We estimate
+legislators' ideal points under two alternative geometric frameworks: A
+traditional Euclidean model and a circular model that embeds preferences on the
+unit circle. Both models are implemented using Markov Chain Monte Carlo
+methods, with the circular specification capturing geodesic distances and von
+Mises-distributed latent traits. The results reveal a latent structure in
+voting behavior best characterized not by a conventional left-right ideological
+continuum but by an opposition-non-opposition alignment. Using Bayesian
+logistic regression, we further investigate the association between senators'
+ideal points and their involvement in the para-politics scandal. Findings
+indicate a significant and robust relationship between political alignment and
+para-politics implication, suggesting that extralegal influence was
+systematically related to senators' legislative behavior during this period.
 </p>
-                    <p><a href="http://arxiv.org/pdf/2503.18896v1" target="_blank">Read PDF</a></p>
+                    <p><a href="http://arxiv.org/pdf/2503.22045v1" target="_blank">Read PDF</a></p>
                 </div>
             
                 <div class="paper">
-                    <h3>Stochastic modeling of particle structures in spray fluidized bed
-  agglomeration using methods from machine learning</h3>
-                    <p><strong>Authors:</strong> Lukas Fuchs, Sabrina Weber, Jialin Men, Niklas Eiermann, Orkun Furat, Andreas Bück, Volker Schmidt</p>
-                    <p>  Agglomeration is an industrially relevant process for the production of bulk
-materials in which the product properties depend on the morphology of the
-agglomerates, e.g., on the distribution of size and shape descriptors. Thus,
-accurate characterization and control of agglomerate morphologies is essential
-to ensure high and consistent product quality. This paper presents a pipeline
-for image-based inline agglomerate characterization and prediction of their
-time-dependent multivariate morphology distributions within a spray fluidized
-bed process with transparent glass beads as primary particles. The framework
-classifies observed objects in image data into three distinct morphological
-classes--primary particles, chain-like agglomerates and raspberry-like
-agglomerates--using various size and shape descriptors. To this end, a fast and
-robust random forest classifier is trained. Additionally, the fraction of
-primary particles belonging to each of these classes, either as individual
-primary particles or as part of a larger structure in the form of chain-like or
-raspberry-like agglomerates, is described using parametric regression
-functions. Finally, the temporal evolution of bivariate size and shape
-descriptor distributions of these classes is modeled using low-parametric
-regression functions and Archimedean copulas. This approach improves the
-understanding of agglomerate formation and allows the prediction of process
-kinetics, facilitating precise control over class fractions and morphology
-distributions.
+                    <h3>A Semiparametric Quantile Single-Index Model for Zero-Inflated Outcomes</h3>
+                    <p><strong>Authors:</strong> Zirui Wang, Tianying Wang</p>
+                    <p>  We consider the complex data modeling problem motivated by the zero-inflated
+and overdispersed data from microbiome studies. Analyzing how microbiome
+abundance is associated with human biological features, such as BMI, is of
+great importance for host health. Methods based on parametric distributional
+assumptions, such as zero-inflated Poisson and zero-inflated Negative Binomial
+regression, have been widely used in modeling such data, yet the parametric
+assumptions are restricted and hard to verify in real-world applications. We
+relax the parametric assumptions and propose a semiparametric single-index
+quantile regression model. It is flexible to include a wide range of possible
+association functions and adaptable to the various zero proportions across
+subjects, which relaxes the strong parametric distributional assumptions of
+most existing zero-inflated data modeling approaches. We establish the
+asymptotic properties for the index coefficients estimator and quantile
+regression curve estimation. Through extensive simulation studies, we
+demonstrate the superior performance of the proposed method regarding model
+fitting.
 </p>
-                    <p><a href="http://arxiv.org/pdf/2503.18882v1" target="_blank">Read PDF</a></p>
+                    <p><a href="http://arxiv.org/pdf/2503.21924v1" target="_blank">Read PDF</a></p>
                 </div>
             
                 <div class="paper">
-                    <h3>A primer on inference and prediction with epidemic renewal models and
-  sequential Monte Carlo</h3>
-                    <p><strong>Authors:</strong> Nicholas Steyn, Kris V. Parag, Robin N. Thompson, Christl A. Donnelly</p>
-                    <p>  Renewal models are widely used in statistical epidemiology as
-semi-mechanistic models of disease transmission. While primarily used for
-estimating the instantaneous reproduction number, they can also be used for
-generating projections, estimating elimination probabilities, modelling the
-effect of interventions, and more. We demonstrate how simple sequential Monte
-Carlo methods (also known as particle filters) can be used to perform inference
-on these models. Our goal is to acquaint a reader who has a working knowledge
-of statistical inference with these methods and models and to provide a
-practical guide to their implementation. We focus on these methods' flexibility
-and their ability to handle multiple statistical and other biases
-simultaneously. We leverage this flexibility to unify existing methods for
-estimating the instantaneous reproduction number and generating projections. A
-companion website "SMC and epidemic renewal models" provides additional worked
-examples, self-contained code to reproduce the examples presented here, and
-additional materials.
+                    <h3>A novel smoothing-based goodness-of-fit test of covariance for
+  multivariate sparse functional data</h3>
+                    <p><strong>Authors:</strong> Dhrubajyoti Ghosh, Zhuolin Song, Luo Xiao, Sheng Luo</p>
+                    <p>  Accurately specifying covariance structures is critical for valid inference
+in longitudinal and functional data analysis, particularly when data are
+sparsely observed. In this study, we develop a global goodness-of-fit test to
+assess parametric covariance structures in multivariate sparse functional data.
+Our contribution is twofold. First, we extend the univariate goodness-of-fit
+test proposed by Chen et al. (2019) to better accommodate sparse data by
+improving error variance estimation and applying positive semi-definite
+smoothing to covariance estimation. These corrections ensure appropriate Type I
+error control under sparse designs. Second, we introduce a multivariate
+extension of the improved test that jointly evaluates covariance structures
+across multiple outcomes, employing novel test statistics based on the maximum
+and $\ell_2$ norms to account for inter-outcome dependencies and enhance
+statistical power. Through extensive simulation studies, we demonstrate that
+the proposed methods maintain proper Type I error rates and achieve greater
+power than univariate tests with multiple testing adjustments. Applications to
+longitudinal neuroimaging and clinical data from the Alzheimer's Disease
+Neuroimaging Initiative (ADNI) and the Parkinson's Progression Marker
+Initiative (PPMI) illustrate the practical utility of the proposed methods for
+evaluating covariance structures in sparse multivariate longitudinal data.
 </p>
-                    <p><a href="http://arxiv.org/pdf/2503.18875v1" target="_blank">Read PDF</a></p>
+                    <p><a href="http://arxiv.org/pdf/2503.21913v1" target="_blank">Read PDF</a></p>
                 </div>
             
                 <div class="paper">
-                    <h3>Probabilistic Assessment of West Nile Virus Spillover Risk Using a
-  Compartmental Mechanistic Model</h3>
-                    <p><strong>Authors:</strong> Saman Hosseini, Lee W. Cohnstaedt, Matin Marjani, Caterina Scoglio</p>
-                    <p>  This paper presents a novel probabilistic approach for assessing the risk of
-West Nile Disease (WND) spillover to the human population. The assessment has
-been conducted under two different scenarios: (1) assessment of the onset of
-spillover, and (2) assessment of the severity of the epidemic after the onset
-of the disease. A compartmental model of differential equations is developed to
-describe the disease transmission mechanism, and a probability density function
-for pathogen spillover to humans is derived based on the model for the
-assessment of the risk of the spillover onset and the severity of the epidemic.
-The prediction strategy involves making a long-term forecast and then updating
-it with a short-term (lead time of two weeks or daily). The methodology is
-demonstrated using detailed outbreak data from high-case counties in
-California, including Orange County, Los Angeles County, and Kern County. The
-predicted results are compared with actual infection dates reported by the
-California Department of Public Health for 2022-2024 to assess prediction
-accuracy. The performance accuracy is evaluated using a logarithmic scoring
-system and compared with one of the most renowned predictive models to assess
-its effectiveness. In all prediction scenarios, the model demonstrated strong
-performance. Lastly, the method is applied to explore the impact of global
-warming on spillover risk, revealing an increasing trend in the number of
-high-risk days and a shift toward a greater proportion of these days over time
-for the onset of the disease.
+                    <h3>Investigating Experiential Effects in Online Chess using a Hierarchical
+  Bayesian Analysis</h3>
+                    <p><strong>Authors:</strong> Adam Gee, Sydney O. Seese, James P. Curley, Owen G. Ward</p>
+                    <p>  The presence or absence of winner-loser effects is a widely discussed
+phenomenon across both sports and psychology research. Investigation of such
+effects is often hampered by the limited availability of data. Online chess has
+exploded in popularity in recent years and provides vast amounts of data which
+can be used to explore this question. With a hierarchical Bayesian regression
+model, we carefully investigate the presence of such experiential effects in
+online chess. Using a large quantity of online chess data, we see little
+evidence for experiential effects that are consistent across all players, with
+some individual players showing some evidence for such effects. Given the
+challenging temporal nature of this data, we discuss several methods for
+assessing the suitability of our model and carefully check its validity.
 </p>
-                    <p><a href="http://arxiv.org/pdf/2503.18433v1" target="_blank">Read PDF</a></p>
+                    <p><a href="http://arxiv.org/pdf/2503.21713v1" target="_blank">Read PDF</a></p>
                 </div>
             
                 <div class="paper">
-                    <h3>Efficient Inference in First Passage Time Models</h3>
-                    <p><strong>Authors:</strong> Sicheng Liu, Alexander Fengler, Michael J. Frank, Matthew T. Harrison</p>
-                    <p>  First passage time models describe the time it takes for a random process to
-exit a region of interest and are widely used across various scientific fields.
-Fast and accurate numerical methods for computing the likelihood function in
-these models are essential for efficient statistical inference. Specifically,
-in mathematical psychology, generalized drift diffusion models (GDDMs) are an
-important class of first passage time models that describe the latent
-psychological processes underlying simple decision-making scenarios. GDDMs
-model the joint distribution over choices and response times as the first
-hitting time of a one-dimensional stochastic differential equation (SDE) to
-possibly time-varying upper and lower boundaries. They are widely applied to
-extract parameters associated with distinct cognitive and neural mechanisms.
-However, current likelihood computation methods struggle with common scenarios
-where drift rates covary dynamically with exogenous covariates in each trial,
-such as in the attentional drift diffusion model (aDDM). In this work, we
-propose a fast and flexible algorithm for computing the likelihood function of
-GDDMs based on a large class of SDEs satisfying the Cherkasov condition. Our
-method divides each trial into discrete stages, employs fast analytical results
-to compute stage-wise densities, and integrates these to compute the overall
-trial-wise likelihood. Numerical examples demonstrate that our method not only
-yields accurate likelihood evaluations for efficient statistical inference, but
-also significantly outperforms existing approaches in terms of speed.
+                    <h3>Unlocking the Potential of Past Research: Using Generative AI to
+  Reconstruct Healthcare Simulation Models</h3>
+                    <p><strong>Authors:</strong> Thomas Monks, Alison Harper, Amy Heather</p>
+                    <p>  Discrete-event simulation (DES) is widely used in healthcare Operations
+Research, but the models themselves are rarely shared. This limits their
+potential for reuse and long-term impact in the modelling and healthcare
+communities. This study explores the feasibility of using generative artificial
+intelligence (AI) to recreate published models using Free and Open Source
+Software (FOSS), based on the descriptions provided in an academic journal.
+Using a structured methodology, we successfully generated, tested and
+internally reproduced two DES models, including user interfaces. The reported
+results were replicated for one model, but not the other, likely due to missing
+information on distributions. These models are substantially more complex than
+AI-generated DES models published to date. Given the challenges we faced in
+prompt engineering, code generation, and model testing, we conclude that our
+iterative approach to model development, systematic comparison and testing, and
+the expertise of our team were necessary to the success of our recreated
+simulation models.
 </p>
-                    <p><a href="http://arxiv.org/pdf/2503.18381v1" target="_blank">Read PDF</a></p>
+                    <p><a href="http://arxiv.org/pdf/2503.21646v1" target="_blank">Read PDF</a></p>
                 </div>
             </div>
     <script src="scripts/update-papers.js"></script>
