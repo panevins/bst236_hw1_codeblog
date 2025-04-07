@@ -9,246 +9,250 @@
 <body>
     <h1>Latest ArXiv Papers on Applied Statistics</h1>
     <p> This page displays the 10 most recents papers on <a href="https://arxiv.org/">ArXiv</a> in the category of "applied statistics". To see all most recent papers under this category, visit ArXiv's website <a href="https://arxiv.org/list/stat.AP/recent">here</a>. This page uses GitHub Actions and the ArXiv API to update each day at approximately midnight.</p>
-    <p id="last-updated">Last updated: 3/31/2025, 1:22:46 AM</p>
+    <p id="last-updated">Last updated: 4/7/2025, 1:23:36 AM</p>
     <button onclick="window.location.href='../index.html'" style="text-align: center;">Go to Homepage</button>
     <div id="papers">
                 <div class="paper">
-                    <h3>Optimal treatment regimes for the net benefit of a treatment</h3>
-                    <p><strong>Authors:</strong> François Petit, Gérard Biau, Raphaël Porcher</p>
-                    <p>  We developed a mathematical setup inspired by Buyse's generalized pairwise
-comparisons to define a notion of optimal individualized treatment rule (ITR)
-in the presence of prioritized outcomes in a randomized controlled trial,
-terming such an ITR pairwise optimal. We present two approaches to estimate
-pairwise optimal ITRs. The first is a variant of the k-nearest neighbors
-algorithm. The second is a meta-learner based on a randomized bagging scheme,
-allowing the use of any classification algorithm for constructing an ITR. We
-study the behavior of these estimation schemes from a theoretical standpoint
-and through Monte Carlo simulations and illustrate their use on trial data.
+                    <h3>A New Statistical Approach to Calibration-Free Localization Using
+  Unlabeled Crowdsourced Data</h3>
+                    <p><strong>Authors:</strong> Haozhou Hu, Harpreet S. Dhillon, R. Michael Buehrer</p>
+                    <p>  Fingerprinting-based indoor localization methods typically require
+labor-intensive site surveys to collect signal measurements at known reference
+locations and frequent recalibration, which limits their scalability. This
+paper addresses these challenges by presenting a novel approach for indoor
+localization that utilizes crowdsourced data {\em without location labels}. We
+leverage the statistical information of crowdsourced data and propose a
+cumulative distribution function (CDF) based distance estimation method that
+maps received signal strength (RSS) to distances from access points. This
+approach overcomes the limitations of conventional distance estimation based on
+the empirical path loss model by efficiently capturing the impacts of shadow
+fading and multipath. Compared to fingerprinting, our {\em unsupervised}
+statistical approach eliminates the need for signal measurements at known
+reference locations. The estimated distances are then integrated into a
+three-step framework to determine the target location. The localization
+performance of our proposed method is evaluated using RSS data generated from
+ray-tracing simulations. Our results demonstrate significant improvements in
+localization accuracy compared to methods based on the empirical path loss
+model. Furthermore, our statistical approach, which relies on unlabeled data,
+achieves localization accuracy comparable to that of the {\em supervised}
+approach, the $k$-Nearest Neighbor ($k$NN) algorithm, which requires
+fingerprints with location labels. For reproducibility and future research, we
+make the ray-tracing dataset publicly available at [2].
 </p>
-                    <p><a href="http://arxiv.org/pdf/2503.22580v1" target="_blank">Read PDF</a></p>
+                    <p><a href="http://arxiv.org/pdf/2504.03619v1" target="_blank">Read PDF</a></p>
                 </div>
             
                 <div class="paper">
-                    <h3>Comparing methods to assess treatment effect heterogeneity in general
-  parametric regression models</h3>
-                    <p><strong>Authors:</strong> Yao Chen, Sophie Sun, Konstantinos Sechidis, Cong Zhang, Torsten Hothorn, Björn Bornkamp</p>
-                    <p>  This paper reviews and compares methods to assess treatment effect
-heterogeneity in the context of parametric regression models. These methods
-include the standard likelihood ratio tests, bootstrap likelihood ratio tests,
-and Goeman's global test motivated by testing whether the random effect
-variance is zero. We place particular emphasis on tests based on the
-score-residual of the treatment effect and explore different variants of tests
-in this class. All approaches are compared in a simulation study, and the
-approach based on residual scores is illustrated in a study comparing multiple
-doses versus placebo. Our findings demonstrate that score-residual based
-methods provide practical, flexible and reliable tools for identifying
-treatment effect heterogeneity and treatment effect modifiers, and can provide
-useful guidance for decision making around treatment effect heterogeneity.
+                    <h3>Going green across boundaries: Spatial effects of environmental policies
+  on tourism flows</h3>
+                    <p><strong>Authors:</strong> Riccardo Gianluigi Serio, Diego Giuliani, Maria Michela Dickson, Giuseppe Espa</p>
+                    <p>  This study investigates the relationship between environmental sustainability
+policies and tourism flows across Italian provinces using a Spatial Durbin
+Error Model (SDEM) within a gravity framework. By incorporating both public and
+corporate environmental initiatives, the analysis highlights the direct and
+spatial spillover effects of sustainability measures on tourism demand. The
+findings indicate that corporate-led initiatives, such as ecocertifications and
+green investments, exert a stronger direct influence on tourism flows compared
+to public measures, underscoring the visibility and immediate impact of private
+sector actions. However, both types of initiatives generate significant
+positive spatial spillovers, suggesting that sustainability efforts extend
+beyond local boundaries. These results demonstrate the interconnected nature of
+regional tourism systems and emphasize the critical role of coordinated
+sustainability policies in fostering tourism growth while promoting
+environmental protection. By addressing the spatial interdependencies of
+tourism flows and sustainability practices, this research provides valuable
+insights for policymakers and stakeholders seeking to improve sustainable
+tourism development at regional and national levels.
 </p>
-                    <p><a href="http://arxiv.org/pdf/2503.22548v1" target="_blank">Read PDF</a></p>
+                    <p><a href="http://arxiv.org/pdf/2504.03608v1" target="_blank">Read PDF</a></p>
                 </div>
             
                 <div class="paper">
-                    <h3>An integrated method for clustering and association network inference</h3>
-                    <p><strong>Authors:</strong> Jeanne Tous, Julien Chiquet</p>
-                    <p>  We consider high dimensional Gaussian graphical models inference. These
-models provide a rigorous framework to describe a network of statistical
-dependencies between entities, such as genes in genomic regulation studies or
-species in ecology. Penalized methods, including the standard Graphical-Lasso,
-are well-known approaches to infer the parameters of these models. As the
-number of variables in the model (of entities in the network) grow, the network
-inference and interpretation become more complex. We propose Normal-Block, a
-new model that clusters variables and consider a network at the cluster level.
-Normal-Block both adds structure to the network and reduces its size. We build
-on Graphical-Lasso to add a penalty on the network's edges and limit the
-detection of spurious dependencies, we also propose a zero-inflated version of
-the model to account for real-world data properties. For the inference
-procedure, we propose a direct heuristic method and another more rigorous one
-that simultaneously infers the clustering of variables and the association
-network between clusters, using a penalized variational
-Expectation-Maximization approach. An implementation of the model in R, in a
-package called normalblockr, is available on github
-(https://github.com/jeannetous/normalblockr). We present the results in terms
-of clustering and network inference using both simulated data and various types
-of real-world data (proteomics, words occurrences on webpages, and microbiota
-distribution).
+                    <h3>evalprob4cast: An R-package for evaluation of ensembles as probabilistic
+  forecasts or event forecasts</h3>
+                    <p><strong>Authors:</strong> Mathias Blicher Bjerregård, Jethro Browell, John Zack, Jan Kloppenborg Møller, Henrik Madsen, Gregor Giebel, Corinna Möhrlen</p>
+                    <p>  For any forecasting application, evaluation of forecasts is an important
+task. For example, in the field of renewable energy sources there is high
+variability and uncertainty of power production, which makes forecasting and
+the evaluation hereof crucial both for power trading and power grid balancing.
+In particular, probabilistic forecasts represented by ensembles are popular due
+to their ability to cover the full range of scenarios that can occur, thus
+enabling forecast users to make more informed decisions than what would be
+possible with simple deterministic forecasts. The selection of open source
+software that supports evaluation of ensemble forecasts, and especially event
+detection, is currently limited. As a solution, evalprob4cast is a new
+R-package for probabilistic forecast evaluation that aims to provide its users
+with all the tools needed for the assessment of ensemble forecasts, in the form
+of metrics and visualization methods. Both univariate and multivariate
+probabilistic forecasts as well as event detection are covered. Furthermore, it
+offers a user-friendly design where all of the evaluation methods can be
+applied in a fast and easy way, as long as the input data is organized in
+accordance with the format defined by the package. While its development is
+motivated by forecasting of renewables, the package can be used for any
+application with ensemble forecasts.
 </p>
-                    <p><a href="http://arxiv.org/pdf/2503.22467v1" target="_blank">Read PDF</a></p>
+                    <p><a href="http://arxiv.org/pdf/2504.03544v1" target="_blank">Read PDF</a></p>
                 </div>
             
                 <div class="paper">
-                    <h3>Estimation of Building Energy Demand Characteristics using Bayesian
-  Statistics and Energy Signature Models</h3>
-                    <p><strong>Authors:</strong> Justinas Smertinas, Nicolaj Hans Nielsen, Matthias Y. C. Van Hove, Peder Bacher, Henrik Madsen</p>
-                    <p>  This work presents a scalable Bayesian modeling framework for evaluating
-building energy performance using smart-meter data from 2,788 Danish
-single-family homes. The framework leverages Bayesian statistical inference
-integrated with Energy Signature (ES) models to characterize thermal
-performance in buildings. This approach quantifies key parameters such as the
-Heat Loss Coefficient (HLC), solar gain, and wind infiltration, while providing
-full posterior distributions to reflect parameter uncertainty.
-  Three model variants are developed: a baseline ES model, an auto-regressive
-model (ARX-ES) to account for thermal inertia, and an auto-regressive moving
-average model (ARMAX-ES) that approximates stochastic gray-box dynamics.
-Results show that model complexity improves one-step-ahead predictive
-performance, with the ARMAX-ES model achieving a median Bayesian R^2 of 0.94
-across the building stock. At the single-building level, the Bayesian approach
-yields credible intervals for yearly energy demand within $\pm1\%$, enabling
-more robust diagnostics than deterministic methods.
-  Beyond improved accuracy, the Bayesian framework enhances decision-making by
-explicitly representing uncertainty in building performance parameters. This
-provides a more realistic foundation for investment prioritization, demand
-forecasting, and long-term energy planning. The method is readily applicable to
-other building typologies or geographies, offering a scalable tool for
-data-driven energy management under uncertainty.
+                    <h3>Target Prediction Under Deceptive Switching Strategies via
+  Outlier-Robust Filtering of Partially Observed Incomplete Trajectories</h3>
+                    <p><strong>Authors:</strong> Yiming Meng, Dongchang Li, Melkior Ornik</p>
+                    <p>  Motivated by a study on deception and counter-deception, this paper addresses
+the problem of identifying an agent's target as it seeks to reach one of two
+targets in a given environment. In practice, an agent may initially follow a
+strategy to aim at one target but decide to switch to another midway. Such a
+strategy can be deceptive when the counterpart only has access to imperfect
+observations, which include heavily corrupted sensor noise and possible
+outliers, making it difficult to visually identify the agent's true intent. To
+counter deception and identify the true target, we utilize prior knowledge of
+the agent's dynamics and the imprecisely observed partial trajectory of the
+agent's states to dynamically update the estimation of the posterior
+probability of whether a deceptive switch has taken place. However, existing
+methods in the literature have not achieved effective deception identification
+within a reasonable computation time. We propose a set of outlier-robust change
+detection methods to track relevant change-related statistics efficiently,
+enabling the detection of deceptive strategies in hidden nonlinear dynamics
+with reasonable computational effort. The performance of the proposed framework
+is examined for Weapon-Target Assignment (WTA) detection under deceptive
+strategies using random simulations in the kinematics model with external
+forcing.
 </p>
-                    <p><a href="http://arxiv.org/pdf/2503.22321v1" target="_blank">Read PDF</a></p>
+                    <p><a href="http://arxiv.org/pdf/2504.03502v1" target="_blank">Read PDF</a></p>
                 </div>
             
                 <div class="paper">
-                    <h3>Hierarchical models for small area estimation using zero-inflated forest
-  inventory variables: comparison and implementation</h3>
-                    <p><strong>Authors:</strong> Grayson W. White, Andrew O. Finley, Josh K. Yamamoto, Jennifer L. Green, Tracey S. Frescino, Hans-Erik Andersen</p>
-                    <p>  National Forest Inventory (NFI) data are typically limited to sparse networks
-of sample locations due to cost constraints. While traditional design-based
-estimators provide reliable forest parameter estimates for large areas, there
-is increasing interest in model-based small area estimation (SAE) methods to
-improve precision for smaller spatial, temporal, or biophysical domains. SAE
-methods can be broadly categorized into area- and unit-level models, with
-unit-level models offering greater flexibility -- making them the focus of this
-study. Ensuring valid inference requires satisfying model distributional
-assumptions, which is particularly challenging for NFI variables that exhibit
-positive support and zero inflation, such as forest biomass, carbon, and
-volume. Here, we evaluate a class of two-stage unit-level hierarchical Bayesian
-models for estimating forest biomass at the county-level in Washington and
-Nevada, United States. We compare these models to simpler Bayesian single-stage
-and two-stage frequentist approaches. To assess estimator performance, we
-employ simulated populations and cross-validation techniques. Results indicate
-that small area estimators that incorporate a two-stage approach to account for
-zero inflation, county-specific random intercepts and residual variances, and
-spatial random effects provide the most reliable county-level estimates.
-Additionally, findings suggest that unit-level cross-validation within the
-training dataset is as effective as area-level validation using simulated
-populations for model selection. We also illustrate the usefulness of simulated
-populations for better assessing qualities of the various estimators
-considered.
+                    <h3>Spatiotemporal causal inference with arbitrary spillover and carryover
+  effects</h3>
+                    <p><strong>Authors:</strong> Mitsuru Mukaigawara, Kosuke Imai, Jason Lyall, Georgia Papadogeorgou</p>
+                    <p>  Micro-level data with granular spatial and temporal information are becoming
+increasingly available to social scientists. Most researchers aggregate such
+data into a convenient panel data format and apply standard causal inference
+methods. This approach, however, has two limitations. First, data aggregation
+results in the loss of detailed geo-location and temporal information, leading
+to potential biases. Second, most panel data methods either ignore spatial
+spillover and temporal carryover effects or impose restrictive assumptions on
+their structure. We introduce a general methodological framework for
+spatiotemporal causal inference with arbitrary spillover and carryover effects.
+Under this general framework, we demonstrate how to define and estimate causal
+quantities of interest, explore heterogeneous treatment effects, investigate
+causal mechanisms, and visualize the results to facilitate their
+interpretation. We illustrate the proposed methodology through an analysis of
+airstrikes and insurgent attacks in Iraq. The open-source software package
+geocausal implements all of our methods.
 </p>
-                    <p><a href="http://arxiv.org/pdf/2503.22103v1" target="_blank">Read PDF</a></p>
+                    <p><a href="http://arxiv.org/pdf/2504.03464v1" target="_blank">Read PDF</a></p>
                 </div>
             
                 <div class="paper">
-                    <h3>Parapolitics and Roll-Call Voting in Colombia: A Bayesian Euclidean and
-  Spherical Spatial Analysis</h3>
-                    <p><strong>Authors:</strong> Juan Sosa, Carolina Luque, Juan Valero</p>
-                    <p>  This study presents a Bayesian spatial voting analysis of the Colombian
-Senate during the 2006-2010 legislative period, leveraging a newly constructed
-roll-call dataset comprising 147 senators and 136 plenary votes. We estimate
-legislators' ideal points under two alternative geometric frameworks: A
-traditional Euclidean model and a circular model that embeds preferences on the
-unit circle. Both models are implemented using Markov Chain Monte Carlo
-methods, with the circular specification capturing geodesic distances and von
-Mises-distributed latent traits. The results reveal a latent structure in
-voting behavior best characterized not by a conventional left-right ideological
-continuum but by an opposition-non-opposition alignment. Using Bayesian
-logistic regression, we further investigate the association between senators'
-ideal points and their involvement in the para-politics scandal. Findings
-indicate a significant and robust relationship between political alignment and
-para-politics implication, suggesting that extralegal influence was
-systematically related to senators' legislative behavior during this period.
+                    <h3>Scalable Fitting Methods for Multivariate Gaussian Additive Models with
+  Covariate-dependent Covariance Matrices</h3>
+                    <p><strong>Authors:</strong> Vincenzo Gioia, Matteo Fasiolo, Ruggero Bellio, Simon N. Wood</p>
+                    <p>  We propose efficient computational methods to fit multivariate Gaussian
+additive models, where the mean vector and the covariance matrix are allowed to
+vary with covariates, in an empirical Bayes framework. To guarantee the
+positive-definiteness of the covariance matrix, we model the elements of an
+unconstrained parametrisation matrix, focussing particularly on the modified
+Cholesky decomposition and the matrix logarithm. A key computational challenge
+arises from the fact that, for the model class considered here, the number of
+parameters increases quadratically with the dimension of the response vector.
+Hence, here we discuss how to achieve fast computation and low memory footprint
+in moderately high dimensions, by exploiting parsimonious model structures,
+sparse derivative systems and by employing block-oriented computational
+methods. Methods for building and fitting multivariate Gaussian additive models
+are provided by the SCM R package, available at
+https://github.com/VinGioia90/SCM, while the code for reproducing the results
+in this paper is available at https://github.com/VinGioia90/SACM.
 </p>
-                    <p><a href="http://arxiv.org/pdf/2503.22045v1" target="_blank">Read PDF</a></p>
+                    <p><a href="http://arxiv.org/pdf/2504.03368v1" target="_blank">Read PDF</a></p>
                 </div>
             
                 <div class="paper">
-                    <h3>A Semiparametric Quantile Single-Index Model for Zero-Inflated Outcomes</h3>
-                    <p><strong>Authors:</strong> Zirui Wang, Tianying Wang</p>
-                    <p>  We consider the complex data modeling problem motivated by the zero-inflated
-and overdispersed data from microbiome studies. Analyzing how microbiome
-abundance is associated with human biological features, such as BMI, is of
-great importance for host health. Methods based on parametric distributional
-assumptions, such as zero-inflated Poisson and zero-inflated Negative Binomial
-regression, have been widely used in modeling such data, yet the parametric
-assumptions are restricted and hard to verify in real-world applications. We
-relax the parametric assumptions and propose a semiparametric single-index
-quantile regression model. It is flexible to include a wide range of possible
-association functions and adaptable to the various zero proportions across
-subjects, which relaxes the strong parametric distributional assumptions of
-most existing zero-inflated data modeling approaches. We establish the
-asymptotic properties for the index coefficients estimator and quantile
-regression curve estimation. Through extensive simulation studies, we
-demonstrate the superior performance of the proposed method regarding model
-fitting.
+                    <h3>Bayesian LSTM for indoor temperature modeling</h3>
+                    <p><strong>Authors:</strong> Emma Hannula, Arttu Häkkinen, Antti Solonen, Felibe Uribe, Jana de Wiljes, Lassi Roininen</p>
+                    <p>  Improving energy efficiency of building heating systems is essential for
+reducing global energy consumption and greenhouse gas emissions. Traditional
+control methods in buildings rely on static heating curves based solely on
+outdoor temperature measurements, neglecting system state and free heat sources
+like solar gain. Model predictive control (MPC) not only addresses these
+limitations but further optimizes heating control by incorporating weather
+forecasts and system state predictions. However, current industrial MPC
+solutions often use simplified physics-inspired models, which compromise
+accuracy for interpretability. While purely data-driven models offer better
+predictive performance, they face challenges like overfitting and lack of
+transparency.
+  To bridge this gap, we propose a Bayesian Long Short-Term Memory (LSTM)
+architecture for indoor temperature modeling. Our experiments across 100
+real-world buildings demonstrate that the Bayesian LSTM outperforms an
+industrial physics-based model in predictive accuracy, enabling potential for
+improved energy efficiency and thermal comfort if deployed in heating MPC
+solutions. Over deterministic black-box approaches, the Bayesian framework
+provides additional advantages by improving generalization ability and allowing
+interpretation of predictions via uncertainty quantification. This work
+advances data-driven heating control by balancing predictive performance with
+the transparency and reliability required for real-world heating MPC
+applications.
 </p>
-                    <p><a href="http://arxiv.org/pdf/2503.21924v1" target="_blank">Read PDF</a></p>
+                    <p><a href="http://arxiv.org/pdf/2504.03350v1" target="_blank">Read PDF</a></p>
                 </div>
             
                 <div class="paper">
-                    <h3>A novel smoothing-based goodness-of-fit test of covariance for
-  multivariate sparse functional data</h3>
-                    <p><strong>Authors:</strong> Dhrubajyoti Ghosh, Zhuolin Song, Luo Xiao, Sheng Luo</p>
-                    <p>  Accurately specifying covariance structures is critical for valid inference
-in longitudinal and functional data analysis, particularly when data are
-sparsely observed. In this study, we develop a global goodness-of-fit test to
-assess parametric covariance structures in multivariate sparse functional data.
-Our contribution is twofold. First, we extend the univariate goodness-of-fit
-test proposed by Chen et al. (2019) to better accommodate sparse data by
-improving error variance estimation and applying positive semi-definite
-smoothing to covariance estimation. These corrections ensure appropriate Type I
-error control under sparse designs. Second, we introduce a multivariate
-extension of the improved test that jointly evaluates covariance structures
-across multiple outcomes, employing novel test statistics based on the maximum
-and $\ell_2$ norms to account for inter-outcome dependencies and enhance
-statistical power. Through extensive simulation studies, we demonstrate that
-the proposed methods maintain proper Type I error rates and achieve greater
-power than univariate tests with multiple testing adjustments. Applications to
-longitudinal neuroimaging and clinical data from the Alzheimer's Disease
-Neuroimaging Initiative (ADNI) and the Parkinson's Progression Marker
-Initiative (PPMI) illustrate the practical utility of the proposed methods for
-evaluating covariance structures in sparse multivariate longitudinal data.
+                    <h3>A model-free feature extraction procedure for interval-valued time
+  series prediction</h3>
+                    <p><strong>Authors:</strong> Wan Tian, Zhongfeng Qin, Tao Hu</p>
+                    <p>  In this paper, we present a novel feature extraction procedure to predict
+interval-valued time series by combing transfer learning and imaging
+approaches. Initially, we represent interval-valued time series using a
+bivariate point-valued time series, which serves as a representative form. We
+first transform each time series into images by employing various imaging
+approaches such as recurrence plot, gramian angular summation/difference field,
+and Markov transition field, and construct an image dataset by treating each
+imaging method's output as a separate class. Based on this dataset, we train
+several candidates for a feature extraction network (FEN), specifically ResNet
+with varying layers. Then we choose the penultimate layer of the FEN to extract
+the most relevant features from the transformed images. We integrate the
+extracted features into conventional predictive models to formulate the
+corresponding prediction models. To formulate prediction, we integrate the
+extracted features into a regular prediction model. The proposed methods are
+evaluated based on the S\&P 500 index and three data-generating processes
+(DGPs), and the experimental results demonstrate a notable improvement in
+prediction performance compared to existing methods.
 </p>
-                    <p><a href="http://arxiv.org/pdf/2503.21913v1" target="_blank">Read PDF</a></p>
+                    <p><a href="http://arxiv.org/pdf/2504.03310v1" target="_blank">Read PDF</a></p>
                 </div>
             
                 <div class="paper">
-                    <h3>Investigating Experiential Effects in Online Chess using a Hierarchical
-  Bayesian Analysis</h3>
-                    <p><strong>Authors:</strong> Adam Gee, Sydney O. Seese, James P. Curley, Owen G. Ward</p>
-                    <p>  The presence or absence of winner-loser effects is a widely discussed
-phenomenon across both sports and psychology research. Investigation of such
-effects is often hampered by the limited availability of data. Online chess has
-exploded in popularity in recent years and provides vast amounts of data which
-can be used to explore this question. With a hierarchical Bayesian regression
-model, we carefully investigate the presence of such experiential effects in
-online chess. Using a large quantity of online chess data, we see little
-evidence for experiential effects that are consistent across all players, with
-some individual players showing some evidence for such effects. Given the
-challenging temporal nature of this data, we discuss several methods for
-assessing the suitability of our model and carefully check its validity.
+                    <h3>Bayesian sequential analysis of adverse events with binary data</h3>
+                    <p><strong>Authors:</strong> Jiayue Wang, Ben Boukai</p>
+                    <p>  We propose a Bayesian Sequential procedure to test hypotheses concerning the
+Relative Risk between two specific treatments based on the binary data obtained
+from the two-arm clinical trial. Our development is based on the optimal
+sequential test of \citet{wang2024early}, which is cast within the Bayesian
+framework. This approach enables us to provide, in a straightforward manner
+based on the Stopping Rule Principle (SRP), an assessment of the various error
+probabilities via posterior probabilities and conditional error probabilities.
+Additionally, we present the connection to the notion of the Uniformly Most
+Powerful Bayesian Test (UMPBT). To illustrate our procedure, we utilized the
+data from \citet{silva2020optimal} to analyze the results obtained from the
+standard Bayesian and the modified Bayesian test of \citet{berger1997unified}
+under several different prior distributions of the parameters involved.
 </p>
-                    <p><a href="http://arxiv.org/pdf/2503.21713v1" target="_blank">Read PDF</a></p>
+                    <p><a href="http://arxiv.org/pdf/2504.02959v1" target="_blank">Read PDF</a></p>
                 </div>
             
                 <div class="paper">
-                    <h3>Unlocking the Potential of Past Research: Using Generative AI to
-  Reconstruct Healthcare Simulation Models</h3>
-                    <p><strong>Authors:</strong> Thomas Monks, Alison Harper, Amy Heather</p>
-                    <p>  Discrete-event simulation (DES) is widely used in healthcare Operations
-Research, but the models themselves are rarely shared. This limits their
-potential for reuse and long-term impact in the modelling and healthcare
-communities. This study explores the feasibility of using generative artificial
-intelligence (AI) to recreate published models using Free and Open Source
-Software (FOSS), based on the descriptions provided in an academic journal.
-Using a structured methodology, we successfully generated, tested and
-internally reproduced two DES models, including user interfaces. The reported
-results were replicated for one model, but not the other, likely due to missing
-information on distributions. These models are substantially more complex than
-AI-generated DES models published to date. Given the challenges we faced in
-prompt engineering, code generation, and model testing, we conclude that our
-iterative approach to model development, systematic comparison and testing, and
-the expertise of our team were necessary to the success of our recreated
-simulation models.
+                    <h3>Beyond Discretization: A Continuous-Time Framework for Event Generation
+  in Neuromorphic Pixels</h3>
+                    <p><strong>Authors:</strong> Aaron J. Hendrickson, David P. Haefner</p>
+                    <p>  A novel continuous-time framework is proposed for modeling neuromorphic image
+sensors in the form of an initial canonical representation with analytical
+tractability. Exact simulation algorithms are developed in parallel with
+closed-form expressions that characterize the model's dynamics. This framework
+enables the generation of synthetic event streams in genuine continuous-time,
+which combined with the analytical results, reveal the underlying mechanisms
+driving the oscillatory behavior of event data presented in the literature.
 </p>
-                    <p><a href="http://arxiv.org/pdf/2503.21646v1" target="_blank">Read PDF</a></p>
+                    <p><a href="http://arxiv.org/pdf/2504.02803v1" target="_blank">Read PDF</a></p>
                 </div>
             </div>
     <script src="scripts/update-papers.js"></script>
