@@ -9,250 +9,266 @@
 <body>
     <h1>Latest ArXiv Papers on Applied Statistics</h1>
     <p> This page displays the 10 most recents papers on <a href="https://arxiv.org/">ArXiv</a> in the category of "applied statistics". To see all most recent papers under this category, visit ArXiv's website <a href="https://arxiv.org/list/stat.AP/recent">here</a>. This page uses GitHub Actions and the ArXiv API to update each day at approximately midnight.</p>
-    <p id="last-updated">Last updated: 4/7/2025, 1:23:36 AM</p>
+    <p id="last-updated">Last updated: 4/14/2025, 1:23:53 AM</p>
     <button onclick="window.location.href='../index.html'" style="text-align: center;">Go to Homepage</button>
     <div id="papers">
                 <div class="paper">
-                    <h3>A New Statistical Approach to Calibration-Free Localization Using
-  Unlabeled Crowdsourced Data</h3>
-                    <p><strong>Authors:</strong> Haozhou Hu, Harpreet S. Dhillon, R. Michael Buehrer</p>
-                    <p>  Fingerprinting-based indoor localization methods typically require
-labor-intensive site surveys to collect signal measurements at known reference
-locations and frequent recalibration, which limits their scalability. This
-paper addresses these challenges by presenting a novel approach for indoor
-localization that utilizes crowdsourced data {\em without location labels}. We
-leverage the statistical information of crowdsourced data and propose a
-cumulative distribution function (CDF) based distance estimation method that
-maps received signal strength (RSS) to distances from access points. This
-approach overcomes the limitations of conventional distance estimation based on
-the empirical path loss model by efficiently capturing the impacts of shadow
-fading and multipath. Compared to fingerprinting, our {\em unsupervised}
-statistical approach eliminates the need for signal measurements at known
-reference locations. The estimated distances are then integrated into a
-three-step framework to determine the target location. The localization
-performance of our proposed method is evaluated using RSS data generated from
-ray-tracing simulations. Our results demonstrate significant improvements in
-localization accuracy compared to methods based on the empirical path loss
-model. Furthermore, our statistical approach, which relies on unlabeled data,
-achieves localization accuracy comparable to that of the {\em supervised}
-approach, the $k$-Nearest Neighbor ($k$NN) algorithm, which requires
-fingerprints with location labels. For reproducibility and future research, we
-make the ray-tracing dataset publicly available at [2].
+                    <h3>Regularized infill criteria for multi-objective Bayesian optimization
+  with application to aircraft design</h3>
+                    <p><strong>Authors:</strong> Robin Grapin, Youssef Diouane, Joseph Morlier, Nathalie Bartoli, Thierry Lefebvre, Paul Saves, Jasper Bussemaker</p>
+                    <p>  Bayesian optimization is an advanced tool to perform ecient global
+optimization It consists on enriching iteratively surrogate Kriging models of
+the objective and the constraints both supposed to be computationally expensive
+of the targeted optimization problem Nowadays efficient extensions of Bayesian
+optimization to solve expensive multiobjective problems are of high interest
+The proposed method in this paper extends the super efficient global
+optimization with mixture of experts SEGOMOE to solve constrained
+multiobjective problems To cope with the illposedness of the multiobjective
+inll criteria different enrichment procedures using regularization techniques
+are proposed The merit of the proposed approaches are shown on known
+multiobjective benchmark problems with and without constraints The proposed
+methods are then used to solve a biobjective application related to conceptual
+aircraft design with ve unknown design variables and three nonlinear inequality
+constraints The preliminary results show a reduction of the total cost in terms
+of function evaluations by a factor of 20 compared to the evolutionary
+algorithm NSGA-II.
 </p>
-                    <p><a href="http://arxiv.org/pdf/2504.03619v1" target="_blank">Read PDF</a></p>
+                    <p><a href="http://arxiv.org/pdf/2504.08671v1" target="_blank">Read PDF</a></p>
                 </div>
             
                 <div class="paper">
-                    <h3>Going green across boundaries: Spatial effects of environmental policies
-  on tourism flows</h3>
-                    <p><strong>Authors:</strong> Riccardo Gianluigi Serio, Diego Giuliani, Maria Michela Dickson, Giuseppe Espa</p>
-                    <p>  This study investigates the relationship between environmental sustainability
-policies and tourism flows across Italian provinces using a Spatial Durbin
-Error Model (SDEM) within a gravity framework. By incorporating both public and
-corporate environmental initiatives, the analysis highlights the direct and
-spatial spillover effects of sustainability measures on tourism demand. The
-findings indicate that corporate-led initiatives, such as ecocertifications and
-green investments, exert a stronger direct influence on tourism flows compared
-to public measures, underscoring the visibility and immediate impact of private
-sector actions. However, both types of initiatives generate significant
-positive spatial spillovers, suggesting that sustainability efforts extend
-beyond local boundaries. These results demonstrate the interconnected nature of
-regional tourism systems and emphasize the critical role of coordinated
-sustainability policies in fostering tourism growth while promoting
-environmental protection. By addressing the spatial interdependencies of
-tourism flows and sustainability practices, this research provides valuable
-insights for policymakers and stakeholders seeking to improve sustainable
-tourism development at regional and national levels.
+                    <h3>Poisson multi-Bernoulli mixture filter for trajectory measurements</h3>
+                    <p><strong>Authors:</strong> Marco Fontana, Ángel F. García-Fernández, Simon Maskell</p>
+                    <p>  This paper presents a Poisson multi-Bernoulli mixture (PMBM) filter for
+multi-target filtering based on sensor measurements that are sets of
+trajectories in the last two-time step window. The proposed filter, the
+trajectory measurement PMBM (TM-PMBM) filter, propagates a PMBM density on the
+set of target states. In prediction, the filter obtains the PMBM density on the
+set of trajectories over the last two time steps. This density is then updated
+with the set of trajectory measurements. After the update step, the PMBM
+posterior on the set of two-step trajectories is marginalised to obtain a PMBM
+density on the set of target states. The filter provides a closed-form solution
+for multi-target filtering based on sets of trajectory measurements, estimating
+the set of target states at the end of each time window. Additionally, the
+paper proposes computationally lighter alternatives to the TM-PMBM filter by
+deriving a Poisson multi-Bernoulli (PMB) density through Kullback-Leibler
+divergence minimisation in an augmented space with auxiliary variables. The
+performance of the proposed filters are evaluated in a simulation study.
 </p>
-                    <p><a href="http://arxiv.org/pdf/2504.03608v1" target="_blank">Read PDF</a></p>
+                    <p><a href="http://arxiv.org/pdf/2504.08421v1" target="_blank">Read PDF</a></p>
                 </div>
             
                 <div class="paper">
-                    <h3>evalprob4cast: An R-package for evaluation of ensembles as probabilistic
-  forecasts or event forecasts</h3>
-                    <p><strong>Authors:</strong> Mathias Blicher Bjerregård, Jethro Browell, John Zack, Jan Kloppenborg Møller, Henrik Madsen, Gregor Giebel, Corinna Möhrlen</p>
-                    <p>  For any forecasting application, evaluation of forecasts is an important
-task. For example, in the field of renewable energy sources there is high
-variability and uncertainty of power production, which makes forecasting and
-the evaluation hereof crucial both for power trading and power grid balancing.
-In particular, probabilistic forecasts represented by ensembles are popular due
-to their ability to cover the full range of scenarios that can occur, thus
-enabling forecast users to make more informed decisions than what would be
-possible with simple deterministic forecasts. The selection of open source
-software that supports evaluation of ensemble forecasts, and especially event
-detection, is currently limited. As a solution, evalprob4cast is a new
-R-package for probabilistic forecast evaluation that aims to provide its users
-with all the tools needed for the assessment of ensemble forecasts, in the form
-of metrics and visualization methods. Both univariate and multivariate
-probabilistic forecasts as well as event detection are covered. Furthermore, it
-offers a user-friendly design where all of the evaluation methods can be
-applied in a fast and easy way, as long as the input data is organized in
-accordance with the format defined by the package. While its development is
-motivated by forecasting of renewables, the package can be used for any
-application with ensemble forecasts.
+                    <h3>Fairness is in the details : Face Dataset Auditing</h3>
+                    <p><strong>Authors:</strong> V. Lafargue, E. Claeys, J. M. Loubes</p>
+                    <p>  Auditing involves verifying the proper implementation of a given policy. As
+such, auditing is essential for ensuring compliance with the principles of
+fairness, equity, and transparency mandated by the European Union's AI Act.
+Moreover, biases present during the training phase of a learning system can
+persist in the modeling process and result in discrimination against certain
+subgroups of individuals when the model is deployed in production. Assessing
+bias in image datasets is a particularly complex task, as it first requires a
+feature extraction step, then to consider the extraction's quality in the
+statistical tests. This paper proposes a robust methodology for auditing image
+datasets based on so-called "sensitive" features, such as gender, age, and
+ethnicity. The proposed methodology consists of both a feature extraction phase
+and a statistical analysis phase. The first phase introduces a novel
+convolutional neural network (CNN) architecture specifically designed for
+extracting sensitive features with a limited number of manual annotations. The
+second phase compares the distributions of sensitive features across subgroups
+using a novel statistical test that accounts for the imprecision of the feature
+extraction model. Our pipeline constitutes a comprehensive and fully automated
+methodology for dataset auditing. We illustrate our approach using two manually
+annotated datasets.
 </p>
-                    <p><a href="http://arxiv.org/pdf/2504.03544v1" target="_blank">Read PDF</a></p>
+                    <p><a href="http://arxiv.org/pdf/2504.08396v1" target="_blank">Read PDF</a></p>
                 </div>
             
                 <div class="paper">
-                    <h3>Target Prediction Under Deceptive Switching Strategies via
-  Outlier-Robust Filtering of Partially Observed Incomplete Trajectories</h3>
-                    <p><strong>Authors:</strong> Yiming Meng, Dongchang Li, Melkior Ornik</p>
-                    <p>  Motivated by a study on deception and counter-deception, this paper addresses
-the problem of identifying an agent's target as it seeks to reach one of two
-targets in a given environment. In practice, an agent may initially follow a
-strategy to aim at one target but decide to switch to another midway. Such a
-strategy can be deceptive when the counterpart only has access to imperfect
-observations, which include heavily corrupted sensor noise and possible
-outliers, making it difficult to visually identify the agent's true intent. To
-counter deception and identify the true target, we utilize prior knowledge of
-the agent's dynamics and the imprecisely observed partial trajectory of the
-agent's states to dynamically update the estimation of the posterior
-probability of whether a deceptive switch has taken place. However, existing
-methods in the literature have not achieved effective deception identification
-within a reasonable computation time. We propose a set of outlier-robust change
-detection methods to track relevant change-related statistics efficiently,
-enabling the detection of deceptive strategies in hidden nonlinear dynamics
-with reasonable computational effort. The performance of the proposed framework
-is examined for Weapon-Target Assignment (WTA) detection under deceptive
-strategies using random simulations in the kinematics model with external
-forcing.
+                    <h3>Practical Implementation of an End-to-End Methodology for SPC of 3-D
+  Part Geometry: A Case Study</h3>
+                    <p><strong>Authors:</strong> Yulin An, Xueqi Zhao, Enrique del Castillo</p>
+                    <p>  Del Castillo and Zhao (2020, 2021, 2022, 2024) have recently proposed a new
+methodology for the Statistical Process Control (SPC) of discrete parts whose
+3-dimensional (3D) geometrical data are acquired with non-contact sensors. The
+approach is based on monitoring the spectrum of the Laplace-Beltrami (LB)
+operator of each scanned part estimated using finite element methods (FEM). The
+spectrum of the LB operator is an intrinsic summary of the geometry of a part,
+independent of the ambient space. Hence, registration of scanned parts is
+unnecessary when comparing them. The primary goal of this case study paper is
+to demonstrate the practical implementation of the spectral SPC methodology
+through multiple examples using real scanned parts acquired with an
+industrial-grade laser scanner, including 3D printed parts and commercial
+parts. We discuss the scanned mesh preprocessing needed in practice, including
+the type of remeshing found to be most beneficial for the FEM computations. For
+each part type, both the "phase I" and "phase II" stages of the spectral SPC
+methodology are showcased. In addition, we provide a new principled method to
+determine the number of eigenvalues of the LB operator to consider for
+efficient SPC of a given part geometry, and present an improved algorithm to
+automatically define a region of interest, particularly useful for large
+meshes. Computer codes that implement every method discussed in this paper, as
+well as all scanned part datasets used in the case studies, are made available
+and explained in the supplementary materials.
 </p>
-                    <p><a href="http://arxiv.org/pdf/2504.03502v1" target="_blank">Read PDF</a></p>
+                    <p><a href="http://arxiv.org/pdf/2504.08243v1" target="_blank">Read PDF</a></p>
                 </div>
             
                 <div class="paper">
-                    <h3>Spatiotemporal causal inference with arbitrary spillover and carryover
-  effects</h3>
-                    <p><strong>Authors:</strong> Mitsuru Mukaigawara, Kosuke Imai, Jason Lyall, Georgia Papadogeorgou</p>
-                    <p>  Micro-level data with granular spatial and temporal information are becoming
-increasingly available to social scientists. Most researchers aggregate such
-data into a convenient panel data format and apply standard causal inference
-methods. This approach, however, has two limitations. First, data aggregation
-results in the loss of detailed geo-location and temporal information, leading
-to potential biases. Second, most panel data methods either ignore spatial
-spillover and temporal carryover effects or impose restrictive assumptions on
-their structure. We introduce a general methodological framework for
-spatiotemporal causal inference with arbitrary spillover and carryover effects.
-Under this general framework, we demonstrate how to define and estimate causal
-quantities of interest, explore heterogeneous treatment effects, investigate
-causal mechanisms, and visualize the results to facilitate their
-interpretation. We illustrate the proposed methodology through an analysis of
-airstrikes and insurgent attacks in Iraq. The open-source software package
-geocausal implements all of our methods.
+                    <h3>Covariance meta regression, with application to mixtures of chemical
+  exposures</h3>
+                    <p><strong>Authors:</strong> Elizabeth Bersson, Kate Hoffman, Heather M. Stapleton, David B. Dunson</p>
+                    <p>  The motivation of this article is to improve inferences on the covariation in
+environmental exposures, motivated by data from a study of Toddlers Exposure to
+SVOCs in Indoor Environments (TESIE). The challenge is that the sample size is
+limited, so empirical covariance provides a poor estimate. In related
+applications, Bayesian factor models have been popular; these approaches
+express the covariance as low rank plus diagonal and can infer the number of
+factors adaptively. However, they have the disadvantage of shrinking towards a
+diagonal covariance, often under estimating important covariation patterns in
+the data. Alternatively, the dimensionality problem is addressed by collapsing
+the detailed exposure data within chemical classes, potentially obscuring
+important information. We apply a covariance meta regression extension of
+Bayesian factor analysis, which improves performance by including information
+from features summarizing properties of the different exposures. This approach
+enables shrinkage to more flexible covariance structures, reducing the
+over-shrinkage problem, as we illustrate in the TESIE data using various
+chemical features as meta covariates.
 </p>
-                    <p><a href="http://arxiv.org/pdf/2504.03464v1" target="_blank">Read PDF</a></p>
+                    <p><a href="http://arxiv.org/pdf/2504.08220v1" target="_blank">Read PDF</a></p>
                 </div>
             
                 <div class="paper">
-                    <h3>Scalable Fitting Methods for Multivariate Gaussian Additive Models with
-  Covariate-dependent Covariance Matrices</h3>
-                    <p><strong>Authors:</strong> Vincenzo Gioia, Matteo Fasiolo, Ruggero Bellio, Simon N. Wood</p>
-                    <p>  We propose efficient computational methods to fit multivariate Gaussian
-additive models, where the mean vector and the covariance matrix are allowed to
-vary with covariates, in an empirical Bayes framework. To guarantee the
-positive-definiteness of the covariance matrix, we model the elements of an
-unconstrained parametrisation matrix, focussing particularly on the modified
-Cholesky decomposition and the matrix logarithm. A key computational challenge
-arises from the fact that, for the model class considered here, the number of
-parameters increases quadratically with the dimension of the response vector.
-Hence, here we discuss how to achieve fast computation and low memory footprint
-in moderately high dimensions, by exploiting parsimonious model structures,
-sparse derivative systems and by employing block-oriented computational
-methods. Methods for building and fitting multivariate Gaussian additive models
-are provided by the SCM R package, available at
-https://github.com/VinGioia90/SCM, while the code for reproducing the results
-in this paper is available at https://github.com/VinGioia90/SACM.
+                    <h3>On the Practice of Deep Hierarchical Ensemble Network for Ad Conversion
+  Rate Prediction</h3>
+                    <p><strong>Authors:</strong> Jinfeng Zhuang, Yinrui Li, Runze Su, Ke Xu, Zhixuan Shao, Kungang Li, Ling Leng, Han Sun, Meng Qi, Yixiong Meng, Yang Tang, Zhifang Liu, Qifei Shen, Aayush Mudgal</p>
+                    <p>  The predictions of click through rate (CTR) and conversion rate (CVR) play a
+crucial role in the success of ad-recommendation systems. A Deep Hierarchical
+Ensemble Network (DHEN) has been proposed to integrate multiple feature
+crossing modules and has achieved great success in CTR prediction. However, its
+performance for CVR prediction is unclear in the conversion ads setting, where
+an ad bids for the probability of a user's off-site actions on a third party
+website or app, including purchase, add to cart, sign up, etc. A few challenges
+in DHEN: 1) What feature-crossing modules (MLP, DCN, Transformer, to name a
+few) should be included in DHEN? 2) How deep and wide should DHEN be to achieve
+the best trade-off between efficiency and efficacy? 3) What hyper-parameters to
+choose in each feature-crossing module? Orthogonal to the model architecture,
+the input personalization features also significantly impact model performance
+with a high degree of freedom. In this paper, we attack this problem and
+present our contributions biased to the applied data science side, including:
+  First, we propose a multitask learning framework with DHEN as the single
+backbone model architecture to predict all CVR tasks, with a detailed study on
+how to make DHEN work effectively in practice; Second, we build both on-site
+real-time user behavior sequences and off-site conversion event sequences for
+CVR prediction purposes, and conduct ablation study on its importance; Last but
+not least, we propose a self-supervised auxiliary loss to predict future
+actions in the input sequence, to help resolve the label sparseness issue in
+CVR prediction.
+  Our method achieves state-of-the-art performance compared to previous single
+feature crossing modules with pre-trained user personalization features.
 </p>
-                    <p><a href="http://arxiv.org/pdf/2504.03368v1" target="_blank">Read PDF</a></p>
+                    <p><a href="http://arxiv.org/pdf/2504.08169v1" target="_blank">Read PDF</a></p>
                 </div>
             
                 <div class="paper">
-                    <h3>Bayesian LSTM for indoor temperature modeling</h3>
-                    <p><strong>Authors:</strong> Emma Hannula, Arttu Häkkinen, Antti Solonen, Felibe Uribe, Jana de Wiljes, Lassi Roininen</p>
-                    <p>  Improving energy efficiency of building heating systems is essential for
-reducing global energy consumption and greenhouse gas emissions. Traditional
-control methods in buildings rely on static heating curves based solely on
-outdoor temperature measurements, neglecting system state and free heat sources
-like solar gain. Model predictive control (MPC) not only addresses these
-limitations but further optimizes heating control by incorporating weather
-forecasts and system state predictions. However, current industrial MPC
-solutions often use simplified physics-inspired models, which compromise
-accuracy for interpretability. While purely data-driven models offer better
-predictive performance, they face challenges like overfitting and lack of
-transparency.
-  To bridge this gap, we propose a Bayesian Long Short-Term Memory (LSTM)
-architecture for indoor temperature modeling. Our experiments across 100
-real-world buildings demonstrate that the Bayesian LSTM outperforms an
-industrial physics-based model in predictive accuracy, enabling potential for
-improved energy efficiency and thermal comfort if deployed in heating MPC
-solutions. Over deterministic black-box approaches, the Bayesian framework
-provides additional advantages by improving generalization ability and allowing
-interpretation of predictions via uncertainty quantification. This work
-advances data-driven heating control by balancing predictive performance with
-the transparency and reliability required for real-world heating MPC
-applications.
+                    <h3>From Winter Storm Thermodynamics to Wind Gust Extremes: Discovering
+  Interpretable Equations from Data</h3>
+                    <p><strong>Authors:</strong> Frederick Iat-Hin Tam, Fabien Augsburger, Tom Beucler</p>
+                    <p>  Reliably identifying and understanding temporal precursors to extreme wind
+gusts is crucial for early warning and mitigation. This study proposes a simple
+data-driven approach to extract key predictors from a dataset of historical
+extreme European winter windstorms and derive simple equations linking these
+precursors to extreme gusts over land. A major challenge is the limited
+training data for extreme events, increasing the risk of model overfitting.
+Testing various mitigation strategies, we find that combining dimensionality
+reduction, careful cross-validation, feature selection, and a nonlinear
+transformation of maximum wind gusts informed by Generalized Extreme Value
+distributions successfully reduces overfitting. These measures yield
+interpretable equations that generalize across regions while maintaining
+satisfactory predictive skill. The discovered equations reveal the association
+between a steady drying low-troposphere before landfall and wind gust intensity
+in Northwestern Europe.
 </p>
-                    <p><a href="http://arxiv.org/pdf/2504.03350v1" target="_blank">Read PDF</a></p>
+                    <p><a href="http://arxiv.org/pdf/2504.07905v2" target="_blank">Read PDF</a></p>
                 </div>
             
                 <div class="paper">
-                    <h3>A model-free feature extraction procedure for interval-valued time
-  series prediction</h3>
-                    <p><strong>Authors:</strong> Wan Tian, Zhongfeng Qin, Tao Hu</p>
-                    <p>  In this paper, we present a novel feature extraction procedure to predict
-interval-valued time series by combing transfer learning and imaging
-approaches. Initially, we represent interval-valued time series using a
-bivariate point-valued time series, which serves as a representative form. We
-first transform each time series into images by employing various imaging
-approaches such as recurrence plot, gramian angular summation/difference field,
-and Markov transition field, and construct an image dataset by treating each
-imaging method's output as a separate class. Based on this dataset, we train
-several candidates for a feature extraction network (FEN), specifically ResNet
-with varying layers. Then we choose the penultimate layer of the FEN to extract
-the most relevant features from the transformed images. We integrate the
-extracted features into conventional predictive models to formulate the
-corresponding prediction models. To formulate prediction, we integrate the
-extracted features into a regular prediction model. The proposed methods are
-evaluated based on the S\&P 500 index and three data-generating processes
-(DGPs), and the experimental results demonstrate a notable improvement in
-prediction performance compared to existing methods.
+                    <h3>Probabilistic Multi-Criteria Decision-Making for Circularity Performance
+  of Modern Methods of Construction Products</h3>
+                    <p><strong>Authors:</strong> Yiping Meng, Sergio Cavalaro, Frozan Dizaye Mohamed Osmani</p>
+                    <p>  The construction industry faces increasingly more significant pressure to
+reduce resource consumption, minimise waste, and enhance environmental
+performance. Towards the transition to a circular economy in the construction
+industry, one of the challenges is the lack of a standardised assessment
+framework and methods to measure circularity at the product level. To support a
+more sustainable and circular construction industry through robust and enhanced
+scenario analysis, this paper integrates probabilistic analysis into the
+coupled assessment framework; this research addresses uncertainties associated
+with multiple criteria and diverse stakeholders in the construction industry to
+enable more robust decision-making support on both circularity and
+sustainability performance. By demonstrating the application in three
+real-world MMC products, the proposed framework offers a novel approach to
+simultaneously assess the circularity and sustainability of MMC products with
+robustness and objectiveness.
 </p>
-                    <p><a href="http://arxiv.org/pdf/2504.03310v1" target="_blank">Read PDF</a></p>
+                    <p><a href="http://arxiv.org/pdf/2504.07850v1" target="_blank">Read PDF</a></p>
                 </div>
             
                 <div class="paper">
-                    <h3>Bayesian sequential analysis of adverse events with binary data</h3>
-                    <p><strong>Authors:</strong> Jiayue Wang, Ben Boukai</p>
-                    <p>  We propose a Bayesian Sequential procedure to test hypotheses concerning the
-Relative Risk between two specific treatments based on the binary data obtained
-from the two-arm clinical trial. Our development is based on the optimal
-sequential test of \citet{wang2024early}, which is cast within the Bayesian
-framework. This approach enables us to provide, in a straightforward manner
-based on the Stopping Rule Principle (SRP), an assessment of the various error
-probabilities via posterior probabilities and conditional error probabilities.
-Additionally, we present the connection to the notion of the Uniformly Most
-Powerful Bayesian Test (UMPBT). To illustrate our procedure, we utilized the
-data from \citet{silva2020optimal} to analyze the results obtained from the
-standard Bayesian and the modified Bayesian test of \citet{berger1997unified}
-under several different prior distributions of the parameters involved.
+                    <h3>Penalized Linear Models for Highly Correlated High-Dimensional
+  Immunophenotyping Data</h3>
+                    <p><strong>Authors:</strong> Xiaoru Dong, Apoorva Goyal, Muxuan Liang, Maigan A. Brusko, Todd M. Brusko, Rhonda Bacher</p>
+                    <p>  Accurate prediction and identification of variables associated with outcomes
+or disease states are critical for advancing diagnosis, prognosis, and
+precision medicine in biomedical research. Regularized regression techniques,
+such as lasso, are widely employed to enhance interpretability by reducing
+model complexity and identifying significant variables. However, when applying
+to biomedical datasets, e.g., immunophenotyping dataset, there are two major
+challenges that may lead to unsatisfactory results using these methods: 1) high
+correlation between predictors, which leads to the exclusion of important
+variables with included predictors in variable selection, and 2) the presence
+of skewness, which violates key statistical assumptions of these methods.
+Current approaches that fail to address these issues simultaneously may lead to
+biased interpretations and unreliable coefficient estimates. To overcome these
+limitations, we propose a novel two-step approach, the Bootstrap-Enhanced
+Regularization Method (BERM). BERM outperforms existing two-step approaches and
+demonstrates consistent performance in terms of variable selection and
+estimation accuracy across simulated sparsity scenarios. We further demonstrate
+the effectiveness of BERM by applying it to a human immunophenotyping dataset
+identifying important immune parameters associated the autoimmune disease, type
+1 diabetes.
 </p>
-                    <p><a href="http://arxiv.org/pdf/2504.02959v1" target="_blank">Read PDF</a></p>
+                    <p><a href="http://arxiv.org/pdf/2504.07771v2" target="_blank">Read PDF</a></p>
                 </div>
             
                 <div class="paper">
-                    <h3>Beyond Discretization: A Continuous-Time Framework for Event Generation
-  in Neuromorphic Pixels</h3>
-                    <p><strong>Authors:</strong> Aaron J. Hendrickson, David P. Haefner</p>
-                    <p>  A novel continuous-time framework is proposed for modeling neuromorphic image
-sensors in the form of an initial canonical representation with analytical
-tractability. Exact simulation algorithms are developed in parallel with
-closed-form expressions that characterize the model's dynamics. This framework
-enables the generation of synthetic event streams in genuine continuous-time,
-which combined with the analytical results, reveal the underlying mechanisms
-driving the oscillatory behavior of event data presented in the literature.
+                    <h3>Sequential Filtering Techniques for Simultaneous Tracking and Parameter
+  Estimation</h3>
+                    <p><strong>Authors:</strong> Yannick Sztamfater Garcia, Joaquin Miguez, Manuel Sanjurjo-Rivo</p>
+                    <p>  The number of resident space objects is rising at an alarming rate.
+Mega-constellations and breakup events are proliferating in most orbital
+regimes, and safe navigation is becoming increasingly problematic. It is
+important to be able to track RSOs accurately and at an affordable
+computational cost. Orbital dynamics are highly nonlinear, and current
+operational methods assume Gaussian representations of the objects' states and
+employ linearizations which cease to hold true in observation-free propagation.
+Monte Carlo-based filters can provide a means to approximate the a posteriori
+probability distribution of the states more accurately by providing support in
+the portion of the state space which overlaps the most with the processed
+observations. Moreover, dynamical models are not able to capture the full
+extent of realistic forces experienced in the near-Earth space environment, and
+hence fully deterministic propagation methods may fail to achieve the desired
+accuracy. By modeling orbital dynamics as a stochastic system and solving it
+using stochastic numerical integrators, we are able to simultaneously estimate
+the scale of the process noise incurred by the assumed uncertainty in the
+system, and robustly track the state of the spacecraft. In order to find an
+adequate balance between accuracy and computational cost, we propose three
+algorithms which are capable of tracking a space object and estimating the
+magnitude of the system's uncertainty. The proposed filters are successfully
+applied to a LEO scenario, demonstrating the ability to accurately track a
+spacecraft state and estimate the scale of the uncertainty online, in various
+simulation setups.
 </p>
-                    <p><a href="http://arxiv.org/pdf/2504.02803v1" target="_blank">Read PDF</a></p>
+                    <p><a href="http://arxiv.org/pdf/2504.07515v1" target="_blank">Read PDF</a></p>
                 </div>
             </div>
     <script src="scripts/update-papers.js"></script>
