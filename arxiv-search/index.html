@@ -9,261 +9,269 @@
 <body>
     <h1>Latest ArXiv Papers on Applied Statistics</h1>
     <p> This page displays the 10 most recents papers on <a href="https://arxiv.org/">ArXiv</a> in the category of "applied statistics". To see all most recent papers under this category, visit ArXiv's website <a href="https://arxiv.org/list/stat.AP/recent">here</a>. This page uses GitHub Actions and the ArXiv API to update each day at approximately midnight.</p>
-    <p id="last-updated">Last updated: 4/21/2025, 1:23:56 AM</p>
+    <p id="last-updated">Last updated: 4/28/2025, 1:32:02 AM</p>
     <button onclick="window.location.href='../index.html'" style="text-align: center;">Go to Homepage</button>
     <div id="papers">
                 <div class="paper">
-                    <h3>Word Embedding Techniques for Classification of Star Ratings</h3>
-                    <p><strong>Authors:</strong> Hesham Abdelmotaleb, Craig McNeile, Malgorzata Wojtys</p>
-                    <p>  Telecom services are at the core of today's societies' everyday needs. The
-availability of numerous online forums and discussion platforms enables telecom
-providers to improve their services by exploring the views of their customers
-to learn about common issues that the customers face. Natural Language
-Processing (NLP) tools can be used to process the free text collected.
-  One way of working with such data is to represent text as numerical vectors
-using one of many word embedding models based on neural networks. This research
-uses a novel dataset of telecom customers' reviews to perform an extensive
-study showing how different word embedding algorithms can affect the text
-classification process. Several state-of-the-art word embedding techniques are
-considered, including BERT, Word2Vec and Doc2Vec, coupled with several
-classification algorithms. The important issue of feature engineering and
-dimensionality reduction is addressed and several PCA-based approaches are
-explored. Moreover, the energy consumption used by the different word
-embeddings is investigated. The findings show that some word embedding models
-can lead to consistently better text classifiers in terms of precision, recall
-and F1-Score. In particular, for the more challenging classification tasks,
-BERT combined with PCA stood out with the highest performance metrics.
-Moreover, our proposed PCA approach of combining word vectors using the first
-principal component shows clear advantages in performance over the traditional
-approach of taking the average.
+                    <h3>Adapting Probabilistic Risk Assessment for AI</h3>
+                    <p><strong>Authors:</strong> Anna Katariina Wisakanto, Joe Rogero, Avyay M. Casheekar, Richard Mallah</p>
+                    <p>  Modern general-purpose artificial intelligence (AI) systems present an urgent
+risk management challenge, as their rapidly evolving capabilities and potential
+for catastrophic harm outpace our ability to reliably assess their risks.
+Current methods often rely on selective testing and undocumented assumptions
+about risk priorities, frequently failing to make a serious attempt at
+assessing the set of pathways through which Al systems pose direct or indirect
+risks to society and the biosphere. This paper introduces the probabilistic
+risk assessment (PRA) for AI framework, adapting established PRA techniques
+from high-reliability industries (e.g., nuclear power, aerospace) for the new
+challenges of advanced AI. The framework guides assessors in identifying
+potential risks, estimating likelihood and severity, and explicitly documenting
+evidence, underlying assumptions, and analyses at appropriate granularities.
+The framework's implementation tool synthesizes the results into a risk report
+card with aggregated risk estimates from all assessed risks. This systematic
+approach integrates three advances: (1) Aspect-oriented hazard analysis
+provides systematic hazard coverage guided by a first-principles taxonomy of AI
+system aspects (e.g. capabilities, domain knowledge, affordances); (2) Risk
+pathway modeling analyzes causal chains from system aspects to societal impacts
+using bidirectional analysis and incorporating prospective techniques; and (3)
+Uncertainty management employs scenario decomposition, reference scales, and
+explicit tracing protocols to structure credible projections with novelty or
+limited data. Additionally, the framework harmonizes diverse assessment methods
+by integrating evidence into comparable, quantified absolute risk estimates for
+critical decisions. We have implemented this as a workbook tool for AI
+developers, evaluators, and regulators, available on the project website.
 </p>
-                    <p><a href="http://arxiv.org/pdf/2504.13653v1" target="_blank">Read PDF</a></p>
+                    <p><a href="http://arxiv.org/pdf/2504.18536v1" target="_blank">Read PDF</a></p>
                 </div>
             
                 <div class="paper">
-                    <h3>How to Achieve Higher Accuracy with Less Training Points?</h3>
-                    <p><strong>Authors:</strong> Jinghan Yang, Anupam Pani, Yunchao Zhang</p>
-                    <p>  In the era of large-scale model training, the extensive use of available
-datasets has resulted in significant computational inefficiencies. To tackle
-this issue, we explore methods for identifying informative subsets of training
-data that can achieve comparable or even superior model performance. We propose
-a technique based on influence functions to determine which training samples
-should be included in the training set. We conducted empirical evaluations of
-our method on binary classification tasks utilizing logistic regression models.
-Our approach demonstrates performance comparable to that of training on the
-entire dataset while using only 10% of the data. Furthermore, we found that our
-method achieved even higher accuracy when trained with just 60% of the data.
+                    <h3>Bridging the Gap: Introducing Joint Models for Longitudinal and
+  Time-to-event Data in the Social Sciences</h3>
+                    <p><strong>Authors:</strong> Sophie Potts, Anja Rappl, Karin Kurz, Elisabeth Bergherr</p>
+                    <p>  In time-to-event analyses in social sciences, there often exist endogenous
+time-varying variables, where the event status is correlated with the
+trajectory of the covariate itself. Ignoring this endogeneity will result in
+biased estimates. In the field of biostatistics this issue is tackled by
+estimating a joint model for longitudinal and time-to-event data as it handles
+endogenous covariates properly. This method is underused in the social sciences
+even though it is very useful to model longitudinal and time-to-event processes
+appropriately. Therefore, this paper provides a gentle introduction to the
+method of joint models and highlights its advantages for social science
+research questions. We demonstrate its usage on an example on marital
+satisfaction and marriage dissolution and compare the results with classical
+approaches such as a time-to-event model with a time-varying covariate. In
+addition to demonstrating the method, our results contribute to the
+understanding of the relationship between marriage satisfaction, marriage
+dissolution and other covariates.
 </p>
-                    <p><a href="http://arxiv.org/pdf/2504.13586v1" target="_blank">Read PDF</a></p>
+                    <p><a href="http://arxiv.org/pdf/2504.18288v1" target="_blank">Read PDF</a></p>
                 </div>
             
                 <div class="paper">
-                    <h3>A Comparative Evaluation of a Conditional Median-Based Bayesian Growth
-  Curve Modeling Approach with Missing Data</h3>
-                    <p><strong>Authors:</strong> Dandan Tang, Xin Tong, Jianhui Zhou</p>
-                    <p>  Longitudinal data are essential for studying within subject change and
-between subject differences in change. However, missing data, especially when
-the observed variables are nonnormal, remain a significant challenge in
-longitudinal analysis. Full information maximum likelihood estimation (FIML)
-and a two stage robust estimation (TSRE) are widely used to handle missing
-data, but their effectiveness may diminish with data skewness, high missingness
-rates, and nonignorable missingness. Recently, a robust median \textendash
-based Bayesian (RMB) approach for growth curve modeling (GCM) was proposed to
-handle nonnormal longitudinal data, yet its performance with missing data has
-not been fully investigated. This study fills that gap by using Monte Carlo
-simulations to evaluate RMB relative to FIML and TSRE. Overall, the RMB
-\textendash based GCM is shown to be a reliable option for managing both
-ignorable and nonignorable missing data across a variety of distributional
-scenarios. An empirical example illustrates the application of these methods.
+                    <h3>Auto-Regressive Standard Precipitation Index: A Bayesian Approach for
+  Drought Characterization</h3>
+                    <p><strong>Authors:</strong> Soham Ghosh, Sujay Mukhoti, Pritee Sharma</p>
+                    <p>  This study proposes Auto-Regressive Standardized Precipitation Index (ARSPI)
+as a novel alternative to the traditional Standardized Precipitation Index
+(SPI) for measuring drought by relaxing the assumption of independent and
+identical rainfall distribution over time. ARSPI utilizes an auto-regressive
+framework to tackle the auto-correlated characteristics of precipitation,
+providing a more precise depiction of drought dynamics. The proposed model
+integrates a spike-and-slab log-normal distribution for zero rainfall seasons.
+The Bayesian Monte Carlo Markov Chain (MCMC) approach simplifies the SPI
+computation using the non-parametric predictive density estimation of total
+rainfall across various time windows from simulated samples. The MCMC
+simulations further ensure robust estimation of severity, duration, peak and
+return period with greater precision. This study also provides a comparison
+between the performances of ARSPI and SPI using the precipitation data from the
+Colorado River Basin (1893-1991). ARSPI emerges to be more efficient than the
+benchmark SPI in terms of model fit. ARSPI shows enhanced sensitivity to
+climatic extremes, making it a valuable tool for hydrological research and
+water resource management.
 </p>
-                    <p><a href="http://arxiv.org/pdf/2504.13451v1" target="_blank">Read PDF</a></p>
+                    <p><a href="http://arxiv.org/pdf/2504.18197v1" target="_blank">Read PDF</a></p>
                 </div>
             
                 <div class="paper">
-                    <h3>Intelligent data collection for network discrimination in material flow
-  analysis using Bayesian optimal experimental design</h3>
-                    <p><strong>Authors:</strong> Jiankan Liao, Xun Huan, Daniel Cooper</p>
-                    <p>  Material flow analyses (MFAs) are powerful tools for highlighting resource
-efficiency opportunities in supply chains. MFAs are often represented as
-directed graphs, with nodes denoting processes and edges representing mass
-flows. However, network structure uncertainty -- uncertainty in the presence or
-absence of flows between nodes -- is common and can compromise flow
-predictions. While collection of more MFA data can reduce network structure
-uncertainty, an intelligent data acquisition strategy is crucial to optimize
-the resources (person-hours and money spent on collecting and purchasing data)
-invested in constructing an MFA. In this study, we apply Bayesian optimal
-experimental design (BOED), based on the Kullback-Leibler divergence, to
-efficiently target high-utility MFA data -- data that minimizes network
-structure uncertainty. We introduce a new method with reduced bias for
-estimating expected utility, demonstrating its superior accuracy over
-traditional approaches. We illustrate these advances with a case study on the
-U.S. steel sector MFA, where the expected utility of collecting specific single
-pieces of steel mass flow data aligns with the actual reduction in network
-structure uncertainty achieved by collecting said data from the United States
-Geological Survey and the World Steel Association. The results highlight that
-the optimal MFA data to collect depends on the total amount of data being
-gathered, making it sensitive to the scale of the data collection effort.
-Overall, our methods support intelligent data acquisition strategies,
-accelerating uncertainty reduction in MFAs and enhancing their utility for
-impact quantification and informed decision-making.
+                    <h3>Bernstein Polynomial Processes for Continuous Time Change Detection</h3>
+                    <p><strong>Authors:</strong> Dan Cunha, Mark Friedl, Luis Carvalho</p>
+                    <p>  There is a lack of methodological results for continuous time change
+detection due to the challenges of noninformative prior specification and
+efficient posterior inference in this setting. Most methodologies to date
+assume data are collected according to uniformly spaced time intervals. This
+assumption incurs bias in the continuous time setting where, a priori, two
+consecutive observations measured closely in time are less likely to change
+than two consecutive observations that are far apart in time. Models proposed
+in this setting have required MCMC sampling which is not ideal. To address
+these issues, we derive the heterogeneous continuous time Markov chain that
+models change point transition probabilities noninformatively. By construction,
+change points under this model can be inferred efficiently using the forward
+backward algorithm and do not require MCMC sampling. We then develop a novel
+loss function for the continuous time setting, derive its Bayes estimator, and
+demonstrate its performance on synthetic data. A case study using time series
+of remotely sensed observations is then carried out on three change detection
+applications. To reduce falsely detected changes in this setting, we develop a
+semiparametric mean function that captures interannual variability due to
+weather in addition to trend and seasonal components.
 </p>
-                    <p><a href="http://arxiv.org/pdf/2504.13382v1" target="_blank">Read PDF</a></p>
+                    <p><a href="http://arxiv.org/pdf/2504.17876v1" target="_blank">Read PDF</a></p>
                 </div>
             
                 <div class="paper">
-                    <h3>Deep literature reviews: an application of fine-tuned language models to
-  migration research</h3>
-                    <p><strong>Authors:</strong> Stefano M. Iacus, Haodong Qi, Jiyoung Han</p>
-                    <p>  This paper presents a hybrid framework for literature reviews that augments
-traditional bibliometric methods with large language models (LLMs). By
-fine-tuning open-source LLMs, our approach enables scalable extraction of
-qualitative insights from large volumes of research content, enhancing both the
-breadth and depth of knowledge synthesis. To improve annotation efficiency and
-consistency, we introduce an error-focused validation process in which LLMs
-generate initial labels and human reviewers correct misclassifications.
-Applying this framework to over 20000 scientific articles about human
-migration, we demonstrate that a domain-adapted LLM can serve as a "specialist"
-model - capable of accurately selecting relevant studies, detecting emerging
-trends, and identifying critical research gaps. Notably, the LLM-assisted
-review reveals a growing scholarly interest in climate-induced migration.
-However, existing literature disproportionately centers on a narrow set of
-environmental hazards (e.g., floods, droughts, sea-level rise, and land
-degradation), while overlooking others that more directly affect human health
-and well-being, such as air and water pollution or infectious diseases. This
-imbalance highlights the need for more comprehensive research that goes beyond
-physical environmental changes to examine their ecological and societal
-consequences, particularly in shaping migration as an adaptive response.
-Overall, our proposed framework demonstrates the potential of fine-tuned LLMs
-to conduct more efficient, consistent, and insightful literature reviews across
-disciplines, ultimately accelerating knowledge synthesis and scientific
-discovery.
+                    <h3>Probabilistic modeling of delays for train journeys with transfers</h3>
+                    <p><strong>Authors:</strong> Nikolaus Stratil-Sauer, Nils Breyer</p>
+                    <p>  Reliability plays a key role in the experience of a rail traveler. The
+reliability of journeys involving transfers is affected by the reliability of
+the transfers and the consequences of missing a transfer, as well as the
+possible delay of the train used to reach the destination. In this paper, we
+propose a flexible method to model the reliability of train journeys with any
+number of transfers. The method combines a transfer reliability model based on
+gradient boosting responsible for predicting the reliability of transfers
+between trains and a delay model based on probabilistic Bayesian regression,
+which is used to model train arrival delays. The models are trained on delay
+data from four Swedish train stations and evaluated on delay data from another
+two stations, in order to evaluate the generalization performance of the
+models. We show that the probabilistic delay model, which models train delays
+following a mixture distribution with two lognormal components, allows to much
+more realistically model the distribution of actual train delays compared to a
+standard lognormal model. Finally, we show how these models can be used
+together to sample the arrival delay at the final destination of the entire
+journey. The results indicate that the method accurately predicts the
+reliability for nine out of ten tested journeys. The method could be used to
+improve journey planners by providing reliability information to travelers.
+Further applications include timetable planning and transport modeling.
 </p>
-                    <p><a href="http://arxiv.org/pdf/2504.13685v1" target="_blank">Read PDF</a></p>
+                    <p><a href="http://arxiv.org/pdf/2504.17479v1" target="_blank">Read PDF</a></p>
                 </div>
             
                 <div class="paper">
-                    <h3>Anemia, weight, and height among children under five in Peru from 2007
-  to 2022: A Panel Data analysis</h3>
-                    <p><strong>Authors:</strong> Luis-Felipe Arizmendi, Carlos De la Torre-Domingo, Erick W. Rengifo</p>
-                    <p>  Econometrics in general, and Panel Data methods in particular, are becoming
-crucial in Public Health Economics and Social Policy analysis. In this
-discussion paper, we employ a helpful approach of Feasible Generalized Least
-Squares (FGLS) to assess if there are statistically relevant relationships
-between hemoglobin (adjusted to sea-level), weight, and height from 2007 to
-2022 in children up to five years of age in Peru. By using this method, we may
-find a tool that allows us to confirm if the relationships considered between
-the target variables by the Peruvian agencies and authorities are in the right
-direction to fight against chronic malnutrition and stunting.
+                    <h3>Target trial emulation without matching: a more efficient approach for
+  evaluating vaccine effectiveness using observational data</h3>
+                    <p><strong>Authors:</strong> Emily Wu, Elizabeth Rogawski McQuade, Mats Stensrud, Razieh Nabi, David Benkeser</p>
+                    <p>  Real-world vaccine effectiveness has increasingly been studied using
+matching-based approaches, particularly in observational cohort studies
+following the target trial emulation framework. Although matching is appealing
+in its simplicity, it suffers important limitations in terms of clarity of the
+target estimand and the efficiency or precision with which is it estimated.
+Scientifically justified causal estimands of vaccine effectiveness may be
+difficult to define owing to the fact that vaccine uptake varies over calendar
+time when infection dynamics may also be rapidly changing. We propose a causal
+estimand of vaccine effectiveness that summarizes vaccine effectiveness over
+calendar time, similar to how vaccine efficacy is summarized in a randomized
+controlled trial. We describe the identification of our estimand, including its
+underlying assumptions, and propose simple-to-implement estimators based on two
+hazard regression models. We apply our proposed estimator in simulations and in
+a study to assess the effectiveness of the Pfizer-BioNTech COVID-19 vaccine to
+prevent infections with SARS-CoV2 in children 5-11 years old. In both settings,
+we find that our proposed estimator yields similar scientific inferences while
+providing significant efficiency gains over commonly used matching-based
+estimators.
 </p>
-                    <p><a href="http://arxiv.org/pdf/2504.12888v1" target="_blank">Read PDF</a></p>
+                    <p><a href="http://arxiv.org/pdf/2504.17104v1" target="_blank">Read PDF</a></p>
                 </div>
             
                 <div class="paper">
-                    <h3>Spatial Functional Deep Neural Network Model: A New Prediction Algorithm</h3>
-                    <p><strong>Authors:</strong> Merve Basaran, Ufuk Beyaztas, Han Lin Shang, Zaher Mundher Yaseen</p>
-                    <p>  Accurate prediction of spatially dependent functional data is critical for
-various engineering and scientific applications. In this study, a spatial
-functional deep neural network model was developed with a novel non-linear
-modeling framework that seamlessly integrates spatial dependencies and
-functional predictors using deep learning techniques. The proposed model
-extends classical scalar-on-function regression by incorporating a spatial
-autoregressive component while leveraging functional deep neural networks to
-capture complex non-linear relationships. To ensure a robust estimation, the
-methodology employs an adaptive estimation approach, where the spatial
-dependence parameter was first inferred via maximum likelihood estimation,
-followed by non-linear functional regression using deep learning. The
-effectiveness of the proposed model was evaluated through extensive Monte Carlo
-simulations and an application to Brazilian COVID-19 data, where the goal was
-to predict the average daily number of deaths. Comparative analysis with
-maximum likelihood-based spatial functional linear regression and functional
-deep neural network models demonstrates that the proposed algorithm
-significantly improves predictive performance. The results for the Brazilian
-COVID-19 data showed that while all models achieved similar mean squared error
-values over the training modeling phase, the proposed model achieved the lowest
-mean squared prediction error in the testing phase, indicating superior
-generalization ability.
+                    <h3>MOOSE ProbML: Parallelized Probabilistic Machine Learning and
+  Uncertainty Quantification for Computational Energy Applications</h3>
+                    <p><strong>Authors:</strong> Somayajulu L. N. Dhulipala, Peter German, Yifeng Che, Zachary M. Prince, Pierre-Clement A. Simon, Xianjian Xie, Vincent M. Laboure, Hao Yan</p>
+                    <p>  This paper presents the development and demonstration of massively parallel
+probabilistic machine learning (ML) and uncertainty quantification (UQ)
+capabilities within the Multiphysics Object-Oriented Simulation Environment
+(MOOSE), an open-source computational platform for parallel finite element and
+finite volume analyses. In addressing the computational expense and
+uncertainties inherent in complex multiphysics simulations, this paper
+integrates Gaussian process (GP) variants, active learning, Bayesian inverse
+UQ, adaptive forward UQ, Bayesian optimization, evolutionary optimization, and
+Markov chain Monte Carlo (MCMC) within MOOSE. It also elaborates on the
+interaction among key MOOSE systems -- Sampler, MultiApp, Reporter, and
+Surrogate -- in enabling these capabilities. The modularity offered by these
+systems enables development of a multitude of probabilistic ML and UQ
+algorithms in MOOSE. Example code demonstrations include parallel active
+learning and parallel Bayesian inference via active learning. The impact of
+these developments is illustrated through five applications relevant to
+computational energy applications: UQ of nuclear fuel fission product release,
+using parallel active learning Bayesian inference; very rare events analysis in
+nuclear microreactors using active learning; advanced manufacturing process
+modeling using multi-output GPs (MOGPs) and dimensionality reduction; fluid
+flow using deep GPs (DGPs); and tritium transport model parameter optimization
+for fusion energy, using batch Bayesian optimization.
 </p>
-                    <p><a href="http://arxiv.org/pdf/2504.12750v1" target="_blank">Read PDF</a></p>
+                    <p><a href="http://arxiv.org/pdf/2504.17101v1" target="_blank">Read PDF</a></p>
                 </div>
             
                 <div class="paper">
-                    <h3>Bayesian Density-Density Regression with Application to Cell-Cell
-  Communications</h3>
-                    <p><strong>Authors:</strong> Khai Nguyen, Yang Ni, Peter Mueller</p>
-                    <p>  We introduce a scalable framework for regressing multivariate distributions
-onto multivariate distributions, motivated by the application of inferring
-cell-cell communication from population-scale single-cell data. The observed
-data consist of pairs of multivariate distributions for ligands from one cell
-type and corresponding receptors from another. For each ordered pair $e=(l,r)$
-of cell types $(l \neq r)$ and each sample $i = 1, \ldots, n$, we observe a
-pair of distributions $(F_{ei}, G_{ei})$ of gene expressions for ligands and
-receptors of cell types $l$ and $r$, respectively. The aim is to set up a
-regression of receptor distributions $G_{ei}$ given ligand distributions
-$F_{ei}$. A key challenge is that these distributions reside in distinct spaces
-of differing dimensions. We formulate the regression of multivariate densities
-on multivariate densities using a generalized Bayes framework with the sliced
-Wasserstein distance between fitted and observed distributions. Finally, we use
-inference under such regressions to define a directed graph for cell-cell
-communications.
+                    <h3>A Novel Hybrid Approach Using an Attention-Based Transformer + GRU Model
+  for Predicting Cryptocurrency Prices</h3>
+                    <p><strong>Authors:</strong> Esam Mahdi, C. Martin-Barreiro, X. Cabezas</p>
+                    <p>  In this article, we introduce a novel deep learning hybrid model that
+integrates attention Transformer and Gated Recurrent Unit (GRU) architectures
+to improve the accuracy of cryptocurrency price predictions. By combining the
+Transformer's strength in capturing long-range patterns with the GRU's ability
+to model short-term and sequential trends, the hybrid model provides a
+well-rounded approach to time series forecasting. We apply the model to predict
+the daily closing prices of Bitcoin and Ethereum based on historical data that
+include past prices, trading volumes, and the Fear and Greed index. We evaluate
+the performance of our proposed model by comparing it with four other machine
+learning models: two are non-sequential feedforward models: Radial Basis
+Function Network (RBFN) and General Regression Neural Network (GRNN), and two
+are bidirectional sequential memory-based models: Bidirectional Long-Short-Term
+Memory (BiLSTM) and Bidirectional Gated Recurrent Unit (BiGRU). The performance
+of the model is assessed using several metrics, including Mean Squared Error
+(MSE), Root Mean Squared Error (RMSE), Mean Absolute Error (MAE), and Mean
+Absolute Percentage Error (MAPE), along with statistical validation through the
+nonparametric Friedman test followed by a post hoc Wilcoxon signed rank test.
+The results demonstrate that our hybrid model consistently achieves superior
+accuracy, highlighting its effectiveness for financial prediction tasks. These
+findings provide valuable insights for improving real-time decision making in
+cryptocurrency markets and support the growing use of hybrid deep learning
+models in financial analytics.
 </p>
-                    <p><a href="http://arxiv.org/pdf/2504.12617v1" target="_blank">Read PDF</a></p>
+                    <p><a href="http://arxiv.org/pdf/2504.17079v1" target="_blank">Read PDF</a></p>
                 </div>
             
                 <div class="paper">
-                    <h3>Bias in studies of prenatal exposures using real-world data due to
-  pregnancy identification method</h3>
-                    <p><strong>Authors:</strong> Chase D. Latour, Jessie K. Edwards, Michele Jonsson Funk, Elizabeth A. Suarez, Kim Boggess, Mollie E. Wood</p>
-                    <p>  Background: Researchers typically identify pregnancies in healthcare data
-based on observed outcomes (e.g., delivery). This outcome-based approach misses
-pregnancies that received prenatal care but whose outcomes were not recorded
-(e.g., at-home miscarriage), potentially inducing selection bias in effect
-estimates for prenatal exposures. Alternatively, prenatal encounters can be
-used to identify pregnancies, including those with unobserved outcomes.
-However, this prenatal approach requires methods to address missing data.
-Methods: We simulated 10,000,000 pregnancies and estimated the total effect of
-initiating treatment on the risk of preeclampsia. We generated data for 36
-scenarios in which we varied the effect of treatment on miscarriage and/or
-preeclampsia; the percentage with missing outcomes (5% or 20%); and the cause
-of missingness: (1) measured covariates, (2) unobserved miscarriage, and (3) a
-mix of both. We then created three analytic samples to address missing
-pregnancy outcomes: observed deliveries, observed deliveries and miscarriages,
-and all pregnancies. Treatment effects were estimated using non-parametric
-direct standardization. Results: Risk differences (RDs) and risk ratios (RRs)
-from the three analytic samples were similarly biased when all missingness was
-due to unobserved miscarriage (log-transformed RR bias range: -0.12-0.33 among
-observed deliveries; -0.11-0.32 among observed deliveries and miscarriages; and
--0.11-0.32 among all pregnancies). When predictors of missingness were
-measured, only the all pregnancies approach was unbiased (-0.27-0.33;
--0.29-0.03; and -0.02-0.01, respectively). Conclusions: When all missingness
-was due to miscarriage, the analytic samples returned similar effect estimates.
-Only among all pregnancies did bias decrease as the proportion of missingness
-due to measured variables increased.
+                    <h3>A Sensitivity Analysis Framework for Quantifying Confidence in Decisions
+  in the Presence of Data Uncertainty</h3>
+                    <p><strong>Authors:</strong> Adway S. Wadekar, Jerome P. Reiter</p>
+                    <p>  Nearly all statistical analyses that inform policy-making are based on
+imperfect data. As examples, the data may suffer from measurement errors,
+missing values, sample selection bias, or record linkage errors. Analysts have
+to decide how to handle such data imperfections, e.g., analyze only the
+complete cases or impute values for the missing items via some posited model.
+Their choices can influence estimates and hence, ultimately, policy decisions.
+Thus, it is prudent for analysts to evaluate the sensitivity of estimates and
+policy decisions to the assumptions underlying their choices. To facilitate
+this goal, we propose that analysts define metrics and visualizations that
+target the sensitivity of the ultimate decision to the assumptions underlying
+their approach to handling the data imperfections. Using these visualizations,
+the analyst can assess their confidence in the policy decision under their
+chosen analysis. We illustrate metrics and corresponding visualizations with
+two examples, namely considering possible measurement error in the inputs of
+predictive models of presidential vote share and imputing missing values when
+evaluating the percentage of children exposed to high levels of lead.
 </p>
-                    <p><a href="http://arxiv.org/pdf/2504.12415v1" target="_blank">Read PDF</a></p>
+                    <p><a href="http://arxiv.org/pdf/2504.17043v1" target="_blank">Read PDF</a></p>
                 </div>
             
                 <div class="paper">
-                    <h3>Trend Filtered Mixture of Experts for Automated Gating of High-Frequency
-  Flow Cytometry Data</h3>
-                    <p><strong>Authors:</strong> Sangwon Hyun, Tim Coleman, Francois Ribalet, Jacob Bien</p>
-                    <p>  Ocean microbes are critical to both ocean ecosystems and the global climate.
-Flow cytometry, which measures cell optical properties in fluid samples, is
-routinely used in oceanographic research. Despite decades of accumulated data,
-identifying key microbial populations (a process known as ``gating'') remains a
-significant analytical challenge. To address this, we focus on gating
-multidimensional, high-frequency flow cytometry data collected {\it
-continuously} on board oceanographic research vessels, capturing time- and
-space-wise variations in the dynamic ocean. Our paper proposes a novel
-mixture-of-experts model in which both the gating function and the experts are
-given by trend filtering. The model leverages two key assumptions: (1) Each
-snapshot of flow cytometry data is a mixture of multivariate Gaussians and (2)
-the parameters of these Gaussians vary smoothly over time. Our method uses
-regularization and a constraint to ensure smoothness and that cluster means
-match biologically distinct microbe types. We demonstrate, using flow cytometry
-data from the North Pacific Ocean, that our proposed model accurately matches
-human-annotated gating and corrects significant errors.
+                    <h3>A Weighted-likelihood framework for class imbalance in Bayesian
+  prediction models</h3>
+                    <p><strong>Authors:</strong> Stanley E. Lazic</p>
+                    <p>  Class imbalance occurs when data used for training classification models has
+a different number of observations or samples within each category or class.
+Models built on such data can be biased towards the majority class and have
+poor predictive performance and generalisation for the minority class. We
+propose a Bayesian weighted-likelihood (power-likelihood) approach to deal with
+class imbalance: each observation's likelihood is raised to a weight inversely
+proportional to its class proportion, with weights normalized to sum to the
+number of samples. This embeds cost-sensitive learning directly into Bayesian
+updating and is applicable to binary, multinomial and ordered logistic
+prediction models. Example models are implemented in Stan, PyMC, and Turing.jl,
+and all code and reproducible scripts are archived on Github:
+https://github.com/stanlazic/weighted_likelihoods. This approach is simple to
+implement and extends naturally to arbitrary error-cost matrices.
 </p>
-                    <p><a href="http://arxiv.org/pdf/2504.12287v1" target="_blank">Read PDF</a></p>
+                    <p><a href="http://arxiv.org/pdf/2504.17013v1" target="_blank">Read PDF</a></p>
                 </div>
             </div>
     <script src="scripts/update-papers.js"></script>
