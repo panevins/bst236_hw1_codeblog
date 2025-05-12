@@ -9,273 +9,257 @@
 <body>
     <h1>Latest ArXiv Papers on Applied Statistics</h1>
     <p> This page displays the 10 most recents papers on <a href="https://arxiv.org/">ArXiv</a> in the category of "applied statistics". To see all most recent papers under this category, visit ArXiv's website <a href="https://arxiv.org/list/stat.AP/recent">here</a>. This page uses GitHub Actions and the ArXiv API to update each day at approximately midnight.</p>
-    <p id="last-updated">Last updated: 5/5/2025, 1:24:45 AM</p>
+    <p id="last-updated">Last updated: 5/12/2025, 1:24:21 AM</p>
     <button onclick="window.location.href='../index.html'" style="text-align: center;">Go to Homepage</button>
     <div id="papers">
                 <div class="paper">
-                    <h3>Integration of Multi-Mode Preference into Home Energy Management System
-  Using Deep Reinforcement Learning</h3>
-                    <p><strong>Authors:</strong> Mohammed Sumayli, Olugbenga Moses Anubi</p>
-                    <p>  Home Energy Management Systems (HEMS) have emerged as a pivotal tool in the
-smart home ecosystem, aiming to enhance energy efficiency, reduce costs, and
-improve user comfort. By enabling intelligent control and optimization of
-household energy consumption, HEMS plays a significant role in bridging the gap
-between consumer needs and energy utility objectives. However, much of the
-existing literature construes consumer comfort as a mere deviation from the
-standard appliance settings. Such deviations are typically incorporated into
-optimization objectives via static weighting factors. These factors often
-overlook the dynamic nature of consumer behaviors and preferences. Addressing
-this oversight, our paper introduces a multi-mode Deep Reinforcement
-Learning-based HEMS (DRL-HEMS) framework, meticulously designed to optimize
-based on dynamic, consumer-defined preferences. Our primary goal is to augment
-consumer involvement in Demand Response (DR) programs by embedding dynamic
-multi-mode preferences tailored to individual appliances. In this study, we
-leverage a model-free, single-agent DRL algorithm to deliver a HEMS framework
-that is not only dynamic but also user-friendly. To validate its efficacy, we
-employed real-world data at 15-minute intervals, including metrics such as
-electricity price, ambient temperature, and appliances' power consumption. Our
-results show that the model performs exceptionally well in optimizing energy
-consumption within different preference modes. Furthermore, when compared to
-traditional algorithms based on Mixed-Integer Linear Programming (MILP), our
-model achieves nearly optimal performance while outperforming in computational
-efficiency.
+                    <h3>Diffusion piecewise exponential models for survival extrapolation using
+  Piecewise Deterministic Monte Carlo</h3>
+                    <p><strong>Authors:</strong> Luke Hardcastle, Samuel Livingstone, Gianluca Baio</p>
+                    <p>  The piecewise exponential model is a flexible non-parametric approach for
+time-to-event data, but extrapolation beyond final observation times typically
+relies on random walk priors and deterministic knot locations, resulting in
+unrealistic long-term hazards. We introduce the diffusion piecewise exponential
+model, a prior framework consisting of a discretised diffusion for the hazard,
+that can encode a wide variety of information about the long-term behaviour of
+the hazard, time changed by a Poisson process prior for knot locations. This
+allows the behaviour of the hazard in the observation period to be combined
+with prior information to inform extrapolations. Efficient posterior sampling
+is achieved using Piecewise Deterministic Markov Processes, whereby we extend
+existing approaches using sticky dynamics from sampling spike-and-slab
+distributions to more general transdimensional posteriors. We focus on
+applications in Health Technology Assessment, where the need to compute mean
+survival requires hazard functions to be extrapolated beyond the observation
+period, showcasing performance on datasets for Colon cancer and Leukaemia
+patients.
 </p>
-                    <p><a href="http://arxiv.org/pdf/2505.01332v1" target="_blank">Read PDF</a></p>
+                    <p><a href="http://arxiv.org/pdf/2505.05932v1" target="_blank">Read PDF</a></p>
                 </div>
             
                 <div class="paper">
-                    <h3>Geoinformation dependencies in geographic space and beyond</h3>
-                    <p><strong>Authors:</strong> Jon Wang, Meng Lu</p>
-                    <p>  The use of geospatially dependent information, which has been stipulated as a
-law in geography, to model geographic patterns forms the cornerstone of
-geostatistics, and has been inherited in many data science based techniques as
-well, such as statistical learning algorithms. Still, we observe hesitations in
-interpreting geographic dependency scientifically as a property in geography,
-since interpretations of such dependency are subject to model choice with
-different hypotheses of trends and stationarity. Rather than questioning what
-can be considered as trends or why it is non-stationary, in this work, we share
-and consolidate a view that the properties of geographic dependency, being it
-trending or stationary, are essentially variations can be explained further by
-unobserved or unknown predictors, and not intrinsic to geographic space.
-Particularly, geoinformation dependency properties are in fact a projection of
-high dimensional feature space formed by all potential predictors into the
-lower dimension of geographic space, where geographic coordinates are
-equivalent to other predictors for modelling geographic patterns. This work
-brings together different aspects of geographic dependency, including
-similarity and heterogeneity, under a coherent framework, and aligns with the
-understanding of modelling in high dimensional feature space with different
-modelling concept including the classical geostatistics, Gaussian Process
-Regression and popular data science based spatial modelling techniques.
+                    <h3>Who's at Risk? Effects of Inflation on Unemployment Risk</h3>
+                    <p><strong>Authors:</strong> Hie Joo Ahn, Lam Nguyen</p>
+                    <p>  We empirically investigate the distributional effects of inflation on
+workers' unemployment tail risks using instrumental variable quantile
+regression. We find that supply-driven inflation disproportionately raises
+unemployment tail risks for cyclically vulnerable workers in both the short and
+medium term, while demand-driven inflation has differential effects -- limited
+to race and reason for unemployment -- only in the medium term. Demand-boosting
+policies, including monetary policy, can inadvertently widen those disparities
+through the inflation channel, underscoring the importance of inflation
+stabilization in promoting equitable growth in the labor market. Our findings
+could be explained structurally by heterogeneity in experienced inflation and
+wage inflation expectations.
 </p>
-                    <p><a href="http://arxiv.org/pdf/2505.01260v1" target="_blank">Read PDF</a></p>
+                    <p><a href="http://arxiv.org/pdf/2505.05757v1" target="_blank">Read PDF</a></p>
                 </div>
             
                 <div class="paper">
-                    <h3>Joint Modelling of Line and Point Data on Metric Graphs</h3>
-                    <p><strong>Authors:</strong> Karina Lilleborge, Sara Martino, Geir-Arne Fuglstad, Finn Lindgren, Rikke Ingebrigtsen</p>
-                    <p>  Metric graphs are useful tools for describing spatial domains like road and
-river networks, where spatial dependence act along the network. We take
-advantage of recent developments for such Gaussian Random Fields (GRFs), and
-consider joint spatial modelling of observations with different spatial
-supports. Motivated by an application to traffic state modelling in Trondheim,
-Norway, we consider line-referenced data, which can be described by an integral
-of the GRF along a line segment on the metric graph, and point-referenced data.
-Through a simulation study inspired by the application, we investigate the
-number of replicates that are needed to estimate parameters and to predict
-unobserved locations. The former is assessed using bias and variability, and
-the latter is assessed through root mean square error (RMSE), continuous rank
-probability scores (CRPSs), and coverage. Joint modelling is contrasted with a
-simplified approach that treat line-referenced observations as point-referenced
-observations. The results suggest joint modelling leads to strong improvements.
-The application to Trondheim, Norway, combines point-referenced induction loop
-data and line-referenced public transportation data. To ensure positive speeds,
-we use a non-linear link function, which requires integrals of non-linear
-combinations of the linear predictor. This is made computationally feasible by
-a combination of the R packages inlabru and MetricGraph, and new code for
-processing geographical line data to work with existing graph representations
-and fmesher methods for dealing with line support in inlabru on objects from
-MetricGraph. We fit the model to two datasets where we expect different spatial
-dependency and compare the results.
+                    <h3>Bayesian shape-constrained regression for quantifying Alzheimer's
+  disease biomarker progression</h3>
+                    <p><strong>Authors:</strong> Mingyuan Li, Zheyu Wang, Akihiko Nishimura</p>
+                    <p>  Several biomarkers are hypothesized to indicate early stages of Alzheimer's
+disease, well before the cognitive symptoms manifest. Their precise relations
+to the disease progression, however, is poorly understood. This lack of
+understanding limits our ability to diagnose the disease and intervene
+effectively at early stages. To provide better understanding of the relation
+between the disease and biomarker progressions, we propose a novel modeling
+approach to quantify the biomarkers' trajectories as functions of age. Building
+on monotone regression splines, we introduce two additional shape constraints
+to incorporate structures informed by the current medical literature. First, we
+impose the regression curves to satisfy a vanishing derivative condition,
+reflecting the observation that changes in biomarkers generally plateau at
+early and late stages of the disease. Second, we enforce the regression curves
+to have a unique inflection point, which enhances interpretability of the
+estimated disease progression and facilitates assessment of temporal ordering
+among the biomarkers. We fit our shape-constrained regression model under
+Bayesian framework to take advantage of its ability to account for the
+heterogeneity in disease progression among individuals. When applied to the
+BIOCARD data, the model is able to capture asymmetry in the biomarkers'
+progressions while maintaining interpretability, yielding estimates of the
+curves with temporal ordering consistent with the existing scientific
+hypotheses.
 </p>
-                    <p><a href="http://arxiv.org/pdf/2505.01175v1" target="_blank">Read PDF</a></p>
+                    <p><a href="http://arxiv.org/pdf/2505.05700v1" target="_blank">Read PDF</a></p>
                 </div>
             
                 <div class="paper">
-                    <h3>Low-rank bilinear autoregressive models for three-way criminal activity
-  tensors</h3>
-                    <p><strong>Authors:</strong> Gregor Zens, Carlos Díaz, Daniele Durante, Eleonora Patacchini</p>
-                    <p>  Criminal activity data are typically available via a three-way tensor
-encoding the reported frequencies of different crime categories across time and
-space. The challenges that arise in the design of interpretable, yet realistic,
-model-based representations of the complex dependencies within and across these
-three dimensions have led to an increasing adoption of black-box predictive
-strategies. Although this perspective has proved successful in producing
-accurate forecasts guiding targeted interventions, the lack of interpretable
-model-based characterizations of the dependence structures underlying criminal
-activity tensors prevents from inferring the cascading effects of these
-interventions across the different dimensions. We address this gap through the
-design of a low-rank bilinear autoregressive model which achieves comparable
-predictive performance to black-box strategies, while allowing interpretable
-inference on the dependence structures of criminal activity reports across
-crime categories, time, and space. This representation incorporates the time
-dimension via an autoregressive construction, accounting for spatial effects
-and dependencies among crime categories through a separable low-rank bilinear
-formulation. When applied to Chicago police reports, the proposed model
-showcases remarkable predictive performance and also reveals interpretable
-dependence structures unveiling fundamental crime dynamics. These results
-facilitate the design of more refined intervention policies informed by
-cascading effects of the policy itself.
+                    <h3>Estimation and Inference in Boundary Discontinuity Designs</h3>
+                    <p><strong>Authors:</strong> Matias D. Cattaneo, Rocio Titiunik, Ruiqi Rae Yu</p>
+                    <p>  Boundary Discontinuity Designs are used to learn about treatment effects
+along a continuous boundary that splits units into control and treatment groups
+according to a bivariate score variable. These research designs are also called
+Multi-Score Regression Discontinuity Designs, a leading special case being
+Geographic Regression Discontinuity Designs. We study the statistical
+properties of commonly used local polynomial treatment effects estimators along
+the continuous treatment assignment boundary. We consider two distinct
+approaches: one based explicitly on the bivariate score variable for each unit,
+and the other based on their univariate distance to the boundary. For each
+approach, we present pointwise and uniform estimation and inference methods for
+the treatment effect function over the assignment boundary. Notably, we show
+that methods based on univariate distance to the boundary exhibit an
+irreducible large misspecification bias when the assignment boundary has kinks
+or other irregularities, making the distance-based approach unsuitable for
+empirical work in those settings. In contrast, methods based on the bivariate
+score variable do not suffer from that drawback. We illustrate our methods with
+an empirical application. Companion general-purpose software is provided.
 </p>
-                    <p><a href="http://arxiv.org/pdf/2505.01166v1" target="_blank">Read PDF</a></p>
+                    <p><a href="http://arxiv.org/pdf/2505.05670v1" target="_blank">Read PDF</a></p>
                 </div>
             
                 <div class="paper">
-                    <h3>Towards modelling lifetime default risk: Exploring different subtypes of
-  recurrent event Cox-regression models</h3>
-                    <p><strong>Authors:</strong> Arno Botha, Tanja Verster, Bernard Scheepers</p>
-                    <p>  In the pursuit of modelling a loan's probability of default (PD) over its
-lifetime, repeat default events are often ignored when using Cox Proportional
-Hazard (PH) models. Excluding such events may produce biased and inaccurate
-PD-estimates, which can compromise financial buffers against future losses.
-Accordingly, we investigate a few subtypes of Cox-models that can incorporate
-recurrent default events. Using South African mortgage data, we explore both
-the Andersen-Gill (AG) and the Prentice-Williams-Peterson (PWP) spell-time
-models. These models are compared against a baseline that deliberately ignores
-recurrent events, called the time to first default (TFD) model. Models are
-evaluated using Harrell's c-statistic, adjusted Cox-Sell residuals, and a novel
-extension of time-dependent receiver operating characteristic (ROC) analysis.
-From these Cox-models, we demonstrate how to derive a portfolio-level
-term-structure of default risk, which is a series of marginal PD-estimates at
-each point of the average loan's lifetime. While the TFD- and PWP-models do not
-differ significantly across all diagnostics, the AG-model underperformed
-expectations. Depending on the prevalence of recurrent defaults, one may
-therefore safely ignore them when estimating lifetime default risk.
-Accordingly, our work enhances the current practice of using Cox-modelling in
-producing timeous and accurate PD-estimates under IFRS 9.
+                    <h3>The Evolution of Embedding Table Optimization and Multi-Epoch Training
+  in Pinterest Ads Conversion</h3>
+                    <p><strong>Authors:</strong> Andrew Qiu, Shubham Barhate, Hin Wai Lui, Runze Su, Rafael Rios Müller, Kungang Li, Ling Leng, Han Sun, Shayan Ehsani, Zhifang Liu</p>
+                    <p>  Deep learning for conversion prediction has found widespread applications in
+online advertising. These models have become more complex as they are trained
+to jointly predict multiple objectives such as click, add-to-cart, checkout and
+other conversion types. Additionally, the capacity and performance of these
+models can often be increased with the use of embedding tables that encode high
+cardinality categorical features such as advertiser, user, campaign, and
+product identifiers (IDs). These embedding tables can be pre-trained, but also
+learned end-to-end jointly with the model to directly optimize the model
+objectives. Training these large tables is challenging due to: gradient
+sparsity, the high cardinality of the categorical features, the non-uniform
+distribution of IDs and the very high label sparsity. These issues make
+training prone to both slow convergence and overfitting after the first epoch.
+Previous works addressed the multi-epoch overfitting issue by using: stronger
+feature hashing to reduce cardinality, filtering of low frequency IDs,
+regularization of the embedding tables, re-initialization of the embedding
+tables after each epoch, etc. Some of these techniques reduce overfitting at
+the expense of reduced model performance if used too aggressively. In this
+paper, we share key learnings from the development of embedding table
+optimization and multi-epoch training in Pinterest Ads Conversion models. We
+showcase how our Sparse Optimizer speeds up convergence, and how multi-epoch
+overfitting varies in severity between different objectives in a multi-task
+model depending on label sparsity. We propose a new approach to deal with
+multi-epoch overfitting: the use of a frequency-adaptive learning rate on the
+embedding tables and compare it to embedding re-initialization. We evaluate
+both methods offline using an industrial large-scale production dataset.
 </p>
-                    <p><a href="http://arxiv.org/pdf/2505.01044v1" target="_blank">Read PDF</a></p>
+                    <p><a href="http://arxiv.org/pdf/2505.05605v1" target="_blank">Read PDF</a></p>
                 </div>
             
                 <div class="paper">
-                    <h3>Drilling into Erasmus learning mobility flows between countries
-  2014-2024</h3>
-                    <p><strong>Authors:</strong> Vladimir Batagelj</p>
-                    <p>  Analyzing the Erasmus mobility network, we illustrate typical problems and
-approaches in analyzing weighted networks. We propose alternative exploratory
-views on the network "Erasmus+ learning mobility flows since 2014". The network
-has 35 nodes (countries), is very dense, and the range of link weights (number
-of visits) is huge (from 1 to 217003). An increasing transformation is used to
-reduce the range. The traditional graph-based visualization is unreadable. To
-gain insight into the structure of a dense network, it can be reduced to a
-skeleton by removing less essential links and/or nodes. We have determined the
-1-neighbors and 2-neighbors subnetworks. The 1-neighbors skeleton highlights
-Spain as the main attractor in the network. The 2-neighbors skeleton shows the
-dominant role of Spain, Germany, France, and Italy. The hubs and authorities,
-Pathfinder and Ps cores methods confirm these observations.
-  Using the "right" order of the nodes in a matrix representation can reveal
-the network structure as block patterns in the displayed matrix. The clustering
-of network nodes based on corrected Salton dissimilarity again shows the
-dominant role of Spain, Germany, France, and Italy, but also two main clusters
-of the division into developed/less developed countries. The Balassa
-normalization (log(measured/expected) visits) matrix shows that most visits
-within the two main clusters are above expected, while most visits between them
-are below expected; within the clusters of Balkan countries, Baltic countries,
-{SK, CZ, HU}, {IS, DK, NO} visits are much above expected, etc.
+                    <h3>HiBayES: A Hierarchical Bayesian Modeling Framework for AI Evaluation
+  Statistics</h3>
+                    <p><strong>Authors:</strong> Lennart Luettgau, Harry Coppock, Magda Dubois, Christopher Summerfield, Cozmin Ududec</p>
+                    <p>  As Large Language Models (LLMs) and other AI systems evolve, robustly
+estimating their capabilities from inherently stochastic outputs while
+systematically quantifying uncertainty in these estimates becomes increasingly
+important. Further, advanced AI evaluations often have a nested hierarchical
+structure, exhibit high levels of complexity, and come with high costs in
+testing the most advanced AI systems. To address these challenges, we introduce
+HiBayES, a generalizable Hierarchical Bayesian modeling framework for AI
+Evaluation Statistics. HiBayES supports robust inferences in classical
+question-answer benchmarks and advanced agentic evaluations, particularly in
+low-data scenarios (e.g., < 20 data points per evaluation). Built on
+Generalized Linear Models (GLMs), Bayesian data analysis, and formal model
+comparison, HiBayES provides principled uncertainty quantification and robust
+parameter estimation. This paper offers a comprehensive introduction to
+HiBayES, including illustrative examples, comparisons to conventional
+statistical methods, and practical guidance for implementing multilevel
+Bayesian GLMs. Additionally, we provide a HiBayES software package [4] (Beta
+version) for out-of-the-box implementation.
 </p>
-                    <p><a href="http://arxiv.org/pdf/2505.00889v1" target="_blank">Read PDF</a></p>
+                    <p><a href="http://arxiv.org/pdf/2505.05602v1" target="_blank">Read PDF</a></p>
                 </div>
             
                 <div class="paper">
-                    <h3>Multi-site modelling and reconstruction of past extreme skew surges
-  along the French Atlantic coast</h3>
-                    <p><strong>Authors:</strong> Nathan Huet, Philippe Naveau, Anne Sabourin</p>
-                    <p>  Appropriate modelling of extreme skew surges is crucial, particularly for
-coastal risk management. Our study focuses on modelling extreme skew surges
-along the French Atlantic coast, with a particular emphasis on investigating
-the extremal dependence structure between stations. We employ the
-peak-over-threshold framework, where a multivariate extreme event is defined
-whenever at least one location records a large value, though not necessarily
-all stations simultaneously. A novel method for determining an appropriate
-level (threshold) above which observations can be classified as extreme is
-proposed. Two complementary approaches are explored. First, the multivariate
-generalized Pareto distribution is employed to model extremes, leveraging its
-properties to derive a generative model that predicts extreme skew surges at
-one station based on observed extremes at nearby stations. Second, a novel
-extreme regression framework is assessed for point predictions. This specific
-regression framework enables accurate point predictions using only the "angle"
-of input variables, i.e. input variables divided by their norms. The ultimate
-objective is to reconstruct historical skew surge time series at stations with
-limited data. This is achieved by integrating extreme skew surge data from
-stations with longer records, such as Brest and Saint-Nazaire, which provide
-over 150 years of observations.
+                    <h3>Machine learning bridging battery field data and laboratory data</h3>
+                    <p><strong>Authors:</strong> Yanbin Zhao, Hao Liu, Zhihua Deng, Tong Li, Haoyi Jiang, Zhenfei Ling, Xingkai Wang, Lei Zhang, Xiaoping Ouyang</p>
+                    <p>  Aiming at the dilemma that most laboratory data-driven diagnostic and
+prognostic methods cannot be applied to field batteries in passenger cars and
+energy storage systems, this paper proposes a method to bridge field data and
+laboratory data using machine learning. Only two field real impedances
+corresponding to a medium frequency and a high frequency are needed to predict
+laboratory real impedance curve, laboratory charge/discharge curve, and
+laboratory relaxation curve. Based on the predicted laboratory data, laboratory
+data-driven methods can be used for field battery diagnosis and prognosis.
+Compared with the field data-driven methods based on massive historical field
+data, the proposed method has the advantages of higher accuracy, lower cost,
+faster speed, readily available, and no use of private data. The proposed
+method is tested using two open-source datasets containing 249 NMC cells. For a
+test set containing 76 cells, the mean absolute percentage errors of laboratory
+real impedance curve, charge curve, and discharge curve prediction results are
+0.85%, 4.72%, and 2.69%, respectively. This work fills the gap between
+laboratory data-driven diagnostic and prognostic methods and field battery
+applications, making all laboratory data-driven methods applicable to field
+battery diagnosis and prognosis. Furthermore, this work overturns the fixed
+path of developing field battery diagnostic and prognostic methods based on
+massive field historical data, opening up new research and breakthrough
+directions for field battery diagnosis and prognosis.
 </p>
-                    <p><a href="http://arxiv.org/pdf/2505.00835v1" target="_blank">Read PDF</a></p>
+                    <p><a href="http://arxiv.org/pdf/2505.05364v1" target="_blank">Read PDF</a></p>
                 </div>
             
                 <div class="paper">
-                    <h3>On the Mechanistic Interpretability of Neural Networks for Causality in
-  Bio-statistics</h3>
-                    <p><strong>Authors:</strong> Jean-Baptiste A. Conan</p>
-                    <p>  Interpretable insights from predictive models remain critical in
-bio-statistics, particularly when assessing causality, where classical
-statistical and machine learning methods often provide inherent clarity. While
-Neural Networks (NNs) offer powerful capabilities for modeling complex
-biological data, their traditional "black-box" nature presents challenges for
-validation and trust in high-stakes health applications. Recent advances in
-Mechanistic Interpretability (MI) aim to decipher the internal computations
-learned by these networks. This work investigates the application of MI
-techniques to NNs within the context of causal inference for bio-statistics.
-  We demonstrate that MI tools can be leveraged to: (1) probe and validate the
-internal representations learned by NNs, such as those estimating nuisance
-functions in frameworks like Targeted Minimum Loss-based Estimation (TMLE); (2)
-discover and visualize the distinct computational pathways employed by the
-network to process different types of inputs, potentially revealing how
-confounders and treatments are handled; and (3) provide methodologies for
-comparing the learned mechanisms and extracted insights across statistical,
-machine learning, and NN models, fostering a deeper understanding of their
-respective strengths and weaknesses for causal bio-statistical analysis.
+                    <h3>Modeling the 2022 Mpox Outbreak with a Mechanistic Network Model</h3>
+                    <p><strong>Authors:</strong> Emma G. Crenshaw, Jukka-Pekka Onnela</p>
+                    <p>  We implemented a dynamic agent-based network model to simulate the spread of
+mpox in a United States-based MSM population. This model allowed us to
+implement data-informed dynamic network evolution to simulate realistic disease
+spreading and behavioral adaptations. We found that behavior change, the
+reduction in one-time partnerships, and widespread vaccination are effective in
+preventing the transmission of mpox and that earlier intervention has a greater
+effect, even when only a high-risk portion of the population participates. With
+no intervention, 16% of the population was infected (25th percentile, 75th
+percentiles of simulations: 15.3%, 16.6%). With vaccination and behavior change
+in only the 25% of individuals most likely to have a one-time partner,
+cumulative infections were reduced by 30%, or a total reduction in nearly 500
+infections. Earlier intervention further reduces cumulative infections;
+beginning vaccination a year before the outbreak results in only 5.5% of men
+being infected, averting 950 infections or nearly 10% of the total population
+in our model. We also show that sustained partnerships drive the early
+outbreak, while one-time partnerships drive transmission after the first
+initial weeks. The median effective reproductive number, Rt, at t = 0 days is
+1.30 for casual partnerships, 1.00 for main, and 0.6 for one-time. By t = 28,
+the median Rt for one-time partnerships has more than doubled to 1.48, while it
+decreased for casual and main partnerships: 0.46 and 0.29, respectively. With
+the ability to model individuals' behavior, mechanistic networks are
+particularly well suited to studying sexually transmitted infections, the
+spread and control of which are often governed by individual-level action. Our
+results contribute valuable insights into the role of different interventions
+and relationship types in mpox transmission dynamics.
 </p>
-                    <p><a href="http://arxiv.org/pdf/2505.00555v1" target="_blank">Read PDF</a></p>
+                    <p><a href="http://arxiv.org/pdf/2505.05534v1" target="_blank">Read PDF</a></p>
                 </div>
             
                 <div class="paper">
-                    <h3>Ireland Topsoil Contamination Analysis: A Clustering Approach</h3>
-                    <p><strong>Authors:</strong> Mimi Zhang</p>
-                    <p>  This study investigates topsoil contamination in Ireland using geochemical
-data from the Tellus Programme, analyzing 4,278 soil samples across 17,983
-square kilometer. The research employs CPF clustering with spatial constraints
-to classify samples into seven different groups, revealing distinct
-contamination patterns.
+                    <h3>Simulating MLB Seasons using Bayesian Inference and Random Walks</h3>
+                    <p><strong>Authors:</strong> Simon Cha</p>
+                    <p>  As a dedicated follower of sports statistics and with the MLB season
+beginning in late March, I set out to predict how many wins each team would
+accumulate by the end of the 162 game season. The goal was to build a
+simulation framework capable of forecasting the remainder of the season,
+starting from a 20 game burn-in period to establish initial estimates of team
+strength. My approach used a Bayesian inference model incorporating team win
+percentage, batting average, and pitching ERA to construct a posterior
+distribution of win probability for each matchup. For each game, I sampled from
+the posterior and simulated the outcome using a Bernoulli trial. Because future
+matchup inputs were unobserved, I forecasted batting averages using random
+walks and modeled pitching ERA with Kalman filters. After simulating many
+seasons, the model produced a distribution of win totals for all 30 teams and
+can also be used to estimate each team's probability of making the postseason.
 </p>
-                    <p><a href="http://arxiv.org/pdf/2505.00510v1" target="_blank">Read PDF</a></p>
+                    <p><a href="http://arxiv.org/pdf/2505.05120v1" target="_blank">Read PDF</a></p>
                 </div>
             
                 <div class="paper">
-                    <h3>Spatial vertical regression for spatial panel data: Evaluating the
-  effect of the Florentine tramway's first line on commercial vitality</h3>
-                    <p><strong>Authors:</strong> Giulio Grossi, Alessandra Mattei, Georgia Papadogeorgou</p>
-                    <p>  Synthetic control methods are commonly used in panel data settings to
-evaluate the effect of an intervention. In many of these cases, the treated and
-control units correspond to spatial units such as regions or neighborhoods. Our
-approach addresses the challenge of understanding how an intervention applied
-at specific locations influences the surrounding area. Traditional synthetic
-control applications may struggle with defining the effective area of impact,
-the extent of treatment propagation across space, and the variation of effects
-with distance from the treatment sites. To address these challenges, we
-introduce Spatial Vertical Regression (SVR) within the Bayesian paradigm. This
-innovative approach allows us to accurately predict the outcomes in varying
-proximities to the treatment sites, while meticulously accounting for the
-spatial structure inherent in the data. Specifically, rooted on the vertical
-regression framework of the synthetic control method, SVR employs a Gaussian
-process to ensure that the imputation of missing potential outcomes for areas
-of different distance around the treatment sites is spatially coherent,
-reflecting the expectation that nearby areas experience similar outcomes and
-have similar relationships to control areas. This approach is particularly
-pertinent to our study on the Florentine tramway's first line construction. We
-study its influence on the local commercial landscape, focusing on how business
-prevalence varies at different distances from the tram stops.
+                    <h3>Modeling electrical distribution networks with inhomogeneous
+  Galton-Watson trees</h3>
+                    <p><strong>Authors:</strong> Jakob G. Rasmussen, Troels Pedersen, Rasmus L. Olsen</p>
+                    <p>  In this paper we consider inhomogeneous Galton-Watson trees, and derive
+various moments for such processes: the number of vertices, the number of
+leaves, and the height of the tree. Also we make a simple condition of
+finiteness. We use these processes to model a data set consisting of electrical
+distribution networks, where we make a flexible framework for formulating
+models through the mean and variance of the offspring distributions.
+Furthermore, we introduce two mixture distributions as offspring distributions
+to reflect the particular form of the data. For estimation we use maximum
+likelihood estimation.
 </p>
-                    <p><a href="http://arxiv.org/pdf/2505.00450v1" target="_blank">Read PDF</a></p>
+                    <p><a href="http://arxiv.org/pdf/2505.05092v1" target="_blank">Read PDF</a></p>
                 </div>
             </div>
     <script src="scripts/update-papers.js"></script>
