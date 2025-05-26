@@ -9,260 +9,258 @@
 <body>
     <h1>Latest ArXiv Papers on Applied Statistics</h1>
     <p> This page displays the 10 most recents papers on <a href="https://arxiv.org/">ArXiv</a> in the category of "applied statistics". To see all most recent papers under this category, visit ArXiv's website <a href="https://arxiv.org/list/stat.AP/recent">here</a>. This page uses GitHub Actions and the ArXiv API to update each day at approximately midnight.</p>
-    <p id="last-updated">Last updated: 5/19/2025, 1:23:48 AM</p>
+    <p id="last-updated">Last updated: 5/26/2025, 1:25:06 AM</p>
     <button onclick="window.location.href='../index.html'" style="text-align: center;">Go to Homepage</button>
     <div id="papers">
                 <div class="paper">
-                    <h3>Mechanistic inference of stochastic gene expression from structured
-  single-cell data</h3>
-                    <p><strong>Authors:</strong> Christopher E. Miles</p>
-                    <p>  Single-cell gene expression measurements encode variability spanning
-molecular noise, cellular heterogeneity, and technical artifacts. Mechanistic
-models provide a principled framework to disentangle these sources and extract
-insight, but inferring underlying dynamics from standard sequencing count data
-faces fundamental limitations. Structured datasets with temporal, spatial, or
-multimodal features offer constraints that help resolve these ambiguities, but
-demand more complex models and advanced inference strategies, including machine
-learning techniques with associated tradeoffs. This review highlights recent
-progress in the judicious integration of structured single-cell data,
-stochastic model development, and innovative inference strategies to extract
-gene-level insights. These approaches lay the foundation for mechanistic
-understanding of regulatory networks and multicellular systems.
+                    <h3>Bayesian Deep Learning for Discrete Choice</h3>
+                    <p><strong>Authors:</strong> Daniel F. Villarraga, Ricardo A. Daziano</p>
+                    <p>  Discrete choice models (DCMs) are used to analyze individual decision-making
+in contexts such as transportation choices, political elections, and consumer
+preferences. DCMs play a central role in applied econometrics by enabling
+inference on key economic variables, such as marginal rates of substitution,
+rather than focusing solely on predicting choices on new unlabeled data.
+However, while traditional DCMs offer high interpretability and support for
+point and interval estimation of economic quantities, these models often
+underperform in predictive tasks compared to deep learning (DL) models. Despite
+their predictive advantages, DL models remain largely underutilized in discrete
+choice due to concerns about their lack of interpretability, unstable parameter
+estimates, and the absence of established methods for uncertainty
+quantification. Here, we introduce a deep learning model architecture
+specifically designed to integrate with approximate Bayesian inference methods,
+such as Stochastic Gradient Langevin Dynamics (SGLD). Our proposed model
+collapses to behaviorally informed hypotheses when data is limited, mitigating
+overfitting and instability in underspecified settings while retaining the
+flexibility to capture complex nonlinear relationships when sufficient data is
+available. We demonstrate our approach using SGLD through a Monte Carlo
+simulation study, evaluating both predictive metrics--such as out-of-sample
+balanced accuracy--and inferential metrics--such as empirical coverage for
+marginal rates of substitution interval estimates. Additionally, we present
+results from two empirical case studies: one using revealed mode choice data in
+NYC, and the other based on the widely used Swiss train choice stated
+preference data.
 </p>
-                    <p><a href="http://arxiv.org/pdf/2505.11460v1" target="_blank">Read PDF</a></p>
+                    <p><a href="http://arxiv.org/pdf/2505.18077v1" target="_blank">Read PDF</a></p>
                 </div>
             
                 <div class="paper">
-                    <h3>A Generative Framework for Causal Estimation via Importance-Weighted
-  Diffusion Distillation</h3>
-                    <p><strong>Authors:</strong> Xinran Song, Tianyu Chen, Mingyuan Zhou</p>
-                    <p>  Estimating individualized treatment effects from observational data is a
-central challenge in causal inference, largely due to covariate imbalance and
-confounding bias from non-randomized treatment assignment. While inverse
-probability weighting (IPW) is a well-established solution to this problem, its
-integration into modern deep learning frameworks remains limited. In this work,
-we propose Importance-Weighted Diffusion Distillation (IWDD), a novel
-generative framework that combines the pretraining of diffusion models with
-importance-weighted score distillation to enable accurate and fast causal
-estimation-including potential outcome prediction and treatment effect
-estimation. We demonstrate how IPW can be naturally incorporated into the
-distillation of pretrained diffusion models, and further introduce a
-randomization-based adjustment that eliminates the need to compute IPW
-explicitly-thereby simplifying computation and, more importantly, provably
-reducing the variance of gradient estimates. Empirical results show that IWDD
-achieves state-of-the-art out-of-sample prediction performance, with the
-highest win rates compared to other baselines, significantly improving causal
-estimation and supporting the development of individualized treatment
-strategies. We will release our PyTorch code for reproducibility and future
-research.
+                    <h3>Rethinking Climate Econometrics: Data Cleaning, Flexible Trend Controls,
+  and Predictive Validation</h3>
+                    <p><strong>Authors:</strong> Christof Schötz, Jan Hassel, Christian Otto</p>
+                    <p>  We assess empirical models in climate econometrics using modern statistical
+learning techniques. Existing approaches are prone to outliers, ignore sample
+dependencies, and lack principled model selection. To address these issues, we
+implement robust preprocessing, nonparametric time-trend controls, and
+out-of-sample validation across 700+ climate variables. Our analysis reveals
+that widely used models and predictors-such as mean temperature-have little
+predictive power. A previously overlooked humidity-related variable emerges as
+the most consistent predictor, though even its performance remains limited.
+These findings challenge the empirical foundations of climate econometrics and
+point toward a more robust, data-driven path forward.
 </p>
-                    <p><a href="http://arxiv.org/pdf/2505.11444v1" target="_blank">Read PDF</a></p>
+                    <p><a href="http://arxiv.org/pdf/2505.18033v1" target="_blank">Read PDF</a></p>
                 </div>
             
                 <div class="paper">
-                    <h3>JaxSGMC: Modular stochastic gradient MCMC in JAX</h3>
-                    <p><strong>Authors:</strong> Stephan Thaler, Paul Fuchs, Ana Cukarska, Julija Zavadlav</p>
-                    <p>  We present JaxSGMC, an application-agnostic library for stochastic gradient
-Markov chain Monte Carlo (SG-MCMC) in JAX. SG-MCMC schemes are uncertainty
-quantification (UQ) methods that scale to large datasets and high-dimensional
-models, enabling trustworthy neural network predictions via Bayesian deep
-learning. JaxSGMC implements several state-of-the-art SG-MCMC samplers to
-promote UQ in deep learning by reducing the barriers of entry for switching
-from stochastic optimization to SG-MCMC sampling. Additionally, JaxSGMC allows
-users to build custom samplers from standard SG-MCMC building blocks. Due to
-this modular structure, we anticipate that JaxSGMC will accelerate research
-into novel SG-MCMC schemes and facilitate their application across a broad
-range of domains.
+                    <h3>Federated Causal Inference from Multi-Site Observational Data via
+  Propensity Score Aggregation</h3>
+                    <p><strong>Authors:</strong> Khellaf Rémi, Bellet Aurélien, Josse Julie</p>
+                    <p>  Causal inference typically assumes centralized access to individual-level
+data. Yet, in practice, data are often decentralized across multiple sites,
+making centralization infeasible due to privacy, logistical, or legal
+constraints. We address this by estimating the Average Treatment Effect (ATE)
+from decentralized observational data using federated learning, which enables
+inference through the exchange of aggregate statistics rather than
+individual-level data. We propose a novel method to estimate propensity scores
+in a (non-)parametric manner by computing a federated weighted average of local
+scores, using two theoretically grounded weighting schemes -- Membership
+Weights (MW) and Density Ratio Weights (DW) -- that balance communication
+efficiency and model flexibility. These federated scores are then used to
+construct two ATE estimators: the Federated Inverse Propensity Weighting
+estimator (Fed-IPW) and its augmented variant (Fed-AIPW). Unlike meta-analysis
+methods, which fail when any site violates positivity, our approach leverages
+heterogeneity in treatment assignment across sites to improve overlap. We show
+that Fed-IPW and Fed-AIPW perform well under site-level heterogeneity in sample
+sizes, treatment mechanisms, and covariate distributions, with theoretical
+analysis and experiments on simulated and real-world data highlighting their
+strengths and limitations relative to meta-analysis and related methods.
 </p>
-                    <p><a href="http://arxiv.org/pdf/2505.11190v1" target="_blank">Read PDF</a></p>
+                    <p><a href="http://arxiv.org/pdf/2505.17961v1" target="_blank">Read PDF</a></p>
                 </div>
             
                 <div class="paper">
-                    <h3>Covariance Symmetries Classification in Multitemporal/Multipass PolSAR
-  Images</h3>
-                    <p><strong>Authors:</strong> Dehbia Hanis, Luca Pallotta, Augusto Aubry, Aichouche Belhadj-Aissa, Antonio De Maio</p>
-                    <p>  A polarimetric synthetic aperture radar (PolSAR) system, which uses multiple
-images acquired with different polarizations in both transmission and
-reception, has the potential to improve the description and interpretation of
-the observed scene. This is typically achieved by exploiting the polarimetric
-covariance or coherence matrix associated with each pixel, which is processed
-to meet a specific goal in Earth observation. This paper presents a design
-framework for selecting the structure of the polarimetric covariance matrix
-that accurately reflects the symmetry associated with the analyzed pixels. The
-proposed methodology leverages both polarimetric and temporal information from
-multipass PolSAR images to enhance the retrieval of information from the
-acquired data. To accomplish this, it is assumed that the covariance matrix (of
-the overall acquired data) is given as the Kronecker product of the temporal
-and polarimetric covariances. An alternating maximization algorithm, known as
-the flip-flop method, is then developed to estimate both matrices while
-enforcing the symmetry constraint on the polarimetric covariance. Subsequently,
-the symmetry structure classification is formulated as a multiple hypothesis
-testing problem, which is solved using model order selection techniques. The
-proposed approach is quantitatively assessed on simulated data, showing its
-advantages over its competitor, which does not exploit temporal correlations.
-For example, it reaches accuracies of 94.6% and 92.0% for the reflection and
-azimuth symmetry classes, respectively, while the competitor achieves 72.5% and
-72.6% under the same simulation conditions. Finally, the effectiveness of the
-proposed framework is further demonstrated using measured RADARSAT-2 data,
-corroborating the results obtained from the simulations.
+                    <h3>Robust Distributed Estimation: Extending Gossip Algorithms to Ranking
+  and Trimmed Means</h3>
+                    <p><strong>Authors:</strong> Anna Van Elst, Igor Colin, Stephan Clémençon</p>
+                    <p>  This paper addresses the problem of robust estimation in gossip algorithms
+over arbitrary communication graphs. Gossip algorithms are fully decentralized,
+relying only on local neighbor-to-neighbor communication, making them
+well-suited for situations where communication is constrained. A fundamental
+challenge in existing mean-based gossip algorithms is their vulnerability to
+malicious or corrupted nodes. In this paper, we show that an outlier-robust
+mean can be computed by globally estimating a robust statistic. More
+specifically, we propose a novel gossip algorithm for rank estimation, referred
+to as \textsc{GoRank}, and leverage it to design a gossip procedure dedicated
+to trimmed mean estimation, coined \textsc{GoTrim}. In addition to a detailed
+description of the proposed methods, a key contribution of our work is a
+precise convergence analysis: we establish an $\mathcal{O}(1/t)$ rate for rank
+estimation and an $\mathcal{O}(\log(t)/t)$ rate for trimmed mean estimation,
+where by $t$ is meant the number of iterations. Moreover, we provide a
+breakdown point analysis of \textsc{GoTrim}. We empirically validate our
+theoretical results through experiments on diverse network topologies, data
+distributions and contamination schemes.
 </p>
-                    <p><a href="http://arxiv.org/pdf/2505.11137v1" target="_blank">Read PDF</a></p>
+                    <p><a href="http://arxiv.org/pdf/2505.17836v1" target="_blank">Read PDF</a></p>
                 </div>
             
                 <div class="paper">
-                    <h3>Age-stratified clustering of multiple long-term conditions</h3>
-                    <p><strong>Authors:</strong> Anirban Chakraborty, Bruce Guthrie, Sohan Seth</p>
-                    <p>  Background: Most people with any long-term condition have multiple long-term
-conditions, but our understanding of how conditions cluster is limited. Many
-clustering studies identify clusters in the whole population, but the clusters
-that occur in people of different ages may be distinct. The aim of this paper
-was to explore similarities and differences in clusters found in different
-age-groups.
-  Method: We present a method for finding similar clusters in multiple
-age-groups, referred to as cluster sets, using Latent Class Analysis (LCA) and
-Chebyshev distance metric. We analyse a primary care electronic health record
-(EHR) dataset recording the presence of 40 long-term conditions (LTCs) in
-570,355 people aged 40-99 years with at least one of these conditions,
-analysing in five-year age-groups.
-  Findings: We find that the 600 clusters found separately in 12 age-strata can
-be summarised by 342 cluster sets with 263 cluster sets only being found in a
-single age-group (singleton cluster sets), and 79 cluster sets being present in
-multiple age-groups. We observe that 31 conditions of the 40 conditions studied
-appear in cluster sets with the respective condition being the only condition
-present with a very high prevalence of more than 0.9 whereas the remaining
-cluster sets typically contain two to four conditions present with a high
-prevalence of more than 0.7.
-  Interpretation: Multimorbidity profiles in different age-groups are often
-distinct (singleton cluster sets observed only in that age-group), but similar
-clusters with small variations in their composition are also found in multiple
-age-groups. This demonstrates the age dependency of MLTC clusters and presents
-a case for age-stratified clustering.
+                    <h3>Predicting hazards of climate extremes: a statistical perspective</h3>
+                    <p><strong>Authors:</strong> Carlotta Pacifici, Simone A. Padoan, Jaroslav Mysiak</p>
+                    <p>  Climate extremes such as floods, storms, and heatwaves have caused severe
+economic and human losses across Europe in recent decades. To support the
+European Union's climate resilience efforts, we propose a statistical framework
+for short-to-medium-term prediction of tail risks related to extreme economic
+losses and fatalities. Our approach builds on Extreme Value Theory and employs
+the predictive distribution of future tail events to quantify both estimation
+and aleatoric uncertainty. Using data on EU-wide losses and fatalities from
+1980 to 2023, we model extreme events through Peaks Over Threshold methodology
+and fit Generalised Pareto (GP) and discrete-GP models using an empirical Bayes
+procedure. Our predictive approach enables a 'What-if' analysis to evaluate
+hypothetical scenarios beyond observed levels, including potential worst-case
+outcomes for a precautionary risk assessment of future extreme episodes. To
+account for a time-varying behavior of extreme losses and fatalities we extend
+our predictive method using a proportional tail model that allows to handle
+heteroscedastic extremes over time. Results of our analysis under stationarity
+and non-stationary settings raise concerns, reinforcing the urgency of
+integrating predictive tail risk assessment into EU adaptation strategies.
 </p>
-                    <p><a href="http://arxiv.org/pdf/2505.10952v1" target="_blank">Read PDF</a></p>
+                    <p><a href="http://arxiv.org/pdf/2505.17622v1" target="_blank">Read PDF</a></p>
                 </div>
             
                 <div class="paper">
-                    <h3>Estimating Velocity Vector Fields using Transport Gaussian Processes</h3>
-                    <p><strong>Authors:</strong> Youssef Fahmy, Maria Laura Battagliola, Joseph Guinness</p>
-                    <p>  Accurately estimating latent velocity vector fields of atmospheric winds is
-crucial for understanding weather phenomena. Direct measurement of atmospheric
-winds is costly, especially in the upper atmosphere, so researchers attempt to
-estimate atmospheric winds by observing the movement patterns of clouds and
-other features in satellite images of the atmosphere. These Derived Motion
-Winds use feature tracking algorithms to search for movement within small
-windows in space and time. Consequently, these algorithms cannot leverage
-information from broader-scale features and cannot ensure that the collection
-of wind vectors over space and time represents a physically realistic velocity
-field. In this work, we use spatial-temporal Gaussian processes to model the
-evolution of a scalar quantity transported over time by fluid flow. Our
-framework simultaneously estimates covariance parameters and latent velocities
-by maximizing the likelihood. Specifically, flows are represented using
-time-dependent residual neural networks, and velocities are subsequently
-derived through closed-form formulas. Performance evaluations using weather
-model data demonstrate our method's accuracy and efficiency. We apply our
-methods to GOES-16 images, demonstrating computational efficiency and the
-ability to produce wind estimates where Derived Motion Winds fail.
+                    <h3>Local improvement of NO2 concentration maps derived from physicochemical
+  models, using low-cost sensors</h3>
+                    <p><strong>Authors:</strong> Camille Coron, Emma Thulliez</p>
+                    <p>  Urban air quality is a major issue today. Pollutant concentrations, such as
+NO2's, must be monitored to ensure that they do not exceed dangerous
+thresholds. Two recent techniques help to map pollutant concentrations on a
+small scale. First, deterministic physicochemical models take into account the
+street network and calculate concentration estimates on a grid, providing a
+map. On the other hand, the advent of new low-cost technologies allows
+monitoring organizations to densify measurement networks. However, these
+devices are less reliable than reference devices and need to be corrected. We
+propose a new approach to improve maps generated using deterministic models by
+combining measurements from multiple sensor networks. More precisely, we model
+the bias of deterministic models and estimate it using an MCMC method. Our
+approach also enables to analyze the behavior of the sensors. The method is
+applied to the city of Rouen, France, with measurements provided by 4
+monitoring stations and 10 low-cost sensors during December 2022. Results show
+that the method indeed allows to correct the map, reducing estimation errors by
+about 9.7%.
 </p>
-                    <p><a href="http://arxiv.org/pdf/2505.10898v1" target="_blank">Read PDF</a></p>
+                    <p><a href="http://arxiv.org/pdf/2505.17564v1" target="_blank">Read PDF</a></p>
                 </div>
             
                 <div class="paper">
-                    <h3>Dependency-Aware Shrinkage Priors for High Dimensional Regression</h3>
-                    <p><strong>Authors:</strong> Javier Enrique Aguilar, Paul-Christian Bürkner</p>
-                    <p>  In high dimensional regression, global local shrinkage priors have gained
-significant traction for their ability to yield sparse estimates, improve
-parameter recovery, and support accurate predictive modeling. While recent work
-has explored increasingly flexible shrinkage prior structures, the role of
-explicitly modeling dependencies among coefficients remains largely unexplored.
-In this paper, we investigate whether incorporating such structures into
-traditional shrinkage priors improves their performance. We introduce
-dependency-aware shrinkage priors, an extension of continuous shrinkage priors
-that integrates correlation structures inspired by Zellner's g prior approach.
-We provide theoretical insights into how dependence alters the prior and
-posterior structure, and evaluate the method empirically through simulations
-and real data. We find that modeling dependence can improve parameter recovery
-when predictors are strongly correlated, but offers only modest gains in
-predictive accuracy. These findings suggest that prior dependence should be
-used selectively and guided by the specific inferential goals of the analysis.
+                    <h3>A Novel Bayesian Extrapolation Design for Assessing Equivalence in
+  Exposure-Response Curves between Pediatric and Adult Populations</h3>
+                    <p><strong>Authors:</strong> Zhongheng Cai, Lian Ma, Jingjing Ye, Haitao Pan</p>
+                    <p>  Development of effective treatments in pediatric population poses unique
+scientific and ethical challenges in addition to the small population. In this
+regard, both the U.S. and E.U. regulations suggest a complementary strategy,
+pediatric extrapolation, based on assessing the relevance of existing
+information in the adult population to the pediatric population. The pediatric
+extrapolation approach often relies on data extrapolation from adults,
+contingent upon evidence of similar disease progression, pharmacology and
+clinical response to treatment between adult and children. Similarity
+evaluation in pharmacology is usually characterized through the
+exposure-response relationship. Current methodologies for comparing
+exposure-response (E-R) curves between these groups are inadequate, typically
+focusing on isolated data points rather than the entire curve spectrum (Zhang
+et al., 2021). To overcome this limitation, we introduce an innovative Bayesian
+approach for a comprehensive evaluation of E-R curve similarities between adult
+and pediatric populations. This method encompasses the entire curve, employing
+logistic regression for binary endpoints. We have developed an algorithm to
+determine sample size and key design parameters, such as the Bayesian posterior
+probability threshold, and utilize the maximum curve distance as a measure of
+similarity. Integrating Bayesian and frequentist principles, our approach
+involves developing a method to simulate datasets under both null and
+alternative hypotheses, allowing for type I error and type II error control.
+Simulation studies and sensitivity analyses demonstrate that our method
+maintains a stable performance with type I error and type II error control.
 </p>
-                    <p><a href="http://arxiv.org/pdf/2505.10715v1" target="_blank">Read PDF</a></p>
+                    <p><a href="http://arxiv.org/pdf/2505.17397v1" target="_blank">Read PDF</a></p>
                 </div>
             
                 <div class="paper">
-                    <h3>The Impact of Climatic Factors on Respiratory Pharmaceutical Demand: A
-  Comparison of Forecasting Models for Greece</h3>
-                    <p><strong>Authors:</strong> Viviana Schisa, Matteo Farnè</p>
-                    <p>  Climate change is increasingly recognized as a driver of health-related
-outcomes, yet its impact on pharmaceutical demand remains largely understudied.
-As environmental conditions evolve and extreme weather events intensify,
-anticipating their influence on medical needs is essential for designing
-resilient healthcare systems.
-  This study examines the relationship between climate variability and the
-weekly demand for respiratory prescription pharmaceuticals in Greece, based on
-a dataset spanning seven and a half years (390 weeks). Granger causality
-spectra are employed to explore potential causal relationships. Following
-variable selection, four forecasting models are implemented: Prophet, a Vector
-Autoregressive model with exogenous variables (VARX), Random Forest with Moving
-Block Bootstrap (MBB-RF), and Long Short-Term Memory (LSTM) networks.
-  The MBB-RF model achieves the best performance in relative error metrics
-while providing robust insights through variable importance rankings. The LSTM
-model outperforms most metrics, highlighting its ability to capture nonlinear
-dependencies. The VARX model, which includes Prophet-based exogenous inputs,
-balances interpretability and accuracy, although it is slightly less
-competitive in overall predictive performance.
-  These findings underscore the added value of climate-sensitive variables in
-modeling pharmaceutical demand and provide a data-driven foundation for
-adaptive strategies in healthcare planning under changing environmental
-conditions.
+                    <h3>Deconfounded Warm-Start Thompson Sampling with Applications to Precision
+  Medicine</h3>
+                    <p><strong>Authors:</strong> Prateek Jaiswal, Esmaeil Keyvanshokooh, Junyu Cao</p>
+                    <p>  Randomized clinical trials often require large patient cohorts before drawing
+definitive conclusions, yet abundant observational data from parallel studies
+remains underutilized due to confounding and hidden biases. To bridge this gap,
+we propose Deconfounded Warm-Start Thompson Sampling (DWTS), a practical
+approach that leverages a Doubly Debiased LASSO (DDL) procedure to identify a
+sparse set of reliable measured covariates and combines them with key hidden
+covariates to form a reduced context. By initializing Thompson Sampling (LinTS)
+priors with DDL-estimated means and variances on these measured features --
+while keeping uninformative priors on hidden features -- DWTS effectively
+harnesses confounded observational data to kick-start adaptive clinical trials.
+Evaluated on both a purely synthetic environment and a virtual environment
+created using real cardiovascular risk dataset, DWTS consistently achieves
+lower cumulative regret than standard LinTS, showing how offline causal
+insights from observational data can improve trial efficiency and support more
+personalized treatment decisions.
 </p>
-                    <p><a href="http://arxiv.org/pdf/2505.10642v1" target="_blank">Read PDF</a></p>
+                    <p><a href="http://arxiv.org/pdf/2505.17283v1" target="_blank">Read PDF</a></p>
                 </div>
             
                 <div class="paper">
-                    <h3>Uncovering Drivers of EU Carbon Futures with Bayesian Networks</h3>
-                    <p><strong>Authors:</strong> Jan Maciejowski, Manuele Leonelli</p>
-                    <p>  The European Union Emissions Trading System (EU ETS) is a key policy tool for
-reducing greenhouse gas emissions and advancing toward a net-zero economy.
-Under this scheme, tradeable carbon credits, European Union Allowances (EUAs),
-are issued to large emitters, who can buy and sell them on regulated markets.
-We investigate the influence of financial, economic, and energy-related factors
-on EUA futures prices using discrete and dynamic Bayesian networks to model
-both contemporaneous and time-lagged dependencies. The analysis is based on
-daily data spanning the third and fourth ETS trading phases (2013-2025),
-incorporating a wide range of indicators including energy commodities, equity
-indices, exchange rates, and bond markets. Results reveal that EUA pricing is
-most influenced by energy commodities, especially coal and oil futures, and by
-the performance of the European energy sector. Broader market sentiment,
-captured through stock indices and volatility measures, affects EUA prices
-indirectly via changes in energy demand. The dynamic model confirms a modest
-next-day predictive influence from oil markets, while most other effects remain
-contemporaneous. These insights offer regulators, institutional investors, and
-firms subject to ETS compliance a clearer understanding of the interconnected
-forces shaping the carbon market, supporting more effective hedging, investment
-strategies, and policy design.
+                    <h3>Transfer Faster, Price Smarter: Minimax Dynamic Pricing under
+  Cross-Market Preference Shift</h3>
+                    <p><strong>Authors:</strong> Yi Zhang, Elynn Chen, Yujun Yan</p>
+                    <p>  We study contextual dynamic pricing when a target market can leverage K
+auxiliary markets -- offline logs or concurrent streams -- whose mean utilities
+differ by a structured preference shift. We propose Cross-Market Transfer
+Dynamic Pricing (CM-TDP), the first algorithm that provably handles such
+model-shift transfer and delivers minimax-optimal regret for both linear and
+non-parametric utility models.
+  For linear utilities of dimension d, where the difference between source- and
+target-task coefficients is $s_{0}$-sparse, CM-TDP attains regret
+$\tilde{O}((d*K^{-1}+s_{0})\log T)$. For nonlinear demand residing in a
+reproducing kernel Hilbert space with effective dimension $\alpha$, complexity
+$\beta$ and task-similarity parameter $H$, the regret becomes
+$\tilde{O}\!(K^{-2\alpha\beta/(2\alpha\beta+1)}T^{1/(2\alpha\beta+1)} +
+H^{2/(2\alpha+1)}T^{1/(2\alpha+1)})$, matching information-theoretic lower
+bounds up to logarithmic factors. The RKHS bound is the first of its kind for
+transfer pricing and is of independent interest.
+  Extensive simulations show up to 50% lower cumulative regret and 5 times
+faster learning relative to single-market pricing baselines. By bridging
+transfer learning, robust aggregation, and revenue optimization, CM-TDP moves
+toward pricing systems that transfer faster, price smarter.
 </p>
-                    <p><a href="http://arxiv.org/pdf/2505.10384v1" target="_blank">Read PDF</a></p>
+                    <p><a href="http://arxiv.org/pdf/2505.17203v1" target="_blank">Read PDF</a></p>
                 </div>
             
                 <div class="paper">
-                    <h3>FactsR: A Safer Method for Producing High Quality Healthcare
-  Documentation</h3>
-                    <p><strong>Authors:</strong> Victor Petrén Bach Hansen, Lasse Krogsbøll, Jonas Lyngsø, Mathias Baltzersen, Andreas Motzfeldt, Kevin Pelgrims, Lars Maaløe</p>
-                    <p>  There are now a multitude of AI-scribing solutions for healthcare promising
-the utilization of large language models for ambient documentation. However,
-these AI scribes still rely on one-shot, or few-shot prompts for generating
-notes after the consultation has ended, employing little to no reasoning. This
-risks long notes with an increase in hallucinations, misrepresentation of the
-intent of the clinician, and reliance on the proofreading of the clinician to
-catch errors. A dangerous combination for patient safety if vigilance is
-compromised by workload and fatigue. In this paper, we introduce a method for
-extracting salient clinical information in real-time alongside the healthcare
-consultation, denoted Facts, and use that information recursively to generate
-the final note. The FactsR method results in more accurate and concise notes by
-placing the clinician-in-the-loop of note generation, while opening up new use
-cases within real-time decision support.
+                    <h3>Interpretable contour level selection for heat maps for gridded data</h3>
+                    <p><strong>Authors:</strong> Tarn Duong</p>
+                    <p>  Gridded data formats, where the observed multivariate data are aggregated
+into grid cells, ensure confidentiality and reduce storage requirements, with
+the trade-off that access to the underlying point data is lost. Heat maps are a
+highly pertinent visualisation for gridded data, and heat maps with a small
+number of well-selected contour levels offer improved interpretability over
+continuous contour levels. There are many possible contour level choices.
+Amongst them, density contour levels are highly suitable in many cases, and
+their probabilistic interpretation form a rigorous statistical basis for
+further quantitative data analyses. Current methods for computing density
+contour levels requires access to the observed point data, so they are not
+applicable to gridded data. To remedy this, we introduce an approximation of
+density contour levels for gridded data. We then compare our proposed method to
+existing contour level selection methods, and conclude that our proposal
+provides improved interpretability for synthetic and experimental gridded data.
 </p>
-                    <p><a href="http://arxiv.org/pdf/2505.10360v1" target="_blank">Read PDF</a></p>
+                    <p><a href="http://arxiv.org/pdf/2505.16788v1" target="_blank">Read PDF</a></p>
                 </div>
             </div>
     <script src="scripts/update-papers.js"></script>
