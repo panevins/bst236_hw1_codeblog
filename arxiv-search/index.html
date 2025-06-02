@@ -9,258 +9,264 @@
 <body>
     <h1>Latest ArXiv Papers on Applied Statistics</h1>
     <p> This page displays the 10 most recents papers on <a href="https://arxiv.org/">ArXiv</a> in the category of "applied statistics". To see all most recent papers under this category, visit ArXiv's website <a href="https://arxiv.org/list/stat.AP/recent">here</a>. This page uses GitHub Actions and the ArXiv API to update each day at approximately midnight.</p>
-    <p id="last-updated">Last updated: 5/26/2025, 1:25:06 AM</p>
+    <p id="last-updated">Last updated: 6/2/2025, 1:24:58 AM</p>
     <button onclick="window.location.href='../index.html'" style="text-align: center;">Go to Homepage</button>
     <div id="papers">
                 <div class="paper">
-                    <h3>Bayesian Deep Learning for Discrete Choice</h3>
-                    <p><strong>Authors:</strong> Daniel F. Villarraga, Ricardo A. Daziano</p>
-                    <p>  Discrete choice models (DCMs) are used to analyze individual decision-making
-in contexts such as transportation choices, political elections, and consumer
-preferences. DCMs play a central role in applied econometrics by enabling
-inference on key economic variables, such as marginal rates of substitution,
-rather than focusing solely on predicting choices on new unlabeled data.
-However, while traditional DCMs offer high interpretability and support for
-point and interval estimation of economic quantities, these models often
-underperform in predictive tasks compared to deep learning (DL) models. Despite
-their predictive advantages, DL models remain largely underutilized in discrete
-choice due to concerns about their lack of interpretability, unstable parameter
-estimates, and the absence of established methods for uncertainty
-quantification. Here, we introduce a deep learning model architecture
-specifically designed to integrate with approximate Bayesian inference methods,
-such as Stochastic Gradient Langevin Dynamics (SGLD). Our proposed model
-collapses to behaviorally informed hypotheses when data is limited, mitigating
-overfitting and instability in underspecified settings while retaining the
-flexibility to capture complex nonlinear relationships when sufficient data is
-available. We demonstrate our approach using SGLD through a Monte Carlo
-simulation study, evaluating both predictive metrics--such as out-of-sample
-balanced accuracy--and inferential metrics--such as empirical coverage for
-marginal rates of substitution interval estimates. Additionally, we present
-results from two empirical case studies: one using revealed mode choice data in
-NYC, and the other based on the widely used Swiss train choice stated
-preference data.
+                    <h3>Numerical Simulation Informed Rapid Cure Process Optimization of
+  Composite Structures using Constrained Bayesian Optimization</h3>
+                    <p><strong>Authors:</strong> Madhura Limaye, Yezhuo Li, Qiong Zhang, Gang Li</p>
+                    <p>  The present study aimed to solve the cure optimization problem of laminated
+composites through a statistical approach. The approach consisted of using
+constrained Bayesian Optimization (cBO) along with a Gaussian process model as
+a surrogate to rapidly solve the cure optimization problem. The approach was
+implemented to two case studies including the cure of a simpler flat
+rectangular laminate and a more complex L-shaped laminate. The cure
+optimization problem with the objective to minimize cure induced distortion was
+defined for both case studies. The former case study was two-variable that is
+used two cure cycle parameters as design variables and was constrained to
+achieve full cure, while the latter was four-variable and had to satisfy
+constraints of full cure as well as other cure cycle parameters. The
+performance of cBO for both case studies was compared to the traditional
+optimization approach based on Genetic Algorithm (GA). The comparison of
+results from GA and cBO including deformation and final degree of cure showed
+significant agreement (error < 4%). The computational efficiency of cBO was
+calculated by comparing the convergence steps for GA (>1000) and cBO (<50). The
+computational efficiency of cBO for all optimization cases was found to be >
+96%. The case studies conclude that cBO is promising in terms of computational
+time and accuracy for solving the cure optimization problem.
 </p>
-                    <p><a href="http://arxiv.org/pdf/2505.18077v1" target="_blank">Read PDF</a></p>
+                    <p><a href="http://arxiv.org/pdf/2505.24775v1" target="_blank">Read PDF</a></p>
                 </div>
             
                 <div class="paper">
-                    <h3>Rethinking Climate Econometrics: Data Cleaning, Flexible Trend Controls,
-  and Predictive Validation</h3>
-                    <p><strong>Authors:</strong> Christof Schötz, Jan Hassel, Christian Otto</p>
-                    <p>  We assess empirical models in climate econometrics using modern statistical
-learning techniques. Existing approaches are prone to outliers, ignore sample
-dependencies, and lack principled model selection. To address these issues, we
-implement robust preprocessing, nonparametric time-trend controls, and
-out-of-sample validation across 700+ climate variables. Our analysis reveals
-that widely used models and predictors-such as mean temperature-have little
-predictive power. A previously overlooked humidity-related variable emerges as
-the most consistent predictor, though even its performance remains limited.
-These findings challenge the empirical foundations of climate econometrics and
-point toward a more robust, data-driven path forward.
+                    <h3>Supporting product launching decisions with adversarial risk analysis</h3>
+                    <p><strong>Authors:</strong> Pablo G. Arce, Sonali Das, David Ríos Insua</p>
+                    <p>  In a world of utility-driven marketing, each company acts as an adversary to
+other contenders, with all having competing interests. A major challenge for
+companies launching a new product is that, despite testing, flaws in their
+product can remain, potentially risking a loss in market share. However,
+delayed launch decisions can lead to losing first-mover advantages.
+Furthermore, each company generally has incomplete information on the launch
+strategy and the product quality of competing brands. From a buyer's
+perspective, along with the price, customers need to make their buying
+decisions based on noisy signals, e.g.\ regarding the quality of competing
+brands. This paper proposes how to support product launch decisions by a
+company in the presence of several competitors and multiple buyers, with the
+aid of adversarial risk analysis methods. We illustrate applications in two
+software launch cases that require deciding about timing, pricing, and quality,
+referring to single and multiple product purchases.
 </p>
-                    <p><a href="http://arxiv.org/pdf/2505.18033v1" target="_blank">Read PDF</a></p>
+                    <p><a href="http://arxiv.org/pdf/2505.24771v1" target="_blank">Read PDF</a></p>
                 </div>
             
                 <div class="paper">
-                    <h3>Federated Causal Inference from Multi-Site Observational Data via
-  Propensity Score Aggregation</h3>
-                    <p><strong>Authors:</strong> Khellaf Rémi, Bellet Aurélien, Josse Julie</p>
-                    <p>  Causal inference typically assumes centralized access to individual-level
-data. Yet, in practice, data are often decentralized across multiple sites,
-making centralization infeasible due to privacy, logistical, or legal
-constraints. We address this by estimating the Average Treatment Effect (ATE)
-from decentralized observational data using federated learning, which enables
-inference through the exchange of aggregate statistics rather than
-individual-level data. We propose a novel method to estimate propensity scores
-in a (non-)parametric manner by computing a federated weighted average of local
-scores, using two theoretically grounded weighting schemes -- Membership
-Weights (MW) and Density Ratio Weights (DW) -- that balance communication
-efficiency and model flexibility. These federated scores are then used to
-construct two ATE estimators: the Federated Inverse Propensity Weighting
-estimator (Fed-IPW) and its augmented variant (Fed-AIPW). Unlike meta-analysis
-methods, which fail when any site violates positivity, our approach leverages
-heterogeneity in treatment assignment across sites to improve overlap. We show
-that Fed-IPW and Fed-AIPW perform well under site-level heterogeneity in sample
-sizes, treatment mechanisms, and covariate distributions, with theoretical
-analysis and experiments on simulated and real-world data highlighting their
-strengths and limitations relative to meta-analysis and related methods.
+                    <h3>A survey of using EHR as real-world evidence for discovering and
+  validating new drug indications</h3>
+                    <p><strong>Authors:</strong> Nabasmita Talukdar, Xiaodan Zhang, Shreya Paithankar, Hui Wang, Bin Chen</p>
+                    <p>  Electronic Health Records (EHRs) have been increasingly used as real-world
+evidence (RWE) to support the discovery and validation of new drug indications.
+This paper surveys current approaches to EHR-based drug repurposing, covering
+data sources, processing methodologies, and representation techniques. It
+discusses study designs and statistical frameworks for evaluating drug
+efficacy. Key challenges in validation are discussed, with emphasis on the role
+of large language models (LLMs) and target trial emulation. By synthesizing
+recent developments and methodological advances, this work provides a
+foundational resource for researchers aiming to translate real-world data into
+actionable drug-repurposing evidence.
 </p>
-                    <p><a href="http://arxiv.org/pdf/2505.17961v1" target="_blank">Read PDF</a></p>
+                    <p><a href="http://arxiv.org/pdf/2505.24767v1" target="_blank">Read PDF</a></p>
                 </div>
             
                 <div class="paper">
-                    <h3>Robust Distributed Estimation: Extending Gossip Algorithms to Ranking
-  and Trimmed Means</h3>
-                    <p><strong>Authors:</strong> Anna Van Elst, Igor Colin, Stephan Clémençon</p>
-                    <p>  This paper addresses the problem of robust estimation in gossip algorithms
-over arbitrary communication graphs. Gossip algorithms are fully decentralized,
-relying only on local neighbor-to-neighbor communication, making them
-well-suited for situations where communication is constrained. A fundamental
-challenge in existing mean-based gossip algorithms is their vulnerability to
-malicious or corrupted nodes. In this paper, we show that an outlier-robust
-mean can be computed by globally estimating a robust statistic. More
-specifically, we propose a novel gossip algorithm for rank estimation, referred
-to as \textsc{GoRank}, and leverage it to design a gossip procedure dedicated
-to trimmed mean estimation, coined \textsc{GoTrim}. In addition to a detailed
-description of the proposed methods, a key contribution of our work is a
-precise convergence analysis: we establish an $\mathcal{O}(1/t)$ rate for rank
-estimation and an $\mathcal{O}(\log(t)/t)$ rate for trimmed mean estimation,
-where by $t$ is meant the number of iterations. Moreover, we provide a
-breakdown point analysis of \textsc{GoTrim}. We empirically validate our
-theoretical results through experiments on diverse network topologies, data
-distributions and contamination schemes.
+                    <h3>Bayesian nonparametric clustering for spatio-temporal data, with an
+  application to air pollution</h3>
+                    <p><strong>Authors:</strong> Luca Aiello, Raffaele Argiento, Sirio Legramanti, Lucia Paci</p>
+                    <p>  Air pollution is a major global health hazard, with fine particulate matter
+(PM10) linked to severe respiratory and cardiovascular diseases. Hence,
+analyzing and clustering spatio-temporal air quality data is crucial for
+understanding pollution dynamics and guiding policy interventions. This work
+provides a review of Bayesian nonparametric clustering methods, with a
+particular focus on their application to spatio-temporal data, which are
+ubiquitous in environmental sciences. We first introduce key modeling
+approaches for point-referenced spatio-temporal data, highlighting their
+flexibility in capturing complex spatial and temporal dependencies. We then
+review recent advancements in Bayesian clustering, focusing on spatial product
+partition models, which incorporate spatial structure into the clustering
+process. We illustrate the proposed methods on PM10 monitoring data from
+Northern Italy, demonstrating their ability to identify meaningful pollution
+patterns. This review highlights the potential of Bayesian nonparametric
+methods for environmental risk assessment and offers insights into future
+research directions in spatio-temporal clustering for public health and
+environmental science.
 </p>
-                    <p><a href="http://arxiv.org/pdf/2505.17836v1" target="_blank">Read PDF</a></p>
+                    <p><a href="http://arxiv.org/pdf/2505.24694v1" target="_blank">Read PDF</a></p>
                 </div>
             
                 <div class="paper">
-                    <h3>Predicting hazards of climate extremes: a statistical perspective</h3>
-                    <p><strong>Authors:</strong> Carlotta Pacifici, Simone A. Padoan, Jaroslav Mysiak</p>
-                    <p>  Climate extremes such as floods, storms, and heatwaves have caused severe
-economic and human losses across Europe in recent decades. To support the
-European Union's climate resilience efforts, we propose a statistical framework
-for short-to-medium-term prediction of tail risks related to extreme economic
-losses and fatalities. Our approach builds on Extreme Value Theory and employs
-the predictive distribution of future tail events to quantify both estimation
-and aleatoric uncertainty. Using data on EU-wide losses and fatalities from
-1980 to 2023, we model extreme events through Peaks Over Threshold methodology
-and fit Generalised Pareto (GP) and discrete-GP models using an empirical Bayes
-procedure. Our predictive approach enables a 'What-if' analysis to evaluate
-hypothetical scenarios beyond observed levels, including potential worst-case
-outcomes for a precautionary risk assessment of future extreme episodes. To
-account for a time-varying behavior of extreme losses and fatalities we extend
-our predictive method using a proportional tail model that allows to handle
-heteroscedastic extremes over time. Results of our analysis under stationarity
-and non-stationary settings raise concerns, reinforcing the urgency of
-integrating predictive tail risk assessment into EU adaptation strategies.
+                    <h3>Two-stage MCMC for Fast Bayesian Inference of Large Spatio-temporal
+  Ordinal Data, with Application to US Drought</h3>
+                    <p><strong>Authors:</strong> Staci Hepler, Rob Erhardt</p>
+                    <p>  High dimensional space-time data pose known computational challenges when
+fitting spatio-temporal models. Such data show dependence across several
+dimensions of space as well as in time, and can easily involve hundreds of
+thousands of observations. Many spatio-temporal models result in a dependence
+structure across all observations and can be fit only at a substantial
+computational cost, arising from dense matrix inversion, high dimensional
+parameter spaces, poor mixing in Markov Chain Monte Carlo, or the impossibility
+of utilizing parallel computing due to a lack of independence anywhere in the
+model fitting process. These computational challenges are exacerbated when the
+response variable is ordinal, and especially as the number of ordered
+categories grows. Some spatio-temporal models achieve computational feasibility
+for large datasets but only through overly restrictive model simplifications,
+which we seek to avoid here. In this paper we demonstrate a two-stage algorithm
+to fit a Bayesian spatio-temporal model to large datasets when the response
+variable is ordinal. The first stage models locations independently in space,
+capturing temporal dependence, and can be run in parallel. The second stage
+resamples from the first stage posterior distributions with an acceptance
+probability computed to impose spatial dependence from the full spatio-temporal
+model. The result is fast Bayesian inference which samples from the full
+spatio-temporal posterior and is computationally feasible even for large
+datasets. We quantify the substantial computational gains our approach
+achieves, and demonstrate the preservation of the posterior distribution as
+compared to the more costly single-stage model fit. We apply our approach to a
+large spatio-temporal drought dataset in the United States, a dataset too large
+for many existing spatio-temporal methods.
 </p>
-                    <p><a href="http://arxiv.org/pdf/2505.17622v1" target="_blank">Read PDF</a></p>
+                    <p><a href="http://arxiv.org/pdf/2505.24594v1" target="_blank">Read PDF</a></p>
                 </div>
             
                 <div class="paper">
-                    <h3>Local improvement of NO2 concentration maps derived from physicochemical
-  models, using low-cost sensors</h3>
-                    <p><strong>Authors:</strong> Camille Coron, Emma Thulliez</p>
-                    <p>  Urban air quality is a major issue today. Pollutant concentrations, such as
-NO2's, must be monitored to ensure that they do not exceed dangerous
-thresholds. Two recent techniques help to map pollutant concentrations on a
-small scale. First, deterministic physicochemical models take into account the
-street network and calculate concentration estimates on a grid, providing a
-map. On the other hand, the advent of new low-cost technologies allows
-monitoring organizations to densify measurement networks. However, these
-devices are less reliable than reference devices and need to be corrected. We
-propose a new approach to improve maps generated using deterministic models by
-combining measurements from multiple sensor networks. More precisely, we model
-the bias of deterministic models and estimate it using an MCMC method. Our
-approach also enables to analyze the behavior of the sensors. The method is
-applied to the city of Rouen, France, with measurements provided by 4
-monitoring stations and 10 low-cost sensors during December 2022. Results show
-that the method indeed allows to correct the map, reducing estimation errors by
-about 9.7%.
+                    <h3>Enhancing the Accuracy of Spatio-Temporal Models for Wind Speed
+  Prediction by Incorporating Bias-Corrected Crowdsourced Data</h3>
+                    <p><strong>Authors:</strong> Eamonn Organ, Maeve Upton, Denis Allard, Lionel Benoit, James Sweeney</p>
+                    <p>  Accurate high-resolution spatial and temporal wind speed data is critical for
+estimating the wind energy potential of a location. For real-time wind speed
+prediction, statistical models typically depend on high-quality (near)
+real-time data from official meteorological stations to improve forecasting
+accuracy. Personal weather stations (PWS) offer an additional source of
+real-time data and broader spatial coverage than offical stations. However,
+they are not subject to rigorous quality control and may exhibit bias or
+measurement errors. This paper presents a framework for incorporating PWS data
+into statistical models for validated official meteorological station data via
+a two-stage approach. First, bias correction is performed on PWS wind speed
+data using reanalysis data. Second, we implement a Bayesian hierarchical
+spatio-temporal model that accounts for varying measurement error in the PWS
+data. This enables wind speed prediction across a target area, and is
+particularly beneficial for improving predictions in regions sparse in official
+monitoring stations. Our results show that including bias-corrected PWS data
+improves prediction accuracy compared to using meteorological station data
+alone, with a 7% reduction in prediction error on average across all sites. The
+results are comparable with popular reanalysis products, but unlike these
+numerical weather models our approach is available in real-time and offers
+improved uncertainty quantification.
 </p>
-                    <p><a href="http://arxiv.org/pdf/2505.17564v1" target="_blank">Read PDF</a></p>
+                    <p><a href="http://arxiv.org/pdf/2505.24506v1" target="_blank">Read PDF</a></p>
                 </div>
             
                 <div class="paper">
-                    <h3>A Novel Bayesian Extrapolation Design for Assessing Equivalence in
-  Exposure-Response Curves between Pediatric and Adult Populations</h3>
-                    <p><strong>Authors:</strong> Zhongheng Cai, Lian Ma, Jingjing Ye, Haitao Pan</p>
-                    <p>  Development of effective treatments in pediatric population poses unique
-scientific and ethical challenges in addition to the small population. In this
-regard, both the U.S. and E.U. regulations suggest a complementary strategy,
-pediatric extrapolation, based on assessing the relevance of existing
-information in the adult population to the pediatric population. The pediatric
-extrapolation approach often relies on data extrapolation from adults,
-contingent upon evidence of similar disease progression, pharmacology and
-clinical response to treatment between adult and children. Similarity
-evaluation in pharmacology is usually characterized through the
-exposure-response relationship. Current methodologies for comparing
-exposure-response (E-R) curves between these groups are inadequate, typically
-focusing on isolated data points rather than the entire curve spectrum (Zhang
-et al., 2021). To overcome this limitation, we introduce an innovative Bayesian
-approach for a comprehensive evaluation of E-R curve similarities between adult
-and pediatric populations. This method encompasses the entire curve, employing
-logistic regression for binary endpoints. We have developed an algorithm to
-determine sample size and key design parameters, such as the Bayesian posterior
-probability threshold, and utilize the maximum curve distance as a measure of
-similarity. Integrating Bayesian and frequentist principles, our approach
-involves developing a method to simulate datasets under both null and
-alternative hypotheses, allowing for type I error and type II error control.
-Simulation studies and sensitivity analyses demonstrate that our method
-maintains a stable performance with type I error and type II error control.
+                    <h3>Inhomogeneous mark correlation functions for general marked point
+  processes</h3>
+                    <p><strong>Authors:</strong> Mehdi Moradi, Matthias Eckardt</p>
+                    <p>  Spatial phenomena in environmental and biological contexts often involve
+events that are unevenly distributed across space and carry attributes, whose
+associations/variations are space-dependent. In this paper, we introduce the
+class of inhomogeneous mark correlation functions, capturing mark
+associations/variations, while explicitly accounting for the spatial
+inhomogeneity of events. The proposed functions are designed to quantify how,
+on average, marks vary or associate with one another as a function of pairwise
+spatial distances. We develop nonparametric estimators and evaluate their
+performance through simulation studies covering a range of scenarios with mark
+association or variation, spanning from nonstationary point patterns without
+spatial interaction to those characterised by clustering tendencies. Our
+simulations reveal the shortcomings of traditional methods in the presence of
+spatial inhomogeneity, underscoring the necessity of our approach. Furthermore,
+the results show that our estimators accurately identify both the
+positivity/negativity and effective spatial range for detected mark
+associations/variations. The proposed inhomogeneous mark correlation functions
+are then applied to two distinct forest ecosystems: Longleaf pine trees in
+southern Georgia, USA, marked by their diameter at breast height, and Scots
+pine trees in Pfynwald, Switzerland, marked by their height. Our findings
+reveal that the inhomogeneous mark correlation functions provide deeper and
+more detailed insights into tree growth patterns compared to traditional
+methods
 </p>
-                    <p><a href="http://arxiv.org/pdf/2505.17397v1" target="_blank">Read PDF</a></p>
+                    <p><a href="http://arxiv.org/pdf/2505.24501v1" target="_blank">Read PDF</a></p>
                 </div>
             
                 <div class="paper">
-                    <h3>Deconfounded Warm-Start Thompson Sampling with Applications to Precision
-  Medicine</h3>
-                    <p><strong>Authors:</strong> Prateek Jaiswal, Esmaeil Keyvanshokooh, Junyu Cao</p>
-                    <p>  Randomized clinical trials often require large patient cohorts before drawing
-definitive conclusions, yet abundant observational data from parallel studies
-remains underutilized due to confounding and hidden biases. To bridge this gap,
-we propose Deconfounded Warm-Start Thompson Sampling (DWTS), a practical
-approach that leverages a Doubly Debiased LASSO (DDL) procedure to identify a
-sparse set of reliable measured covariates and combines them with key hidden
-covariates to form a reduced context. By initializing Thompson Sampling (LinTS)
-priors with DDL-estimated means and variances on these measured features --
-while keeping uninformative priors on hidden features -- DWTS effectively
-harnesses confounded observational data to kick-start adaptive clinical trials.
-Evaluated on both a purely synthetic environment and a virtual environment
-created using real cardiovascular risk dataset, DWTS consistently achieves
-lower cumulative regret than standard LinTS, showing how offline causal
-insights from observational data can improve trial efficiency and support more
-personalized treatment decisions.
+                    <h3>Joint space-time modelling for upper daily maximum and minimum
+  temperature record-breaking</h3>
+                    <p><strong>Authors:</strong> Jorge Castillo-Mateo, Zeus Gracia-Tabuenca, Jesús Asín, Ana C. Cebrián, Alan E. Gelfand</p>
+                    <p>  Record-breaking temperature events are now frequently in the news, proffered
+as evidence of climate change, and often bring significant economic and human
+impacts. Our previous work undertook the first substantial spatial modelling
+investigation of temperature record-breaking across years for any given day
+within the year, employing a dataset consisting of over sixty years of daily
+maximum temperatures across peninsular Spain. That dataset also supplies daily
+minimum temperatures (which, in fact, are now available through 2023). Here,
+the dataset is converted into a daily pair of binary events, indicators, for
+that day, of whether a yearly record was broken for the daily maximum
+temperature and/or for the daily minimum temperature. Joint modelling addresses
+several inference issues: (i) defining/modelling record-breaking with bivariate
+time series of yearly indicators, (ii) strength of relationship between
+record-breaking events, (iii) prediction of joint, conditional and marginal
+record-breaking, (iv) persistence in record-breaking across days, (v) spatial
+interpolation across peninsular Spain. We substantially expand our previous
+work to enable investigation of these issues. We observe strong correlation
+between both processes but a growing trend of climate change that is well
+differentiated between them both spatially and temporally as well as different
+strengths of persistence and spatial dependence.
 </p>
-                    <p><a href="http://arxiv.org/pdf/2505.17283v1" target="_blank">Read PDF</a></p>
+                    <p><a href="http://arxiv.org/pdf/2505.24436v1" target="_blank">Read PDF</a></p>
                 </div>
             
                 <div class="paper">
-                    <h3>Transfer Faster, Price Smarter: Minimax Dynamic Pricing under
-  Cross-Market Preference Shift</h3>
-                    <p><strong>Authors:</strong> Yi Zhang, Elynn Chen, Yujun Yan</p>
-                    <p>  We study contextual dynamic pricing when a target market can leverage K
-auxiliary markets -- offline logs or concurrent streams -- whose mean utilities
-differ by a structured preference shift. We propose Cross-Market Transfer
-Dynamic Pricing (CM-TDP), the first algorithm that provably handles such
-model-shift transfer and delivers minimax-optimal regret for both linear and
-non-parametric utility models.
-  For linear utilities of dimension d, where the difference between source- and
-target-task coefficients is $s_{0}$-sparse, CM-TDP attains regret
-$\tilde{O}((d*K^{-1}+s_{0})\log T)$. For nonlinear demand residing in a
-reproducing kernel Hilbert space with effective dimension $\alpha$, complexity
-$\beta$ and task-similarity parameter $H$, the regret becomes
-$\tilde{O}\!(K^{-2\alpha\beta/(2\alpha\beta+1)}T^{1/(2\alpha\beta+1)} +
-H^{2/(2\alpha+1)}T^{1/(2\alpha+1)})$, matching information-theoretic lower
-bounds up to logarithmic factors. The RKHS bound is the first of its kind for
-transfer pricing and is of independent interest.
-  Extensive simulations show up to 50% lower cumulative regret and 5 times
-faster learning relative to single-market pricing baselines. By bridging
-transfer learning, robust aggregation, and revenue optimization, CM-TDP moves
-toward pricing systems that transfer faster, price smarter.
+                    <h3>A Time-Scaled ETAS Model for Earthquake Forecasting</h3>
+                    <p><strong>Authors:</strong> Agniva Das, Muralidharan K</p>
+                    <p>  The Himalayan region, particularly Nepal, is highly susceptible to frequent
+and severe seismic activity, underscoring the urgent need for robust earthquake
+forecasting models. This study introduces a suite of time-scaled Epidemic-Type
+Aftershock Sequence (ETAS) models tailored for earthquake forecasting in Nepal,
+leveraging seismic data from 2000 to 2020. By incorporating alternative
+time-scaling approaches - such as calibration, proportional hazards,
+log-linear, and power time scales - the models capture nuanced temporal
+patterns of aftershocks, improving event classification between background and
+triggered occurrences. We evaluate model performance under various assumptions
+of earthquake magnitude distributions (exponential, gamma, and radially
+symmetric) and employ optimization techniques including the
+Davidon-Fletcher-Powell algorithm and Iterative Stochastic De-clustering. The
+results reveal that time-scaling significantly enhances model interpretability
+and predictive accuracy, with the ISDM-based ETAS model achieving the best fit.
+This work not only deepens the statistical understanding of earthquake dynamics
+in Nepal but also lays a foundation for implementing more effective early
+warning systems in seismically active regions.
 </p>
-                    <p><a href="http://arxiv.org/pdf/2505.17203v1" target="_blank">Read PDF</a></p>
+                    <p><a href="http://arxiv.org/pdf/2505.24412v1" target="_blank">Read PDF</a></p>
                 </div>
             
                 <div class="paper">
-                    <h3>Interpretable contour level selection for heat maps for gridded data</h3>
-                    <p><strong>Authors:</strong> Tarn Duong</p>
-                    <p>  Gridded data formats, where the observed multivariate data are aggregated
-into grid cells, ensure confidentiality and reduce storage requirements, with
-the trade-off that access to the underlying point data is lost. Heat maps are a
-highly pertinent visualisation for gridded data, and heat maps with a small
-number of well-selected contour levels offer improved interpretability over
-continuous contour levels. There are many possible contour level choices.
-Amongst them, density contour levels are highly suitable in many cases, and
-their probabilistic interpretation form a rigorous statistical basis for
-further quantitative data analyses. Current methods for computing density
-contour levels requires access to the observed point data, so they are not
-applicable to gridded data. To remedy this, we introduce an approximation of
-density contour levels for gridded data. We then compare our proposed method to
-existing contour level selection methods, and conclude that our proposal
-provides improved interpretability for synthetic and experimental gridded data.
+                    <h3>Bayesian Inference for Spatially-Temporally Misaligned Data Using
+  Predictive Stacking</h3>
+                    <p><strong>Authors:</strong> Soumyakanti Pan, Sudipto Banerjee</p>
+                    <p>  Air pollution remains a major environmental risk factor that is often
+associated with adverse health outcomes. However, quantifying and evaluating
+its effects on human health is challenging due to the complex nature of
+exposure data. Recent technological advances have led to the collection of
+various indicators of air pollution at increasingly high spatial-temporal
+resolutions (e.g., daily averages of pollutant levels at spatial locations
+referenced by latitude-longitude). However, health outcomes are typically
+aggregated over several spatial-temporal coordinates (e.g., annual prevalence
+for a county) to comply with survey regulations. This article develops a
+Bayesian hierarchical model to analyze such spatially-temporally misaligned
+exposure and health outcome data. We introduce Bayesian predictive stacking,
+which optimally combines multiple predictive spatial-temporal models and avoids
+iterative estimation algorithms such as Markov chain Monte Carlo that struggle
+due to convergence issues inflicted by the presence of weakly identified
+parameters. We apply our proposed method to study the effects of ozone on
+asthma in the state of California.
 </p>
-                    <p><a href="http://arxiv.org/pdf/2505.16788v1" target="_blank">Read PDF</a></p>
+                    <p><a href="http://arxiv.org/pdf/2505.24397v1" target="_blank">Read PDF</a></p>
                 </div>
             </div>
     <script src="scripts/update-papers.js"></script>
