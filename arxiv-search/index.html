@@ -9,239 +9,279 @@
 <body>
     <h1>Latest ArXiv Papers on Applied Statistics</h1>
     <p> This page displays the 10 most recents papers on <a href="https://arxiv.org/">ArXiv</a> in the category of "applied statistics". To see all most recent papers under this category, visit ArXiv's website <a href="https://arxiv.org/list/stat.AP/recent">here</a>. This page uses GitHub Actions and the ArXiv API to update each day at approximately midnight.</p>
-    <p id="last-updated">Last updated: 7/14/2025, 1:30:07 AM</p>
+    <p id="last-updated">Last updated: 7/21/2025, 1:32:14 AM</p>
     <button onclick="window.location.href='../index.html'" style="text-align: center;">Go to Homepage</button>
     <div id="papers">
                 <div class="paper">
-                    <h3>Propensity score with factor loadings: the effect of the Paris Agreement</h3>
-                    <p><strong>Authors:</strong> Angelo Forino, Andrea Mercatanti, Giacomo Morelli</p>
-                    <p>  Factor models for longitudinal data, where policy adoption is unconfounded
-with respect to a low-dimensional set of latent factor loadings, have become
-increasingly popular for causal inference. Most existing approaches, however,
-rely on a causal finite-sample approach or computationally intensive methods,
-limiting their applicability and external validity. In this paper, we propose a
-novel causal inference method for panel data based on inverse propensity score
-weighting where the propensity score is a function of latent factor loadings
-within a framework of causal inference from super-population. The approach
-relaxes the traditional restrictive assumptions of causal panel methods, while
-offering advantages in terms of causal interpretability, policy relevance, and
-computational efficiency. Under standard assumptions, we outline a three-step
-estimation procedure for the ATT and derive its large-sample properties using
-Mestimation theory. We apply the method to assess the causal effect of the
-Paris Agreement, a policy aimed at fostering the transition to a low-carbon
-economy, on European stock returns. Our empirical results suggest a
-statistically significant and negative short-run effect on the stock returns of
-firms that issued green bonds.
+                    <h3>On the importance of tail assumptions in climate extreme event
+  attribution</h3>
+                    <p><strong>Authors:</strong> Mengran Li, Daniela Castro-Camilo</p>
+                    <p>  Extreme weather events are becoming more frequent and intense, posing serious
+threats to human life, biodiversity, and ecosystems. A key objective of extreme
+event attribution (EEA) is to assess whether and to what extent anthropogenic
+climate change influences such events. Central to EEA is the accurate
+statistical characterization of atmospheric extremes, which are inherently
+multivariate or spatial due to their measurement over high-dimensional grids.
+Within the counterfactual causal inference framework of Pearl, we evaluate how
+tail assumptions affect attribution conclusions by comparing three multivariate
+modeling approaches for estimating causation metrics. These include: (i) the
+multivariate generalized Pareto distribution, which imposes an invariant tail
+dependence structure; (ii) the factor copula model of Castro-Camilo and Huser
+(2020), which offers flexible subasymptotic behavior; and (iii) the model of
+Huser and Wadsworth (2019), which smoothly transitions between different forms
+of extremal dependence. We assess the implications of these modeling choices in
+both simulated scenarios (under varying forms of model misspecification) and
+real data applications, using weekly winter maxima over Europe from the
+M\'et\'eo-France CNRM model and daily precipitation from the ACCESS-CM2 model
+over the U.S. Our findings highlight that tail assumptions critically shape
+causality metrics in EEA. Misspecification of the extremal dependence structure
+can lead to substantially different and potentially misleading attribution
+conclusions, underscoring the need for careful model selection and evaluation
+when quantifying the influence of climate change on extreme events.
 </p>
-                    <p><a href="http://arxiv.org/pdf/2507.08764v1" target="_blank">Read PDF</a></p>
+                    <p><a href="http://arxiv.org/pdf/2507.14019v1" target="_blank">Read PDF</a></p>
                 </div>
             
                 <div class="paper">
-                    <h3>Influence of river incision on landslides triggered in Nepal by the
-  Gorkha earthquake: Results from a pixel-based susceptibility model using
-  inlabru</h3>
-                    <p><strong>Authors:</strong> Man Ho Suen, Mark Naylor, Simon Mudd, Finn Lindgren</p>
-                    <p>  This study presents a comprehensive framework for modelling
-earthquake-induced landslides (EQILs) through a channel-based analysis of
-landslide centroid distributions. A key innovation is the incorporation of the
-normalised channel steepness index ($k_{sn}$) as a physically meaningful and
-novel covariate, inferring hillslope erosion and fluvial incision processes.
-Used within spatial point process models, $k_{sn}$ supports the generation of
-landslide susceptibility maps with quantified uncertainty. To address spatial
-data misalignment between covariates and landslide observations, we leverage
-the inlabru framework, which enables coherent integration through mesh-based
-disaggregation, thereby overcoming challenges associated with spatially
-misaligned data integration. Our modelling strategy explicitly prioritises
-prospective transferability to unseen geographical regions, provided that
-explanatory variable data are available. By modelling both landslide locations
-and sizes, we find that elevated $k_{sn}$ is strongly associated with increased
-landslide susceptibility but not with landslide magnitude. The best-fitting
-Bayesian model, validated through cross-validation, offers a scalable and
-interpretable solution for predicting earthquake-induced landslides in complex
-terrain.
+                    <h3>Using off-treatment sequential multiple imputation for binary outcomes
+  to address intercurrent events handled by a treatment policy strategy</h3>
+                    <p><strong>Authors:</strong> Sunita Rehal, Nicky Best, Sarah Watts, Thomas Drury</p>
+                    <p>  The estimand framework proposes different strategies to address intercurrent
+events. The treatment policy strategy seems to be the most favoured as it is
+closely aligned with the pre-addendum intention-to-treat principle. All data
+for all patients should ideally be collected, however, in reality patients may
+withdraw from a study leading to missing data. This needs to be dealt with as
+part of the estimation. Several areas of research have been conducted exploring
+models to estimate the estimand when intercurrent events are handled using a
+treatment policy strategy, however the research is limited for binary
+endpoints. We explore different retrieved dropout models, where
+post-intercurrent event, the observed data can be used to multiply impute the
+missing post-intercurrent event data. We compare our proposed models to a
+simple imputation model that makes no distinction between the pre- and
+post-intercurrent event data, and assess varying statistical properties through
+a simulation study. We then provide an example how retrieved dropout models
+were used in practice for Phase 3 clinical trials in rheumatoid arthritis. From
+the models explored, we conclude that a simple retrieved dropout model
+including an indicator for whether or not the intercurrent event occurred is
+the most pragmatic choice. However, at least 50% of observed post-intercurrent
+event data is required for these models to work well. Therefore, the
+suitability of implementing this model in practice will depend on the amount of
+observed post-intercurrent event data available and missing data.
 </p>
-                    <p><a href="http://arxiv.org/pdf/2507.08742v1" target="_blank">Read PDF</a></p>
+                    <p><a href="http://arxiv.org/pdf/2507.14006v1" target="_blank">Read PDF</a></p>
                 </div>
             
                 <div class="paper">
-                    <h3>Sensitivity measures for engineering and environmental decision support</h3>
-                    <p><strong>Authors:</strong> Daniel Straub, Wolfgang Betz, Mara Ruf, Amelie Hoffmann, Angela Landgraf, Lea Friedli, Iason Papaioannou</p>
-                    <p>  Information value, a measure for decision sensitivity, can provide essential
-information in engineering and environmental assessments. It quantifies the
-potential for improved decision-making when reducing uncertainty in specific
-inputs. By contrast to other sensitivity measures, it admits not only a
-relative ranking of input factors but also an absolute interpretation through
-statements like ''Eliminating the uncertainty in factor $A$ has an expected
-value of $5000$ Euro''. In this paper, we present a comprehensive overview of
-the information value by presenting the theory and methods in view of their
-application to engineering and environmental assessments. We show how one
-should differentiate between aleatory and epistemic uncertainty in the
-analysis. Furthermore, we introduce the evaluation of the information value in
-applications where the decision is described by a continuous parameter. The
-paper concludes with two real-life applications of the information value to
-highlight its power in supporting decision-making in engineering and
-environmental applications.
+                    <h3>Intellectual Up-streams of Percentage Scale ($ps$) and Percentage
+  Coefficient ($b_p$) -- Effect Size Analysis (Theory Paper 2)</h3>
+                    <p><strong>Authors:</strong> Xinshu Zhao, Qinru Ruby Ju, Piper Liping Liu, Dianshi Moses Li, Luxi Zhang, Jizhou Francis Ye, Song Harris Ao, Ming Milano Li</p>
+                    <p>  Percentage thinking, i.e., assessing quantities as parts per hundred, has
+traveled widely from Roman tax ledgers to modern algorithms. Building on early
+decimalization by Simon Stevin in La Thiende (1585) and the 19th-century
+metrication movement that institutionalized base-10 measurement worldwide
+(Cajori, 1925), this article traces the intellectual trails through which
+base-10 normalization, especially 0~1 percentage scale. We discuss
+commonalities between those Wisconsin-Carolina experiments and classic indices,
+especially the plus minus 1 Pearson (1895) correlation (r) and 0~1 coefficient
+of determination, aka r squared (Wright, 1920). We pay tribute to the
+influential percent of maximum possible (POMP) coefficient by Cohen et al.
+(1999). The history of the 0~100 or 0~1 scales goes back far and wide. Roman
+fiscal records, early American grading experiments at Yale and Harvard, and
+contemporary analysis of percent scales (0~100) and percentage scales (0~1, or
+-1~1) show the tendency to rediscover the scales and the indices based on the
+scales (Durm, 1993; Schneider & and Hutt, 2014). Data mining and machine
+learning since the last century adopted the same logic: min-max normalization,
+which maps any feature to [0, 1] (i.e., 0-100%), equalizing the scale ranges.
+Because 0~1 percentage scale assigns the entire scale to be the unit,
+equalizing the scales also equalizes the units of all percentized scales.
+Equitable units are necessary and sufficient for comparability of two indices,
+according to the percentage theory of measurement indices (Cohen et al., 1999;
+Zhao et al., 2024; Zhao & Zhang, 2014). Thus, the success of modern AI serves
+as a large scale test confirming the comparability of percentage-based indices,
+foremost among them the percentage coefficient ($b_p$).
 </p>
-                    <p><a href="http://arxiv.org/pdf/2507.08488v1" target="_blank">Read PDF</a></p>
+                    <p><a href="http://arxiv.org/pdf/2507.13695v1" target="_blank">Read PDF</a></p>
                 </div>
             
                 <div class="paper">
-                    <h3>Modeling Wallet-Level Behavioral Shifts Post-FTX Collapse: An XAI-Driven
-  GLM Study on Ethereum Transactions</h3>
-                    <p><strong>Authors:</strong> Benjamin Gillen, Rashmi Ranjan Bhuyan, Gourab Mukherjee, Austin Pollok</p>
-                    <p>  The Ethereum blockchain plays a central role in the broader cryptocurrency
-ecosystem, enabling a wide range of financial activity through the use of smart
-contracts. This paper investigates how individual Ethereum wallets responded to
-the collapse of FTX, one of the largest centralized cryptocurrency exchanges.
-Moving beyond price-based event studies, we adopt a bottom-up approach using
-granular wallet-level data. We construct a representative sample of Ethereum
-addresses and analyze their transaction behavior before and after the collapse
-using an explainable artificial intelligence (XAI) framework. Our proposed
-framework addresses data scarcity in high-resolution wallet-level daily
-transactions by employing a calibrated zero-inflated generalized linear fixed
-effects model. Our analysis quantifies distinct shifts in transaction intensity
-and stablecoin usage, highlighting a flight to safety within the ecosystem.
-These findings underscore the value of a bottom-up methodology for quantifying
-the user-level impact of blockchain-based shocks, offering insights beyond
-traditional price-level analysis through wallet-level data.
+                    <h3>A mixture distribution approach for assessing genetic impact from twin
+  study</h3>
+                    <p><strong>Authors:</strong> Zonghui Hu, Pengfei Li, Dean Follmann, Jing Qin</p>
+                    <p>  This work was motivated by a twin study with the goal of assessing the
+genetic control of immune traits. We propose a mixture bivariate distribution
+to model twin data where the underlying order within a pair is unclear. Though
+estimation from mixture distribution is usually subject to low convergence
+rate, the combined likelihood, which is constructed over monozygotic and
+dizygotic twins combined, reaches root-n consistency and allows effective
+statistical inference on the genetic impact. The method is applicable to
+general unordered pairs.
 </p>
-                    <p><a href="http://arxiv.org/pdf/2507.08455v1" target="_blank">Read PDF</a></p>
+                    <p><a href="http://arxiv.org/pdf/2507.13605v1" target="_blank">Read PDF</a></p>
                 </div>
             
                 <div class="paper">
-                    <h3>Optimal Experimental Design for Microplastics Sampling Experiments</h3>
-                    <p><strong>Authors:</strong> Marco A. Aquino-López, Ana Carolina Ruiz-Fernández, Joan-Albert Sanchez-Cabeza, J. Andrés Christen</p>
-                    <p>  Microplastics contamination is one of the most rapidly growing research
-topics. However, monitoring microplastics contamination in the environment
-presents both logistical and statistical challenges, particularly when
-constrained resources limit the scale of sampling and laboratory analysis. In
-this paper, we propose a Bayesian framework for the optimal experimental design
-of microplastic sampling campaigns. Our approach integrates prior knowledge and
-uncertainty quantification to guide decisions on how many spatial Centrosamples
-to collect and how many particles to analyze for polymer composition. By
-modeling particle counts as a Poisson distribution and polymer types as a
-Multinomial distribution, we developed a conjugate Bayesian model that enables
-efficient posterior inference. We introduce variance-based loss functions to
-evaluate expected information gain for both abundance and composition, and we
-formulate a constrained optimization problem that incorporates realistic cost
-structures. Our results provide principled and interpretable recommendations
-for allocating limited resources across the sampling and analysis phases.
-Through simulated scenarios and real-world-inspired examples, we demonstrate
-how the proposed methodology adapts to prior assumptions and cost variations,
-ensuring robustness and flexibility. This work contributes to the broader field
-of Bayesian experimental design by offering a concrete, application-driven case
-study that underscores the value of formal design strategies in environmental
-monitoring contexts.
+                    <h3>mNARX+: A surrogate model for complex dynamical systems using
+  manifold-NARX and automatic feature selection</h3>
+                    <p><strong>Authors:</strong> S. Schär, S. Marelli, B. Sudret</p>
+                    <p>  We propose an automatic approach for manifold nonlinear autoregressive with
+exogenous inputs (mNARX) modeling that leverages the feature-based structure of
+functional-NARX (F-NARX) modeling. This novel approach, termed mNARX+,
+preserves the key strength of the mNARX framework, which is its expressivity
+allowing it to model complex dynamical systems, while simultaneously addressing
+a key limitation: the heavy reliance on domain expertise to identify relevant
+auxiliary quantities and their causal ordering. Our method employs a
+data-driven, recursive algorithm that automates the construction of the mNARX
+model sequence. It operates by sequentially selecting temporal features based
+on their correlation with the model prediction residuals, thereby automatically
+identifying the most critical auxiliary quantities and the order in which they
+should be modeled. This procedure significantly reduces the need for prior
+system knowledge. We demonstrate the effectiveness of the mNARX+ algorithm on
+two case studies: a Bouc-Wen oscillator with strong hysteresis and a complex
+aero-servo-elastic wind turbine simulator. The results show that the algorithm
+provides a systematic, data-driven method for creating accurate and stable
+surrogate models for complex dynamical systems.
 </p>
-                    <p><a href="http://arxiv.org/pdf/2507.08170v1" target="_blank">Read PDF</a></p>
+                    <p><a href="http://arxiv.org/pdf/2507.13301v1" target="_blank">Read PDF</a></p>
                 </div>
             
                 <div class="paper">
-                    <h3>Uncertainty quantification of a multi-component Hall thruster model at
-  varying facility pressures</h3>
-                    <p><strong>Authors:</strong> Thomas A. Marks, Joshua D. Eckels, Gabriel E. Mora, Alex A. Gorodetsky</p>
-                    <p>  Bayesian inference is applied to calibrate and quantify prediction
-uncertainty in a coupled multi-component Hall thruster model at varying
-facility background pressures. The model, consisting of a cathode model,
-discharge model, and plume model, is used to simulate two thrusters across a
-range of background pressures in multiple vacuum test facilities. The model
-outputs include thruster performance metrics, one-dimensional plasma
-properties, and the angular distribution of the current density in the plume.
-The simulated thrusters include a magnetically shielded thruster, the H9, and
-an unshielded thruster, the SPT-100. After calibration, the model captures
-several key performance trends with background pressure, including changes in
-thrust and upstream shifts in the ion acceleration region. Furthermore, the
-model exhibits predictive accuracy to within 10\% when evaluated on flow rates
-and pressures not included in the training data, and the model can predict some
-performance characteristics across test facilities to within the same range.
-Evaluated on the same data as prior work [Eckels et al. 2024], the model
-reduced predictive errors in thrust and discharge current by greater than 50%.
-An extrapolation to on-orbit performance is performed with an error of 9\%,
-capturing trends in discharge current but not thrust. Possible extensions and
-improvements are discussed in the context of using data for predictive Hall
-thruster modeling across vacuum facilities.
+                    <h3>Short-term CO2 emissions forecasting: insight from the Italian
+  electricity market</h3>
+                    <p><strong>Authors:</strong> Pierdomenico Duttilo, Francesco Lisi</p>
+                    <p>  This study investigates the short-term forecasting of carbon emissions from
+electricity generation in the Italian power market. Using hourly data from 2021
+to 2023, several statistical models and forecast combination methods are
+evaluated and compared at the national and zonal levels. Four main model
+classes are considered: (i) linear parametric models, such as seasonal
+autoregressive integrated moving average and its exogenousvariable extension;
+(ii) functional parametric models, including seasonal functional autoregressive
+models, with and without exogenous variables; (iii) (semi) non-parametric and
+possibly non-linear models, notably the generalised additive model (GAM) and
+TBATS (trigonometric seasonality, Box-Cox transformation, ARMA errors, trend,
+and seasonality); and (iv) a semi-functional approach based on the K-nearest
+neighbours. Forecast combinations are also considered including simple
+averaging, the optimal Bates and Granger weighting scheme, and a
+selection-based strategy that chooses the best model for each hour. The overall
+findings indicate that GAM reports the most accurate forecasts during the
+daytime hours, while functional parametric models perform best during the early
+morning period. GAM can also be considered the best individual model according
+to the hourly average root mean square error and the Diebold-Mariano (DM) test.
+Among the combination methods, the selection-based approach consistently
+outperforms all individual models and forecast combinations, resulting in a
+substantial reduction in the root mean square error compared to single models
+and a primary choice for the DM test. These findings underline the value of
+hybrid forecasting frameworks in improving the accuracy and reliability of
+short-term carbon emissions predictions in power systems.
 </p>
-                    <p><a href="http://arxiv.org/pdf/2507.08113v1" target="_blank">Read PDF</a></p>
+                    <p><a href="http://arxiv.org/pdf/2507.12992v1" target="_blank">Read PDF</a></p>
                 </div>
             
                 <div class="paper">
-                    <h3>A new coefficient to measure agreement between continuous variables</h3>
-                    <p><strong>Authors:</strong> Ronny Vallejos, Felipe Osorio, Clemente Ferrer</p>
-                    <p>  Assessing agreement between two instruments is crucial in clinical studies to
-evaluate the similarity between two methods measuring the same subjects. This
-paper introduces a novel coefficient, termed rho1, to measure agreement between
-continuous variables, focusing on scenarios where two instruments measure
-experimental units in a study. Unlike existing coefficients, rho1 is based on
-L1 distances, making it robust to outliers and not relying on nuisance
-parameters. The coefficient is derived for bivariate normal and elliptically
-contoured distributions, showcasing its versatility. In the case of normal
-distributions, rho1 is linked to Lin's coefficient, providing a useful
-alternative. The paper includes theoretical properties, an inference framework,
-and numerical experiments to validate the performance of rho1. This novel
-coefficient presents a valuable tool for researchers assessing agreement
-between continuous variables in various fields, including clinical studies and
-spatial analysis.
+                    <h3>A Bayesian Spatio-Temporal Model of Temperature- and Humidity-Related
+  Mortality Using High-Resolution Climate Data</h3>
+                    <p><strong>Authors:</strong> Corinna Perchtold, Julia Eisenberg, Philipp Otto</p>
+                    <p>  In this study, we introduce a novel and comprehensive extension of a Bayesian
+spatio-temporal disease mapping model that explicitly accounts for
+gender-specific effects of meteorological exposures. Leveraging fine-scale
+weekly mortality and high-resolution climate data from Austria (2002 to 2019),
+we assess how interactions between temperature, humidity, age, and gender
+influence mortality patterns. Our approach goes beyond conventional modelling
+by capturing complex dependencies through structured interactions across
+space-time, space-age, and age-time dimensions, allowing us to capture complex
+demographic and environmental dependencies. The analysis identifies
+district-level mortality patterns and quantifies climate-related risks on a
+weekly basis, offering new insights for public health surveillance.
 </p>
-                    <p><a href="http://arxiv.org/pdf/2507.07913v1" target="_blank">Read PDF</a></p>
+                    <p><a href="http://arxiv.org/pdf/2507.12643v1" target="_blank">Read PDF</a></p>
                 </div>
             
                 <div class="paper">
-                    <h3>Efficient Causal Discovery for Autoregressive Time Series</h3>
-                    <p><strong>Authors:</strong> Mohammad Fesanghary, Achintya Gopal</p>
-                    <p>  In this study, we present a novel constraint-based algorithm for causal
-structure learning specifically designed for nonlinear autoregressive time
-series. Our algorithm significantly reduces computational complexity compared
-to existing methods, making it more efficient and scalable to larger problems.
-We rigorously evaluate its performance on synthetic datasets, demonstrating
-that our algorithm not only outperforms current techniques, but also excels in
-scenarios with limited data availability. These results highlight its potential
-for practical applications in fields requiring efficient and accurate causal
-inference from nonlinear time series data.
+                    <h3>Ranking Vectors Clustering: Theory and Applications</h3>
+                    <p><strong>Authors:</strong> Ali Fattahi, Ali Eshragh, Babak Aslani, Meysam Rabiee</p>
+                    <p>  We study the problem of clustering ranking vectors, where each vector
+represents preferences as an ordered list of distinct integers. Specifically,
+we focus on the k-centroids ranking vectors clustering problem (KRC), which
+aims to partition a set of ranking vectors into k clusters and identify the
+centroid of each cluster. Unlike classical k-means clustering (KMC), KRC
+constrains both the observations and centroids to be ranking vectors. We
+establish the NP-hardness of KRC and characterize its feasible set. For the
+single-cluster case, we derive a closed-form analytical solution for the
+optimal centroid, which can be computed in linear time. To address the
+computational challenges of KRC, we develop an efficient approximation
+algorithm, KRCA, which iteratively refines initial solutions from KMC, referred
+to as the baseline solution. Additionally, we introduce a branch-and-bound
+(BnB) algorithm for efficient cluster reconstruction within KRCA, leveraging a
+decision tree framework to reduce computational time while incorporating a
+controlling parameter to balance solution quality and efficiency. We establish
+theoretical error bounds for KRCA and BnB. Through extensive numerical
+experiments on synthetic and real-world datasets, we demonstrate that KRCA
+consistently outperforms baseline solutions, delivering significant
+improvements in solution quality with fast computational times. This work
+highlights the practical significance of KRC for personalization and
+large-scale decision making, offering methodological advancements and insights
+that can be built upon in future studies.
 </p>
-                    <p><a href="http://arxiv.org/pdf/2507.07898v1" target="_blank">Read PDF</a></p>
+                    <p><a href="http://arxiv.org/pdf/2507.12583v1" target="_blank">Read PDF</a></p>
                 </div>
             
                 <div class="paper">
-                    <h3>A Novel Hybrid Approach for Time Series Forecasting: Period Estimation
-  and Climate Data Analysis Using Unsupervised Learning and Spline
-  Interpolation</h3>
-                    <p><strong>Authors:</strong> Tanmay Kayal, Abhishek Das, U Saranya</p>
-                    <p>  This article explores a novel approach to time series forecasting applied to
-the context of Chennai's climate data. Our methodology comprises two distinct
-established time series models, leveraging their strengths in handling
-seasonality and periods. Notably, a new algorithm is developed to compute the
-period of the time series using unsupervised machine learning and spline
-interpolation techniques. Through a meticulous ensembling process that combines
-these two models, we achieve optimized forecasts. This research contributes to
-advancing forecasting techniques and offers valuable insights into climate data
-analysis.
+                    <h3>Hierarchical Temporal Point Process Modeling of Aggressive Behavior
+  Onset in Psychiatric Inpatient Youth with Autism for Branching Factor
+  Estimation</h3>
+                    <p><strong>Authors:</strong> Michael Potter, Michael Everett, Deniz Erdogmus, Yuna Watanabe, Tales Imbiriba, Matthew S. Goodwin</p>
+                    <p>  Aggressive behavior in autistic inpatient youth often arises in temporally
+clustered bursts complicating efforts to distinguish external triggers from
+internal escalation. The sample population branching factor-the expected number
+of new onsets triggered by a given event-is a key summary of self-excitation in
+behavior dynamics. Prior pooled models overestimate this quantity by ignoring
+patient-specific variability. We addressed this using a hierarchical Hawkes
+process with an exponential kernel and edge-effect correction allowing partial
+pooling across patients. This approach reduces bias from high-frequency
+individuals and stabilizes estimates for those with sparse data. Bayesian
+inference was performed using the No U-Turn Sampler with model evaluation via
+convergence diagnostics, power-scaling sensitivity analysis, and multiple
+Goodness-of-Fit (GOF) metrics: PSIS-LOO the Lewis test with Durbin's
+modification and residual analysis based on the Random Time Change Theorem
+(RTCT). The hierarchical model yielded a significantly lower and more precise
+branching factor estimate mean (0.742 +- 0.026) than the pooled model (0.899 +-
+0.015) and narrower intervals than the unpooled model (0.717 +- 0.139). This
+led to a threefold smaller cascade of events per onset under the hierarchical
+model. Sensitivity analyses confirmed robustness to prior and likelihood
+perturbations while the unpooled model showed instability for sparse
+individuals. GOF measures consistently favored or on par to the hierarchical
+model. Hierarchical Hawkes modeling with edge-effect correction provides robust
+estimation of branching dynamics by capturing both within- and between-patient
+variability. This enables clearer separation of endogenous from exogenous
+events supports linkage to physiological signals and enhances early warning
+systems individualized treatment and resource allocation in inpatient care.
 </p>
-                    <p><a href="http://arxiv.org/pdf/2507.07652v1" target="_blank">Read PDF</a></p>
+                    <p><a href="http://arxiv.org/pdf/2507.12424v1" target="_blank">Read PDF</a></p>
                 </div>
             
                 <div class="paper">
-                    <h3>Functional Time Series Forecasting of Distributions: A
-  Koopman-Wasserstein Approach</h3>
-                    <p><strong>Authors:</strong> Ziyue Wang, Yuko Araki</p>
-                    <p>  We propose a novel method for forecasting the temporal evolution of
-probability distributions observed at discrete time points. Extending the
-Dynamic Probability Density Decomposition (DPDD), we embed distributional
-dynamics into Wasserstein geometry via a Koopman operator framework. Our
-approach introduces an importance-weighted variant of Extended Dynamic Mode
-Decomposition (EDMD), enabling accurate, closed-form forecasts in 2-Wasserstein
-space. Theoretical guarantees are established: our estimator achieves spectral
-convergence and optimal finite-sample Wasserstein error. Simulation studies and
-a real-world application to U.S. housing price distributions show substantial
-improvements over existing methods such as Wasserstein Autoregression. By
-integrating optimal transport, functional time series modeling, and spectral
-operator theory, DPDD offers a scalable and interpretable solution for
-distributional forecasting. This work has broad implications for behavioral
-science, public health, finance, and neuroimaging--domains where evolving
-distributions arise naturally. Our framework contributes to functional data
-analysis on non-Euclidean spaces and provides a general tool for modeling and
-forecasting distributional time series.
+                    <h3>Surrogate modeling for uncertainty quantification in nonlinear dynamics</h3>
+                    <p><strong>Authors:</strong> S. Marelli, S. Schär, B. Sudret</p>
+                    <p>  Predicting the behavior of complex systems in engineering often involves
+significant uncertainty about operating conditions, such as external loads,
+environmental effects, and manufacturing variability. As a result, uncertainty
+quantification (UQ) has become a critical tool in modeling-based engineering,
+providing methods to identify, characterize, and propagate uncertainty through
+computational models. However, the stochastic nature of UQ typically requires
+numerous evaluations of these models, which can be computationally expensive
+and limit the scope of feasible analyses. To address this, surrogate models,
+i.e., efficient functional approximations trained on a limited set of
+simulations, have become central in modern UQ practice. This book chapter
+presents a concise review of surrogate modeling techniques for UQ, with a focus
+on the particularly challenging task of capturing the full time-dependent
+response of dynamical systems. It introduces a classification of time-dependent
+problems based on the complexity of input excitation and discusses
+corresponding surrogate approaches, including combinations of principal
+component analysis with polynomial chaos expansions, time warping techniques,
+and nonlinear autoregressive models with exogenous inputs (NARX models). Each
+method is illustrated with simple application examples to clarify the
+underlying ideas and practical use.
 </p>
-                    <p><a href="http://arxiv.org/pdf/2507.07570v1" target="_blank">Read PDF</a></p>
+                    <p><a href="http://arxiv.org/pdf/2507.12358v1" target="_blank">Read PDF</a></p>
                 </div>
             </div>
     <script src="scripts/update-papers.js"></script>
