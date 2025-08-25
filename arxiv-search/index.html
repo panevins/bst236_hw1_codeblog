@@ -9,251 +9,264 @@
 <body>
     <h1>Latest ArXiv Papers on Applied Statistics</h1>
     <p> This page displays the 10 most recents papers on <a href="https://arxiv.org/">ArXiv</a> in the category of "applied statistics". To see all most recent papers under this category, visit ArXiv's website <a href="https://arxiv.org/list/stat.AP/recent">here</a>. This page uses GitHub Actions and the ArXiv API to update each day at approximately midnight.</p>
-    <p id="last-updated">Last updated: 8/18/2025, 1:28:26 AM</p>
+    <p id="last-updated">Last updated: 8/25/2025, 1:25:25 AM</p>
     <button onclick="window.location.href='../index.html'" style="text-align: center;">Go to Homepage</button>
     <div id="papers">
                 <div class="paper">
-                    <h3>Contrastive CUR: Interpretable Joint Feature and Sample Selection for
-  Case-Control Studies</h3>
-                    <p><strong>Authors:</strong> Eric Zhang, Michael Love, Didong Li</p>
-                    <p>  Dimension reduction is an essential tool for analyzing high dimensional data.
-Most existing methods, including principal component analysis (PCA), as well as
-their extensions, provide principal components that are often linear
-combinations of features, which are often challenging to interpret. CUR
-decomposition, another matrix decomposition technique, is a more interpretable
-and efficient alternative, offers simultaneous feature and sample selection.
-Despite this, many biomedical studies involve two groups: a foreground
-(treatment or case) group and a background (control) group, where the objective
-is to identify features unique to or enriched in the foreground. This need for
-contrastive dimension reduction is not well addressed by existing CUR methods,
-nor by contrastive approaches rooted in PCAs. Furthermore, they fail to address
-a key challenge in biomedical studies: the need for selecting samples unique to
-the foreground. In this paper, we address this gap by proposing a Contrastive
-CUR (CCUR), a novel method specifically designed for case-control studies.
-Through extensive experiments, we demonstrate that CCUR outperforms existing
-techniques in isolating biologically relevant features as well as identifying
-sample-specific responses unique to the foreground, offering deeper insights
-into case-control biomedical data.
+                    <h3>Identifying Treatment Effect Heterogeneity with Bayesian Hierarchical
+  Adjustable Random Partition in Adaptive Enrichment Trials</h3>
+                    <p><strong>Authors:</strong> Xianglin Zhao, Shirin Golchi, Jean-Philippe Gouin, Kaberi Dasgupta</p>
+                    <p>  Treatment effect heterogeneity refers to the systematic variation in
+treatment effects across subgroups. There is an increasing need for clinical
+trials that aim to investigate treatment effect heterogeneity and estimate
+subgroup-specific responses. While several statistical methods have been
+proposed to address this problem, existing partitioning-based methods often
+depend on auxiliary analysis, overlook model uncertainty, or impose inflexible
+borrowing strength. We propose the Bayesian Hierarchical Adjustable Random
+Partition (BHARP) model, a self-contained framework that applies a finite
+mixture model with an unknown number of components to explore the partition
+space accounting for model uncertainty. The BHARP model jointly estimates
+subgroup-specific effects and the heterogeneity patterns, and adjusts the
+borrowing strengths based on within-cluster cohesion without requiring manual
+calibration. Posterior sampling is performed via a custom reversible-jump
+Markov chain Monte Carlo sampler tailored to partitioning-based information
+borrowing in clinical trials. Simulation studies across a range of treatment
+effect heterogeneity patterns show that the BHARP model achieves better
+accuracy and precision compared to conventional and advanced methods. We
+showcase the utilities of the BHARP model in the context of a multi-arm
+adaptive enrichment trial investigating physical activity interventions in
+patients with type 2 diabetes.
 </p>
-                    <p><a href="http://arxiv.org/pdf/2508.11557v1" target="_blank">Read PDF</a></p>
+                    <p><a href="http://arxiv.org/pdf/2508.16523v1" target="_blank">Read PDF</a></p>
                 </div>
             
                 <div class="paper">
-                    <h3>Estimating Covariate Effects on Functional Connectivity using
-  Voxel-Level fMRI Data</h3>
-                    <p><strong>Authors:</strong> Wei Zhao, Brian J. Reich, Emily C. Hector</p>
-                    <p>  Functional connectivity (FC) analysis of resting-state fMRI data provides a
-framework for characterizing brain networks and their association with
-participant-level covariates. Due to the high dimensionality of neuroimaging
-data, standard approaches often average signals within regions of interest
-(ROIs), which ignores the underlying spatiotemporal dependence among voxels and
-can lead to biased or inefficient inference. We propose to use a summary
-statistic -- the empirical voxel-wise correlations between ROIs -- and,
-crucially, model the complex covariance structure among these correlations
-through a new positive definite covariance function. Building on this
-foundation, we develop a computationally efficient two-step estimation
-procedure that enables statistical inference on covariate effects on
-region-level connectivity. Simulation studies show calibrated uncertainty
-quantification, and substantial gains in validity of the statistical inference
-over the standard averaging method. With data from the Autism Brain Imaging
-Data Exchange, we show that autism spectrum disorder is associated with altered
-FC between attention-related ROIs after adjusting for age and gender. The
-proposed framework offers an interpretable and statistically rigorous approach
-to estimation of covariate effects on FC suitable for large-scale neuroimaging
-studies.
+                    <h3>Dynamic Financial Analysis (DFA) of General Insurers under Climate
+  Change</h3>
+                    <p><strong>Authors:</strong> Benjamin Avanzi, Yanfeng Li, Greg Taylor, Bernard Wong</p>
+                    <p>  Climate change is expected to significantly affect the physical, financial,
+and economic environments over the long term, posing risks to the financial
+health of general insurers. While general insurers typically use Dynamic
+Financial Analysis (DFA) for a comprehensive view of financial impacts,
+traditional DFA as presented in the literature does not consider the impact of
+climate change. To address this gap, we introduce a climate-dependent DFA
+approach that integrates climate risk into DFA, providing a holistic assessment
+of the long-term impact of climate change on the general insurance industry.
+The proposed framework has three key features. First, it captures the long-term
+impact of climate change on the assets and liabilities of general insurers by
+considering both physical and economic dimensions across different climate
+scenarios within an interconnected structure. Second, it addresses the
+uncertainty of climate change impacts using stochastic simulations within
+climate scenario analysis that are useful for actuarial applications. Finally,
+the framework is tailored to the general insurance sector by addressing its
+unique characteristics. To demonstrate the practical application of our model,
+we conduct an extensive empirical study using Australian data to assess the
+long-term financial impact of climate change on the general insurance market
+under various climate scenarios. The results show that the interaction between
+economic growth and physical risk plays a key role in shaping general insurers'
+risk-return profiles. Limitations of our framework are thoroughly discussed.
 </p>
-                    <p><a href="http://arxiv.org/pdf/2508.11213v1" target="_blank">Read PDF</a></p>
+                    <p><a href="http://arxiv.org/pdf/2508.16444v1" target="_blank">Read PDF</a></p>
                 </div>
             
                 <div class="paper">
-                    <h3>Functional Analysis of Variance for Association Studies</h3>
-                    <p><strong>Authors:</strong> Olga A. Vsevolozhskaya, Dmitri V. Zaykin, Mark C. Greenwood, Changshuai Wei, Qing Lu</p>
-                    <p>  While progress has been made in identifying common genetic variants
-associated with human diseases, for most of common complex diseases, the
-identified genetic variants only account for a small proportion of
-heritability. Challenges remain in finding additional unknown genetic variants
-predisposing to complex diseases. With the advance in next-generation
-sequencing technologies, sequencing studies have become commonplace in genetic
-research. The ongoing exome-sequencing and whole-genome-sequencing studies
-generate a massive amount of sequencing variants and allow researchers to
-comprehensively investigate their role in human diseases. The discovery of new
-disease-associated variants can be enhanced by utilizing powerful and
-computationally efficient statistical methods. In this paper, we propose a
-functional analysis of variance (FANOVA) method for testing an association of
-sequence variants in a genomic region with a qualitative trait. The FANOVA has
-a number of advantages: (1) it tests for a joint effect of gene variants,
-including both common and rare; (2) it fully utilizes linkage disequilibrium
-and genetic position information; and (3) allows for either protective or
-risk-increasing causal variants. Through simulations, we show that FANOVA
-outperform two popularly used methods - SKAT and a previously proposed method
-based on functional linear models (FLM), - especially if a sample size of a
-study is small and/or sequence variants have low to moderate effects. We
-conduct an empirical study by applying three methods (FANOVA, SKAT and FLM) to
-sequencing data from Dallas Heart Study. While SKAT and FLM respectively
-detected ANGPTL 4 and ANGPTL 3 associated with obesity, FANOVA was able to
-identify both genes associated with obesity.
+                    <h3>Multivariate Shared Frailty Cure-Rate models: a focus on Breast Cancer
+  family history</h3>
+                    <p><strong>Authors:</strong> Maria Veronica Vinattieri, Marco Bonetti, Kamila Czene</p>
+                    <p>  We discuss a shift in perspective from traditional approaches to breast
+cancer risk prediction: modelling families rather than individuals as unit of
+analysis. By investigating the latent familial risk underlying breast cancer
+diagnoses, we introduce a Multivariate Shared Frailty Cure-Rate model. This
+model captures the familial risk as a shared frailty among members and
+explicitly accounts for a fraction of women not susceptible to breast cancer.
+We aim at identifying the high-risk families to better target screening and
+prevention, ultimately improving early detection. A comparative analysis with
+Cox models and univariate models - where a binary risk indicator acts as best
+guess for the latent high-risk group - is conducted using simulation studies
+and data from the Swedish Multi-Generational Breast Cancer registry. We
+demonstrate the critical importance of using complete family history of breast
+cancer to accurately identify high-risk families and show that the Multivariate
+Shared Frailty Cure-Rate model, capturing both the fraction of non-susceptible
+subjects and the survival distribution among susceptibles, enhances explanatory
+power, improves prediction accuracy, and offers a broader representation of the
+disease process.
 </p>
-                    <p><a href="http://arxiv.org/pdf/2508.11069v1" target="_blank">Read PDF</a></p>
+                    <p><a href="http://arxiv.org/pdf/2508.16350v1" target="_blank">Read PDF</a></p>
                 </div>
             
                 <div class="paper">
-                    <h3>Sample efficient likelihood-free inference for virus dynamics with
-  different types of experiments</h3>
-                    <p><strong>Authors:</strong> Yingying Xu, Ulpu Remes, Enrico Rinaldi, Henri Pesonen</p>
-                    <p>  This study applied Bayesian optimization likelihood-free inference(BOLFI) to
-virus dynamics experimental data and efficiently inferred the model parameters
-with uncertainty measure. The computational benefit is remarkable compared to
-existing methodology on the same problem. No likelihood knowledge is needed in
-the inference. Improvement of the BOLFI algorithm with Gaussian process based
-classifier for treatment of extreme values are provided. Discrepancy design for
-combining different forms of data from completely different experiment
-processes are suggested and tested with synthetic data, then applied to real
-data. Reasonable parameter values are estimated for influenza A virus data.
+                    <h3>A regularized multi-state model for covariate selection with
+  interval-censored survival data</h3>
+                    <p><strong>Authors:</strong> Ariane Bercu, Agathe Guilloux, Cécile Proust-Lima, Hélène Jacqmin-Gadda</p>
+                    <p>  In population-based cohorts, disease diagnoses are typically censored by
+intervals as made during scheduled follow-up visits. The exact disease onset
+time is thus unknown, and in the presence of semi-competing risk of death,
+subjects may also die in between two visits before any diagnosis can be made.
+Illness-death models can be used to handle uncertainty about illness timing and
+the possible absence of diagnosis due to death. However, they are so far
+limited in the number of covariates. We developed a regularized estimation
+procedure for illness-death models with interval-censored illness diagnosis
+that performs variable selection in the case of high-dimensional predictors. We
+considered a proximal gradient hybrid algorithm maximizing the regularized
+likelihood with an elastic-net penalty. The algorithm simultaneously estimates
+the regression parameters of the three transitions under proportional
+transition intensities with transition-specific penalty parameters determined
+in an outer gridsearch. The algorithm, implemented in the R package HIDeM,
+shows high performances in predicting illness probability, as well as correct
+selection of transition-specific risk factors across different simulation
+scenarios. In comparison, the cause-specific competing risk model neglecting
+interval-censoring systematically showed worse predictive ability and tended to
+select irrelevant illness predictors, originally associated with death. Applied
+to the population-based cohort Three-City, the method identified predictors of
+clinical dementia onset among a large set of brain imaging, cognitive and
+clinical markers.
+  Keywords: Interval censoring; Multi-state model; Semi-competing risk;
+Survival Analysis; Variable Selection.
 </p>
-                    <p><a href="http://arxiv.org/pdf/2508.11042v1" target="_blank">Read PDF</a></p>
+                    <p><a href="http://arxiv.org/pdf/2508.16256v1" target="_blank">Read PDF</a></p>
                 </div>
             
                 <div class="paper">
-                    <h3>Dissecting Microbial Community Structure and Heterogeneity via
-  Multivariate Covariate-Adjusted Clustering</h3>
-                    <p><strong>Authors:</strong> Zhongmao Liu, Xiaohui Yin, Yanjiao Zhou, Gen Li, Kun Chen</p>
-                    <p>  In microbiome studies, it is often of great interest to identify clusters or
-partitions of microbiome profiles within a study population and to characterize
-the distinctive attributes of each resulting microbial community. While raw
-counts or relative compositions are commonly used for such analysis, variations
-between clusters may be driven or distorted by subject-level covariates,
-reflecting underlying biological and clinical heterogeneity across individuals.
-Simultaneously detecting latent communities and identifying covariates that
-differentiate them can enhance our understanding of the microbiome and its
-association with health outcomes. To this end, we propose a
-Dirichlet-multinomial mixture regression (DMMR) model that enables joint
-clustering of microbiome profiles while accounting for covariates with either
-homogeneous or heterogeneous effects across clusters. A novel symmetric link
-function is introduced to facilitate covariate modeling through the
-compositional parameters. We develop efficient algorithms with convergence
-guarantees for parameter estimation and establish theoretical properties of the
-proposed estimators. Extensive simulation studies demonstrate the effectiveness
-of the method in clustering, feature selection, and heterogeneity detection. We
-illustrate the utility of DMMR through a comprehensive application to
-upper-airway microbiota data from a pediatric asthma study, uncovering distinct
-microbial subtypes and their associations with clinical characteristics.
+                    <h3>Evaluation of Time Series Forecasting Models for Predicting Lung Cancer
+  Mortality Rates in the United States: A Comparison with Altuhaifa (2023)
+  Study</h3>
+                    <p><strong>Authors:</strong> E. Kubuafor, D. Baidoo, O. J. Okeke, R. Amevor, G. Arhin, J. T. Korley</p>
+                    <p>  This paper evaluates the performance of the following time series forecasting
+models - Simple Exponential Smoothing (SES), Holt's Double Exponential
+Smoothing (HDES), and Autoregressive Integrated Moving Average (ARIMA) - in
+predicting lung cancer mortality rates in the United States. It builds upon the
+work of Altuhaifa, which used Surveillance, Epidemiology, and End Results
+(SEER) data from 1975-2018 to evaluate these models. Altuhaifa's study found
+that ARIMA (0,2,2), SES with smoothing parameter $\alpha=0.995$, and HDES with
+parameters $\alpha=0.4$ and $\beta=0.9$ were the optimal models from their
+analysis, with HDES providing the lowest Root Mean Squared Error (RMSE) of
+132.91. The paper extends the dataset to 2021 and re-evaluates the models.
+Using the same SEER data from 1975-2021, it identifies ARIMA (0,2,2), SES
+($\alpha=0.999$), and HDES ($\alpha=0.5221$, $\beta=0.5219$) as the
+best-fitting models. Interestingly, ARIMA (0,2,2) and HDES yield the lowest
+RMSE of 2.56. To obtain forecasts with higher accuracy, an average model
+(HDES-ARIMA) consisting of HDES and ARIMA was constructed to leverage their
+strengths. The HDES-ARIMA model also achieves an RMSE of 2.56. The forecast
+from the average model suggests declining lung cancer mortality rates in the
+United States. The study highlights how expanding datasets and re-evaluating
+models can provide updated insights. It recommends further analysis using
+monthly data separated by gender, ethnicity, and state to understand lung
+cancer mortality dynamics in the United States. Overall, advanced time series
+methods like HDES and ARIMA show strong potential for accurately forecasting
+this major public health issue.
 </p>
-                    <p><a href="http://arxiv.org/pdf/2508.11036v1" target="_blank">Read PDF</a></p>
+                    <p><a href="http://arxiv.org/pdf/2508.16052v1" target="_blank">Read PDF</a></p>
                 </div>
             
                 <div class="paper">
-                    <h3>Risk-Based Prognostics and Health Management</h3>
-                    <p><strong>Authors:</strong> John W. Sheppard</p>
-                    <p>  It is often the case that risk assessment and prognostics are viewed as
-related but separate tasks. This chapter describes a risk-based approach to
-prognostics that seeks to provide a tighter coupling between risk assessment
-and fault prediction. We show how this can be achieved using the
-continuous-time Bayesian network as the underlying modeling framework.
-Furthermore, we provide an overview of the techniques that are available to
-derive these models from data and show how they might be used in practice to
-achieve tasks like decision support and performance-based logistics. This work
-is intended to provide an overview of the recent developments related to
-risk-based prognostics, and we hope that it will serve as a tutorial of sorts
-that will assist others in adopting these techniques.
+                    <h3>Comparing Malaria Trends in the Comoros Islands: ARIMA Modeling and
+  Retrospective Analysis</h3>
+                    <p><strong>Authors:</strong> D. Baidoo, E. Kubuafor, O. O. Joshua, S. F. Osarfo, F. A. Agyei-Owusu, J. Akuoko-Frimpong, N. Appiah, A. Duah, R. Amevor, F. E. Boateng, F. Aboagye, B. Benyi</p>
+                    <p>  Malaria remains a serious health challenge in the Comoros Islands, despite
+ongoing control efforts. Past studies have shown reductions in cases due to
+prevention and treatment measures, but little work has been done to forecast
+future malaria deaths and assess the long-term impact of these measures.
+Malaria mortality data from 1990 to 2019 were analyzed using an ARIMA(1,0,0)
+model. The model was validated through diagnostic tests, ensuring reliability
+for forecasting trends. The study confirmed significant reductions in malaria
+cases, such as in Grand Comoro, where cases fell from 235.36 to 5.47 per 1,000
+people. The ARIMA model predicted that fatalities will remain low if current
+control measures, including bed nets, indoor spraying, and mass drug
+administration, are sustained. The findings highlight the success of these
+interventions in reducing malaria mortality. However, challenges like drug and
+insecticide resistance and financial limitations pose risks to further
+progress. Continued support and adaptation of strategies are essential to
+address these challenges and sustain low malaria mortality rates. The study
+demonstrates the effectiveness of malaria control efforts in the Comoros and
+underscores the importance of maintaining these measures to achieve malaria
+elimination and improve public health outcomes.
 </p>
-                    <p><a href="http://arxiv.org/pdf/2508.11031v1" target="_blank">Read PDF</a></p>
+                    <p><a href="http://arxiv.org/pdf/2508.16018v1" target="_blank">Read PDF</a></p>
                 </div>
             
                 <div class="paper">
-                    <h3>Does fertility affect woman's labor force participation in low- and
-  middle-income settings? Findings from a Bayesian nonparametric analysis</h3>
-                    <p><strong>Authors:</strong> Lucas Godoy Garraza, Leontine Alkema</p>
-                    <p>  Estimating the causal effect of fertility on women's employment is
-challenging because fertility and labor decisions are jointly determined. The
-difficulty is amplified in low- and middle-income countries, where longitudinal
-data are scarce. In this study, we propose a novel approach to estimating the
-causal effect of fertility on employment using widely available Demographic and
-Health Survey (DHS) observational data. Using infecundity as an instrument for
-family size, our approach combines principal stratification with Bayesian
-Additive Regression Trees to flexibly account for covariate-dependent
-instrument validity, work with count-valued intermediate variables, and produce
-estimates of causal effects and effect heterogeneity, i.e., how effects vary
-with covariates in the survey population. We apply the approach to DHS data
-from Nigeria, Senegal, and Kenya. We find in the survey sample and general
-population that an additional child significantly reduces employment among
-women in Nigeria but has no clear average effect in Senegal or Kenya. Across
-all three countries, however, there is strong evidence of effect heterogeneity:
-younger, less-educated women experience large employment penalties, while older
-or more advantaged women are largely unaffected. Robustness checks confirm that
-these findings are not sensitive to key modeling assumptions. While limitations
-remain due to the cross-sectional nature of the DHS data, our results
-illustrate how flexible non-parametric models can uncover important effect
-variation.
+                    <h3>A nonstationary spatial model of PM2.5 with localized transfer learning
+  from numerical model output</h3>
+                    <p><strong>Authors:</strong> Wenlong Gong, Brian J. Reich, Joseph Guinness</p>
+                    <p>  Ambient air pollution measurements from regulatory monitoring networks are
+routinely used to support epidemiologic studies and environmental policy
+decision making. However, regulatory monitors are spatially sparse and
+preferentially located in areas with large populations. Numerical air pollution
+model output can be leveraged into the inference and prediction of air
+pollution data combining with measurements from monitors. Nonstationary
+covariance functions allow the model to adapt to spatial surfaces whose
+variability changes with location like air pollution data. In the paper, we
+employ localized covariance parameters learned from the numerical output model
+to knit together into a global nonstationary covariance, to incorporate in a
+fully Bayesian model. We model the nonstationary structure in a computationally
+efficient way to make the Bayesian model scalable.
 </p>
-                    <p><a href="http://arxiv.org/pdf/2508.10787v1" target="_blank">Read PDF</a></p>
+                    <p><a href="http://arxiv.org/pdf/2508.15978v1" target="_blank">Read PDF</a></p>
                 </div>
             
                 <div class="paper">
-                    <h3>Dynamic Skewness in Stochastic Volatility Models: A Penalized Prior
-  Approach</h3>
-                    <p><strong>Authors:</strong> Bruno E. Holtz, Ricardo S. Ehlers, Adriano K. Suzuki, Francisco Louzada</p>
-                    <p>  Financial time series often exhibit skewness and heavy tails, making it
-essential to use models that incorporate these characteristics to ensure
-greater reliability in the results. Furthermore, allowing temporal variation in
-the skewness parameter can bring significant gains in the analysis of this type
-of series. However, for more robustness, it is crucial to develop models that
-balance flexibility and parsimony. In this paper, we propose dynamic skewness
-stochastic volatility models in the SMSN family (DynSSV-SMSN), using priors
-that penalize model complexity. Parameter estimation was carried out using the
-Hamiltonian Monte Carlo (HMC) method via the \texttt{RStan} package. Simulation
-results demonstrated that penalizing priors present superior performance in
-several scenarios compared to the classical choices. In the empirical
-application to returns of cryptocurrencies, models with heavy tails and dynamic
-skewness provided a better fit to the data according to the DIC, WAIC, and
-LOO-CV information criteria.
+                    <h3>Dynamic Graph-Based Forecasts of Bookmakers' Odds in Professional Tennis</h3>
+                    <p><strong>Authors:</strong> Matthew J Penn, Jed Michael, Samir Bhatt</p>
+                    <p>  Bookmakers' odds consistently provide one of the most accurate methods for
+predicting the results of professional tennis matches. However, these odds
+usually only become available shortly before a match takes place, limiting
+their usefulness as an analysis tool. To ameliorate this issue, we introduce a
+novel dynamic graph-based model which aims to forecast bookmaker odds for any
+match on any surface, allowing effective and detailed pre-tournament
+predictions to be made. By leveraging the high-quality information contained in
+the odds, our model can keep pace with new innovations in tennis modelling. By
+analysing major tennis championships from 2024 and 2025, we show that our model
+achieves comparable accuracy both to the bookmakers and other models in the
+literature, while significantly outperforming rankings-based predictions.
 </p>
-                    <p><a href="http://arxiv.org/pdf/2508.10778v1" target="_blank">Read PDF</a></p>
+                    <p><a href="http://arxiv.org/pdf/2508.15956v1" target="_blank">Read PDF</a></p>
                 </div>
             
                 <div class="paper">
-                    <h3>Matters Arising: Spatial correlation in economic analysis of climate
-  change</h3>
-                    <p><strong>Authors:</strong> Christof Schötz</p>
-                    <p>  Climate change poses substantial risks to the global economy. Kotz, Levermann
-and Wenz (Nature, 2024) statistically analyzed economic and climate data,
-finding significant projected damages until mid-century and a divergence in
-outcomes between high- and low-emission scenarios thereafter. We find that
-their analysis underestimates uncertainty owing to large, unaccounted-for
-spatial correlations on the subnational level, rendering their results
-statistically insignificant when properly corrected. Thus, their study does not
-provide the robust empirical evidence needed to inform climate policy.
+                    <h3>Variable Neighborhood Descent Methods for Large-scale Single-assignment
+  Multi-level Facility Location Problem</h3>
+                    <p><strong>Authors:</strong> Haibo Wang, Bahram Alidaee</p>
+                    <p>  This paper addresses the single--assignment uncapacitated multi-level
+facility location (MFL) problem, which has numerous applications, including
+tactical and strategic supply chain management. We consider four-level and
+five-level facilities (4-LFL and 5-LFL). Although the MFL has been addressed in
+the literature in various settings, solutions to large-scale, realistic
+problems are still lacking. This paper considers several variants of the
+variable neighborhood descent (VND) method, including BVND, PVND, CVND, and
+UVND, for the problem. In each case, a multi-start strategy with strong
+diversification components is provided. Extensive computational experiments are
+presented to compare methods for large-scale problems involving up to 10,000
+customers, 150 distribution centers, 50 warehouses, and 30 plants in the case
+of 4-LFL; and 8,000 customers, 150 distribution centers, 50 warehouses, 50
+plants, and 100 suppliers in the case of 5-LFL. Sensitivity analyses, supported
+by appropriate statistical methods, validate the effectiveness of the
+heuristics' results.
 </p>
-                    <p><a href="http://arxiv.org/pdf/2508.10575v1" target="_blank">Read PDF</a></p>
+                    <p><a href="http://arxiv.org/pdf/2508.15954v1" target="_blank">Read PDF</a></p>
                 </div>
             
                 <div class="paper">
-                    <h3>Maximum Entropy Models for Unimodal Time Series: Case Studies of
-  Universe 25 and St. Matthew Island</h3>
-                    <p><strong>Authors:</strong> Sabin Roman</p>
-                    <p>  We present a maximum entropy modeling framework for unimodal time series:
-signals that begin at a reference level, rise to a single peak, and return.
-Such patterns are commonly observed in ecological collapse, population
-dynamics, and resource depletion. Traditional dynamical models are often
-inapplicable in these settings due to limited or sparse data, frequently
-consisting of only a single historical trajectory. In addition, standard
-fitting approaches can introduce structural bias, particularly near the mode,
-where most interpretive focus lies. Using the maximum entropy principle, we
-derive a least-biased functional form constrained only by minimal prior
-knowledge, such as the starting point and estimated end. This leads to
-analytically tractable and interpretable models.
-  We apply this method to the collapse of the Universe 25 mouse population and
-the reindeer crash on St. Matthew Island. These case studies demonstrate the
-robustness and flexibility of the approach in fitting diverse unimodal time
-series with minimal assumptions. We also conduct a cross-comparison against
-established models, including the Richards, Skewnormal, and Generalized Gamma
-functions. While models typically fit their own generated data best, the
-maximum entropy models consistently achieve the lowest off-diagonal
-root-mean-square losses, indicating superior generalization. These results
-suggest that maximum entropy methods provide a unifying and efficient
-alternative to mechanistic models when data is limited and generalization is
-essential.
+                    <h3>Gerrymandering and geographic polarization have reduced electoral
+  competition</h3>
+                    <p><strong>Authors:</strong> Ethan Jasny, Christopher T. Kenny, Cory McCartan, Tyler Simko, Melissa Wu, Michael Y. Zhao, Aneetej Arora, Emma Ebowe, Philip O'Sullivan, Taran Samarth, Kosuke Imai</p>
+                    <p>  Changes in political geography and electoral district boundaries shape
+representation in the United States Congress. To disentangle the effects of
+geography and gerrymandering, we generate a large ensemble of alternative
+redistricting plans that follow each state's legal criteria. Comparing enacted
+plans to these simulations reveals partisan bias, while changes in the
+simulated plans over time identify shifts in political geography. Our analysis
+shows that geographic polarization has intensified between 2010 and 2020:
+Republicans improved their standing in rural and rural-suburban areas, while
+Democrats further gained in urban districts. These shifts offset nationally,
+reducing the Republican geographic advantage from 14 to 10 seats. Additionally,
+pro-Democratic gerrymandering in 2020 counteracted earlier Republican efforts,
+reducing the GOP redistricting advantage by two seats. In total, the
+pro-Republican bias declined from 16 to 10 seats. Crucially, shifts in
+political geography and gerrymandering reduced the number of highly competitive
+districts by over 25%, with geographic polarization driving most of the
+decline.
 </p>
-                    <p><a href="http://arxiv.org/pdf/2508.10518v1" target="_blank">Read PDF</a></p>
+                    <p><a href="http://arxiv.org/pdf/2508.15885v1" target="_blank">Read PDF</a></p>
                 </div>
             </div>
     <script src="scripts/update-papers.js"></script>
