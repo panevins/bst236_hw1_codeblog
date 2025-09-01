@@ -9,264 +9,274 @@
 <body>
     <h1>Latest ArXiv Papers on Applied Statistics</h1>
     <p> This page displays the 10 most recents papers on <a href="https://arxiv.org/">ArXiv</a> in the category of "applied statistics". To see all most recent papers under this category, visit ArXiv's website <a href="https://arxiv.org/list/stat.AP/recent">here</a>. This page uses GitHub Actions and the ArXiv API to update each day at approximately midnight.</p>
-    <p id="last-updated">Last updated: 8/25/2025, 1:25:25 AM</p>
+    <p id="last-updated">Last updated: 9/1/2025, 1:24:23 AM</p>
     <button onclick="window.location.href='../index.html'" style="text-align: center;">Go to Homepage</button>
     <div id="papers">
                 <div class="paper">
-                    <h3>Identifying Treatment Effect Heterogeneity with Bayesian Hierarchical
-  Adjustable Random Partition in Adaptive Enrichment Trials</h3>
-                    <p><strong>Authors:</strong> Xianglin Zhao, Shirin Golchi, Jean-Philippe Gouin, Kaberi Dasgupta</p>
-                    <p>  Treatment effect heterogeneity refers to the systematic variation in
-treatment effects across subgroups. There is an increasing need for clinical
-trials that aim to investigate treatment effect heterogeneity and estimate
-subgroup-specific responses. While several statistical methods have been
-proposed to address this problem, existing partitioning-based methods often
-depend on auxiliary analysis, overlook model uncertainty, or impose inflexible
-borrowing strength. We propose the Bayesian Hierarchical Adjustable Random
-Partition (BHARP) model, a self-contained framework that applies a finite
-mixture model with an unknown number of components to explore the partition
-space accounting for model uncertainty. The BHARP model jointly estimates
-subgroup-specific effects and the heterogeneity patterns, and adjusts the
-borrowing strengths based on within-cluster cohesion without requiring manual
-calibration. Posterior sampling is performed via a custom reversible-jump
-Markov chain Monte Carlo sampler tailored to partitioning-based information
-borrowing in clinical trials. Simulation studies across a range of treatment
-effect heterogeneity patterns show that the BHARP model achieves better
-accuracy and precision compared to conventional and advanced methods. We
-showcase the utilities of the BHARP model in the context of a multi-arm
-adaptive enrichment trial investigating physical activity interventions in
-patients with type 2 diabetes.
+                    <h3>DynaMark: A Reinforcement Learning Framework for Dynamic Watermarking in
+  Industrial Machine Tool Controllers</h3>
+                    <p><strong>Authors:</strong> Navid Aftabi, Abhishek Hanchate, Satish Bukkapatnam, Dan Li</p>
+                    <p>  Industry 4.0's highly networked Machine Tool Controllers (MTCs) are prime
+targets for replay attacks that use outdated sensor data to manipulate
+actuators. Dynamic watermarking can reveal such tampering, but current schemes
+assume linear-Gaussian dynamics and use constant watermark statistics, making
+them vulnerable to the time-varying, partly proprietary behavior of MTCs. We
+close this gap with DynaMark, a reinforcement learning framework that models
+dynamic watermarking as a Markov decision process (MDP). It learns an adaptive
+policy online that dynamically adapts the covariance of a zero-mean Gaussian
+watermark using available measurements and detector feedback, without needing
+system knowledge. DynaMark maximizes a unique reward function balancing control
+performance, energy consumption, and detection confidence dynamically. We
+develop a Bayesian belief updating mechanism for real-time detection confidence
+in linear systems. This approach, independent of specific system assumptions,
+underpins the MDP for systems with linear dynamics. On a Siemens Sinumerik 828D
+controller digital twin, DynaMark achieves a reduction in watermark energy by
+70% while preserving the nominal trajectory, compared to constant variance
+baselines. It also maintains an average detection delay equivalent to one
+sampling interval. A physical stepper-motor testbed validates these findings,
+rapidly triggering alarms with less control performance decline and exceeding
+existing benchmarks.
 </p>
-                    <p><a href="http://arxiv.org/pdf/2508.16523v1" target="_blank">Read PDF</a></p>
+                    <p><a href="http://arxiv.org/pdf/2508.21797v1" target="_blank">Read PDF</a></p>
                 </div>
             
                 <div class="paper">
-                    <h3>Dynamic Financial Analysis (DFA) of General Insurers under Climate
-  Change</h3>
-                    <p><strong>Authors:</strong> Benjamin Avanzi, Yanfeng Li, Greg Taylor, Bernard Wong</p>
-                    <p>  Climate change is expected to significantly affect the physical, financial,
-and economic environments over the long term, posing risks to the financial
-health of general insurers. While general insurers typically use Dynamic
-Financial Analysis (DFA) for a comprehensive view of financial impacts,
-traditional DFA as presented in the literature does not consider the impact of
-climate change. To address this gap, we introduce a climate-dependent DFA
-approach that integrates climate risk into DFA, providing a holistic assessment
-of the long-term impact of climate change on the general insurance industry.
-The proposed framework has three key features. First, it captures the long-term
-impact of climate change on the assets and liabilities of general insurers by
-considering both physical and economic dimensions across different climate
-scenarios within an interconnected structure. Second, it addresses the
-uncertainty of climate change impacts using stochastic simulations within
-climate scenario analysis that are useful for actuarial applications. Finally,
-the framework is tailored to the general insurance sector by addressing its
-unique characteristics. To demonstrate the practical application of our model,
-we conduct an extensive empirical study using Australian data to assess the
-long-term financial impact of climate change on the general insurance market
-under various climate scenarios. The results show that the interaction between
-economic growth and physical risk plays a key role in shaping general insurers'
-risk-return profiles. Limitations of our framework are thoroughly discussed.
+                    <h3>Quantile Function-Based Models for Neuroimaging Classification Using
+  Wasserstein Regression</h3>
+                    <p><strong>Authors:</strong> Jie Li, Gary Green, Jian Zhang</p>
+                    <p>  We propose a novel quantile function-based approach for neuroimaging
+classification using Wasserstein-Fr\'echet regression, specifically applied to
+the detection of mild traumatic brain injury (mTBI) based on the MEG and MRI
+data. Conventional neuroimaging classification methods for mTBI detection
+typically extract summary statistics from brain signals across the different
+epochs, which may result in the loss of important distributional information,
+such as variance, skewness, kurtosis, etc. Our approach treats complete
+probability density functions of epoch space results as functional response
+variables within a Wasserstein-Fr\'echet regression framework, thereby
+preserving the full distributional characteristics of epoch results from
+$L_{1}$ minimum norm solutions. The global Wasserstein-Fr\'echet regression
+model incorporating covariates (age and gender) allows us to directly compare
+the distributional patterns between healthy control subjects and mTBI patients.
+The classification procedure computes Wasserstein distances between estimated
+quantile functions from control and patient groups, respectively. These
+distances are then used as the basis for diagnostic decisions. This framework
+offers a statistically principled approach to improving diagnostic accuracy in
+mTBI detection. In practical applications, the test accuracy on unseen data
+from Innovision IP's dataset achieves up to 98\%.
 </p>
-                    <p><a href="http://arxiv.org/pdf/2508.16444v1" target="_blank">Read PDF</a></p>
+                    <p><a href="http://arxiv.org/pdf/2508.21523v1" target="_blank">Read PDF</a></p>
                 </div>
             
                 <div class="paper">
-                    <h3>Multivariate Shared Frailty Cure-Rate models: a focus on Breast Cancer
-  family history</h3>
-                    <p><strong>Authors:</strong> Maria Veronica Vinattieri, Marco Bonetti, Kamila Czene</p>
-                    <p>  We discuss a shift in perspective from traditional approaches to breast
-cancer risk prediction: modelling families rather than individuals as unit of
-analysis. By investigating the latent familial risk underlying breast cancer
-diagnoses, we introduce a Multivariate Shared Frailty Cure-Rate model. This
-model captures the familial risk as a shared frailty among members and
-explicitly accounts for a fraction of women not susceptible to breast cancer.
-We aim at identifying the high-risk families to better target screening and
-prevention, ultimately improving early detection. A comparative analysis with
-Cox models and univariate models - where a binary risk indicator acts as best
-guess for the latent high-risk group - is conducted using simulation studies
-and data from the Swedish Multi-Generational Breast Cancer registry. We
-demonstrate the critical importance of using complete family history of breast
-cancer to accurately identify high-risk families and show that the Multivariate
-Shared Frailty Cure-Rate model, capturing both the fraction of non-susceptible
-subjects and the survival distribution among susceptibles, enhances explanatory
-power, improves prediction accuracy, and offers a broader representation of the
-disease process.
+                    <h3>Causal Analysis of Health, Education, and Economic Well-Being in India
+  -- Evidence from the Young Lives Survey</h3>
+                    <p><strong>Authors:</strong> Anushka De, Diganta Mukherjee</p>
+                    <p>  This study investigates the dynamic and potentially causal relationships
+among childhood health, education, and long-term economic well-being in India
+using longitudinal data from the Young Lives Survey. While prior research often
+examines these domains in isolation, we adopt an integrated empirical framework
+combining panel data methods, instrumental variable regression, and causal
+graph analysis to disentangle their interdependencies. Our analysis spans five
+survey rounds covering two cohorts of children tracked from early childhood to
+young adulthood. Results indicate strong persistence in household economic
+status, highlighting limited intergenerational mobility. Education, proxied by
+Item Response Theory-based mathematics scores, consistently emerges as the most
+robust predictor of future economic well-being, particularly in the younger
+cohort. In contrast, self-reported childhood health shows limited direct impact
+on either education or later wealth, though it is influenced by household
+economic conditions. These findings underscore the foundational role of wealth
+and the growing importance of cognitive achievement in shaping life
+trajectories. The study supports policy approaches that prioritize early
+investments in learning outcomes alongside targeted economic support for
+disadvantaged households. By integrating statistical modeling with development
+policy insights, this research contributes to understanding how early-life
+conditions shape economic opportunity in low- and middle-income contexts.
 </p>
-                    <p><a href="http://arxiv.org/pdf/2508.16350v1" target="_blank">Read PDF</a></p>
+                    <p><a href="http://arxiv.org/pdf/2508.21370v1" target="_blank">Read PDF</a></p>
                 </div>
             
                 <div class="paper">
-                    <h3>A regularized multi-state model for covariate selection with
-  interval-censored survival data</h3>
-                    <p><strong>Authors:</strong> Ariane Bercu, Agathe Guilloux, Cécile Proust-Lima, Hélène Jacqmin-Gadda</p>
-                    <p>  In population-based cohorts, disease diagnoses are typically censored by
-intervals as made during scheduled follow-up visits. The exact disease onset
-time is thus unknown, and in the presence of semi-competing risk of death,
-subjects may also die in between two visits before any diagnosis can be made.
-Illness-death models can be used to handle uncertainty about illness timing and
-the possible absence of diagnosis due to death. However, they are so far
-limited in the number of covariates. We developed a regularized estimation
-procedure for illness-death models with interval-censored illness diagnosis
-that performs variable selection in the case of high-dimensional predictors. We
-considered a proximal gradient hybrid algorithm maximizing the regularized
-likelihood with an elastic-net penalty. The algorithm simultaneously estimates
-the regression parameters of the three transitions under proportional
-transition intensities with transition-specific penalty parameters determined
-in an outer gridsearch. The algorithm, implemented in the R package HIDeM,
-shows high performances in predicting illness probability, as well as correct
-selection of transition-specific risk factors across different simulation
-scenarios. In comparison, the cause-specific competing risk model neglecting
-interval-censoring systematically showed worse predictive ability and tended to
-select irrelevant illness predictors, originally associated with death. Applied
-to the population-based cohort Three-City, the method identified predictors of
-clinical dementia onset among a large set of brain imaging, cognitive and
-clinical markers.
-  Keywords: Interval censoring; Multi-state model; Semi-competing risk;
-Survival Analysis; Variable Selection.
+                    <h3>Population-Scale Network Embeddings Expose Educational Divides in
+  Network Structure Related to Right-Wing Populist Voting</h3>
+                    <p><strong>Authors:</strong> Malte Lüken, Javier Garcia-Bernardo, Sreeparna Deb, Flavio Hafner, Megha Khosla</p>
+                    <p>  Administrative registry data can be used to construct population-scale
+networks whose ties reflect shared social contexts between persons. With
+machine learning, such networks can be encoded into numerical representations
+-- embeddings -- that automatically capture individuals' position within the
+network. We created embeddings for all persons in the Dutch population from a
+population-scale network that represents five shared contexts: neighborhood,
+work, family, household, and school. To assess the informativeness of these
+embeddings, we used them to predict right-wing populist voting. Embeddings
+alone predicted right-wing populist voting above chance-level but performed
+worse than individual characteristics. Combining the best subset of embeddings
+with individual characteristics only slightly improved predictions. However,
+after transforming the embeddings to make their dimensions more sparse and
+orthogonal, we found that one embedding dimension was strongly associated with
+the outcome. Mapping this dimension back to the population network revealed
+differences in network structure related to right-wing populist voting between
+different school ties and achieved education levels. Our study contributes
+methodologically by demonstrating how population-scale network embeddings can
+be made interpretable, and substantively by linking structural network
+differences in education to right-wing populist voting.
 </p>
-                    <p><a href="http://arxiv.org/pdf/2508.16256v1" target="_blank">Read PDF</a></p>
+                    <p><a href="http://arxiv.org/pdf/2508.21236v1" target="_blank">Read PDF</a></p>
                 </div>
             
                 <div class="paper">
-                    <h3>Evaluation of Time Series Forecasting Models for Predicting Lung Cancer
-  Mortality Rates in the United States: A Comparison with Altuhaifa (2023)
-  Study</h3>
-                    <p><strong>Authors:</strong> E. Kubuafor, D. Baidoo, O. J. Okeke, R. Amevor, G. Arhin, J. T. Korley</p>
-                    <p>  This paper evaluates the performance of the following time series forecasting
-models - Simple Exponential Smoothing (SES), Holt's Double Exponential
-Smoothing (HDES), and Autoregressive Integrated Moving Average (ARIMA) - in
-predicting lung cancer mortality rates in the United States. It builds upon the
-work of Altuhaifa, which used Surveillance, Epidemiology, and End Results
-(SEER) data from 1975-2018 to evaluate these models. Altuhaifa's study found
-that ARIMA (0,2,2), SES with smoothing parameter $\alpha=0.995$, and HDES with
-parameters $\alpha=0.4$ and $\beta=0.9$ were the optimal models from their
-analysis, with HDES providing the lowest Root Mean Squared Error (RMSE) of
-132.91. The paper extends the dataset to 2021 and re-evaluates the models.
-Using the same SEER data from 1975-2021, it identifies ARIMA (0,2,2), SES
-($\alpha=0.999$), and HDES ($\alpha=0.5221$, $\beta=0.5219$) as the
-best-fitting models. Interestingly, ARIMA (0,2,2) and HDES yield the lowest
-RMSE of 2.56. To obtain forecasts with higher accuracy, an average model
-(HDES-ARIMA) consisting of HDES and ARIMA was constructed to leverage their
-strengths. The HDES-ARIMA model also achieves an RMSE of 2.56. The forecast
-from the average model suggests declining lung cancer mortality rates in the
-United States. The study highlights how expanding datasets and re-evaluating
-models can provide updated insights. It recommends further analysis using
-monthly data separated by gender, ethnicity, and state to understand lung
-cancer mortality dynamics in the United States. Overall, advanced time series
-methods like HDES and ARIMA show strong potential for accurately forecasting
-this major public health issue.
+                    <h3>Re-Examining the Statistical Methodology and Onomastic Claims of Gregor
+  and Blais' Argument from Name Popularity</h3>
+                    <p><strong>Authors:</strong> Jason Wilson, Luuk van de Weghe</p>
+                    <p>  In 2024 Gregor and Blais published a JSNT article using two different
+statistical methods to conclude, contra Bauckham (2017), that selected
+Apocryphal texts and the Babylonian Talmud "do not correspond to the
+distribution among first-century Palestinian Jews statistically significantly
+worse than the distribution in Gospels-Acts" and "the two corpora paradoxically
+align better in some respects". In this paper, we show that the first method is
+statistically invalid, and the second is the wrong tool for the job. This is in
+alignment with the critique of Van de Weghe and Wilson (2024) and in support of
+their use of the chi-squared goodness-of-fit test which established name
+occurrences in the Gospels and Acts, as opposed to Gregor and Blais` uniform,
+apocryphal, or Talmudic corpora, "fit into their historical context at least as
+well as those in the works of Josephus". Regarding this historical context,
+helpful insights are provided by Gregor and Blais regarding potential
+distortions within the onomastic reference distribution, and this article
+suggests a way forward, addressing orthographic issues, sample biases, several
+problems with the implementation of Gregor and Blais` inclusion criteria, and
+87 new onomastic finds from ossuaries, ostraca, and documentary papyri that
+need to be incorporated into the lexicon. While legitimate concerns are raised
+by Gregor and Blais, several problems with their own onomastic datasets are
+also discussed.
 </p>
-                    <p><a href="http://arxiv.org/pdf/2508.16052v1" target="_blank">Read PDF</a></p>
+                    <p><a href="http://arxiv.org/pdf/2508.21150v1" target="_blank">Read PDF</a></p>
                 </div>
             
                 <div class="paper">
-                    <h3>Comparing Malaria Trends in the Comoros Islands: ARIMA Modeling and
-  Retrospective Analysis</h3>
-                    <p><strong>Authors:</strong> D. Baidoo, E. Kubuafor, O. O. Joshua, S. F. Osarfo, F. A. Agyei-Owusu, J. Akuoko-Frimpong, N. Appiah, A. Duah, R. Amevor, F. E. Boateng, F. Aboagye, B. Benyi</p>
-                    <p>  Malaria remains a serious health challenge in the Comoros Islands, despite
-ongoing control efforts. Past studies have shown reductions in cases due to
-prevention and treatment measures, but little work has been done to forecast
-future malaria deaths and assess the long-term impact of these measures.
-Malaria mortality data from 1990 to 2019 were analyzed using an ARIMA(1,0,0)
-model. The model was validated through diagnostic tests, ensuring reliability
-for forecasting trends. The study confirmed significant reductions in malaria
-cases, such as in Grand Comoro, where cases fell from 235.36 to 5.47 per 1,000
-people. The ARIMA model predicted that fatalities will remain low if current
-control measures, including bed nets, indoor spraying, and mass drug
-administration, are sustained. The findings highlight the success of these
-interventions in reducing malaria mortality. However, challenges like drug and
-insecticide resistance and financial limitations pose risks to further
-progress. Continued support and adaptation of strategies are essential to
-address these challenges and sustain low malaria mortality rates. The study
-demonstrates the effectiveness of malaria control efforts in the Comoros and
-underscores the importance of maintaining these measures to achieve malaria
-elimination and improve public health outcomes.
+                    <h3>Detection of collective and point anomalies at the presence of trend and
+  seasonality</h3>
+                    <p><strong>Authors:</strong> Yiyin Zhang, Florian Pein, Idris Eckley</p>
+                    <p>  Detecting anomalies in time series data is a challenging task with broad
+relevance in many applications. Existing methods work effectively only under
+idealized conditions, typically focusing on point anomalies or assuming a
+constant baseline. Our approach overcomes these limitations by detecting both
+collective and point anomalies, while allowing for polynomial trends and
+seasonal patterns. We establish statistical theory demonstrating that our
+method accurately decomposes the time series into anomaly, trend, seasonality,
+and a remainder component. We further show that it estimates the number of
+anomalies consistently and their locations with minimal error. Simulation
+studies confirm its strong detection performance with finite samples, and an
+application to energy price data illustrates its practical utility. An R
+package is available on request.
 </p>
-                    <p><a href="http://arxiv.org/pdf/2508.16018v1" target="_blank">Read PDF</a></p>
+                    <p><a href="http://arxiv.org/pdf/2508.21128v1" target="_blank">Read PDF</a></p>
                 </div>
             
                 <div class="paper">
-                    <h3>A nonstationary spatial model of PM2.5 with localized transfer learning
-  from numerical model output</h3>
-                    <p><strong>Authors:</strong> Wenlong Gong, Brian J. Reich, Joseph Guinness</p>
-                    <p>  Ambient air pollution measurements from regulatory monitoring networks are
-routinely used to support epidemiologic studies and environmental policy
-decision making. However, regulatory monitors are spatially sparse and
-preferentially located in areas with large populations. Numerical air pollution
-model output can be leveraged into the inference and prediction of air
-pollution data combining with measurements from monitors. Nonstationary
-covariance functions allow the model to adapt to spatial surfaces whose
-variability changes with location like air pollution data. In the paper, we
-employ localized covariance parameters learned from the numerical output model
-to knit together into a global nonstationary covariance, to incorporate in a
-fully Bayesian model. We model the nonstationary structure in a computationally
-efficient way to make the Bayesian model scalable.
+                    <h3>DESA: An R Package for Detecting Epidemics using a School-Absenteeism
+  Surveillance Framework</h3>
+                    <p><strong>Authors:</strong> Vinay Joshy, Zeny Feng, Lorna Deeth, Kayla Vanderkruk, Justin Slater</p>
+                    <p>  Absenteeism of elementary school children has been shown to be effective in
+the early detection of an incoming influenza epidemic within a given
+population. This paper introduces DESA, an R package designed to: 1) model an
+epidemic using school absenteeism data, 2) raise an alert for an incoming
+epidemic using school absenteeism data, 3) evaluate the timeliness of the
+raised alert using different metrics, and 4) simulate community-level household
+populations, epidemics, and school absenteeism to facilitate research in
+related fields. This paper provides an overview of the functions in the package
+and demonstrates its complete workflow using simulated data generated within
+the package. DESA offers researchers and public health officials a tool for
+improving early detection of seasonal influenza epidemics or epidemics of other
+diseases. The package is available on CRAN, making it readily accessible to the
+R user community.
 </p>
-                    <p><a href="http://arxiv.org/pdf/2508.15978v1" target="_blank">Read PDF</a></p>
+                    <p><a href="http://arxiv.org/pdf/2508.20943v1" target="_blank">Read PDF</a></p>
                 </div>
             
                 <div class="paper">
-                    <h3>Dynamic Graph-Based Forecasts of Bookmakers' Odds in Professional Tennis</h3>
-                    <p><strong>Authors:</strong> Matthew J Penn, Jed Michael, Samir Bhatt</p>
-                    <p>  Bookmakers' odds consistently provide one of the most accurate methods for
-predicting the results of professional tennis matches. However, these odds
-usually only become available shortly before a match takes place, limiting
-their usefulness as an analysis tool. To ameliorate this issue, we introduce a
-novel dynamic graph-based model which aims to forecast bookmaker odds for any
-match on any surface, allowing effective and detailed pre-tournament
-predictions to be made. By leveraging the high-quality information contained in
-the odds, our model can keep pace with new innovations in tennis modelling. By
-analysing major tennis championships from 2024 and 2025, we show that our model
-achieves comparable accuracy both to the bookmakers and other models in the
-literature, while significantly outperforming rankings-based predictions.
+                    <h3>A State Model for the Analysis of Stem Cell Proliferation and
+  Differentiation</h3>
+                    <p><strong>Authors:</strong> Haim Bar, Huyen Nguyen, Joanne Conover</p>
+                    <p>  Stem cells are characterized by their ability to self-renew, as well as to
+differentiate and give rise to new populations of cells. Stem cell divisions
+are crucial for generative processes that occur during early development, and
+later in adulthood to support tissue regenerative capabilities. This property
+of stemness, the ability of self-renewal or tissue-specific differentiation, is
+also observed in cancer cells facilitating the sustenance of tumor growth, and
+in bipotent megakaryocytic-erythroid progenitors (MEPs) to produce blood cells.
+We are interested in modeling the size of the stem cell population required to
+adequately generate tissues or colonies of cells. We develop a state model that
+characterizes stem cell divisions and the dynamic changes of the stem cell and
+differentiated cell populations. In our model, the probabilities of
+self-renewal and differentiation events that stem cells undergo can vary over
+time instead of remaining constant throughout the process. We provide an
+estimation method for the division probabilities and using a simulation study,
+we show that our method provides good estimates even with a small sample size.
 </p>
-                    <p><a href="http://arxiv.org/pdf/2508.15956v1" target="_blank">Read PDF</a></p>
+                    <p><a href="http://arxiv.org/pdf/2508.20832v1" target="_blank">Read PDF</a></p>
                 </div>
             
                 <div class="paper">
-                    <h3>Variable Neighborhood Descent Methods for Large-scale Single-assignment
-  Multi-level Facility Location Problem</h3>
-                    <p><strong>Authors:</strong> Haibo Wang, Bahram Alidaee</p>
-                    <p>  This paper addresses the single--assignment uncapacitated multi-level
-facility location (MFL) problem, which has numerous applications, including
-tactical and strategic supply chain management. We consider four-level and
-five-level facilities (4-LFL and 5-LFL). Although the MFL has been addressed in
-the literature in various settings, solutions to large-scale, realistic
-problems are still lacking. This paper considers several variants of the
-variable neighborhood descent (VND) method, including BVND, PVND, CVND, and
-UVND, for the problem. In each case, a multi-start strategy with strong
-diversification components is provided. Extensive computational experiments are
-presented to compare methods for large-scale problems involving up to 10,000
-customers, 150 distribution centers, 50 warehouses, and 30 plants in the case
-of 4-LFL; and 8,000 customers, 150 distribution centers, 50 warehouses, 50
-plants, and 100 suppliers in the case of 5-LFL. Sensitivity analyses, supported
-by appropriate statistical methods, validate the effectiveness of the
-heuristics' results.
+                    <h3>Towards Enhancing Data Equity in Public Health Data Science</h3>
+                    <p><strong>Authors:</strong> Yiran Wang, Alicia E. Boyd, Lillian Rountree, Yi Ren, Kate Nyhan, Ruchit Nagar, Jackson Higginbottom, Megan L. Ranney, Harsh Parikh, Bhramar Mukherjee</p>
+                    <p>  Data-driven decisions shape public health policies and practice, yet
+persistent disparities in data representation skew insights and undermine
+interventions. To address this, we advance a structured roadmap that integrates
+public health data science with computer science and is grounded in
+reflexivity. We adopt data equity as a guiding concept: ensuring the fair and
+inclusive representation, collection, and use of data to prevent the
+introduction or exacerbation of systemic biases that could lead to invalid
+downstream inference and decisions. To underscore urgency, we present three
+public health cases where non-representative datasets and skewed knowledge
+impede decisions across diverse subgroups. These challenges echo themes in two
+literatures: public health highlights gaps in high-quality data for specific
+populations, while computer science and statistics contribute criteria and
+metrics for diagnosing bias in data and models. Building on these foundations,
+we propose a working definition of public health data equity and a structured
+self-audit framework. Our framework integrates core computational principles
+(fairness, accountability, transparency, ethics, privacy, confidentiality) with
+key public health considerations (selection bias, representativeness,
+generalizability, causality, information bias) to guide equitable practice
+across the data life cycle, from study design and data collection to
+measurement, analysis, interpretation, and translation. Embedding data equity
+in routine practice offers a practical path for ensuring that data-driven
+policies, artificial intelligence, and emerging technologies improve health
+outcomes for all. Finally, we emphasize the critical understanding that,
+although data equity is an essential first step, it does not inherently
+guarantee information, learning, or decision equity.
 </p>
-                    <p><a href="http://arxiv.org/pdf/2508.15954v1" target="_blank">Read PDF</a></p>
+                    <p><a href="http://arxiv.org/pdf/2508.20301v1" target="_blank">Read PDF</a></p>
                 </div>
             
                 <div class="paper">
-                    <h3>Gerrymandering and geographic polarization have reduced electoral
-  competition</h3>
-                    <p><strong>Authors:</strong> Ethan Jasny, Christopher T. Kenny, Cory McCartan, Tyler Simko, Melissa Wu, Michael Y. Zhao, Aneetej Arora, Emma Ebowe, Philip O'Sullivan, Taran Samarth, Kosuke Imai</p>
-                    <p>  Changes in political geography and electoral district boundaries shape
-representation in the United States Congress. To disentangle the effects of
-geography and gerrymandering, we generate a large ensemble of alternative
-redistricting plans that follow each state's legal criteria. Comparing enacted
-plans to these simulations reveals partisan bias, while changes in the
-simulated plans over time identify shifts in political geography. Our analysis
-shows that geographic polarization has intensified between 2010 and 2020:
-Republicans improved their standing in rural and rural-suburban areas, while
-Democrats further gained in urban districts. These shifts offset nationally,
-reducing the Republican geographic advantage from 14 to 10 seats. Additionally,
-pro-Democratic gerrymandering in 2020 counteracted earlier Republican efforts,
-reducing the GOP redistricting advantage by two seats. In total, the
-pro-Republican bias declined from 16 to 10 seats. Crucially, shifts in
-political geography and gerrymandering reduced the number of highly competitive
-districts by over 25%, with geographic polarization driving most of the
-decline.
+                    <h3>Hierarchical Bayesian model updating using Dirichlet process mixtures
+  for structural damage localization</h3>
+                    <p><strong>Authors:</strong> Taro Yaoyama, Tatsuya Itoi, Jun Iyama</p>
+                    <p>  Bayesian model updating provides a rigorous probabilistic framework for
+calibrating finite element (FE) models with quantified uncertainties, thereby
+enhancing damage assessment, response prediction, and performance evaluation of
+engineering structures. Recent advances in hierarchical Bayesian model updating
+(HBMU) enable robust parameter estimation under ill-posed/ill-conditioned
+settings and in the presence of inherent variability in structural parameters
+due to environmental and operational conditions. However, most HBMU approaches
+overlook multimodality in structural parameters that often arises when a
+structure experiences multiple damage states over its service life. This paper
+presents an HBMU framework that employs a Dirichlet process (DP) mixture prior
+on structural parameters (DP-HBMU). DP mixtures are nonparametric Bayesian
+models that perform clustering without pre-specifying the number of clusters,
+incorporating damage state classification into FE model updating. We formulate
+the DP-HBMU framework and devise a Metropolis-within-Gibbs sampler that draws
+samples from the posterior by embedding Metropolis updates for intractable
+conditionals due to the FE simulator. The applicability of DP-HBMU to damage
+localization is demonstrated through both numerical and experimental examples.
+We consider moment-resisting frame structures with beam-end fractures and apply
+the method to datasets spanning multiple damage states, from an intact state to
+moderate or severe damage state. The clusters inferred by DP-HBMU align closely
+with the assumed or observed damage states. The posterior distributions of
+stiffness parameters agree with ground truth values or observed fractures while
+exhibiting substantially reduced uncertainty relative to a non-hierarchical
+baseline. These results demonstrate the effectiveness of the proposed method in
+damage localization.
 </p>
-                    <p><a href="http://arxiv.org/pdf/2508.15885v1" target="_blank">Read PDF</a></p>
+                    <p><a href="http://arxiv.org/pdf/2508.19753v1" target="_blank">Read PDF</a></p>
                 </div>
             </div>
     <script src="scripts/update-papers.js"></script>
