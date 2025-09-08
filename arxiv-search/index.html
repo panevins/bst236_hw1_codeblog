@@ -9,274 +9,240 @@
 <body>
     <h1>Latest ArXiv Papers on Applied Statistics</h1>
     <p> This page displays the 10 most recents papers on <a href="https://arxiv.org/">ArXiv</a> in the category of "applied statistics". To see all most recent papers under this category, visit ArXiv's website <a href="https://arxiv.org/list/stat.AP/recent">here</a>. This page uses GitHub Actions and the ArXiv API to update each day at approximately midnight.</p>
-    <p id="last-updated">Last updated: 9/1/2025, 1:24:23 AM</p>
+    <p id="last-updated">Last updated: 9/8/2025, 1:22:38 AM</p>
     <button onclick="window.location.href='../index.html'" style="text-align: center;">Go to Homepage</button>
     <div id="papers">
                 <div class="paper">
-                    <h3>DynaMark: A Reinforcement Learning Framework for Dynamic Watermarking in
-  Industrial Machine Tool Controllers</h3>
-                    <p><strong>Authors:</strong> Navid Aftabi, Abhishek Hanchate, Satish Bukkapatnam, Dan Li</p>
-                    <p>  Industry 4.0's highly networked Machine Tool Controllers (MTCs) are prime
-targets for replay attacks that use outdated sensor data to manipulate
-actuators. Dynamic watermarking can reveal such tampering, but current schemes
-assume linear-Gaussian dynamics and use constant watermark statistics, making
-them vulnerable to the time-varying, partly proprietary behavior of MTCs. We
-close this gap with DynaMark, a reinforcement learning framework that models
-dynamic watermarking as a Markov decision process (MDP). It learns an adaptive
-policy online that dynamically adapts the covariance of a zero-mean Gaussian
-watermark using available measurements and detector feedback, without needing
-system knowledge. DynaMark maximizes a unique reward function balancing control
-performance, energy consumption, and detection confidence dynamically. We
-develop a Bayesian belief updating mechanism for real-time detection confidence
-in linear systems. This approach, independent of specific system assumptions,
-underpins the MDP for systems with linear dynamics. On a Siemens Sinumerik 828D
-controller digital twin, DynaMark achieves a reduction in watermark energy by
-70% while preserving the nominal trajectory, compared to constant variance
-baselines. It also maintains an average detection delay equivalent to one
-sampling interval. A physical stepper-motor testbed validates these findings,
-rapidly triggering alarms with less control performance decline and exceeding
-existing benchmarks.
+                    <h3>Beyond Linearity and Time-homogeneity: Relational Hyper Event Models
+  with Time-Varying Non-Linear Effects</h3>
+                    <p><strong>Authors:</strong> Martina Boschi, Jürgen Lerner, Ernst C. Wit</p>
+                    <p>  Recent technological advances have made it easier to collect large and
+complex networks of time-stamped relational events connecting two or more
+entities. Relational hyper-event models (RHEMs) aim to explain the dynamics of
+these events by modeling the event rate as a function of statistics based on
+past history and external information.
+  However, despite the complexity of the data, most current RHEM approaches
+still rely on a linearity assumption to model this relationship. In this work,
+we address this limitation by introducing a more flexible model that allows the
+effects of statistics to vary non-linearly and over time. While time-varying
+and non-linear effects have been used in relational event modeling, we take
+this further by modeling joint time-varying and non-linear effects using tensor
+product smooths.
+  We validate our methodology on both synthetic and empirical data. In
+particular, we use RHEMs to study how patterns of scientific collaboration and
+impact evolve over time. Our approach provides deeper insights into the dynamic
+factors driving relational hyper-events, allowing us to evaluate potential
+non-monotonic patterns that cannot be identified using linear models.
 </p>
-                    <p><a href="http://arxiv.org/pdf/2508.21797v1" target="_blank">Read PDF</a></p>
+                    <p><a href="http://arxiv.org/pdf/2509.05289v1" target="_blank">Read PDF</a></p>
                 </div>
             
                 <div class="paper">
-                    <h3>Quantile Function-Based Models for Neuroimaging Classification Using
-  Wasserstein Regression</h3>
-                    <p><strong>Authors:</strong> Jie Li, Gary Green, Jian Zhang</p>
-                    <p>  We propose a novel quantile function-based approach for neuroimaging
-classification using Wasserstein-Fr\'echet regression, specifically applied to
-the detection of mild traumatic brain injury (mTBI) based on the MEG and MRI
-data. Conventional neuroimaging classification methods for mTBI detection
-typically extract summary statistics from brain signals across the different
-epochs, which may result in the loss of important distributional information,
-such as variance, skewness, kurtosis, etc. Our approach treats complete
-probability density functions of epoch space results as functional response
-variables within a Wasserstein-Fr\'echet regression framework, thereby
-preserving the full distributional characteristics of epoch results from
-$L_{1}$ minimum norm solutions. The global Wasserstein-Fr\'echet regression
-model incorporating covariates (age and gender) allows us to directly compare
-the distributional patterns between healthy control subjects and mTBI patients.
-The classification procedure computes Wasserstein distances between estimated
-quantile functions from control and patient groups, respectively. These
-distances are then used as the basis for diagnostic decisions. This framework
-offers a statistically principled approach to improving diagnostic accuracy in
-mTBI detection. In practical applications, the test accuracy on unseen data
-from Innovision IP's dataset achieves up to 98\%.
+                    <h3>Precision Dose-Finding Design for Phase I Oncology Trials by Integrating
+  Pharmacology Data</h3>
+                    <p><strong>Authors:</strong> Kyong Ju Lee, Yuan Ji</p>
+                    <p>  Phase I oncology trials aim to identify a safe yet effective dose - often the
+maximum tolerated dose (MTD) - for subsequent studies. Conventional designs
+focus on population-level toxicity modeling, with recent attention on
+leveraging pharmacokinetic (PK) data to improve dose selection. We propose the
+Precision Dose-Finding (PDF) design, a novel Bayesian phase I framework that
+integrates individual patient PK profiles into the dose-finding process. By
+incorporating patient-specific PK parameters (such as volume of distribution
+and elimination rate), PDF models toxicity risk at the individual level, in
+contrast to traditional methods that ignore inter-patient variability. The
+trial is structured in two stages: an initial training stage to update model
+parameters using cohort-based dose escalation, and a subsequent test stage in
+which doses for new patients are chosen based on each patient's own
+PK-predicted toxicity probability. This two-stage approach enables truly
+personalized dose assignment while maintaining rigorous safety oversight.
+Extensive simulation studies demonstrate the feasibility of PDF and suggest
+that it provides improved safety and dosing precision relative to the continual
+reassessment method (CRM). The PDF design thus offers a refined dose-finding
+strategy that tailors the MTD to individual patients, aligning phase I trials
+with the ideals of precision medicine.
 </p>
-                    <p><a href="http://arxiv.org/pdf/2508.21523v1" target="_blank">Read PDF</a></p>
+                    <p><a href="http://arxiv.org/pdf/2509.05120v1" target="_blank">Read PDF</a></p>
                 </div>
             
                 <div class="paper">
-                    <h3>Causal Analysis of Health, Education, and Economic Well-Being in India
-  -- Evidence from the Young Lives Survey</h3>
-                    <p><strong>Authors:</strong> Anushka De, Diganta Mukherjee</p>
-                    <p>  This study investigates the dynamic and potentially causal relationships
-among childhood health, education, and long-term economic well-being in India
-using longitudinal data from the Young Lives Survey. While prior research often
-examines these domains in isolation, we adopt an integrated empirical framework
-combining panel data methods, instrumental variable regression, and causal
-graph analysis to disentangle their interdependencies. Our analysis spans five
-survey rounds covering two cohorts of children tracked from early childhood to
-young adulthood. Results indicate strong persistence in household economic
-status, highlighting limited intergenerational mobility. Education, proxied by
-Item Response Theory-based mathematics scores, consistently emerges as the most
-robust predictor of future economic well-being, particularly in the younger
-cohort. In contrast, self-reported childhood health shows limited direct impact
-on either education or later wealth, though it is influenced by household
-economic conditions. These findings underscore the foundational role of wealth
-and the growing importance of cognitive achievement in shaping life
-trajectories. The study supports policy approaches that prioritize early
-investments in learning outcomes alongside targeted economic support for
-disadvantaged households. By integrating statistical modeling with development
-policy insights, this research contributes to understanding how early-life
-conditions shape economic opportunity in low- and middle-income contexts.
+                    <h3>Dynamics of Liquidity Surfaces in Uniswap v3</h3>
+                    <p><strong>Authors:</strong> Jimmy Risk, Shen-Ning Tung, Tai-Ho Wang</p>
+                    <p>  This paper presents a comprehensive study on the empirical dynamics of
+Uniswap v3 liquidity, which we model as a time-tick surface, $L_t(x)$. Using a
+combination of functional principal component analysis (FPCA) and dynamic
+factor methods, we analyze three distinct pools over multiple sample periods.
+Our findings offer three main contributions: a statistical characterization of
+automated market maker liquidity, an interpretable and portable basis for
+dimension reduction, and a robust analysis of liquidity dynamics using rolling
+window metrics. For the 5 bps pools, the leading empirical eigenfunctions
+explain the majority of cross-tick variation and remain stable, aligning
+closely with a low-order Legendre polynomial basis. This alignment provides a
+parsimonious and interpretable structure, similar to the dynamic Nelson-Siegel
+method for yield curves. The factor coefficients exhibit a time series
+structure well-captured by AR(1) models with clear GARCH-type
+heteroskedasticity and heavy-tailed innovations.
 </p>
-                    <p><a href="http://arxiv.org/pdf/2508.21370v1" target="_blank">Read PDF</a></p>
+                    <p><a href="http://arxiv.org/pdf/2509.05013v1" target="_blank">Read PDF</a></p>
                 </div>
             
                 <div class="paper">
-                    <h3>Population-Scale Network Embeddings Expose Educational Divides in
-  Network Structure Related to Right-Wing Populist Voting</h3>
-                    <p><strong>Authors:</strong> Malte Lüken, Javier Garcia-Bernardo, Sreeparna Deb, Flavio Hafner, Megha Khosla</p>
-                    <p>  Administrative registry data can be used to construct population-scale
-networks whose ties reflect shared social contexts between persons. With
-machine learning, such networks can be encoded into numerical representations
--- embeddings -- that automatically capture individuals' position within the
-network. We created embeddings for all persons in the Dutch population from a
-population-scale network that represents five shared contexts: neighborhood,
-work, family, household, and school. To assess the informativeness of these
-embeddings, we used them to predict right-wing populist voting. Embeddings
-alone predicted right-wing populist voting above chance-level but performed
-worse than individual characteristics. Combining the best subset of embeddings
-with individual characteristics only slightly improved predictions. However,
-after transforming the embeddings to make their dimensions more sparse and
-orthogonal, we found that one embedding dimension was strongly associated with
-the outcome. Mapping this dimension back to the population network revealed
-differences in network structure related to right-wing populist voting between
-different school ties and achieved education levels. Our study contributes
-methodologically by demonstrating how population-scale network embeddings can
-be made interpretable, and substantively by linking structural network
-differences in education to right-wing populist voting.
+                    <h3>An information metric for comparing and assessing informative interim
+  decisions in sequential clinical trials</h3>
+                    <p><strong>Authors:</strong> G. Caruso, W. F. Rosenberger, P. Mozgunov, N. Flournoy</p>
+                    <p>  Group sequential designs enable interim analyses and potential early stopping
+for efficacy or futility. While these adaptations improve trial efficiency and
+ethical considerations, they also introduce bias into the adapted analyses. We
+demonstrate how failing to account for informative interim decisions in the
+analysis can substantially affect posterior estimates of the treatment effect,
+often resulting in overly optimistic credible intervals aligned with the
+stopping decision. Drawing on information theory, we use the Kullback-Leibler
+divergence to quantify this distortion and highlight its use for post-hoc
+evaluation of informative interim decisions, with a focus on end-of-study
+inference. Unlike pointwise comparisons, this measure provides an integrated
+summary of this distortion on the whole parameter space. By comparing
+alternative decision boundaries and prior specifications, we illustrate how
+this measure can improve the understanding of trial results and inform the
+planning of future adaptive studies. We also introduce an expected version of
+this metric to support clinicians in choosing decision boundaries. This
+guidance complements traditional strategies based on type-I error rate control
+by offering insights into the distortion introduced to the treatment effect at
+each interim phase. The use of this pre-experimental measure is finally
+illustrated in a group sequential trial for evaluating a treatment for central
+nervous system disorders.
 </p>
-                    <p><a href="http://arxiv.org/pdf/2508.21236v1" target="_blank">Read PDF</a></p>
+                    <p><a href="http://arxiv.org/pdf/2509.04904v1" target="_blank">Read PDF</a></p>
                 </div>
             
                 <div class="paper">
-                    <h3>Re-Examining the Statistical Methodology and Onomastic Claims of Gregor
-  and Blais' Argument from Name Popularity</h3>
-                    <p><strong>Authors:</strong> Jason Wilson, Luuk van de Weghe</p>
-                    <p>  In 2024 Gregor and Blais published a JSNT article using two different
-statistical methods to conclude, contra Bauckham (2017), that selected
-Apocryphal texts and the Babylonian Talmud "do not correspond to the
-distribution among first-century Palestinian Jews statistically significantly
-worse than the distribution in Gospels-Acts" and "the two corpora paradoxically
-align better in some respects". In this paper, we show that the first method is
-statistically invalid, and the second is the wrong tool for the job. This is in
-alignment with the critique of Van de Weghe and Wilson (2024) and in support of
-their use of the chi-squared goodness-of-fit test which established name
-occurrences in the Gospels and Acts, as opposed to Gregor and Blais` uniform,
-apocryphal, or Talmudic corpora, "fit into their historical context at least as
-well as those in the works of Josephus". Regarding this historical context,
-helpful insights are provided by Gregor and Blais regarding potential
-distortions within the onomastic reference distribution, and this article
-suggests a way forward, addressing orthographic issues, sample biases, several
-problems with the implementation of Gregor and Blais` inclusion criteria, and
-87 new onomastic finds from ossuaries, ostraca, and documentary papyri that
-need to be incorporated into the lexicon. While legitimate concerns are raised
-by Gregor and Blais, several problems with their own onomastic datasets are
-also discussed.
+                    <h3>A Latent Class Bayesian Model for Multivariate Longitudinal Outcomes
+  with Excess Zeros</h3>
+                    <p><strong>Authors:</strong> Chitradipa Chakraborty, Kiranmoy Das</p>
+                    <p>  Latent class models have been successfully used to handle complex datasets in
+different disciplines. For longitudinal outcomes, we often get a trajectory of
+the outcome for each individual, and on that basis, we cluster them for a
+powerful statistical inference. Latent class models have been used to handle
+multivariate longitudinal outcomes coming from biology, health sciences, and
+economics. In this paper, we propose a Bayesian latent class model for
+multivariate outcomes with excess zeros. We consider a Tobit model for
+zero-inflated continuous outcomes such as out-of-pocket medical expenses
+(OOPME), a two-part model for financial debt, and a ZIP model for counting
+outcomes with excess zeros. We develop a Bayesian mixture model and employ an
+adaptive Lasso-type shrinkage method for variable selection. We analyze data
+from the Health and Retirement Study conducted by the University of Michigan
+and consider modeling four important outcomes measuring the physical and
+financial health of the aged individuals. Our analysis detects several latent
+clusters for different outcomes. Practical usefulness of the proposed model is
+validated through a simulation study.
 </p>
-                    <p><a href="http://arxiv.org/pdf/2508.21150v1" target="_blank">Read PDF</a></p>
+                    <p><a href="http://arxiv.org/pdf/2509.04804v1" target="_blank">Read PDF</a></p>
                 </div>
             
                 <div class="paper">
-                    <h3>Detection of collective and point anomalies at the presence of trend and
-  seasonality</h3>
-                    <p><strong>Authors:</strong> Yiyin Zhang, Florian Pein, Idris Eckley</p>
-                    <p>  Detecting anomalies in time series data is a challenging task with broad
-relevance in many applications. Existing methods work effectively only under
-idealized conditions, typically focusing on point anomalies or assuming a
-constant baseline. Our approach overcomes these limitations by detecting both
-collective and point anomalies, while allowing for polynomial trends and
-seasonal patterns. We establish statistical theory demonstrating that our
-method accurately decomposes the time series into anomaly, trend, seasonality,
-and a remainder component. We further show that it estimates the number of
-anomalies consistently and their locations with minimal error. Simulation
-studies confirm its strong detection performance with finite samples, and an
-application to energy price data illustrates its practical utility. An R
-package is available on request.
+                    <h3>Inferring Piece Value in Chess and Chess Variants</h3>
+                    <p><strong>Authors:</strong> Steven Pav</p>
+                    <p>  We use logistic regression to estimate the value of the pieces in standard
+chess and several chess variants, namely Chess 960, Atomic chess, Antichess,
+and Horde chess. We perform our regressions on several years of data from
+Lichess, the free and open-source internet chess server. We use the published
+player ratings to control for the confounding effect of differential player
+skill. We adjust for the attenuation bias in regressions due to the noise in
+observed ratings. We find that major piece values, relative to the value of a
+pawn, are fairly consistent with historical valuation systems. However we find
+slightly higher value to bishops than knights. We find that piece values are
+smaller, in absolute value, in Atomic and Antichess than standard chess. We
+also present approximate values of the pieces to equalize odds when players of
+varying skill face off.
 </p>
-                    <p><a href="http://arxiv.org/pdf/2508.21128v1" target="_blank">Read PDF</a></p>
+                    <p><a href="http://arxiv.org/pdf/2509.04691v1" target="_blank">Read PDF</a></p>
                 </div>
             
                 <div class="paper">
-                    <h3>DESA: An R Package for Detecting Epidemics using a School-Absenteeism
-  Surveillance Framework</h3>
-                    <p><strong>Authors:</strong> Vinay Joshy, Zeny Feng, Lorna Deeth, Kayla Vanderkruk, Justin Slater</p>
-                    <p>  Absenteeism of elementary school children has been shown to be effective in
-the early detection of an incoming influenza epidemic within a given
-population. This paper introduces DESA, an R package designed to: 1) model an
-epidemic using school absenteeism data, 2) raise an alert for an incoming
-epidemic using school absenteeism data, 3) evaluate the timeliness of the
-raised alert using different metrics, and 4) simulate community-level household
-populations, epidemics, and school absenteeism to facilitate research in
-related fields. This paper provides an overview of the functions in the package
-and demonstrates its complete workflow using simulated data generated within
-the package. DESA offers researchers and public health officials a tool for
-improving early detection of seasonal influenza epidemics or epidemics of other
-diseases. The package is available on CRAN, making it readily accessible to the
-R user community.
+                    <h3>Precision Mental Health: Predicting Heterogeneous Treatment Effects for
+  Depression through Data Integration</h3>
+                    <p><strong>Authors:</strong> Carly L. Brantner, Trang Quynh Nguyen, Harsh Parikh, Congwen Zhao, Hwanhee Hong, Elizabeth A. Stuart</p>
+                    <p>  When treating depression, clinicians are interested in determining the
+optimal treatment for a given patient, which is challenging given the amount of
+treatments available. To advance individualized treatment allocation,
+integrating data across multiple randomized controlled trials (RCTs) can
+enhance our understanding of treatment effect heterogeneity by increasing
+available information. However, extending these inferences to individuals
+outside of the original RCTs remains crucial for clinical decision-making. We
+introduce a two-stage meta-analytic method that predicts conditional average
+treatment effects (CATEs) in target patient populations by leveraging the
+distribution of CATEs across RCTs. Our approach generates 95\% prediction
+intervals for CATEs in target settings using first-stage models that can
+incorporate parametric regression or non-parametric methods such as causal
+forests or Bayesian additive regression trees (BART). We validate our method
+through simulation studies and operationalize it to integrate multiple RCTs
+comparing depression treatments, duloxetine and vortioxetine, to generate
+prediction intervals for target patient profiles. Our analysis reveals no
+strong evidence of effect heterogeneity across trials, with the exception of
+potential age-related variability. Importantly, we show that CATE prediction
+intervals capture broader uncertainty than study-specific confidence intervals
+when warranted, reflecting both within-study and between-study variability.
 </p>
-                    <p><a href="http://arxiv.org/pdf/2508.20943v1" target="_blank">Read PDF</a></p>
+                    <p><a href="http://arxiv.org/pdf/2509.04604v1" target="_blank">Read PDF</a></p>
                 </div>
             
                 <div class="paper">
-                    <h3>A State Model for the Analysis of Stem Cell Proliferation and
-  Differentiation</h3>
-                    <p><strong>Authors:</strong> Haim Bar, Huyen Nguyen, Joanne Conover</p>
-                    <p>  Stem cells are characterized by their ability to self-renew, as well as to
-differentiate and give rise to new populations of cells. Stem cell divisions
-are crucial for generative processes that occur during early development, and
-later in adulthood to support tissue regenerative capabilities. This property
-of stemness, the ability of self-renewal or tissue-specific differentiation, is
-also observed in cancer cells facilitating the sustenance of tumor growth, and
-in bipotent megakaryocytic-erythroid progenitors (MEPs) to produce blood cells.
-We are interested in modeling the size of the stem cell population required to
-adequately generate tissues or colonies of cells. We develop a state model that
-characterizes stem cell divisions and the dynamic changes of the stem cell and
-differentiated cell populations. In our model, the probabilities of
-self-renewal and differentiation events that stem cells undergo can vary over
-time instead of remaining constant throughout the process. We provide an
-estimation method for the division probabilities and using a simulation study,
-we show that our method provides good estimates even with a small sample size.
+                    <h3>An Interactive Tool for Analyzing High-Dimensional Clusterings</h3>
+                    <p><strong>Authors:</strong> Justin Lin, Julia Fukuyama</p>
+                    <p>  Technological advances have spurred an increase in data complexity and
+dimensionality. We are now in an era in which data sets containing thousands of
+features are commonplace. To digest and analyze such high-dimensional data,
+dimension reduction techniques have been developed and advanced along with
+computational power. Of these techniques, nonlinear methods are most commonly
+employed because of their ability to construct visually interpretable
+embeddings. Unlike linear methods, these methods non-uniformly stretch and
+shrink space to create a visual impression of the high-dimensional data. Since
+capturing high-dimensional structures in a significantly lower number of
+dimensions requires drastic manipulation of space, nonlinear dimension
+reduction methods are known to occasionally produce false structures,
+especially in noisy settings. In an effort to deal with this phenomenon, we
+developed an interactive tool that enables analysts to better understand and
+diagnose their dimension reduction results. It uses various analytical plots to
+provide a multi-faceted perspective on results to determine legitimacy. The
+tool is available via an R package named DRtool.
 </p>
-                    <p><a href="http://arxiv.org/pdf/2508.20832v1" target="_blank">Read PDF</a></p>
+                    <p><a href="http://arxiv.org/pdf/2509.04603v1" target="_blank">Read PDF</a></p>
                 </div>
             
                 <div class="paper">
-                    <h3>Towards Enhancing Data Equity in Public Health Data Science</h3>
-                    <p><strong>Authors:</strong> Yiran Wang, Alicia E. Boyd, Lillian Rountree, Yi Ren, Kate Nyhan, Ruchit Nagar, Jackson Higginbottom, Megan L. Ranney, Harsh Parikh, Bhramar Mukherjee</p>
-                    <p>  Data-driven decisions shape public health policies and practice, yet
-persistent disparities in data representation skew insights and undermine
-interventions. To address this, we advance a structured roadmap that integrates
-public health data science with computer science and is grounded in
-reflexivity. We adopt data equity as a guiding concept: ensuring the fair and
-inclusive representation, collection, and use of data to prevent the
-introduction or exacerbation of systemic biases that could lead to invalid
-downstream inference and decisions. To underscore urgency, we present three
-public health cases where non-representative datasets and skewed knowledge
-impede decisions across diverse subgroups. These challenges echo themes in two
-literatures: public health highlights gaps in high-quality data for specific
-populations, while computer science and statistics contribute criteria and
-metrics for diagnosing bias in data and models. Building on these foundations,
-we propose a working definition of public health data equity and a structured
-self-audit framework. Our framework integrates core computational principles
-(fairness, accountability, transparency, ethics, privacy, confidentiality) with
-key public health considerations (selection bias, representativeness,
-generalizability, causality, information bias) to guide equitable practice
-across the data life cycle, from study design and data collection to
-measurement, analysis, interpretation, and translation. Embedding data equity
-in routine practice offers a practical path for ensuring that data-driven
-policies, artificial intelligence, and emerging technologies improve health
-outcomes for all. Finally, we emphasize the critical understanding that,
-although data equity is an essential first step, it does not inherently
-guarantee information, learning, or decision equity.
+                    <h3>Incentivising Personalised Colorectal Cancer Screening: an Adversarial
+  Risk Analysis Approach</h3>
+                    <p><strong>Authors:</strong> Daniel Corrales, David Rios Insua</p>
+                    <p>  This paper presents a framework for incentivising colorectal cancer (CRC)
+screening programs from the perspective of policymakers and under the
+assumption that the citizens participating in the program have misaligned
+objectives. To do so, it leverages tools from adversarial risk analysis to
+propose an optimal incentive scheme under uncertainty. The work relies on
+previous work on modeling CRC risk and optimal screening strategies and
+provides use cases regarding individual and group-based optimal incentives
+based on a simple financial scheme.
 </p>
-                    <p><a href="http://arxiv.org/pdf/2508.20301v1" target="_blank">Read PDF</a></p>
+                    <p><a href="http://arxiv.org/pdf/2509.04592v1" target="_blank">Read PDF</a></p>
                 </div>
             
                 <div class="paper">
-                    <h3>Hierarchical Bayesian model updating using Dirichlet process mixtures
-  for structural damage localization</h3>
-                    <p><strong>Authors:</strong> Taro Yaoyama, Tatsuya Itoi, Jun Iyama</p>
-                    <p>  Bayesian model updating provides a rigorous probabilistic framework for
-calibrating finite element (FE) models with quantified uncertainties, thereby
-enhancing damage assessment, response prediction, and performance evaluation of
-engineering structures. Recent advances in hierarchical Bayesian model updating
-(HBMU) enable robust parameter estimation under ill-posed/ill-conditioned
-settings and in the presence of inherent variability in structural parameters
-due to environmental and operational conditions. However, most HBMU approaches
-overlook multimodality in structural parameters that often arises when a
-structure experiences multiple damage states over its service life. This paper
-presents an HBMU framework that employs a Dirichlet process (DP) mixture prior
-on structural parameters (DP-HBMU). DP mixtures are nonparametric Bayesian
-models that perform clustering without pre-specifying the number of clusters,
-incorporating damage state classification into FE model updating. We formulate
-the DP-HBMU framework and devise a Metropolis-within-Gibbs sampler that draws
-samples from the posterior by embedding Metropolis updates for intractable
-conditionals due to the FE simulator. The applicability of DP-HBMU to damage
-localization is demonstrated through both numerical and experimental examples.
-We consider moment-resisting frame structures with beam-end fractures and apply
-the method to datasets spanning multiple damage states, from an intact state to
-moderate or severe damage state. The clusters inferred by DP-HBMU align closely
-with the assumed or observed damage states. The posterior distributions of
-stiffness parameters agree with ground truth values or observed fractures while
-exhibiting substantially reduced uncertainty relative to a non-hierarchical
-baseline. These results demonstrate the effectiveness of the proposed method in
-damage localization.
+                    <h3>Aligning load flexibility with emissions reduction: empirical insights
+  from a multi-site study of cryptocurrency data centers</h3>
+                    <p><strong>Authors:</strong> Veronica M. Paez, Neda Mohammadi, John E. Taylor</p>
+                    <p>  The power sector is responsible for 32 percent of global greenhouse gas
+emissions. Data centers and cryptocurrencies use significant amounts of
+electricity and contribute to these emissions. Demand-side flexibility of data
+centers is one possible approach for reducing greenhouse gas emissions from
+these industries. To explore this, we use novel data collected from the Bitcoin
+mining industry to investigate the impact of load flexibility on power system
+decarbonization. Employing engineered metrics to explore curtailment dynamics
+and emissions alignment, we provide the first empirical analysis of
+cryptocurrency data centers' capability for reducing greenhouse gas emissions
+in response to real-time grid signals. Our results highlight the importance of
+strategically aligning operational behaviors with emissions signals to maximize
+avoided emissions. These findings offer insights for policymakers and industry
+stakeholders to enhance load flexibility and meet climate goals in these
+otherwise energy intensive data centers.
 </p>
-                    <p><a href="http://arxiv.org/pdf/2508.19753v1" target="_blank">Read PDF</a></p>
+                    <p><a href="http://arxiv.org/pdf/2509.04380v1" target="_blank">Read PDF</a></p>
                 </div>
             </div>
     <script src="scripts/update-papers.js"></script>
