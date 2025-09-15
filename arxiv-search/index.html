@@ -9,240 +9,270 @@
 <body>
     <h1>Latest ArXiv Papers on Applied Statistics</h1>
     <p> This page displays the 10 most recents papers on <a href="https://arxiv.org/">ArXiv</a> in the category of "applied statistics". To see all most recent papers under this category, visit ArXiv's website <a href="https://arxiv.org/list/stat.AP/recent">here</a>. This page uses GitHub Actions and the ArXiv API to update each day at approximately midnight.</p>
-    <p id="last-updated">Last updated: 9/8/2025, 1:22:38 AM</p>
+    <p id="last-updated">Last updated: 9/15/2025, 1:23:02 AM</p>
     <button onclick="window.location.href='../index.html'" style="text-align: center;">Go to Homepage</button>
     <div id="papers">
                 <div class="paper">
-                    <h3>Beyond Linearity and Time-homogeneity: Relational Hyper Event Models
-  with Time-Varying Non-Linear Effects</h3>
-                    <p><strong>Authors:</strong> Martina Boschi, Jürgen Lerner, Ernst C. Wit</p>
-                    <p>  Recent technological advances have made it easier to collect large and
-complex networks of time-stamped relational events connecting two or more
-entities. Relational hyper-event models (RHEMs) aim to explain the dynamics of
-these events by modeling the event rate as a function of statistics based on
-past history and external information.
-  However, despite the complexity of the data, most current RHEM approaches
-still rely on a linearity assumption to model this relationship. In this work,
-we address this limitation by introducing a more flexible model that allows the
-effects of statistics to vary non-linearly and over time. While time-varying
-and non-linear effects have been used in relational event modeling, we take
-this further by modeling joint time-varying and non-linear effects using tensor
-product smooths.
-  We validate our methodology on both synthetic and empirical data. In
-particular, we use RHEMs to study how patterns of scientific collaboration and
-impact evolve over time. Our approach provides deeper insights into the dynamic
-factors driving relational hyper-events, allowing us to evaluate potential
-non-monotonic patterns that cannot be identified using linear models.
+                    <h3>Bayesian Optimum Warranty Region for Right Censored Two Dimensional
+  Dependent Data</h3>
+                    <p><strong>Authors:</strong> Tanmay Sen, Rathin Das, Ritwik Bhattacharya</p>
+                    <p>  Warranty policies play a crucial role in balancing customer satisfaction and
+cost of the manufacturer. Traditional one-dimensional warranty frameworks,
+based solely on either age or usage, often fail to capture the joint effect of
+product life factors. This article investigates two-dimensional warranty
+policies by combining Free Replacement Warranty, Pro-Rata Warranty, and
+Combination FRW-PRW Warranty schemes across both age and usage scales. A
+dissatisfaction cost function is proposed alongside the economic benefit and
+warranty cost functions, and the expected utility framework is employed to
+derive optimal warranty parameters. The expectation is taken with respect to
+the posterior predictive distribution of product lifetime and usage data,
+ensuring a data-driven approach. Finally, the methodology is validated using an
+open-source dataset, and a new two-dimensional starter motor dataset is
+introduced to demonstrate the practical advantages of adopting two-dimensional
+warranty policies.
 </p>
-                    <p><a href="http://arxiv.org/pdf/2509.05289v1" target="_blank">Read PDF</a></p>
+                    <p><a href="http://arxiv.org/pdf/2509.10421v1" target="_blank">Read PDF</a></p>
                 </div>
             
                 <div class="paper">
-                    <h3>Precision Dose-Finding Design for Phase I Oncology Trials by Integrating
-  Pharmacology Data</h3>
-                    <p><strong>Authors:</strong> Kyong Ju Lee, Yuan Ji</p>
-                    <p>  Phase I oncology trials aim to identify a safe yet effective dose - often the
-maximum tolerated dose (MTD) - for subsequent studies. Conventional designs
-focus on population-level toxicity modeling, with recent attention on
-leveraging pharmacokinetic (PK) data to improve dose selection. We propose the
-Precision Dose-Finding (PDF) design, a novel Bayesian phase I framework that
-integrates individual patient PK profiles into the dose-finding process. By
-incorporating patient-specific PK parameters (such as volume of distribution
-and elimination rate), PDF models toxicity risk at the individual level, in
-contrast to traditional methods that ignore inter-patient variability. The
-trial is structured in two stages: an initial training stage to update model
-parameters using cohort-based dose escalation, and a subsequent test stage in
-which doses for new patients are chosen based on each patient's own
-PK-predicted toxicity probability. This two-stage approach enables truly
-personalized dose assignment while maintaining rigorous safety oversight.
-Extensive simulation studies demonstrate the feasibility of PDF and suggest
-that it provides improved safety and dosing precision relative to the continual
-reassessment method (CRM). The PDF design thus offers a refined dose-finding
-strategy that tailors the MTD to individual patients, aligning phase I trials
-with the ideals of precision medicine.
+                    <h3>Spatial Modeling and Risk Zoning of Global Extreme Precipitation via
+  Graph Neural Networks and r-Pareto Processes</h3>
+                    <p><strong>Authors:</strong> Zimu Wang, Yifan Wu, Daning Bi</p>
+                    <p>  Extreme precipitation events occurring over large spatial domains pose
+substantial threats to societies because they can trigger compound flooding,
+landslides, and infrastructure failures across wide areas. A hybrid framework
+for spatial extreme precipitation modeling and risk zoning is proposed that
+integrates graph neural networks with r-Pareto processes (GNN-rP). Unlike
+traditional statistical spatial extremes models, this approach learns
+nonlinear, nonstationary dependence structures from precipitation-derived
+spatial graphs and applies a data-driven tail functional to model joint
+exceedances in a low-dimensional embedding space. Using NASA's IMERG
+observations (2000-2021) and CMIP6 SSP5-8.5 projections, the framework
+delineates coherent high-risk zones, quantifies their temporal persistence, and
+detects emerging hotspots under climate change. Compared with two baseline
+approaches, the GNN-rP pipeline substantially improves pointwise detection of
+high-risk grid cells while yielding comparable clustering stability. Results
+highlight persistent high-risk regions in the tropical belt, especially monsoon
+and convective zones, and reveal decadal-scale persistence that is punctuated
+by episodic reconfigurations under high-emission scenarios. By coupling machine
+learning with extreme value theory, GNN-rP offers a scalable, interpretable
+tool for adaptive climate risk zoning, with direct applications in
+infrastructure planning, disaster preparedness, and climate-resilient policy
+design.
 </p>
-                    <p><a href="http://arxiv.org/pdf/2509.05120v1" target="_blank">Read PDF</a></p>
+                    <p><a href="http://arxiv.org/pdf/2509.10362v1" target="_blank">Read PDF</a></p>
                 </div>
             
                 <div class="paper">
-                    <h3>Dynamics of Liquidity Surfaces in Uniswap v3</h3>
-                    <p><strong>Authors:</strong> Jimmy Risk, Shen-Ning Tung, Tai-Ho Wang</p>
-                    <p>  This paper presents a comprehensive study on the empirical dynamics of
-Uniswap v3 liquidity, which we model as a time-tick surface, $L_t(x)$. Using a
-combination of functional principal component analysis (FPCA) and dynamic
-factor methods, we analyze three distinct pools over multiple sample periods.
-Our findings offer three main contributions: a statistical characterization of
-automated market maker liquidity, an interpretable and portable basis for
-dimension reduction, and a robust analysis of liquidity dynamics using rolling
-window metrics. For the 5 bps pools, the leading empirical eigenfunctions
-explain the majority of cross-tick variation and remain stable, aligning
-closely with a low-order Legendre polynomial basis. This alignment provides a
-parsimonious and interpretable structure, similar to the dynamic Nelson-Siegel
-method for yield curves. The factor coefficients exhibit a time series
-structure well-captured by AR(1) models with clear GARCH-type
-heteroskedasticity and heavy-tailed innovations.
+                    <h3>A sampling method based on highest density regions: Applications to
+  surrogate models for rare events estimation</h3>
+                    <p><strong>Authors:</strong> Jocelyn Minini, Micha Wasem</p>
+                    <p>  This paper introduces a practical sampling method for training surrogate
+models in the context of uncertainty propagation. We propose a heuristic method
+to uniformly draw samples within highest density regions of the density given
+by the random vector describing the uncertainty of the model parameters. The
+resulting experimental design aims to provide a better approximation of the
+underlying true model compared to the cases where experimental designs have
+been drawn according to the distribution of the random vector itself. To assess
+the quality of our approach, three error metrics are considered: The first is
+the leave-one-out error, the second the relative mean square error and the
+third is the error generated by the surrogate model when estimating the
+probability of failure of the system compared to its reference value. The
+highest density region-based designs are shown to globally outperform the
+random vector-based designs both in terms of relative mean square error as well
+as in estimating the probability of failure. The proposed method is applicable
+within a black-box context and is compatible with existing uncertainty
+quantification frameworks for low dimensional and moderately correlated inputs.
+It may thus be useful in case of reliability problems, Bayesian inverse
+analysis, or whenever the surrogate model is used in a predictor mode.
 </p>
-                    <p><a href="http://arxiv.org/pdf/2509.05013v1" target="_blank">Read PDF</a></p>
+                    <p><a href="http://arxiv.org/pdf/2509.10149v1" target="_blank">Read PDF</a></p>
                 </div>
             
                 <div class="paper">
-                    <h3>An information metric for comparing and assessing informative interim
-  decisions in sequential clinical trials</h3>
-                    <p><strong>Authors:</strong> G. Caruso, W. F. Rosenberger, P. Mozgunov, N. Flournoy</p>
-                    <p>  Group sequential designs enable interim analyses and potential early stopping
-for efficacy or futility. While these adaptations improve trial efficiency and
-ethical considerations, they also introduce bias into the adapted analyses. We
-demonstrate how failing to account for informative interim decisions in the
-analysis can substantially affect posterior estimates of the treatment effect,
-often resulting in overly optimistic credible intervals aligned with the
-stopping decision. Drawing on information theory, we use the Kullback-Leibler
-divergence to quantify this distortion and highlight its use for post-hoc
-evaluation of informative interim decisions, with a focus on end-of-study
-inference. Unlike pointwise comparisons, this measure provides an integrated
-summary of this distortion on the whole parameter space. By comparing
-alternative decision boundaries and prior specifications, we illustrate how
-this measure can improve the understanding of trial results and inform the
-planning of future adaptive studies. We also introduce an expected version of
-this metric to support clinicians in choosing decision boundaries. This
-guidance complements traditional strategies based on type-I error rate control
-by offering insights into the distortion introduced to the treatment effect at
-each interim phase. The use of this pre-experimental measure is finally
-illustrated in a group sequential trial for evaluating a treatment for central
-nervous system disorders.
+                    <h3>Benchmarking Classical, Machine Learning, and Bayesian Survival Models
+  for Clinical Prediction</h3>
+                    <p><strong>Authors:</strong> Irving Gómez-Méndez, Sivakorn Phromsiri, Ittiphat Kijpaisansak, Settawut Chaithurdthum</p>
+                    <p>  Survival analysis is a statistical framework for modeling time-to-event data,
+particularly valuable in healthcare for predicting outcomes like patient
+discharge or recurrence. This study implements and compares several survival
+models - including Weibull, Weibull AFT, Weibull AFT with Gamma Frailty, Cox
+Proportional Hazards (CoxPH), Random Survival Forest (RSF), and DeepSurv -
+using a publicly available breast cancer dataset. This study aims to benchmark
+classical, machine learning, and Bayesian survival models in terms of their
+predictive performance, interpretability, and suitability for clinical
+deployment. The models are evaluated using performance metrics such as the
+Concordance Index (C-index) and the Root Mean Squared Error (RMSE). DeepSurv
+showed the highest predictive performance, while interpretable models like RSF
+and Weibull AFT with Gamma Frailty offered competitive results. We also
+explored the implementation of statistical models from a Bayesian perspective,
+including frailty models, due to their ability to properly quantify
+uncertainty. Notably, frailty models are not readily available in standard
+survival analysis libraries, necessitating custom implementation. Our results
+demonstrate that interpretable statistical models, when correctly implemented
+using parameters that are effectively estimated using a Bayesian approach, can
+perform competitively with modern black-box models. These findings illustrate
+the trade-offs between model complexity, interpretability, and predictive
+power, highlighting the potential of Bayesian survival models in clinical
+decision-making settings.
 </p>
-                    <p><a href="http://arxiv.org/pdf/2509.04904v1" target="_blank">Read PDF</a></p>
+                    <p><a href="http://arxiv.org/pdf/2509.10073v1" target="_blank">Read PDF</a></p>
                 </div>
             
                 <div class="paper">
-                    <h3>A Latent Class Bayesian Model for Multivariate Longitudinal Outcomes
-  with Excess Zeros</h3>
-                    <p><strong>Authors:</strong> Chitradipa Chakraborty, Kiranmoy Das</p>
-                    <p>  Latent class models have been successfully used to handle complex datasets in
-different disciplines. For longitudinal outcomes, we often get a trajectory of
-the outcome for each individual, and on that basis, we cluster them for a
-powerful statistical inference. Latent class models have been used to handle
-multivariate longitudinal outcomes coming from biology, health sciences, and
-economics. In this paper, we propose a Bayesian latent class model for
-multivariate outcomes with excess zeros. We consider a Tobit model for
-zero-inflated continuous outcomes such as out-of-pocket medical expenses
-(OOPME), a two-part model for financial debt, and a ZIP model for counting
-outcomes with excess zeros. We develop a Bayesian mixture model and employ an
-adaptive Lasso-type shrinkage method for variable selection. We analyze data
-from the Health and Retirement Study conducted by the University of Michigan
-and consider modeling four important outcomes measuring the physical and
-financial health of the aged individuals. Our analysis detects several latent
-clusters for different outcomes. Practical usefulness of the proposed model is
-validated through a simulation study.
+                    <h3>Hybrid Adaptive Conformal Offline Reinforcement Learning for Fair
+  Population Health Management</h3>
+                    <p><strong>Authors:</strong> Sanjay Basu, Sadiq Y. Patel, Parth Sheth, Bhairavi Muralidharan, Namrata Elamaran, Aakriti Kinra, Rajaie Batniji</p>
+                    <p>  Population health management programs for Medicaid populations coordinate
+longitudinal outreach and services (e.g., benefits navigation, behavioral
+health, social needs support, and clinical scheduling) and must be safe, fair,
+and auditable. We present a Hybrid Adaptive Conformal Offline Reinforcement
+Learning (HACO) framework that separates risk calibration from preference
+optimization to generate conservative action recommendations at scale. In our
+setting, each step involves choosing among common coordination actions (e.g.,
+which member to contact, by which modality, and whether to route to a
+specialized service) while controlling the near-term risk of adverse
+utilization events (e.g., unplanned emergency department visits or
+hospitalizations). Using a de-identified operational dataset from Waymark
+comprising 2.77 million sequential decisions across 168,126 patients, HACO (i)
+trains a lightweight risk model for adverse events, (ii) derives a conformal
+threshold to mask unsafe actions at a target risk level, and (iii) learns a
+preference policy on the resulting safe subset. We evaluate policies with a
+version-agnostic fitted Q evaluation (FQE) on stratified subsets and audit
+subgroup performance across age, sex, and race. HACO achieves strong risk
+discrimination (AUC ~0.81) with a calibrated threshold ( {\tau} ~0.038 at
+{\alpha} = 0.10), while maintaining high safe coverage. Subgroup analyses
+reveal systematic differences in estimated value across demographics,
+underscoring the importance of fairness auditing. Our results show that
+conformal risk gating integrates cleanly with offline RL to deliver
+conservative, auditable decision support for population health management
+teams.
 </p>
-                    <p><a href="http://arxiv.org/pdf/2509.04804v1" target="_blank">Read PDF</a></p>
+                    <p><a href="http://arxiv.org/pdf/2509.09772v1" target="_blank">Read PDF</a></p>
                 </div>
             
                 <div class="paper">
-                    <h3>Inferring Piece Value in Chess and Chess Variants</h3>
-                    <p><strong>Authors:</strong> Steven Pav</p>
-                    <p>  We use logistic regression to estimate the value of the pieces in standard
-chess and several chess variants, namely Chess 960, Atomic chess, Antichess,
-and Horde chess. We perform our regressions on several years of data from
-Lichess, the free and open-source internet chess server. We use the published
-player ratings to control for the confounding effect of differential player
-skill. We adjust for the attenuation bias in regressions due to the noise in
-observed ratings. We find that major piece values, relative to the value of a
-pawn, are fairly consistent with historical valuation systems. However we find
-slightly higher value to bishops than knights. We find that piece values are
-smaller, in absolute value, in Atomic and Antichess than standard chess. We
-also present approximate values of the pieces to equalize odds when players of
-varying skill face off.
+                    <h3>Feasibility-Guided Fair Adaptive Offline Reinforcement Learning for
+  Medicaid Care Management</h3>
+                    <p><strong>Authors:</strong> Sanjay Basu, Sadiq Y. Patel, Parth Sheth, Bhairavi Muralidharan, Namrata Elamaran, Aakriti Kinra, Rajaie Batniji</p>
+                    <p>  We introduce Feasibility-Guided Fair Adaptive Reinforcement Learning
+(FG-FARL), an offline RL procedure that calibrates per-group safety thresholds
+to reduce harm while equalizing a chosen fairness target (coverage or harm)
+across protected subgroups. Using de-identified longitudinal trajectories from
+a Medicaid population health management program, we evaluate FG-FARL against
+behavior cloning (BC) and HACO (Hybrid Adaptive Conformal Offline RL; a global
+conformal safety baseline). We report off-policy value estimates with bootstrap
+95% confidence intervals and subgroup disparity analyses with p-values. FG-FARL
+achieves comparable value to baselines while improving fairness metrics,
+demonstrating a practical path to safer and more equitable decision support.
 </p>
-                    <p><a href="http://arxiv.org/pdf/2509.04691v1" target="_blank">Read PDF</a></p>
+                    <p><a href="http://arxiv.org/pdf/2509.09655v1" target="_blank">Read PDF</a></p>
                 </div>
             
                 <div class="paper">
-                    <h3>Precision Mental Health: Predicting Heterogeneous Treatment Effects for
-  Depression through Data Integration</h3>
-                    <p><strong>Authors:</strong> Carly L. Brantner, Trang Quynh Nguyen, Harsh Parikh, Congwen Zhao, Hwanhee Hong, Elizabeth A. Stuart</p>
-                    <p>  When treating depression, clinicians are interested in determining the
-optimal treatment for a given patient, which is challenging given the amount of
-treatments available. To advance individualized treatment allocation,
-integrating data across multiple randomized controlled trials (RCTs) can
-enhance our understanding of treatment effect heterogeneity by increasing
-available information. However, extending these inferences to individuals
-outside of the original RCTs remains crucial for clinical decision-making. We
-introduce a two-stage meta-analytic method that predicts conditional average
-treatment effects (CATEs) in target patient populations by leveraging the
-distribution of CATEs across RCTs. Our approach generates 95\% prediction
-intervals for CATEs in target settings using first-stage models that can
-incorporate parametric regression or non-parametric methods such as causal
-forests or Bayesian additive regression trees (BART). We validate our method
-through simulation studies and operationalize it to integrate multiple RCTs
-comparing depression treatments, duloxetine and vortioxetine, to generate
-prediction intervals for target patient profiles. Our analysis reveals no
-strong evidence of effect heterogeneity across trials, with the exception of
-potential age-related variability. Importantly, we show that CATE prediction
-intervals capture broader uncertainty than study-specific confidence intervals
-when warranted, reflecting both within-study and between-study variability.
+                    <h3>A Path Signature Framework for Detecting Creative Fatigue in Digital
+  Advertising</h3>
+                    <p><strong>Authors:</strong> Charles Shaw</p>
+                    <p>  The finite lifespan of advertising effectiveness, commonly known as "creative
+fatigue", presents a significant challenge in computational marketing.
+Identifying the onset of performance degradation is critical for optimising
+media spend and maximising campaign returns, yet traditional methods often lack
+the sensitivity and scalability required in modern advertising ecosystems. This
+paper introduces a novel methodological framework for detecting creative
+fatigue by applying path signature analysis, a sophisticated technique from
+stochastic analysis, to performance time-series data. We treat an ad's
+performance trajectory as a path in two-dimensional space and use its signature
+as a rich feature descriptor. By calculating the distance between the
+signatures of consecutive time windows, our method identifies statistically
+significant change points in performance dynamics. We further translate these
+statistical events into a direct financial metric by quantifying the
+opportunity cost of continued investment in a fatigued creative. Through
+synthetic experiments and case studies, we demonstrate that this
+signature-based approach provides a mathematically principled and complementary
+framework for analysing creative fatigue patterns. To the best of our
+knowledge, this represents the first application of path signature methods to
+the advertising fatigue detection problem, opening new avenues for geometric
+approaches in marketing analytics.
 </p>
-                    <p><a href="http://arxiv.org/pdf/2509.04604v1" target="_blank">Read PDF</a></p>
+                    <p><a href="http://arxiv.org/pdf/2509.09758v1" target="_blank">Read PDF</a></p>
                 </div>
             
                 <div class="paper">
-                    <h3>An Interactive Tool for Analyzing High-Dimensional Clusterings</h3>
-                    <p><strong>Authors:</strong> Justin Lin, Julia Fukuyama</p>
-                    <p>  Technological advances have spurred an increase in data complexity and
-dimensionality. We are now in an era in which data sets containing thousands of
-features are commonplace. To digest and analyze such high-dimensional data,
-dimension reduction techniques have been developed and advanced along with
-computational power. Of these techniques, nonlinear methods are most commonly
-employed because of their ability to construct visually interpretable
-embeddings. Unlike linear methods, these methods non-uniformly stretch and
-shrink space to create a visual impression of the high-dimensional data. Since
-capturing high-dimensional structures in a significantly lower number of
-dimensions requires drastic manipulation of space, nonlinear dimension
-reduction methods are known to occasionally produce false structures,
-especially in noisy settings. In an effort to deal with this phenomenon, we
-developed an interactive tool that enables analysts to better understand and
-diagnose their dimension reduction results. It uses various analytical plots to
-provide a multi-faceted perspective on results to determine legitimacy. The
-tool is available via an R package named DRtool.
+                    <h3>LAVA: Language Model Assisted Verbal Autopsy for Cause-of-Death
+  Determination</h3>
+                    <p><strong>Authors:</strong> Yiqun T. Chen, Tyler H. McCormick, Li Liu, Abhirup Datta</p>
+                    <p>  Verbal autopsy (VA) is a critical tool for estimating causes of death in
+resource-limited settings where medical certification is unavailable. This
+study presents LA-VA, a proof-of-concept pipeline that combines Large Language
+Models (LLMs) with traditional algorithmic approaches and embedding-based
+classification for improved cause-of-death prediction. Using the Population
+Health Metrics Research Consortium (PHMRC) dataset across three age categories
+(Adult: 7,580; Child: 1,960; Neonate: 2,438), we evaluate multiple approaches:
+GPT-5 predictions, LCVA baseline, text embeddings, and meta-learner ensembles.
+Our results demonstrate that GPT-5 achieves the highest individual performance
+with average test site accuracies of 48.6% (Adult), 50.5% (Child), and 53.5%
+(Neonate), outperforming traditional statistical machine learning baselines by
+5-10%. Our findings suggest that simple off-the-shelf LLM-assisted approaches
+could substantially improve verbal autopsy accuracy, with important
+implications for global health surveillance in low-resource settings.
 </p>
-                    <p><a href="http://arxiv.org/pdf/2509.04603v1" target="_blank">Read PDF</a></p>
+                    <p><a href="http://arxiv.org/pdf/2509.09602v1" target="_blank">Read PDF</a></p>
                 </div>
             
                 <div class="paper">
-                    <h3>Incentivising Personalised Colorectal Cancer Screening: an Adversarial
-  Risk Analysis Approach</h3>
-                    <p><strong>Authors:</strong> Daniel Corrales, David Rios Insua</p>
-                    <p>  This paper presents a framework for incentivising colorectal cancer (CRC)
-screening programs from the perspective of policymakers and under the
-assumption that the citizens participating in the program have misaligned
-objectives. To do so, it leverages tools from adversarial risk analysis to
-propose an optimal incentive scheme under uncertainty. The work relies on
-previous work on modeling CRC risk and optimal screening strategies and
-provides use cases regarding individual and group-based optimal incentives
-based on a simple financial scheme.
+                    <h3>Measuring football fever through wearable technology: A case study on
+  the German cup final</h3>
+                    <p><strong>Authors:</strong> Timo Adam, Jonas Bauer, Christian Deutscher, Christiane Fuchs, Tamara Schamberger, David Winkelmann</p>
+                    <p>  Football is the world's most popular sport, evoking strong physiological and
+emotional responses among its fans. Yet, the specific dynamics of fan
+attachment to matches have received little attention in the literature. In this
+paper, we quantify these dynamics through a unique case study from professional
+football: the 2025 cup final of the German Football Association (DFB) between
+first-division club VfB Stuttgart and third-division club Arminia Bielefeld. We
+collected high-resolution smartwatch data, including heart rate and stress
+level, from 229 Arminia Bielefeld fans over approximately 12 weeks,
+complemented by survey responses on club attachment, match attendance, and
+personal characteristics from a subset of 37 participants. By combining
+physiological data with survey information, we analyse variations in emotional
+engagement across individuals and contexts, as well as physiological reactions
+to key match events. This approach provides rare, data-driven insights into the
+football fever that captivates fans during high-stakes competitions.
+Furthermore, we compare the vital parameters recorded on the day of the match
+with baseline levels on non-matchdays throughout the entire observation period.
+Our findings reveal pronounced physiological responses among fans, beginning
+hours before the match and peaking at kick-off.
 </p>
-                    <p><a href="http://arxiv.org/pdf/2509.04592v1" target="_blank">Read PDF</a></p>
+                    <p><a href="http://arxiv.org/pdf/2509.09569v1" target="_blank">Read PDF</a></p>
                 </div>
             
                 <div class="paper">
-                    <h3>Aligning load flexibility with emissions reduction: empirical insights
-  from a multi-site study of cryptocurrency data centers</h3>
-                    <p><strong>Authors:</strong> Veronica M. Paez, Neda Mohammadi, John E. Taylor</p>
-                    <p>  The power sector is responsible for 32 percent of global greenhouse gas
-emissions. Data centers and cryptocurrencies use significant amounts of
-electricity and contribute to these emissions. Demand-side flexibility of data
-centers is one possible approach for reducing greenhouse gas emissions from
-these industries. To explore this, we use novel data collected from the Bitcoin
-mining industry to investigate the impact of load flexibility on power system
-decarbonization. Employing engineered metrics to explore curtailment dynamics
-and emissions alignment, we provide the first empirical analysis of
-cryptocurrency data centers' capability for reducing greenhouse gas emissions
-in response to real-time grid signals. Our results highlight the importance of
-strategically aligning operational behaviors with emissions signals to maximize
-avoided emissions. These findings offer insights for policymakers and industry
-stakeholders to enhance load flexibility and meet climate goals in these
-otherwise energy intensive data centers.
+                    <h3>A Zero-Inflated Spatio-Temporal Model for Integrating Fishery-Dependent
+  and Independent Data under Preferential Sampling</h3>
+                    <p><strong>Authors:</strong> Daniela Silva, Raquel Menezes, Gonçalo Araújo, Ana Machado, Renato Rosa, Ana Moreno, Alexandra Silva, Susana Garrido</p>
+                    <p>  Sustainable management of marine ecosystems is vital for maintaining healthy
+fishery resources, and benefits from advanced scientific tools to accurately
+assess species distribution patterns. In fisheries science, two primary data
+sources are used: fishery-independent data (FID), collected through systematic
+surveys, and fishery-dependent data (FDD), obtained from commercial fishing
+activities. While these sources provide complementary information, their
+distinct sampling schemes - systematic for FID and preferential for FDD - pose
+significant integration challenges. This study introduces a novel
+spatio-temporal model that integrates FID and FDD, addressing challenges
+associated with zero-inflation and preferential sampling (PS) common in
+ecological data. The model employs a six-layer structure to differentiate
+between presence-absence and biomass observations, offering a robust framework
+for ecological studies affected by PS biases. Simulation results demonstrate
+the model's accuracy in parameter estimation across diverse PS scenarios and
+its ability to detect preferential signals. Application to the study of the
+distribution patterns of the European sardine populations along the southern
+Portuguese continental shelf illustrates the model's effectiveness in
+integrating diverse data sources and incorporating environmental and
+vessel-specific covariates. The model reveals spatio-temporal variability in
+sardine presence and biomass, providing actionable insights for fisheries
+management. Beyond ecology, this framework offers broad applicability to data
+integration challenges in other disciplines.
 </p>
-                    <p><a href="http://arxiv.org/pdf/2509.04380v1" target="_blank">Read PDF</a></p>
+                    <p><a href="http://arxiv.org/pdf/2509.09336v1" target="_blank">Read PDF</a></p>
                 </div>
             </div>
     <script src="scripts/update-papers.js"></script>
