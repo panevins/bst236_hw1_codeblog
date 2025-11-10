@@ -9,258 +9,243 @@
 <body>
     <h1>Latest ArXiv Papers on Applied Statistics</h1>
     <p> This page displays the 10 most recents papers on <a href="https://arxiv.org/">ArXiv</a> in the category of "applied statistics". To see all most recent papers under this category, visit ArXiv's website <a href="https://arxiv.org/list/stat.AP/recent">here</a>. This page uses GitHub Actions and the ArXiv API to update each day at approximately midnight.</p>
-    <p id="last-updated">Last updated: 11/3/2025, 12:25:14 AM</p>
+    <p id="last-updated">Last updated: 11/10/2025, 12:25:22 AM</p>
     <button onclick="window.location.href='../index.html'" style="text-align: center;">Go to Homepage</button>
     <div id="papers">
                 <div class="paper">
-                    <h3>Testing Inequalities Linear in Nuisance Parameters</h3>
-                    <p><strong>Authors:</strong> Gregory Fletcher Cox, Xiaoxia Shi, Yuya Shimizu</p>
-                    <p>  This paper proposes a new test for inequalities that are linear in possibly
-partially identified nuisance parameters. This type of hypothesis arises in a
-broad set of problems, including subvector inference for linear unconditional
-moment (in)equality models, specification testing of such models, and inference
-for parameters bounded by linear programs. The new test uses a two-step test
-statistic and a chi-squared critical value with data-dependent degrees of
-freedom that can be calculated by an elementary formula. Its simple structure
-and tuning-parameter-free implementation make it attractive for practical use.
-We establish uniform asymptotic validity of the test, demonstrate its
-finite-sample size and power in simulations, and illustrate its use in an
-empirical application that analyzes women's labor supply in response to a
-welfare policy reform.
+                    <h3>Function on Scalar Regression with Complex Survey Designs</h3>
+                    <p><strong>Authors:</strong> Lily Koffman, Sunan Gao, Xinkai Zhou, Andrew Leroux, Ciprian Crainiceanu, John Muschelli III</p>
+                    <p>  Large health surveys increasingly collect high-dimensional functional data
+from wearable devices, and function on scalar regression (FoSR) is often used
+to quantify the relationship between these functional outcomes and scalar
+covariates such as age and sex. However, existing methods for FoSR fail to
+account for complex survey design. We introduce inferential methods for FoSR
+for studies with complex survey designs. The method combines fast univariate
+inference (FUI) developed for functional data outcomes and survey sampling
+inferential methods developed for scalar outcomes. Our approach consists of
+three steps: (1) fit survey weighted GLMs at each point along the functional
+domain, (2) smooth coefficients along the functional domain, and (3) use
+balanced repeated replication (BRR) or the Rao-Wu-Yue-Beaumont (RWYB) bootstrap
+to obtain pointwise and joint confidence bands for the functional coefficients.
+The method is motivated by association studies between continuous physical
+activity data and covariates collected in the National Health and Nutrition
+Examination Survey (NHANES). A first-of-its-kind analytical simulation study
+and empirical simulation using the NHANES data demonstrates that our method
+performs better than existing methods that do not account for the survey
+structure. Finally, application of the method in NHANES shows the practical
+implications of accounting for survey structure. The method is implemented in
+the R package svyfosr.
 </p>
-                    <p><a href="http://arxiv.org/pdf/2510.27633v1" target="_blank">Read PDF</a></p>
+                    <p><a href="http://arxiv.org/pdf/2511.05487v1" target="_blank">Read PDF</a></p>
                 </div>
             
                 <div class="paper">
-                    <h3>Bayesian Source Apportionment of Spatio-temporal air pollution data</h3>
-                    <p><strong>Authors:</strong> Michela Frigeri, Veronica Berrocal, Alessandra Guglielmi</p>
-                    <p>  Understanding the sources that contribute to fine particulate matter
-(PM$_{2.5}$) is of crucial importance for designing and implementing targeted
-air pollution mitigation strategies. Determining what factors contribute to a
-pollutant's concentration goes under the name of source apportionment and it is
-a problem long studied by atmospheric scientists and statisticians alike. In
-this paper, we propose a Bayesian model for source apportionment, that advances
-the literature on source apportionment by allowing estimation of the number of
-sources and accounting for spatial and temporal dependence in the observed
-pollutants' concentrations. Taking as example observations of six species of
-fine particulate matter observed over the course of a year, we present a latent
-functional factor model that expresses the space-time varying observations of
-log concentrations of the six pollutant as a linear combination of space-time
-varying emissions produced by an unknown number of sources each multiplied by
-the corresponding source's relative contribution to the pollutant. Estimation
-of the number of sources is achieved by introducing source-specific shrinkage
-parameters. Application of the model to simulated data showcases its ability to
-retrieve the true number of sources and to reliably estimate the functional
-latent factors, whereas application to PM$_{2.5}$ speciation data in California
-identifies 3 major sources for the six PM$_{2.5}$ species.
+                    <h3>Exponential Spatiotemporal GARCH Model with Asymmetric Volatility
+  Spillovers</h3>
+                    <p><strong>Authors:</strong> Ariane Nidelle Meli Chrisko, Philipp Otto, Wolfgang Schmid</p>
+                    <p>  This paper introduces a spatiotemporal exponential generalised autoregressive
+conditional heteroscedasticity (spatiotemporal E-GARCH) model, extending
+traditional spatiotemporal GARCH models by incorporating asymmetric volatility
+spillovers, while also generalising the time-series E-GARCH model to a
+spatiotemporal setting with instantaneous, potentially asymmetric volatility
+spillovers across space. The model allows for both temporal and spatial
+dependencies in volatility dynamics, capturing how financial shocks propagate
+across time, space, and network structures. We establish the theoretical
+properties of the model, deriving stationarity conditions and moment existence
+results. For estimation, we propose a quasi-maximum likelihood (QML) estimator
+and assess its finite-sample performance through Monte Carlo simulations.
+Empirically, we apply the model to financial networks, specifically analysing
+volatility spillovers in stock markets. We compare different network structures
+and analyse asymmetric effects in instantaneous volatility interactions.
 </p>
-                    <p><a href="http://arxiv.org/pdf/2510.27551v1" target="_blank">Read PDF</a></p>
+                    <p><a href="http://arxiv.org/pdf/2511.05126v1" target="_blank">Read PDF</a></p>
                 </div>
             
                 <div class="paper">
-                    <h3>Bias correction of satellite and reanalysis products for daily rainfall
-  occurrence and intensity</h3>
-                    <p><strong>Authors:</strong> John Bagiliko, David Stern, Denis Ndanguza, Francis Feehi Torgbor, Danny Parsons, Samuel Owusu Ansah</p>
-                    <p>  Satellite and reanalysis rainfall products (SREs) can serve as valuable
-complements or alternatives in data-sparse regions, but their significant
-biases necessitate correction. This study rigorously evaluates a suite of bias
-correction (BC) methods, including statistical approaches (LOCI, QM), machine
-learning (SVR, GPR), and hybrid techniques (LOCI-GPR, QM-GPR), applied to seven
-SREs across 38 stations in Ghana and Zambia, aimed at assessing their
-performance in rainfall detection and intensity estimation. Results indicate
-that the ENACTS product, which uniquely integrates a large number of station
-records, was the most corrigible SRE; in Zambia, nearly all BC methods
-successfully reduced the mean error on daily rainfall amounts at over 70% of
-stations. However, this performance requires further validation at independent
-stations not incorporated into the ENACTS product. Overall, the statistical
-methods (QM and LOCI) generally outperformed other techniques, although QM
-exhibited a tendency to inflate rainfall values. All corrected SREs
-demonstrated a high capability for detecting dry days (POD $\ge$ 0.80),
-suggesting their potential utility for drought applications. A critical
-limitation persisted, however, as most SREs and BC methods consistently failed
-to improve the detection of heavy and violent rainfall events (POD $\leq$ 0.2),
-highlighting a crucial area for future research.
+                    <h3>On the Estimation of Climate Normals and Anomalies</h3>
+                    <p><strong>Authors:</strong> Tommaso Proietti, Alessandro Giovannelli</p>
+                    <p>  The quantification of the interannual component of variability in
+climatological time series is essential for the assessment and prediction of
+the El Ni\~{n}o - Southern Oscillation phenomenon. This is achieved by
+estimating the deviation of a climate variable (e.g., temperature, pressure,
+precipitation, or wind strength) from its normal conditions, defined by its
+baseline level and seasonal patterns. Climate normals are currently estimated
+by simple arithmetic averages calculated over the most recent 30-year period
+ending in a year divisible by 10. The suitability of the standard methodology
+has been questioned in the context of a changing climate, characterized by
+nonstationary conditions. The literature has focused on the choice of the
+bandwidth and the ability to account for trends induced by climate change. The
+paper contributes to the literature by proposing a regularized real time filter
+based on local trigonometric regression, optimizing the estimation
+bias-variance trade-off in the presence of climate change, and by introducing a
+class of seasonal kernels enhancing the localization of the estimates of
+climate normals. Application to sea surface temperature series in the \nino 3.4
+region and zonal and trade winds strength in the equatorial and tropical
+Pacific region, illustrates the relevance of our proposal.
 </p>
-                    <p><a href="http://arxiv.org/pdf/2510.27456v1" target="_blank">Read PDF</a></p>
+                    <p><a href="http://arxiv.org/pdf/2511.05071v1" target="_blank">Read PDF</a></p>
                 </div>
             
                 <div class="paper">
-                    <h3>Flexible model for varying levels of zeros and outliers in count data</h3>
-                    <p><strong>Authors:</strong> Touqeer Ahmad, Abid Hussain</p>
-                    <p>  Count regression models are necessary for examining discrete dependent
-variables alongside covariates. Nonetheless, when data display outliers,
-overdispersion, and an abundance of zeros, traditional methods like the
-zero-inflated negative binomial (ZINB) model sometimes do not yield a
-satisfactory fit, especially in the tail regions. This research presents a
-versatile, heavy-tailed discrete model as a resilient substitute for the ZINB
-model. The suggested framework is built by extending the generalized Pareto
-distribution and its zero-inflated version to the discrete domain. This
-formulation efficiently addresses both overdispersion and zero inflation,
-providing increased flexibility for heavy-tailed count data. Through intensive
-simulation studies and real-world implementations, the proposed models are
-thoroughly tested to see how well they work. The results show that our models
-always do better than classic negative binomial and zero-inflated negative
-binomial regressions when it comes to goodness-of-fit. This is especially true
-for datasets with a lot of zeros and outliers. These results highlight the
-proposed framework's potential as a strong and flexible option for modeling
-complicated count data.
+                    <h3>Uncertainty quantification and parameter optimization of plasma etching
+  process using heteroscedastic Gaussian process</h3>
+                    <p><strong>Authors:</strong> Yongsu Jung, Minji Kang, Muyoung Kim, Min Sup Choi, Hyeong-U Kim, Jaekwang Kim</p>
+                    <p>  This study presents a comprehensive framework for uncertainty quantification
+(UQ) and design optimization of plasma etching in semiconductor manufacturing.
+The framework is demonstrated using experimental measurements of etched depth
+collected at nine wafer locations under various plasma conditions. A
+heteroscedastic Gaussian process (hetGP) surrogate model is employed to capture
+the complex uncertainty structure in the data, enabling distinct quantification
+of (a) spatial variability across the wafer and (b) process-related uncertainty
+arising from variations in chamber pressure, gas flow rate, and RF power.
+Epistemic uncertainty due to sparse data is further quantified and incorporated
+into a reliability-based design optimization (RBDO) scheme. The proposed method
+identifies optimal process parameters that minimize spatial variability of etch
+depth while maintaining reliability under both aleatory and epistemic
+uncertainties. The results demonstrate that this framework effectively
+integrates data-driven surrogate modeling with robust optimization, enhancing
+predictive accuracy and process reliability. Moreover, the proposed approach is
+generalizable to other semiconductor processes, such as photolithography, where
+performance is highly sensitive to multifaceted uncertainties.
 </p>
-                    <p><a href="http://arxiv.org/pdf/2510.27365v1" target="_blank">Read PDF</a></p>
+                    <p><a href="http://arxiv.org/pdf/2511.04990v1" target="_blank">Read PDF</a></p>
                 </div>
             
                 <div class="paper">
-                    <h3>Functional Analysis of Loss-development Patterns in P&C Insurance</h3>
-                    <p><strong>Authors:</strong> Arthur Charpentier, Qiheng Guo, Mike Ludkovski</p>
-                    <p>  We analyze loss development in NAIC Schedule P loss triangles using
-functional data analysis methods. Adopting the functional viewpoint, our
-dataset comprises 3300+ curves of incremental loss ratios (ILR) of workers'
-compensation lines over 24 accident years. Relying on functional data depth, we
-first study similarities and differences in development patterns based on
-company-specific covariates, as well as identify anomalous ILR curves.
-  The exploratory findings motivate the probabilistic forecasting framework
-developed in the second half of the paper. We propose a functional model to
-complete partially developed ILR curves based on partial least squares
-regression of PCA scores. Coupling the above with functional bootstrapping
-allows us to quantify future ILR uncertainty jointly across all future lags. We
-demonstrate that our method has much better probabilistic scores relative to
-Chain Ladder and in particular can provide accurate functional predictive
-intervals.
+                    <h3>Estimating Inhomogeneous Spatio-Temporal Background Intensity Functions
+  using Graphical Dirichlet Processes</h3>
+                    <p><strong>Authors:</strong> Isaías Bañales, Tomoaki Nishikawa, Yoshihiro Ito, Manuel J. Aguilar-Velázquez</p>
+                    <p>  An enhancement in seismic measuring instrumentation has been proven to have
+implications in the quantity of observed earthquakes, since denser networks
+usually allow recording more events. However, phenomena such as strong
+earthquakes or even aseismic transients, as slow slip earthquakes, may alter
+the occurrence of earthquakes. In the field of seismology, it is a standard
+practice to model background seismicity as a Poisson process. Based on this
+idea, this work proposes a model that can incorporate the evolving spatial
+intensity of Poisson processes over time (i.e., we include temporal changes in
+the background seismicity when modeling). In recent years, novel methodologies
+have been developed for quantifying the uncertainty in the estimation of the
+background seismicity in homogeneous cases using Bayesian non-parametric
+techniques. This work proposes a novel methodology based on graphical Dirichlet
+processes for incorporating spatial and temporal inhomogeneities in background
+seismicity. The proposed model in this work is applied to study the seismicity
+in the southern Mexico, using recorded data from 2000 to 2015.
 </p>
-                    <p><a href="http://arxiv.org/pdf/2510.27204v1" target="_blank">Read PDF</a></p>
+                    <p><a href="http://arxiv.org/pdf/2511.04974v1" target="_blank">Read PDF</a></p>
                 </div>
             
                 <div class="paper">
-                    <h3>A novel generalized additive scalar-on-function regression model for
-  partially observed multidimensional functional data: An application to air
-  quality classification</h3>
-                    <p><strong>Authors:</strong> Pavel Hernández-Amaro, Maria Durban, M. Carmen Aguilera-Morillo</p>
-                    <p>  In this work we propose a generalized additive functional regression model
-for partially observed functional data. Our approach accommodates functional
-predictors of varying dimensions without requiring imputation of missing
-observations. Both the functional coefficients and covariates are represented
-using basis function expansions, with B-splines used in this study, though the
-method is not restricted to any specific basis choice. Model coefficients are
-estimated via penalized likelihood, leveraging the mixed model representation
-of penalized splines for efficient computation and smoothing parameter
-estimation.The performance of the proposed approach is assessed through two
-simulation studies: one involving two one-dimensional functional covariates,
-and another using a two-dimensional functional covariate. Finally, we
-demonstrate the practical utility of our method in an application to
-air-pollution classification in Dimapur, India, where images are treated as
-observations of a two-dimensional functional variable. This case study
-highlights the models ability to effectively handle incomplete functional data
-and to accurately discriminate between pollution levels.
+                    <h3>Clinical-ComBAT: a diffusion-weighted MRI harmonization method for
+  clinical applications</h3>
+                    <p><strong>Authors:</strong> Gabriel Girard, Manon Edde, Félix Dumais, Yoan David, Matthieu Dumont, Guillaume Theaud, Jean-Christophe Houde, Arnaud Boré, Maxime Descoteaux, Pierre-Marc Jodoin</p>
+                    <p>  Diffusion-weighted magnetic resonance imaging (DW-MRI) derived scalar maps
+are effective for assessing neurodegenerative diseases and microstructural
+properties of white matter in large number of brain conditions. However, DW-MRI
+inherently limits the combination of data from multiple acquisition sites
+without harmonization to mitigate scanner-specific biases. While the widely
+used ComBAT method reduces site effects in research, its reliance on linear
+covariate relationships, homogeneous populations, fixed site numbers, and well
+populated sites constrains its clinical use. To overcome these limitations, we
+propose Clinical-ComBAT, a method designed for real-world clinical scenarios.
+Clinical-ComBAT harmonizes each site independently, enabling flexibility as new
+data and clinics are introduced. It incorporates a non-linear polynomial data
+model, site-specific harmonization referenced to a normative site, and variance
+priors adaptable to small cohorts. It further includes hyperparameter tuning
+and a goodness-of-fit metric for harmonization assessment. We demonstrate its
+effectiveness on simulated and real data, showing improved alignment of
+diffusion metrics and enhanced applicability for normative modeling.
 </p>
-                    <p><a href="http://arxiv.org/pdf/2510.26917v1" target="_blank">Read PDF</a></p>
+                    <p><a href="http://arxiv.org/pdf/2511.04871v1" target="_blank">Read PDF</a></p>
                 </div>
             
                 <div class="paper">
-                    <h3>Approximating Heavy-Tailed Distributions with a Mixture of Bernstein
-  Phase-Type and Hyperexponential Models</h3>
-                    <p><strong>Authors:</strong> Abdelhakim Ziani, András Horváth, Paolo Ballarini</p>
-                    <p>  Heavy-tailed distributions, prevalent in a lot of real-world applications
-such as finance, telecommunications, queuing theory, and natural language
-processing, are challenging to model accurately owing to their slow tail decay.
-Bernstein phase-type (BPH) distributions, through their analytical tractability
-and good approximations in the non-tail region, can present a good solution,
-but they suffer from an inability to reproduce these heavy-tailed behaviors
-exactly, thus leading to inadequate performance in important tail areas. On the
-contrary, while highly adaptable to heavy-tailed distributions,
-hyperexponential (HE) models struggle in the body part of the distribution.
-Additionally, they are highly sensitive to initial parameter selection,
-significantly affecting their precision.
-  To solve these issues, we propose a novel hybrid model of BPH and HE
-distributions, borrowing the most desirable features from each for enhanced
-approximation quality. Specifically, we leverage an optimization to set initial
-parameters for the HE component, significantly enhancing its robustness and
-reducing the possibility that the associated procedure results in an invalid HE
-model. Experimental validation demonstrates that the novel hybrid approach is
-more performant than individual application of BPH or HE models. More
-precisely, it can capture both the body and the tail of heavy-tailed
-distributions, with a considerable enhancement in matching parameters such as
-mean and coefficient of variation. Additional validation through experiments
-utilizing queuing theory proves the practical usefulness, accuracy, and
-precision of our hybrid approach.
+                    <h3>Inference for the Extended Functional Cox Model: A UK Biobank Case Study</h3>
+                    <p><strong>Authors:</strong> Erjia Cui, Angela Zhao, Ciprian M. Crainiceanu</p>
+                    <p>  Multiple studies have shown that scalar summaries of objectively measured
+physical activity (PA) using accelerometers are the strongest predictors of
+mortality, outperforming all traditional risk factors, including age, sex, body
+mass index (BMI), and smoking. Here we show that diurnal patterns of PA and
+their day-to-day variability provide additional information about mortality. To
+do that, we introduce a class of extended functional Cox models and
+corresponding inferential tools designed to quantify the association between
+multiple functional and scalar predictors with time-to-event outcomes in
+large-scale (large $n$) high-dimensional (large $p$) datasets. Methods are
+applied to the UK Biobank study, which collected PA at every minute of the day
+for up to seven days, as well as time to mortality ($93{,}370$ participants
+with good quality accelerometry data and $931$ events). Simulation studies show
+that methods perform well in realistic scenarios and scale up to studies an
+order of magnitude larger than the UK Biobank accelerometry study. Establishing
+the feasibility and scalability of these methods for such complex and large
+data sets is a major milestone in applied Functional Data Analysis (FDA).
 </p>
-                    <p><a href="http://arxiv.org/pdf/2510.26524v1" target="_blank">Read PDF</a></p>
+                    <p><a href="http://arxiv.org/pdf/2511.04852v1" target="_blank">Read PDF</a></p>
                 </div>
             
                 <div class="paper">
-                    <h3>Variational System Identification of Aircraft</h3>
-                    <p><strong>Authors:</strong> Dimas Abreu Archanjo Dutra</p>
-                    <p>  Variational system identification is a new formulation of maximum likelihood
-for estimation of parameters of dynamical systems subject to process and
-measurement noise, such as aircraft flying in turbulence. This formulation is
-an alternative to the filter-error method that circumvents the solution of a
-Riccati equation and does not have problems with unstable predictors. In this
-paper, variational system identification is demonstrated for estimating
-aircraft parameters from real flight-test data. The results show that, in real
-applications of practical interest, it has better convergence properties than
-the filter-error method, reaching the optimum even when null initial guesses
-are used for all parameters and decision variables. This paper also presents
-the theory behind the method and practical recommendations for its use.
+                    <h3>Dynamic causal discovery in Alzheimer's disease through latent
+  pseudotime modelling</h3>
+                    <p><strong>Authors:</strong> Natalia Glazman, Jyoti Mangal, Pedro Borges, Sebastien Ourselin, M. Jorge Cardoso</p>
+                    <p>  The application of causal discovery to diseases like Alzheimer's (AD) is
+limited by the static graph assumptions of most methods; such models cannot
+account for an evolving pathophysiology, modulated by a latent disease
+pseudotime. We propose to apply an existing latent variable model to real-world
+AD data, inferring a pseudotime that orders patients along a data-driven
+disease trajectory independent of chronological age, then learning how causal
+relationships evolve. Pseudotime outperformed age in predicting diagnosis (AUC
+0.82 vs 0.59). Incorporating minimal, disease-agnostic background knowledge
+substantially improved graph accuracy and orientation. Our framework reveals
+dynamic interactions between novel (NfL, GFAP) and established AD markers,
+enabling practical causal discovery despite violated assumptions.
 </p>
-                    <p><a href="http://arxiv.org/pdf/2510.26496v1" target="_blank">Read PDF</a></p>
+                    <p><a href="http://arxiv.org/pdf/2511.04619v1" target="_blank">Read PDF</a></p>
                 </div>
             
                 <div class="paper">
-                    <h3>Multi-Representation Attention Framework for Underwater Bioacoustic
-  Denoising and Recognition</h3>
-                    <p><strong>Authors:</strong> Amine Razig, Youssef Soulaymani, Loubna Benabbou, Pierre Cauchy</p>
-                    <p>  Automated monitoring of marine mammals in the St. Lawrence Estuary faces
-extreme challenges: calls span low-frequency moans to ultrasonic clicks, often
-overlap, and are embedded in variable anthropogenic and environmental noise. We
-introduce a multi-step, attention-guided framework that first segments
-spectrograms to generate soft masks of biologically relevant energy and then
-fuses these masks with the raw inputs for multi-band, denoised classification.
-Image and mask embeddings are integrated via mid-level fusion, enabling the
-model to focus on salient spectrogram regions while preserving global context.
-Using real-world recordings from the Saguenay St. Lawrence Marine Park Research
-Station in Canada, we demonstrate that segmentation-driven attention and
-mid-level fusion improve signal discrimination, reduce false positive
-detections, and produce reliable representations for operational marine mammal
-monitoring across diverse environmental conditions and signal-to-noise ratios.
-Beyond in-distribution evaluation, we further assess the generalization of
-Mask-Guided Classification (MGC) under distributional shifts by testing on
-spectrograms generated with alternative acoustic transformations. While
-high-capacity baseline models lose accuracy in this Out-of-distribution (OOD)
-setting, MGC maintains stable performance, with even simple fusion mechanisms
-(gated, concat) achieving comparable results across distributions. This
-robustness highlights the capacity of MGC to learn transferable representations
-rather than overfitting to a specific transformation, thereby reinforcing its
-suitability for large-scale, real-world biodiversity monitoring. We show that
-in all experimental settings, the MGC framework consistently outperforms
-baseline architectures, yielding substantial gains in accuracy on both
-in-distribution and OOD data.
+                    <h3>Nonparametric Safety Stock Dimensioning: A Data-Driven Approach for
+  Supply Chains of Hardware OEMs</h3>
+                    <p><strong>Authors:</strong> Elvis Agbenyega, Cody Quick</p>
+                    <p>  Resilient supply chains are critical, especially for Original Equipment
+Manufacturers (OEMs) that power today's digital economy. Safety Stock
+dimensioning-the computation of the appropriate safety stock quantity-is one of
+several mechanisms to ensure supply chain resiliency, as it protects the supply
+chain against demand and supply uncertainties. Unfortunately, the major
+approaches to dimensioning safety stock heavily assume that demand is normally
+distributed and ignore future demand variability, limiting their applicability
+in manufacturing contexts where demand is non-normal, intermittent, and highly
+skewed. In this paper, we propose a data-driven approach that relaxes the
+assumption of normality, enabling the demand distribution of each inventory
+item to be analytically determined using Kernel Density Estimation. Also, we
+extended the analysis from historical demand variability to forecasted demand
+variability. We evaluated the proposed approach against a normal distribution
+model in a near-world inventory replenishment simulation. Afterwards, we used a
+linear optimization model to determine the optimal safety stock configuration.
+The results from the simulation and linear optimization models showed that the
+data-driven approach outperformed traditional approaches. In particular, the
+data-driven approach achieved the desired service levels at lower safety stock
+levels than the conventional approaches.
 </p>
-                    <p><a href="http://arxiv.org/pdf/2510.26838v1" target="_blank">Read PDF</a></p>
+                    <p><a href="http://arxiv.org/pdf/2511.04616v1" target="_blank">Read PDF</a></p>
                 </div>
             
                 <div class="paper">
-                    <h3>Tractable Algorithms for Changepoint Detection in Player Performance
-  Metrics</h3>
-                    <p><strong>Authors:</strong> Amanda Glazer</p>
-                    <p>  We present tractable methods for detecting changes in player performance
-metrics and apply these methods to Major League Baseball (MLB) batting and
-pitching data from the 2023 and 2024 seasons. First, we derive principled
-benchmarks for when performance metrics can be considered statistically
-reliable, assuming no underlying change, using distributional assumptions and
-standard concentration inequalities. We then propose a changepoint detection
-algorithm that combines a likelihood-based approach with split-sample inference
-to control false positives, using either nonparametric tests or tests
-appropriate to the underlying data distribution. These tests incorporate a
-shift parameter, allowing users to specify the minimum magnitude of change to
-detect. We demonstrate the utility of this approach across several baseball
-applications: detecting changes in batter plate discipline metrics (e.g., chase
-and whiff rate), identifying velocity changes in pitcher fastballs, and
-validating velocity changepoints against a curated ground-truth dataset of
-pitchers who transitioned from relief to starting roles. Our method flags
-meaningful changes in 91% of these `ground-truth' cases and reveals that, for
-some metrics, more than 60% of detected changes occur in-season. While
-developed for baseball, the proposed framework is broadly applicable to any
-setting involving monitoring of individual performance over time.
+                    <h3>TRAECR: A Tool for Preprocessing Positron Emission Tomography Imaging
+  for Statistical Modeling</h3>
+                    <p><strong>Authors:</strong> Akhil Ambekar, Robert Zielinski, Ani Eloyan</p>
+                    <p>  Positron emission tomography (PET) imaging is widely used in a number of
+clinical applications, including cancer and Alzheimer's disease (AD) diagnosis,
+monitoring of disease development, and treatment effect evaluation. Statistical
+modeling of PET imaging is essential to address continually emerging scientific
+questions in these research fields, including hypotheses related to evaluation
+of effects of disease modifying treatments on amyloid reduction in AD and
+associations between amyloid reduction and cognitive function, among many
+others. In this paper, we provide background information and tools for
+statisticians interested in developing statistical models for PET imaging to
+pre-process and prepare data for analysis. We introduce our novel
+pre-processing and visualization tool TRAECR (Template registration, MRI-PET
+co-Registration, Anatomical brain Extraction and COMBAT/RAVEL harmonization) to
+facilitate data preparation for statistical analysis.
 </p>
-                    <p><a href="http://arxiv.org/pdf/2510.25961v1" target="_blank">Read PDF</a></p>
+                    <p><a href="http://arxiv.org/pdf/2511.04458v1" target="_blank">Read PDF</a></p>
                 </div>
             </div>
     <script src="scripts/update-papers.js"></script>
